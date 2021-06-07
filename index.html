@@ -16,6 +16,885 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-06-07">2021-06-07</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://www.v2ex.com/">V2EX</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Android] 求 Pixel 4a 5G root 和 Volte/5G 破解教程</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781950#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>新入了一台美版无锁机器，因为自己是电信卡，一直用着 4G 没有升 5G，想 root 以后破解 Volte 凑合用着。全网搜了很多网站都没看见对应的 root 和电信破解教程，想看看这里有没有朋友能分享的。感谢感谢~</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[职场话题] 历史滚啊滚</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781948#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>https://bbs.pku.edu.cn/v2/post-read.php?bid&#x3D;99&amp;threadid&#x3D;18003969</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Firefox] mac 下 Firefox89 为啥无法显示扩展并对其设置</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781947#reply1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>在自定义工具栏设置里看不到已经安装的扩展，在附加组件管理器里页看不到组件的设置项，比如 AdGuard 安装了，能用有效果，但是展示不出来，也无法进行更多的设置，右键也没有相关设置项，是哪里没设置好嘛</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[MySQL] 请教一条 MySQL 语句，部分字段条件去做判断，判断是否更新另外的字段，无数据就 INSERT INTO...</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781945#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>有一个 lessonschedule 表,
+索引做了约束
+only (lid) USING BTREE,   
+表内已有如下数据:   
+INSERT INTO lessonschedule (&#x60;lstarttime&#x60;,&#x60;lname&#x60;,&#x60;lperiod&#x60;,&#x60;lid&#x60;,&#x60;lupdatetime&#x60;) 
+VALUE 
+(&#x27;2021-7-15 14:00:00&#x27;,&#x27;卷腹&#x27;,&#x27;45min&#x27;,&#x27;21&#x27;,&#x27;2021-06-27 11:00:04&#x27;);
+
+INSERT INTO lessonschedule (&#x60;lstarttime&#x60;,&#x60;lname&#x60;,&#x60;lperiod&#x60;,&#x60;lid&#x60;,&#x60;lupdatetime&#x60;) 
+VALUE 
+(&#x27;2021-7-16 14:00:00&#x27;,&#x27;徒手箭步蹲&#x27;,&#x27;45min&#x27;,&#x27;26&#x27;,&#x27;2021-06-27 11:00:04&#x27;);
+
+INSERT INTO lessonschedule (&#x60;lstarttime&#x60;,&#x60;lname&#x60;,&#x60;lperiod&#x60;,&#x60;lid&#x60;,&#x60;lupdatetime&#x60;) 
+VALUE 
+(&#x27;2021-7-17 14:00:00&#x27;,&#x27;跪姿俯卧撑&#x27;,&#x27;45min&#x27;,&#x27;28&#x27;,&#x27;2021-06-27 11:00:04&#x27;);
+
+INSERT INTO lessonschedule (&#x60;lstarttime&#x60;,&#x60;lname&#x60;,&#x60;lperiod&#x60;,&#x60;lid&#x60;,&#x60;lupdatetime&#x60;) 
+VALUE 
+(&#x27;2021-7-18 14:00:00&#x27;,&#x27;俯姿哑铃&#x27;,&#x27;45min&#x27;,&#x27;32&#x27;,&#x27;2021-06-27 11:00:04&#x27;);
+
+###################################################################################
+现在有一条新数据，课程改时间了   
+lessonschedule (&#x60;lstarttime&#x60;,&#x60;lname&#x60;,&#x60;lperiod&#x60;,&#x60;lid&#x60;,&#x60;lupdatetime&#x60;) 
+VALUE 
+(&#x27;2021-7-25 09:30:00&#x27;,&#x27;徒手箭步蹲&#x27;,&#x27;45&#x27;,&#x27;26&#x27;,&#x27;2021-06-27 16:40:04&#x27;);
+
+为此，请教各位实现这两个逻辑的 MySQL 语句（能用一句解决吗？）
+lid&#x3D;&#x27;26&#x27;的数据,lstarttime不同的话,将原来在表的数据改为最新的 lstarttime，同时将 lupdatetime 更新为 NOW()   
+2.如果表没有lid&#x3D;&#x27;26&#x27;的数据，全部字段的数据新加入(lupdatetime使用 NOW())</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] V 站有会过手入职体检的 HR 么？这个入职体检会成为一个评价指标吗？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781944#reply5">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>有点高血脂（超标一点点）和蛋白尿（一个加号不到的微量），在锻炼在锻炼了。。但担心这样的入职体检交上去，然后 HR 一看，得，试用期内想办法解聘吧。
+应届生，第一次入职，求教。谢谢</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Android] 安卓苹果双持 8 个月了，实在想不出 iPhone 还有什么可留恋的了</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781943#reply44">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>大学开始一直用的 iphone，去年买了个安卓机以后仿佛打开了新世界，用了大半年以后现在苹果只用来打打没法转的王者荣耀小号了，同生态的 airpods 、ipad 、homepod 也都卖了
+相比于安卓，iphone 充电慢散热差，不适合打游戏。无法使用轻启动跳过开屏广告，总是要被广告 QJ 。不能使用图标包，每到 618 、双十一之类的时候桌面图标非常凌乱。死守 lighting 接口，手上数码产品和小家电基本全是 c 口，每次看到苹果的线都很难受。手表真的是个爹，用了两年还是不习惯每天充电，经常没电戴着或者干脆不戴。
+现在留了个手机手表以及一部分 homekit 产品。完全脱离有一点舍不得，但又找不到什么值得留下它的理由。感觉同价置换个小米做备用机都更香。
+有双持的兄弟帮我再发掘下 iphone 的优点或者安卓的缺点吗，安卓好像就是隐私和推送做的不太好，不过我感觉不影响使用体验。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[分享发现] notepad_PP 发布 8.0</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781942#reply2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>https://notepad-plus-plus.org/downloads/v8/
+功能及更新
+Add Dark Mode. (Implement #9183 &amp; #7692)
+ARM64 build is available. (Implement #5158)
+One button to build them all - build NotepadPP with Scintilla static lib and Boost RegExpr headers. (Implement #9594)
+Add new Fluent UI icons for toolbar. (Implement #9742)
+Add new feature “Distraction Free Mode” (Menu “View-&gt;Distraction Free Mode”).
+Add new API NPPM_ADDTOOLBARICON_FORDARKMODE for dark mode (Implement #9928).
+Add 1 click action (SHIFT-click) on close button to close all tabs in dockable panel (Implement #8922.
+Add ability of changing select text foreground color (optional). (Fix #3397 &amp; #1314)
+Allow Replace to stop after replacement (optional). (Implement #4437)
+Fix append extension feature not working in save dialog. (Fix #9939)
+Add abilit…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[旅行] 马上端午节了，求推荐上海周边适合自驾露营的线路和地方</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781941#reply5">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>每到假期都会开上我的小破车出去自驾露营，马上端午节了，求推荐上海周边适合的地方或线路
+估计天气会比较热，感觉皖南地区的大山里比较合适，但离上海稍微有点远，有没有近点的类似的地方？ 2-3 天左右的行程都可</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Vue.js] Vue 项目如何转成静态页面</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781940#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>想转成原始的 html，js，css..，能直接在浏览器打开的那种
+已采用 Nuxt.js ，用yarn generate 导出的页面 css 效果还在，js 就没办法了</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[职场话题] 各位有多少人在外包公司呢？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781939#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>个人不想去外包，但是被现实击倒。。。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Apple] iphone12 pro max 掉卡频繁</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781935#reply2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>因为开了 sim 卡 pin 码，发现 12 pm 频繁掉卡，需要重新输入 pin 码，有人也碰到这个情况吗？</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[酷工作] [成都] 惟优客科技公司 高级运维工程师 招聘又一次来袭~</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781932#reply2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>公司福利多多，国际化的团队，用人则会给予最大的信任和尊重。 我们在寻找有技术实力、有自我驱动力、并且对 web 科技有热忱的开发者。招聘又来啦！！
+职位亮点：周末双休、福利齐全、项目好、一流技术团队
+[ [高级运维工程师 ：10k-20k ] ]
+本科及以上 3 年以上
+职位描述:
+1. 设计高扩展性、高可靠性、高安全性的云架构；
+2. 维护并优化、更新云基础设施，包括但不限于服务器集群、数据库集群、代码库、CICD 自动化工具等；
+3. 持续优化云服务的可靠性和区域可及性，并践行最佳实践；
+4. 开发解决方案来追踪后端应用程序的数据，包括请求频次、响应时间、错误记录等；
+5. 使用基础设施即代码（ Infrastructure as Code ）来优化和自动化运维流程；
+6. 分析云基础设施的成本并优化。
+职位要求：
+1. 拥有至少 2 年于 AWS 、阿里云、微软 azure 等其中一个或多个主要云服务提供商上担任运维工作的经验
+2. 理解云基础设施的最佳实践，有能力构建安全性、可靠性达到监管级别的云服务；
+3. 熟悉 Linux 命令行，拥有丰富的网络基础知识；
+4. 具有维护代码库和设计并优化 CI/CD 流程的经验；
+5. 优秀的解决问题能力、逻辑性强、善于和各种背景 /国家的人沟通合作；
+6. 流利的中英文交流能力。
+还等什么！简历可发至 scwyk2021@outlook.com 或添加 Wechat 13316464639 也可以留下你的 Wechat 联系方式啦~</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 大家有没有便宜的降噪耳机推荐？天天地铁上用 AirPods 太摧残听力。</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781930#reply10">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>深圳地铁 9 号线是真吵，现在已经习惯把 iphone 80%-90% 的音量。长期来看确实损伤听力。
+想买华强北的山寨版，但是听说音质不太行。
+有没有便宜的的无线耳机推荐呢，我对音质没太大要求，能和 airpods 差不多就行，降噪是首要需求。五六百以内能接受。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[酷工作] 给自己招个 leader，职位：测试经理</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781929#reply1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>职位：测试经理
+JD：
+工作内容：
+1 、能够根据产品设计文档，以及实际业务内容编写测试用例；
+2 、能够根据测试用例，对应用进行功能测试，能及时发现产品缺陷，及时反馈；
+3 、负责 bug 生命周期跟踪反馈，协调相关人员定位修复 bug ；
+4 、对已上线的产品内容实时追踪反馈，协助相关人员解决问题。
+任职要求：
+1 、本科以上学历，计算机或数学专业优先；
+2 、了解互联网协议，对常用互联网产品结构有一定了解
+3 、五年或以上测试经验，有团队管理经验者优先，提高团队测试效率，能组织团队成员推进项目实施；
+4 、善于发现产品的缺陷，并具有良好的分析能力；
+5 、熟悉研发测试流程，有较强的逻辑思维能力，表达能力以及沟通能力；
+6 、有主流自动化测试框架使用经验优先考虑
+薪资标准：20-30 （写的是这么多，但是我偷偷问了 HR 小姐姐，能力牛的总包能到 60-70W 年）
+加班情况：10-7，但是大家基本都是 10 点半左右来，加班的话看项目情况，偶尔加班
+有感兴趣的大佬吗，邮箱：d3V4aW5nbGk5MzA5MDJAZ21haWwuY29t （ Base64 加密）
+WX：dHJvdWJsZXR1YW9ibw&#x3D;&#x3D;（ Base64 加密）</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] skywalking ui（仪表盘）支持加密（密码或者 token 登陆的方式）吗？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781928#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>没找到相关的说明
+如果本身不提供的话， 有没有什么简单的办法， 保护这个 ui 界面不被别人访问呢？</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[北京] 马上考完驾照 有什么性价比高的二手破车推荐一下</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781927#reply1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>上外地牌照 价格 4w 内 年份越低越好 外观内饰无所谓 有气囊雷达就行</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[浏览器] iframe</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781926#reply3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>嵌入在 iframe 里的子页面如果有登陆操作返回 302，但是页面不会跳转</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[JavaScript] javascript 的数字，内部表示可以是标准的 32 位整型，而不是浮点数吗？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781924#reply24">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>好几年前学 javascript 的时候，网上都说 js 内部数字表达方式就一种，用浮点来表示。
+然而我看了 google 的代码后，对这个观点，表示强烈怀疑。
+这是 google 的代码库:https://github.com/google/closure-library/blob/master/closure/goog/math/long.js
+开头明确写着是 32 位整型:
+this.low_ &#x3D; low | 0;  // force into 32 signed bits.
+this.high_ &#x3D; high | 0;  // force into 32 signed bits.
+我又去翻了一下各种资料，顺藤摸瓜，又找到了类似的文章:
+JS 类型声明有固定写法，变量 | 0 表示整数，+变量表示浮点数。
+
+var a &#x3D; 1;
+
+var x &#x3D; a | 0;  // x 是 32 位整数
+var y &#x3D; +a;  // y 是 64 位浮点数
+
+上面代码中，变量 x 声明为整数，y 声明为浮点数。支持 asm.js 的引擎一看到 x &#x3D; a | 0，就知道 x 是整数，然后采用 asm.js 的机制处理。如果引擎不支持 asm.js 也没关系，这段代码照样可以运行，最后得到的还是同样的结果。
+
+再看下面的例子。
+
+// 写法一
+var first &#x3D; 5;
+var second &#x3D; first;
+
+// 写法二
+var first &#x3D; 5;
+var second &#x3D; first | 0;
+
+上面代码中，写法一是普通的 JavaScript，变量 second 只有在运行时才能知道类型，这样就很慢了，写法二是优化 js，second 在声明时就知道是整数，速度就提高了。
+
+也许那么多年，chrome 内核早就对 js 运行期做了一定智能优化，再也不是傻傻的无类型语言了。感叹 JS 还真是在不断进化中。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 月入过万是真的吗?</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781923#reply15">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>通过在各大平台发文章,发视频,靠点击浏览量赚钱月入过万是真的?
+兼职可以?
+你有这个经历?
+这个自媒体还能做?我很好奇,想赚钱,哈哈哈</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[分享发现] 你知道「去背」不</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781921#reply25">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>标题党了一次。看到了个 tw  blog 讲到抠图的，发现 zh-tw 中「抠图」叫做「去背」。
+有了解过本来早期很多 IT 词汇有区别，比如「软件 vs 软体」「硬盘 vs 硬碟」，近年网络发达，感知上新词差异应该少了才是...
+还有哪些这类「新」 IT 词汇差异...
+PS: 我看到「去背」的是这个文章。
+https://raymondhouch.com/lifehacker/digital-workflow/pixmiller/</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Windows] 求大神进来看下！ Windows10 企业版域管理问题</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781920#reply13">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>问题就是怎么退出域管理，域用户相当蛋疼，很多功能被限制，软件升级也提示需要域管理员权限，求问：怎么退出域账号，切换为本地用户。前提是没有域管理员账号和密码，也不想去问域管理员。不想重装系统</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[云计算] 有个已实名的阿里云国际版账户，余额大概 2700 刀，公司倒闭，账户转让，可谈价，有 有兴趣的朋友吗？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781919#reply2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>有个已实名的阿里云国际版账户，有对应的注册邮箱，余额大概 2700 刀，有有兴趣的朋友吗？公司停摆不打算使用了。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[JetBrains] 谨慎更新 DataGrip 至 2021.1.2</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781918#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>更新后报错：
+javax.net.ssl.SSLHandshakeException: The server selected protocol version TLS10 is not accepted by client preferences [TLS13, TLS12]
+
+需要自行加启动参数解决报错
+https://stackoverflow.com/questions/67840668/javax-net-ssl-sslhandshakeexception-the-server-selected-protocol-version-tls10</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[酷工作] [上海] 量化私募 | 内推 C++，前端</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781917#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>公司:高速发展的量化私募，股票 T0 国内第一梯队，位于浦东张江。
+要求:有经验，不限过去行业
+待遇:965，薪资参考互联网，时薪完胜 996 公司
+有兴趣可邮箱:Base64: MzA0NDUzNzgwQHFxLmNvbQ&#x3D;&#x3D;</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[分享创造] 忙着忙着,开发了一款 Chrome 插件,网页延迟阅读,自定义时间提醒</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781916#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>后端 Rd，基于 Vue 开发的 Chrome 插件，延迟阅读网页，自定义时间提醒。
+A plugin to help you read it later.
+DelayRead 一款延迟阅读清单软件。
+你的网页浏览小管家。
+为你搜集无法立即浏览的网页，并且根据你自定义的时间进行提醒。
+最短的操作,最优的体验。
+干净，快捷，简单，让你随时随地阅读，不丢失每一个偏爱的网页。
+快捷操作:
+Ctrl+Shift+1 : 加入延迟阅读清单 - 1min 后提醒
+Ctrl+Shift+5 : 加入延迟阅读清单 - 5min 后提醒
+Alt+Shift+1  : 加入延迟阅读清单 - 10min 后提醒
+Alt+Shift+3  : 加入延迟阅读清单 - 30min 后提醒
+也可点击图标,进行更多维度的时间设置提醒.
+Chrome Store 地址求支持:
+https://chrome.google.com/webstore/detail/delay-read/ljghihfmpgjponfeaknchmeidloibgmd/related?hl&#x3D;zh-CN
+源码奉上：
+https://github.com/sosowork/delay-read</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[反馈] [吐槽] 把一些日经贴的关键词屏蔽吧</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781914#reply6">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>比如，中医、中药。
+热议的帖子 lz 在吐槽医生给孩子开中成药还岔开话题，一是觉得某个中成药对肝功能有要求不适合小孩吃，二是医生故意岔开话题不说开了什么药，估计也没说药的注意事项、禁忌一类的。不说药怎么喝确实是有点不负责任，要么说按说明书喝，要么说一下有啥注意事项。
+结果，一堆回帖的不是说“受过高等教育的人才不会相信中医”，就是说“中医是经过时间验证的”，（老人地铁手机.jpg ）这和帖子有 p 的关系，最后帖子还被移到“请不要再发这样的文章”，默默心疼 lz 三秒。
+所以，直接屏蔽中医、中药、中成药、免煎药一类的关键词吧，一个以程序员为主的论坛一本正经的讨论中药多少沾点那啥。（要是没被封的话真想把帖子转发到各大医学院、中医学院的贴吧看看会怎么样）</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[耳机] 昨天直播间买了个 ONEPLUS 9R，不知道配什么耳机好用？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781913#reply2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>直播间下了单，也不知道送不送 buds z 耳机
+订单里没看到赠送，问在线客服说不是直播间下的单，打电话客服又说赠品 7 天内另外发
+OPPO 系的无线耳机适配一加怎样？</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[区块链] 请教各位大佬， Uniswap V3 的实时交易价格应该从哪里获得</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781912#reply6">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>求教一下 Uniswap V3 交易的是价格，应该从哪里拿比较合适
+一开始是从 https://thegraph.com/explorer/subgraph/uniswap/uniswap-v3
+使用如下 gql 语句
+{
+    pools(
+        where: {id_in: [&quot;0x4e68ccd3e89f51c3074ca5072bbac773960dfa36&quot;]}
+    ) {
+    		token0 {
+          symbol
+        }
+    		token1 {
+          symbol
+        }
+        token0Price
+        token1Price
+    }
+}
+
+获取，如下图所示
+
+但是发现和真正的交易价格有偏差，如下图红圈中的值
+
+感觉真正的交易价格是直接从合约中获取的，所以想请教一下各位大佬，真正的交易价格是怎么获取的
+不胜感激</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Android] 迫于安卓的推送功能太烂，什么统一推送，小米推送、华为推送、魅族推送甚至第三方推送，苹果 5s 后决定 13 重返</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781911#reply28">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>目前手持一加 8T，挺烦人的我用一个慧博投研的 APP 不打开就收不到通知，我认为解决方案不是搞什么统一推送联盟，赶紧解封了 Android 相关的域名和 IP 才是根本，WTF</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Android] 微信 FTS5IndexMicroMsg_encrypt.db-journal 文件怎么打开</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781910#reply1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>FTS5IndexMicroMsg_encrypt.db 已经得到密钥解开了
+但是据说删除和撤回的消息在FTS5IndexMicroMsg_encrypt.db-journal中，用 sqlite 工具打开提示需要密钥，填入FTS5IndexMicroMsg_encrypt.db的密钥也不对
+网上有说用 winhex 打开，编码调成 UTF-8 也还是乱码
+我这次真的裂开了...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[酷工作] 🔥🔥[新加坡] [技术移民]大型上市互联网公司，移动端（iOS,安卓），前端，后端（不限开发语言）开发，大数据工程师，云平台开发， DevOps 或 SRE 等各类工程师，各方向技术负责人（P8-P9），没有 996，花园城市，中文视频面试</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781909#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>纽交所上市大型互联网公司，新加坡知名团队，国际化平台，富有竞争的薪资，享受新加坡优质生活环境及教育资源，可携带配偶子女一起前往新加坡工作生活，子女可正常入托入学（最好幼儿园阶段就过来，无门槛入托入学，过了入学年纪需要参加插班考试）。现阶段技术移民（全家）最简易可操作方式。
+提供跨国中文视频技术面试，英文能看懂文档就可以了。
+新加坡税极低，比如税前折合人民币 100 万，在没做减免项扣除的情况下，税后 90 万左右（ 894250 ）；年薪越高跟国内税率差距越大。高增长幅度的上市公司股票。
+公司提供 18 天年假，14 天带薪病假，6 天育儿假，14 天法定节假日。无政治性加班，更好的工作与生活的平衡状态。公司有设施完善的餐厅，休息室，淋浴间，整层的健身房等。配 MacBookpro+显示器，互联网顶尖公司办公环境。
+公司提供 EP （新加坡专业人士工作准证），提供配偶和子女的 DP （家属准证），公司医疗保险包含配偶和子女的医疗保险，在职期间新生儿出生，公司提供 8000 新币（ 4 万人民币）的育儿津贴
+
+要求统招本科，三年以上工作经验，互联网大厂背景优先；专家及 leader 岗可以微信详细沟通细节（岗位方向比较多，基本涵盖了所有的技术方向）
+社会安定，全球安全指数最高的国家。欢迎大家来参观和看机会。
+有意可发简历到： sophia.liu@dadaconsultants.com
+或微信了解详情：sophia_liu611
+Software Engineer - iOS
+Job Description:
+Develop new business features and building reusable components
+Translate UI / UX designs into high quality code
+Explore and evaluate th…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[酷工作] [上海-北京-成都][内推][顶级交易所][16 薪][末班车了]</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781908#reply12">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>公司：区块链外企金融公司行业头部
+薪资：月薪高于市场，普遍 16 薪水,五险一金按照你的要求来或者正常缴纳，每年普调 /有晋升通道 
+团队：外企氛围，很多技术大牛，不内卷，不 PUA
+工作时间：上下班不打卡 10-8-5 不忙的话 10-7-5,
+要求：技术基础扎实，国内外知名企业背景英语优秀者加分
+办公点：上海 北京 全球 远程 /现场
+福利：入职即发 MacBookPro16 寸，入职即享 10 天年假 12 天带薪病假，免费英语培训，兴趣小组，交通补贴，iPhone12 工作手机，交通补贴，餐补，话费补贴
+每年奖金：4-6/8 个月 ，一句话看绩效。
+涨幅：薪资涨幅取决于大佬的实力，实力越强涨幅越高。
+--------------------------------------------------------------------------------------------------------
+重点分割线
+会计 上海 10-15K 3-5 年本料
+Data Architect and Engineer Leader 40-70K-16 薪 10 年以上本科
+测试开发工程师 杭州 27-50K:16 薪 5-10 年本科
+资深自动化测试工程师上海)20-40K-14 薪 3-5 年 本科
+Al 训练师[上海)10-13K 经验不限本科
+大数据运维 上海 25-50K  3-5 年本科
+Goiang Developer [上海]30-60K-16 薪  3-5 年本科
+前端开发 Team Lead/Fro...[上海]40-60K-16 薪 5-10 年本科
+DevOps/SRE Leader 上海 70-100K16 薪 10 年以上本料
+前端开发工程师(上海)30-60K  16 薪 5-10 年本科
+HR Operations 专员 /主督 上海 7-…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[NAS] 请教个群晖备份手机照片、视频的问题</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781907#reply11">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>先说下网络环境，光猫桥接，软路由拨号，后接交换机，交换机后面是 nas 和 AP 。北京联通宽带，下行 500M，上行 30M，光猫、软路由、交换机、nas 、AP 都是千兆网卡。
+手机连接 AP 上网，通过 moments 访问 nas 里面备份的视频，播放时有明显卡顿，视频是手机拍摄的，1 至 2 分钟长，请问是什么原因？本地环境应该算千兆内网了吧
+还有个问题，手机连接 AP 上网，通过 ds photo 备份手机相册到群晖，速度很慢，ds photo 备份页面显示的上传状态总是断开重连，断断续续，几百张照片都备份了快一天了。
+nas 新手上路，以上问题谢谢大家解答。
+感觉群晖在内网下备份，不应该是千兆速度，瞬间完成吗</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 大哥们, 我又来了, 请问 PxCook 怎么购买协同开发</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781906#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>官网,软件都找不到购买入口. 实在是没办法了</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 为啥一新网站老有大量 GET 请求？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781903#reply3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>咱这个网站本身是给团队内部使用的，用了 cloudflare 作为 cdn+防火墙。刚刚上才几天，也没几个人知道，但是每天都有大量 GET 请求，虽然都被防火墙给挡了回去，但是看着也挺心烦。搜了其中一个 IP 159.242.234.127，发现是 avast 的，关于这个 IP 网上还有一些信息：
+投诉统计
+讨论的帖子
+还有其他很多 IP 网上都查不到信息，请问各位老哥这些都是干嘛的呀？你们也遇到这种情况吗？我有经常开发一些程序，有桌面程序也有网页程序，但是多是给内网使用的，直接用内网 IP 。现在这个算是第一个暴露在公网的。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] Python import 问题</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781902#reply6">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>a.py
+b.py
+main.py
+a.py
+def funA():
+	pass
+
+b.py
+from a import funA
+def funB():
+	funA()
+
+main.py
+from dir.subdir.b import funB
+funB()
+
+出错的地方是 b.py 的 import，如果改成 from .a import funA 就没错，但是 IDE 又提示我应该改称 from a import funA，但是如果改了就报错，ImportError: cannot import name xxx from xxx</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 如何把自己的工作全部放到云端？
+
+最近电脑坏了的有点频繁，导致工作和生活上很多东西都受到了影响，主要是一些软件使用相关。</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781901#reply9">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>主要工作栈是 MacOS，手上有 2 台 Macbookpro，1 台 Mac Mini，主力在用 Mbp15，不过最近坏了 2 次，目前还是在修中，切换电脑带来的工作成本感觉非常头大，部分数据还在坏的电脑上，导致特别麻烦.
+p.s. 已经把一些重要的文件放在了 云盘 和 使用 chrome 的同步能力
+但是还是会有些差别，比如 pycharm vscode IDE  的插件不能同步</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Apple] 究竟什么东西能划伤一个从不出门的 iPad 的屏幕啊？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781899#reply22">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>我人晕掉了，M1 miniled 的 pad，拿回来就戴上了官方的保护壳，平时也就放桌子上看视频放歌，
+然后今天没事拿起来仔细端详的时候发现屏幕左上方一道 5 厘米长的大划痕，虽然亮屏看不出来，但是好难受啊艸。
+究竟什么东西能划到一个摆在桌面上的 pad，而且一划就是五厘米？
+买的有 ac+，还不知道这种情况给不给修 /换，网上大部分都说划痕是不算损坏的不给修</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] limit mysql 取最后_分页场景（limit,offset）特别慢，有什么办法可以优化？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781896#reply28">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>目前的场景就是
+单表大概 20 万左右的数据，需要分页，排序（浏览量、新增时间，点赞等等）
+laravel 生成的 sql
+select id, logo, title, supports, collections, created_at, views, user_id, summary from table where status &gt; 0 order by supports desc, created_at desc limit 20 offset 164920;
+因为 offset 就执行的很慢
+求大牛给点解决方案加速下，最好就是通过修改 sql 的方式
+PS:机器是单核小主机。。。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Windows] 各位 windows 10 升级到 21H1 之后蓝屏吗？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781894#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Windows - @z0wjqnxi -</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Apple] iPhone13 系列爆料图出来了</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781893#reply3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>主要改变:缩小刘海+增加电池+升级屏幕和摄像头+新配色
+不出意外的话按照国际管理依然是 9 月中旬发布会</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[职场话题] 有 b 站的小伙伴了解星辰技术部怎么样吗，有朋友接到了 b 站的 offer，让我帮忙问问</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781892#reply2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>职场话题 - @Leronron -</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[酷工作] [麦客 CRM] Web 前端开发工程师-月薪 16-28K-成都 IFS</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781889#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>岗位职责：
+1.利用 Html5 、JavaScript 和 CSS 相关技术开发跨平台的移动设备前端产品；
+2.优化前端体验和页面响应速度，优化代码并保持良好兼容性，提升易用性；创造并持续优化精致的交互体验；
+3.基于 Html5 标准编写可复用的用户界面和组件。
+岗位要求：
+1.计算机及相关专业，本科及以上学历；
+2.熟练掌握 HTML / CSS / JavaScript 相关技能，熟悉 Node.js ；
+3.熟悉 React 、Angular 、Vue 等前端框架，有其中一种框架的开发经验；
+4.具有前端工程、模块化、组件化经验，熟练使用 webpack / grunt / gulp 等一种以上的构建工具；
+5.具备良好的沟通能力，独立并积极主动，责任感强。
+面试流程：机试 + 面试
+简历投递链接： https://talents.mikecrm.com/gq7WyZ7</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Python] pyqt5 QTableWidget 如何简洁的导入 excel 数据，包括 excel 中的单元格合并？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781888#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>我自己写的要一行行读数据，并且判断是否是单元格合并在做处理，逻辑比较复杂，有什么简洁的方法吗？</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[酷工作] Rust Web(Rocket), 图形、动画算法·兼职·招聘</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781887#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>图形起源科技是由一群来自清华大学的计算机视觉和图形学技术爱好者创立的专注于用 AI 技术提高游戏影视内容生产效率的科技公司。目前的核心产品“八爪鱼动捕”已在游戏动画制作、电影虚拟预演、虚拟偶像短片直播三个方向对行业带来了部分变革。团队成员均来自清华、北航、北邮、斯坦福等国内一流高校和字节、英特尔等科技公司。我们以第一性原理作为核心价值观，以“极致的快速反应”面对市场需求，以“专业至上”作为研发原则，围绕核心愿景进行业务开展。图形起源的愿景是成为未来十年中国的“皮克斯+迪士尼”。我们热切希望用先进技术，帮助生产美好内容！
+有如下方向的兼职职位
+Web 后端
+工作内容
+维护基于 Rust Rocket 实现的网站后端
+根据需求实现 Web 后端功能
+编写服务程序：使用网络协议（比如 WebSocket, Udp 等）实现数据的实时接收和转发, 根据提供的算法实现计算，根据需要对数据和计算结果进行转存。
+招聘要求：
+较强的学习能力，良好的沟通能力，适应团队合作
+至少是掌握基础的 Rust 语法，可以写简单的 Rocket 的 web 应用
+加分项：了解 mysql 及数据库 SQL 访问知识，阿里云的基础设施（如 OSS ），线性代数知识掌握（有可能涉及算法实现）
+骨骼算法方向职位
+工作内容
+设计建立一套符合人体运动学、动力学、肌肉骨骼关系的人体动作算法模型。
+实现后端程序对上传的数据进行算法处理 ( 目前以 Python 为主 )
+招聘要求：
+有敏锐的空间解析几何天赋和扎实的线性代数知识；同时需要有一定的编程基础实现你的设计
+对于这方面的工作充满兴趣
+工作地点：清华大学 /清华科技园
+联系方式，简历投送： hr@octomotion.tech</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[酷工作] [温哥华/加拿大] Amazon SDE II 内推，提供签证</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781886#reply1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>老婆组招人，帮忙发一下
+工作地点加拿大温哥华。
+可以自己投简历到下面网址，也可以找内推。 简历邮箱是 Y3ZxdGllI2dtYWlsCg&#x3D;&#x3D;
+需要至少 3 年以上的相关工作经验（码农即可），并且英文流利。
+级别是亚麻的 SDE 2。对标一般 四年 到 十几年 工作经验。
+JD 链接： https://www.amazon.jobs/en/jobs/1549591/software-development-engineer?no_int_redir&#x3D;1
+面试成功之后公司会帮忙办理加拿大的工作签证。也可以帮配偶办理 open work permit 。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 美区购买礼品卡问题， 没按 游客形式登陆结算 会不会购买失败？ 上午 10 点购买 到 现在还再加工中</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781885#reply1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>感觉会不会凉了
+刚才打了 国区的 苹果官方客服 回复说 只能透露订单还在处理中
+好像是 时差 美区的员工还没上班的原因
+提这个问题 只是 从网上看到 别人好像是 很快就发货了 所以想问写
+感谢回答者</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Apple] 最后 YY：苹果 M1X 有望亮相 WWDC： 32 核 GPU 版本可战 RTX 3070 移动显卡！</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781884#reply1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>此前有外媒表示，今年的苹果 MacBook Pro 所搭载的处理器将被命名为 M1X，而非 M2 。据称，这颗芯片将采用和 M1 相同的设计，但核心数量更多，还将提供高性能版本。
+目前苹果 M1 最高采用的是 8 核 CPU+8 核 GPU 的设计，但根据规划，苹果正在研发两种不同的芯片，代号为 Jade C-Chop 和 Jade C-Die：两者都拥有 10 核设计，包括 8 个高性能内核和 2 个高效能内核，但将提供 16 个或 32 个 GPU 内核。
+知名 YouTuber @Dave2D 分享了 M1X 芯片的更多情报，他还透露我们有望在 WWDC 上看到新版 MacBook Pro 首发。
+据悉，新款 MacBook Pro 14 将集成 16 核 GPU，而散热更强的 MacBook Pro 16 则直接集成 32 核 GPU，性能惊人，然而功耗仅有 20 瓦和 40 瓦，比英特尔还低。
+此外，此前有消息称 M1X 将包含更多的 Thunderbolt 通道，支持多个外部显示器。新款设备都将配备 1080p 网络摄像头、SD 读卡器、三个雷电 USB-C 接口、升级的 MagSafe 接口和 HDMI 接口等。
+
+根据 Dave2D 测试，搭载 M1X （ 16 核 GPU ）在基于 GFXBench 5.0 Aztec @1440p 场景下将可达 110 FPS 以上，而 32 核版本可达 170 FPS 以上，比之移动高性能平台的 RTX 3070 完全不弱。
+而且，如果该数据准确，我们还得考虑功耗的问题，毕竟英特尔高性能平台 + 英特的 RTX 3070 移动显卡的整机平台功耗肯定不会低，而目前 RTX 3070 主流机型性能释放一般在 80~125W 之间。
+
+值得一提的是，根据目前已有消息，新款 Macbook Pro 14 英寸和 16 英寸机型将采用更现代化的设计，比如更平坦、更窄的边框，并且去掉底部的 Macbook Pro 标识，看齐新款  iMac，值得期待。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[宽带症候群] 北京移动宽带的上行改成 10M 上行了吗？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781883#reply1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>58 套餐送的 200M 宽带，之前一直是 100M 上行的，最近发现改成 10M 了，其他 V 友的情况如何了呢</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[酷工作] [实习] [微软亚洲研究院] 基于机器学习的爬虫检测实习生</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/781882#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>微软亚洲研究院-网络研究组招收研究实习生啦~
+微软亚洲研究院 (MSRA)-网络研究组 (Networking Research Group)
+https://www.microsoft.com/en-us/research/group/networking-research-group-2/
+&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;
+岗位： [基于机器学习的爬虫检测-全职实习生, 1 名] 
+1 、工作职责：
+- 收集 Azure 云平台的 Web 日志，利用深度学习、聚类等技术进行日志分析，实现对爬虫攻击行为的画像；
+- 挖掘日志中的 HTTP 协议字段、鼠标轨迹、设备指纹等特征，制定检测规则，训练 ML 模型，从而对 Azure WAF 安全防火墙进行改进；
+- 参与维护本组在 GitHub 上的开源项目。
+2 、职位要求：
+- 熟悉 AI 、机器学习、深度学习（如 CNN 、LSTM ）、数据挖掘、网络安全中的一个或多个领域，有相关项目经验；
+- 熟悉 Go 、Javascript (React) 、Python 中的一门或多门语言，有较强的工程能力，熟练掌握 git，代码格式清晰规范，善于团队协作；
+- 有一定英文学术论文阅读能力，能够根据论文进行系统实现；
+- 较强的沟通能力和逻辑表达能力。
+3 、具有以下条件者优先：
+- 在 GitHub 较为活跃，有自己的开源项目，或参与过知名开源项目；
+- 发表过学术论文；
+- 可以连续实习不少于 6 个月。
+&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;
+工作时间：每周 5 天，3 个月以上，能够尽快入职
+工作地点：北京市海淀区丹棱街 5 号（疫情期间可远程办公）
+如有意向请发 [中文简历 PDF ] 至：nrg-intern-recruit@microsoft.com
+简历中需标明平均分，及专业或年级排名及排名对应的总人数
+ [注意] 请务必采用学校邮箱（ edu 域名）发送简历，其他邮箱（如 163 、qq 、gmail 、outlook 、hotmail 等）发送会进入公司垃圾邮件，无法被 HR 看到
+邮件标题&amp;简历 PDF 文件名格式：基于机器学习的爬虫检测-姓名-学校-本|硕|博-年级-V2EX</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-06-04">2021-06-04</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -83,7 +962,7 @@
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-06-07T10:36:07.697Z">2021-06-07T10:36:07.697Z</time>
+    <time id="build-timestamp" datetime="2021-06-07T10:37:25.571Z">2021-06-07T10:37:25.571Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.10.2</a></span>
   </footer>
   <script src="index.js"></script>
