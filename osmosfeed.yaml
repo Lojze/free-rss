@@ -4,9 +4,5 @@ sources:
   - href: https://css-tricks.com/feed/
   - href: https://www.smashingmagazine.com/feed/
   - href: https://www.freecodecamp.org/news/rss/
-on:
-  schedule:
-    # * is a special character in YAML so you have to quote this string
-    - cron:  '30 5,17 * * *'
 siteTitle: "osmos::res"
 cacheMaxDays: 30
