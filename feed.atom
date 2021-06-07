@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-06-07T10:15:32.382Z</id>
+    <id>https://lojze.github.io/free-res/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-06-07T10:15:32.382Z</updated>
+    <updated>2021-06-07T10:21:06.256Z</updated>
     <generator>osmosfeed 1.10.2</generator>
-    <link rel="alternate" href="index.html"/>
+    <link rel="alternate" href="https://lojze.github.io/free-res/index.html"/>
+    <link rel="self" href="https://lojze.github.io/free-res/feed.atom"/>
     <entry>
         <title type="html"><![CDATA[How to Search and Filter Components in React]]></title>
         <id>60b3480c11ffb70827ef9a88</id>
