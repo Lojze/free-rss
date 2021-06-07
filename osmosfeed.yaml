@@ -1,8 +1,5 @@
 cacheUrl: https://lojze.github.io/free-res/cache.json
 sources:
-  - href: https://github.com/osmoscraft/osmosfeed/releases.atom # Get new feature announcement via this feed
-  - href: https://css-tricks.com/feed/
-  - href: https://www.smashingmagazine.com/feed/
-  - href: https://www.freecodecamp.org/news/rss/
+  - href: http://www.ruanyifeng.com/blog/atom.xml
 siteTitle: "阅读器"
 cacheMaxDays: 30
