@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lojze.github.io/free-res/index.html</id>
-    <title>osmos::feed</title>
-    <updated>2021-06-07T10:23:39.181Z</updated>
+    <title>osmos::res</title>
+    <updated>2021-06-07T10:27:00.339Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="https://lojze.github.io/free-res/index.html"/>
     <link rel="self" href="https://lojze.github.io/free-res/feed.atom"/>
