@@ -1,5 +1,6 @@
 cacheUrl: https://lojze.github.io/free-res/cache.json
 sources:
   - href: http://www.ruanyifeng.com/blog/atom.xml
+  - href: http://www.v2ex.com/index.xml
 siteTitle: "阅读器"
 cacheMaxDays: 30
