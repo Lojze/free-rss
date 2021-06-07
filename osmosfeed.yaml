@@ -4,5 +4,5 @@ sources:
   - href: https://css-tricks.com/feed/
   - href: https://www.smashingmagazine.com/feed/
   - href: https://www.freecodecamp.org/news/rss/
-siteTitle: "osmos::res"
+siteTitle: "阅读器"
 cacheMaxDays: 30
