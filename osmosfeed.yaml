@@ -1,6 +1,10 @@
 cacheUrl: https://lojze.github.io/free-res/cache.json
 sources:
-  - href: http://www.ruanyifeng.com/blog/atom.xml
-  - href: http://www.v2ex.com/index.xml
+  - href: http://www.ruanyifeng.com/blog/atom.xml #阮一峰
+  - href: http://www.v2ex.com/index.xml #v2ex
+  - href: http://f2e.souche.com/blog/rss/ #大搜车前端团队博客
+  - href: https://techblog.toutiao.com/rss/ #今日头条技术博客
+  - href: http://feed.williamlong.info/ #月光博客
+  - href: http://tmallfe.github.io/feed.xml  #天猫前端
 siteTitle: "阅读器"
 cacheMaxDays: 30
