@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lojze.github.io/free-res/index.html</id>
     <title>阅读器</title>
-    <updated>2021-06-08T02:37:49.016Z</updated>
+    <updated>2021-06-08T02:41:51.050Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="https://lojze.github.io/free-res/index.html"/>
     <link rel="self" href="https://lojze.github.io/free-res/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[[宽带症候群] 乡镇新装宽带被告知无法安装 1000m]]></title>
+        <id>https://www.v2ex.com/t/782087#reply0</id>
+        <link href="https://www.v2ex.com/t/782087#reply0"/>
+        <updated>2021-06-08T02:39:12.000Z</updated>
+        <summary type="html"><![CDATA[说会影响其他人的网速，真有这种事？]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[[WWDC] 冷（热）知识，下一次 Apple 发布会的时间是 9 月]]></title>
         <id>https://www.v2ex.com/t/782086#reply0</id>
@@ -246,8 +256,8 @@ JD:
     </entry>
     <entry>
         <title type="html"><![CDATA[[酷工作] [北京/杭州][内推]阿里云智能事业群-开放平台工具研发专家/高级专家]]></title>
-        <id>https://www.v2ex.com/t/782074#reply0</id>
-        <link href="https://www.v2ex.com/t/782074#reply0"/>
+        <id>https://www.v2ex.com/t/782074#reply1</id>
+        <link href="https://www.v2ex.com/t/782074#reply1"/>
         <updated>2021-06-08T02:14:12.000Z</updated>
         <summary type="html"><![CDATA[职位描述
 阿里云开放平台服务着百万级用户，拥有亿级访问量的平台与场景，是连接阿里云与客户的重要产品门户。在阿里云提出被集成理念后，开放平台已经成为阿里云最核心产品线之一，我们的使命是让企业更好地使用阿里云。为此我们需要在底层基础设施层面、企业服务能力层面、标准化体系层面、工具链编程体验层面等领域全面提升阿里云的能力，急需各界技术高手一起打造最先进的服务！如果你是技术 geek，或者有云计算深度使用经验，又或者有对企业服务领域有极大热情，欢迎加入我们！
@@ -530,8 +540,8 @@ echo 'UmVhbExpdVNoYQ=='|base64 -d]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[[Apple] 热泪盈眶， iPhone SE 1st 依然支持 iOS 15]]></title>
-        <id>https://www.v2ex.com/t/782055#reply4</id>
-        <link href="https://www.v2ex.com/t/782055#reply4"/>
+        <id>https://www.v2ex.com/t/782055#reply5</id>
+        <link href="https://www.v2ex.com/t/782055#reply5"/>
         <updated>2021-06-08T01:30:44.000Z</updated>
         <summary type="html"><![CDATA[在 SE 1 代上下载描述文件后检查更新发现真的有 iOS 15，然后就查到了 iOS 15 支持的设备列表，最低是 iPod touch 7th, iPhone 6s,iPhone SE 1st，好像和 iOS 14 是一样的耶。]]></summary>
         <author>
@@ -540,8 +550,8 @@ echo 'UmVhbExpdVNoYQ=='|base64 -d]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[[Apple] 现在是 2021 年 6 月， 2019 款 i5 丐版 MBP 想换成 M1 air 是否值得？]]></title>
-        <id>https://www.v2ex.com/t/782053#reply14</id>
-        <link href="https://www.v2ex.com/t/782053#reply14"/>
+        <id>https://www.v2ex.com/t/782053#reply15</id>
+        <link href="https://www.v2ex.com/t/782053#reply15"/>
         <updated>2021-06-08T01:29:38.000Z</updated>
         <summary type="html"><![CDATA[WWDC 并没有 M1X/M2 的消息。
 现有机器：2019 款 13 寸 MBP，i5 1.4GHz，16G+256G，显卡 645，还剩一年 AppleCare+。
@@ -779,8 +789,8 @@ Google 已开始研发和测试第三方 Cookie 的替代技术 —— FLoC 用�
     </entry>
     <entry>
         <title type="html"><![CDATA[[Apple] wwdc 开过去了，但是一觉醒来连讨论的人都没]]></title>
-        <id>https://www.v2ex.com/t/782031#reply12</id>
-        <link href="https://www.v2ex.com/t/782031#reply12"/>
+        <id>https://www.v2ex.com/t/782031#reply13</id>
+        <link href="https://www.v2ex.com/t/782031#reply13"/>
         <updated>2021-06-07T23:23:37.000Z</updated>
         <summary type="html"><![CDATA[我甚至以为不是今天开
 iOS15 这么拉垮吗]]></summary>
@@ -794,29 +804,6 @@ iOS15 这么拉垮吗]]></summary>
         <link href="https://www.v2ex.com/t/782030#reply5"/>
         <updated>2021-06-07T22:43:42.000Z</updated>
         <summary type="html"><![CDATA[想试一下最新的 Titanium 是不是能备份 /还原工作空间里的 app，在安卓 11 上安装了最新的谷歌市场下载的版本，但是明明给了 root 权限，运行的时候却提示错误说拿不到 root，见图：i.imgur.com/sN1WkLC.png ，这什么原因？]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Apple] iOS15 更新内容汇总]]></title>
-        <id>https://www.v2ex.com/t/782029#reply28</id>
-        <link href="https://www.v2ex.com/t/782029#reply28"/>
-        <updated>2021-06-07T22:37:34.000Z</updated>
-        <summary type="html"><![CDATA[体验了一个多小时，发现了以下更新内容，有新发现可以跟帖补充。
-Feature：
-1，锁屏通知重新设计，四周加个圆角。
-2，控制中心新增专注模式。
-3，照片可以显示 exif 信息，存储自某某位置，app 或者相机，还可以编辑照片日期。
-4，天气重新设计，卡片式信息流，空气质量按地图显示（第三方天气 app 可以卸载了）。
-5，闹钟日期设定回归拨动式（好评）。
-6，输入法有白底。
-7，Safari 浏览器重新设计，地址栏放到了底下，更美观了（但是我还不会用）。
-8，照片增加 ocr 识别，长按可复制粘贴。
-9，iCloud 新增专用转接代理（不明白用途）。
-Bug：
-1，微信朋友圈不能发视频。
-2，汉化不完全，粘贴显示 paste]]></summary>
         <author>
             <name>V2EX</name>
         </author>

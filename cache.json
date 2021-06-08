@@ -40,12 +40,21 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/782087#reply0",
+          "author": null,
+          "description": "说会影响其他人的网速，真有这种事？",
+          "link": "https://www.v2ex.com/t/782087#reply0",
+          "publishedOn": "2021-06-08T02:39:12.000Z",
+          "wordCount": 94,
+          "title": "[宽带症候群] 乡镇新装宽带被告知无法安装 1000m"
+        },
+        {
           "id": "https://www.v2ex.com/t/782086#reply0",
           "author": null,
           "description": "昨晚 1 点 43 分醒的，拿出手机看直播，刚好在讲 iPadOS 上写代码。\n看到快 3 点结束，啥硬件也没有发布，颇为意外和失望，全程“/就这”。\n总体感觉：\"方向错了，徒增功耗，有失公允，感知不强\" /doge，\n有留下比较深刻印象的是 xcode cloud，现在产品碎片化还是有点高的，\n还是要等，等到 9 月份，希望能更新一下 Macbook Pro 。",
           "link": "https://www.v2ex.com/t/782086#reply0",
           "publishedOn": "2021-06-08T02:35:15.000Z",
-          "wordCount": 111,
+          "wordCount": 113,
           "title": "[WWDC] 冷（热）知识，下一次 Apple 发布会的时间是 9 月"
         },
         {
@@ -81,7 +90,7 @@
           "description": "岗位职责：\n1 、负责米哈游舆情系统、竞品分析等项目的数据爬取、解析、清洗、入库等日常工作；\n2 、维护好日常爬取脚本的正常运作与规则的有效性；\n3 、与大数据工程师对接，完成实时数据与离线数据的爬取与入库；\n4 、持续优化系统提高系统的稳定性。\n岗位要求：\n1 、2 年及以上爬虫、反爬虫研发经验；\n2 、精通 python 开发，熟悉使用 scrapy 、selenuim 等常用开源爬虫框架；\n3 、熟悉 HTTP 协议、HTML 、DOM，并有一定的 JavaScript 能力；\n4 、熟练使用 Xpath 、正则表达式或 Beautiful Soup 任一种解析框架；\n5 、熟练使用 splash 、浏览器内核等工具解析动态页面；\n6 、熟悉多线程、网络编程以及分布式爬虫架构开发场景；\n7 、熟悉使用 Redis 和任意一种常见的分布式消息队列；\n8 、熟练使用模拟登陆、UA 池、动态代理、IP 池等常规伪装手段；\n9 、熟悉常规反爬虫手段以及常见的解决方案，有一定的逆向工程能力；\n10 、有过爬取主流社区网站经验；\n11 、熟悉解决去重、分类、垃圾过滤等问题更佳；\n12 、熟练使用 Mysql，熟悉 Nosql 数据库等，有大数据开发相关经验更佳；\n13 、本科或以上学历，计算机相关专业。\n\n联系微信 base64: enk0NjAxNjAyMzE=",
           "link": "https://www.v2ex.com/t/782082#reply2",
           "publishedOn": "2021-06-08T02:28:33.000Z",
-          "wordCount": 164,
+          "wordCount": 181,
           "title": "[酷工作] [上海] [米哈游] 爬虫工程师内推（急招）"
         },
         {
@@ -126,7 +135,7 @@
           "description": "@Livid V2EX 的隐私设置 bug\n就算设置不允许搜索引擎收录，依然会被比如 google 收录。\n比如:\n4 次来自 Google 的点击",
           "link": "https://www.v2ex.com/t/782076#reply1",
           "publishedOn": "2021-06-08T02:17:22.000Z",
-          "wordCount": null,
+          "wordCount": 118,
           "title": "[问与答] @Livid V2EX 隐私设置 bug"
         },
         {
@@ -139,12 +148,12 @@
           "title": "[问与答] PlanetB 的替代网站？"
         },
         {
-          "id": "https://www.v2ex.com/t/782074#reply0",
+          "id": "https://www.v2ex.com/t/782074#reply1",
           "author": null,
           "description": "职位描述\n阿里云开放平台服务着百万级用户，拥有亿级访问量的平台与场景，是连接阿里云与客户的重要产品门户。在阿里云提出被集成理念后，开放平台已经成为阿里云最核心产品线之一，我们的使命是让企业更好地使用阿里云。为此我们需要在底层基础设施层面、企业服务能力层面、标准化体系层面、工具链编程体验层面等领域全面提升阿里云的能力，急需各界技术高手一起打造最先进的服务！如果你是技术 geek，或者有云计算深度使用经验，又或者有对企业服务领域有极大热情，欢迎加入我们！\n职责：\n参与阿里云客户工具链体系的建设，致力于为开发者带来体验良好的云计算工具，打造一流的开发者体验\n在云计算开发者生态领域中 SDK 、CLI 、编排工具、管理工具等方面深入耕耘，用技术突破业务\n围绕上述工具，面向客户打造体系化的云上开发能力，帮助客户更好地使用阿里云\n职位要求\n统招本科以上学历，3 年以上研发经验，有相关工作经验优先；\n至少熟悉 Java/Python/C#/PHP/Node.js/Go/Ruby 等编程语言中的一门（熟悉多门者优先），具备良好的编程习惯，对设计模式与实现有深入的见解；\n熟悉数据结构、算法设计、网络协议，具备良好的计算机基础及解决问题能力；\n有云计算开发背景者优先；在开源社区有成熟的作品或加入过开源产品的研发或对开发者社区有一定影响力的候选人优先；\n良好的沟通能力，喜欢尝试新技术，追求编写优雅的代码，追求极致，精益求精的特质。\n我们鼓励人人践行公益，同学如参与过公益活动，有相关证明，也欢迎附在简历中。参考依据包括但不限于：全国志愿服务信息系统开具的志愿服务证明、“人人 3 小时”公益平台公益时证书、志愿服务组织（含社会团体、社会服务机构、基金会）授予的志愿服务证明等。\n咨询\n微信 /钉钉：bGF6eXBlb3BsZQ==\n来都来了，看都看了，聊一下吧。",
-          "link": "https://www.v2ex.com/t/782074#reply0",
+          "link": "https://www.v2ex.com/t/782074#reply1",
           "publishedOn": "2021-06-08T02:14:12.000Z",
-          "wordCount": 141,
+          "wordCount": 152,
           "title": "[酷工作] [北京/杭州][内推]阿里云智能事业群-开放平台工具研发专家/高级专家"
         },
         {
@@ -171,7 +180,7 @@
           "description": "前言\n上篇文章分析了web 端错误及性能监控 SDK的实现方式，本篇则聚焦于小程序。尽管微信小程序本身就自带了监控能力，但如果我们需要更完善的数据，比如在出错时展示更多的信息如函数调用栈、行为轨迹、缓慢请求等，则需要自己去监控收集。\n原来在开发这套前端监控 SDK 时，我将 web 和小程序的监控糅合在了一起，但后来发现平台差异使得同一个模块产生很多异化的逻辑，甚至在初始化的时候也要增加环境的判断，这种异化的处理降低了后续的可维护性，因此最终还是将 SDK 拆分成两套。\n在开发小程序监控 SDK 时，首先明确的是，SDK 需要提供什么样的能力，或者说帮助我们获取什么数据。由于要获取的数据上篇已提及，这里看看我们设计的小程序端的 SDK 需要提供什么能力。\nSDK 提供的能力\n基础监控\n错误监控：包括 js 、promise 、http\n性能监控：页面性能\n附加能力\n缓慢 HTTP 请求监控\n用户行为轨迹监控\n错误过滤、错误抽样（本篇不作介绍，SDK 已实现）\nSDK 在最终使用上依然采用基于事件订阅的方式，下面分析下这些能力在小程序端如何实现\n错误监控\n使用小程序生命周期提供了 onError，重写 Page 即可\nApp = function (appOptions) {\n  appHooks.forEach((methodName) => {\n    const originMethod = appOptions[methodName];\n\n    (appOptions as any)[methodName] = function (param: any) {\n      const error = param as Error;\n\n      if (methodName === \"onError\") {\n        monitor.handleErrorEve…",
           "link": "https://www.v2ex.com/t/782071#reply0",
           "publishedOn": "2021-06-08T02:12:22.000Z",
-          "wordCount": 486,
+          "wordCount": null,
           "title": "[分享创造] 使用 Typescript 开发小程序前端错误及性能监控 SDK"
         },
         {
@@ -180,7 +189,7 @@
           "description": "事情是这样的:\n我妈问我她手机上老是有很多通知,好几天了都去不掉.\n我一看,是日历 APP 发出来的,都是快手极速版在日历中设置的定时事件,一天有 7,8 个,已经持续了几天了.\n快手真的是恶心,没底线.",
           "link": "https://www.v2ex.com/t/782070#reply4",
           "publishedOn": "2021-06-08T02:08:30.000Z",
-          "wordCount": null,
+          "wordCount": 136,
           "title": "[分享发现] 快手极速版在日历 app 中利用日历提醒疯狂发消息"
         },
         {
@@ -189,7 +198,7 @@
           "description": "内网上网需要认证，在想是不是可以弄一台服务器用做代理服务器，每天只需要这台服务器认证后，其他主机配置代理地址就也可以上网？\n问题来了，用什么做代理服务器好啊？客户端配置越简单越好，可以实现全局代理的那种。\n只会 ss，但是那个客户端配置有点麻烦，需求是能上网，不要求加密混淆之类的。",
           "link": "https://www.v2ex.com/t/782069#reply2",
           "publishedOn": "2021-06-08T02:01:29.000Z",
-          "wordCount": 112,
+          "wordCount": null,
           "title": "[问与答] 哪个服务能实现全局代理？"
         },
         {
@@ -216,7 +225,7 @@
           "description": "[三七互娱内推-社招 高级运维工程师 20K-25K  15 薪]  [广州] \n三七互娱，中国互联网百强企业，是国内 A 股优秀的综合型文创上市企业（股票代码：002555 ）。三七互娱总部设在广州。公司涵盖游戏、在线教育等业务板块，同时积极布局影视、音乐、艺人经纪、动漫、泛文娱乐、VR/AR 、文化健康、社交等文化创意领域。\n三七互娱旗下拥有优异的游戏研发品牌三七游戏，专业的游戏运营品牌 37 网游、37 手游、37GAMES，以及优质在线教育品牌妙小程，聚集了来自全球各地的网络精英及高素质管理人才。\n福利：\n15 薪水、项目奖金、季度奖金、年度奖金、双休、丰富早餐（ KFC，M 记，72 街，肠粉等）、团建、带薪假期、年度体检、住房免息贷款等。\n**工作职责**\n1 、负责对 IDC 资源和云资源进行梳理和规划；\n2 、负责与开发团队沟通和资源管理系统的设计要求，推动开发落地；\n3 、负责对资源管理系统的优化和完善进行规划和管理；\n4 、协助对资源管理流程制度、管理操作优化和设计。\n**任职资格**\n1 、对 IDC 、云计算等相关产品的资源管理系统架构和功能熟悉了解，有具体的系统规划设计经验更佳；\n2 、对 IDC 、云计算、网络等相关产品知识熟悉；\n3 、对软件开发、系统设计比较熟悉；\n4 、具有良好的人际沟通和团队协助能力；\n5 、有三年以上相关领域的工作经验。\n投简历渠道：\n邮箱： lanruqi@37.com （有投必回）\n交流群:  728418003",
           "link": "https://www.v2ex.com/t/782066#reply0",
           "publishedOn": "2021-06-08T01:49:27.000Z",
-          "wordCount": null,
+          "wordCount": 162,
           "title": "[酷工作] [三七互娱内推-社招 高级运维工程师 20K-25K 15 薪] [广州]"
         },
         {
@@ -279,7 +288,7 @@
           "description": "有用人需求的大佬可以联系我, 坛子里恐有同事，故不便直接放简历。\n微信:\npython2\n'UmVhbExpdVNoYQ=='.decode('base64')\n\nshell\necho 'UmVhbExpdVNoYQ=='|base64 -d",
           "link": "https://www.v2ex.com/t/782057#reply4",
           "publishedOn": "2021-06-08T01:36:10.000Z",
-          "wordCount": 132,
+          "wordCount": null,
           "title": "[求职] 坐标深圳，七年工作经验，寻求运维开发内推"
         },
         {
@@ -292,19 +301,19 @@
           "title": "[macOS] 所以这次 wwdc 不会有 16 寸 macbook 的消息啦？"
         },
         {
-          "id": "https://www.v2ex.com/t/782055#reply4",
+          "id": "https://www.v2ex.com/t/782055#reply5",
           "author": null,
           "description": "在 SE 1 代上下载描述文件后检查更新发现真的有 iOS 15，然后就查到了 iOS 15 支持的设备列表，最低是 iPod touch 7th, iPhone 6s,iPhone SE 1st，好像和 iOS 14 是一样的耶。",
-          "link": "https://www.v2ex.com/t/782055#reply4",
+          "link": "https://www.v2ex.com/t/782055#reply5",
           "publishedOn": "2021-06-08T01:30:44.000Z",
-          "wordCount": 180,
+          "wordCount": null,
           "title": "[Apple] 热泪盈眶， iPhone SE 1st 依然支持 iOS 15"
         },
         {
-          "id": "https://www.v2ex.com/t/782053#reply14",
+          "id": "https://www.v2ex.com/t/782053#reply15",
           "author": null,
           "description": "WWDC 并没有 M1X/M2 的消息。\n现有机器：2019 款 13 寸 MBP，i5 1.4GHz，16G+256G，显卡 645，还剩一年 AppleCare+。\n\n需求：平时主要用来 VS Code Remote 远程开发、日常办公、看 PDF 、记笔记。不用 PS 、不剪视频、不在本地编译大型软件。\n苦于总是感觉有点卡（重装系统是否可解？），而且夏天发热严重，触控板两侧很烫，手腕必须悬空才行，风扇动不动就起飞。听闻 M1 各种牛逼，看了一下我平时用的软件也基本都兼容，有卖掉 MBP 换成 M1 air 的冲动。苹果官网 Apple Trade In 回收的话，显示能折抵 RMB 4600 （有没有抵过的 V 友，真能抵这个数吗，会不会压价什么的），爱回收大约 5000 左右。\n如果卖掉，再加 3000 多就能换 16+256 的 M1 air。现在这个时间节点值得换吗？还有必要等下一代吗？或者有没有更划算的方案？",
-          "link": "https://www.v2ex.com/t/782053#reply14",
+          "link": "https://www.v2ex.com/t/782053#reply15",
           "publishedOn": "2021-06-08T01:29:38.000Z",
           "wordCount": null,
           "title": "[Apple] 现在是 2021 年 6 月， 2019 款 i5 丐版 MBP 想换成 M1 air 是否值得？"
@@ -315,7 +324,7 @@
           "description": "手机里 App 广告又多又占空间，所以贴合自己需求弄了个信息收集的小程序 [超级抽屉] ，扔咱这里希望能挣个奶茶钱吧~\n免 App 阅读各类常见媒体热文热榜，知乎 Github 微博都有\n订阅后定时推送各类热榜文章\n提供外卖、618 红包领取，也靠少量淘客流量赚点钱贴补家用\n平时也爱玩游戏，所以也加了 PC 游戏限免信息\n也希望大家给点意见，还有什么特别热的列表类信息希望看的，热度高的我给大家加进去~",
           "link": "https://www.v2ex.com/t/782052#reply4",
           "publishedOn": "2021-06-08T01:27:21.000Z",
-          "wordCount": 139,
+          "wordCount": null,
           "title": "[推广] 免 App 信息阅读收集平台，业余时间做了个小程序"
         },
         {
@@ -324,7 +333,7 @@
           "description": "就像创业大赛似的，比如 我是一个程序员，我有一个商业 Idea，我希望能够招募几个队友去完成一个产品，一起赚钱，一起创业。\n是因为大部分人认为这是在白票自己？还是因为一个公平的利益分配很难？如果出现这个平台，你的忧虑是什么？\n-----------\n当然有人可能会说，如果真能赚钱，干脆外包啊\n外包肯定是可以的，但第一外包是没有质量保障的，大部分的商业项目都需要不断进化，外包的话维护难度大。\n第二是这个 Idea 如果外包可能要花很多钱，也需要一些看好这个产品的队友来承担风险，压缩研发成本。",
           "link": "https://www.v2ex.com/t/782051#reply6",
           "publishedOn": "2021-06-08T01:24:55.000Z",
-          "wordCount": null,
+          "wordCount": 152,
           "title": "[奇思妙想] 为什么长久以来没有一个组队创业的平台在国内出现？"
         },
         {
@@ -333,7 +342,7 @@
           "description": "https://github.com/pinkhello/go-starter\ngo 服务快速开发脚手架",
           "link": "https://www.v2ex.com/t/782050#reply0",
           "publishedOn": "2021-06-08T01:24:37.000Z",
-          "wordCount": null,
+          "wordCount": 123,
           "title": "[酷工作] go 服务快速开发脚手架"
         },
         {
@@ -351,7 +360,7 @@
           "description": "从安卓换过来 , 不知道为什么 ios 版微信砍掉聊天软件这么基础的功能",
           "link": "https://www.v2ex.com/t/782047#reply24",
           "publishedOn": "2021-06-08T01:20:25.000Z",
-          "wordCount": 279,
+          "wordCount": null,
           "title": "[微信] ios 版微信为什么不做 消息通知点进去直接是对应的聊天?"
         },
         {
@@ -369,7 +378,7 @@
           "description": "问题 1\n官网上 pc 客户端 提供的 windows 版 下载链接是 v3.2.1\nhttps://weixin.qq.com/ \n装好后 重启电脑会自动提示升级\n目前更新到了 v3.3 还显示 测试版。。。\n看了下 本地的安装包 还是 2021-0324 下载的\n问题 2\n这个网站 右下角 有个联系我们\nhttps://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&ADTAG=&check=false&nav=contact&t=weixin_contact&loc=readtemplate,weixin,body,5\n点进去 有三种联系方式\n通过微信与我们交流 微信帐号 weixin\n表情投稿 sticker@tencent.com\n我们的微博 @weixin (腾讯微博) @腾讯微信团队 (新浪微博)\n微信里面搜 weixin 根本搜不到",
           "link": "https://www.v2ex.com/t/782044#reply3",
           "publishedOn": "2021-06-08T01:13:52.000Z",
-          "wordCount": null,
+          "wordCount": 180,
           "title": "[全球工单系统] 微信官网是没人维护了吗"
         },
         {
@@ -378,7 +387,7 @@
           "description": "没有学生优惠，用自己的账号不考虑找低年级学弟学妹代买的话。",
           "link": "https://www.v2ex.com/t/782043#reply21",
           "publishedOn": "2021-06-08T01:13:21.000Z",
-          "wordCount": null,
+          "wordCount": 300,
           "title": "[问与答] 毕业之后，还想要以不到一千一年的价格长期持有同一台云服务器是不是不可能了？"
         },
         {
@@ -414,7 +423,7 @@
           "description": "什么是“极客分享每周精选”\n“极客分享”是一个书签分享的网站（hackershare.dev），“每周精选”是该网站汇总精选书签的一个栏目。\n本期正文\n原文链接: https://hackershare.dev/weekly_selections/42\n1. 关于计算机科学的 50 个误解 - 阮一峰的网络日志\n计算机科学（ Computer Science，简称 CS ）是大学的热门专业。但是，社会上对这个专业有很多误解，甚至本专业的学生也有误解。\n标签: #阮一峰的网络日志 #计算机科学 #阮一峰的博客\n2. 史上最全时序数据库选型指南\n时序数据库的演变发展，是从封闭走向开放开源，从单一监控到实时多维多模集成分析，成为数字化智能化的核心支撑。用户在选型时，需要从时序场景的特殊需求和通用数据库的普遍功能两个方面同时考虑，着眼未来，从功能、生态、用户体验等多维度综合评价\n标签: #database\n3. TiDB for PostgreSQL—牛刀小试\n作为数据库领域国际顶级开源项目，TiDB 以其分布式高可用、高度弹性扩缩容、高性能并行集群处理能力等特性获得越来越多客户的使用，其中不仅仅有互联网、游戏领域的企业，还有金融、大型企业等。因为 TiDB 高度兼容 MySQL 协议，使这些企业原本基于 MySQL 数据库构建的上层业务系统能够以较低的代价快速迁移到 TiDB 上。TiDB for PostgreSQL 是我们基于 TiDB 源码修改的一款满足 PostgreSQL 协议的数据库。我们的理念就是为了让基于 PostgreSQL 的系统能够在不修改本身业务代码的前提下，快速的迁移到分布式数据库上。\n标签: #TiDB #postgresql\n4. 🎭 FLoC 是什么？以及你为什么需要在 Chrome 浏览器中禁用它\nGoogle 已开始研发和测试第三方 Cookie 的替代技术 —— FLoC 用户兴趣跟踪技术，并将其内置在最新版 Chrome 浏览器中，且自动为数百万用户开启了此跟踪程序。\n标签: #database #FloC #chrome\n5. Git 教程\n史上最浅显易懂的 Git 教程\n标签: #git #wiki\n订阅我们\n要订阅“每周精选”，只要注册成网站用户即可（支持 GitHub/Twitter 一键注册），我们会每周向注册用户发送邮件，或者你也可以关注我们的公众号。",
           "link": "https://www.v2ex.com/t/782038#reply0",
           "publishedOn": "2021-06-08T00:44:28.000Z",
-          "wordCount": 182,
+          "wordCount": null,
           "title": "[推广] 关于计算机科学的 50 个误解 | 极客分享第 33 期"
         },
         {
@@ -423,7 +432,7 @@
           "description": "官网观看有中文字幕，请问如何下载该字幕？",
           "link": "https://www.v2ex.com/t/782037#reply10",
           "publishedOn": "2021-06-08T00:27:51.000Z",
-          "wordCount": 236,
+          "wordCount": null,
           "title": "[Apple] 有下载 wwdc 21 字幕的方案吗？"
         },
         {
@@ -432,7 +441,7 @@
           "description": "去年五月份在 V 站分享了自己写的 Babel 教程 https://v2ex.com/t/669498\n意外地非常受欢迎，于是之后又写了 Webpack 教程。没想到 10 月份 Webpack5 发布了，Webpack4 教程关于优化与原理的内容就没再更新了，便开始写 Webpack5 的教程了，等完成了会分享出来的。\n现在也在写一份 TypeScript 的教程，主要从自己使用 TS 时不容易理解的角度出发来写，例如接口和泛型等概念。这份教程目前在撰写中，也希望 V 友们多多提一些建议。\n教程地址 TypeScript 教程 - 姜瑞涛的官方网站，配套的代码在 github  https://github.com/jruit/typescript-tutorial",
           "link": "https://www.v2ex.com/t/782035#reply9",
           "publishedOn": "2021-06-08T00:12:09.000Z",
-          "wordCount": 193,
+          "wordCount": null,
           "title": "[分享创造] TypeScript 教程，第二次分享教程"
         },
         {
@@ -459,16 +468,16 @@
           "description": "同时，一直被大家喜欢的 AirPlay 功能如今也可以应用在 Mac 上了，我们可以把 iPhone 等设备的视频、音频投射到 Mac 上播放，让设备之间的界限彻底消失.",
           "link": "https://www.v2ex.com/t/782032#reply16",
           "publishedOn": "2021-06-07T23:24:56.000Z",
-          "wordCount": 275,
+          "wordCount": null,
           "title": "[Apple] Mac 实现 AirPlay，昨天还有个老哥问为啥不支持，今天就有了。。"
         },
         {
-          "id": "https://www.v2ex.com/t/782031#reply12",
+          "id": "https://www.v2ex.com/t/782031#reply13",
           "author": null,
           "description": "我甚至以为不是今天开\niOS15 这么拉垮吗",
-          "link": "https://www.v2ex.com/t/782031#reply12",
+          "link": "https://www.v2ex.com/t/782031#reply13",
           "publishedOn": "2021-06-07T23:23:37.000Z",
-          "wordCount": null,
+          "wordCount": 260,
           "title": "[Apple] wwdc 开过去了，但是一觉醒来连讨论的人都没"
         },
         {
@@ -479,15 +488,6 @@
           "publishedOn": "2021-06-07T22:43:42.000Z",
           "wordCount": null,
           "title": "[Android] Titanium Backup 跟安卓 11 不兼容吗？明明给了 root 却说拿不到 root 权限"
-        },
-        {
-          "id": "https://www.v2ex.com/t/782029#reply28",
-          "author": null,
-          "description": "体验了一个多小时，发现了以下更新内容，有新发现可以跟帖补充。\nFeature：\n1，锁屏通知重新设计，四周加个圆角。\n2，控制中心新增专注模式。\n3，照片可以显示 exif 信息，存储自某某位置，app 或者相机，还可以编辑照片日期。\n4，天气重新设计，卡片式信息流，空气质量按地图显示（第三方天气 app 可以卸载了）。\n5，闹钟日期设定回归拨动式（好评）。\n6，输入法有白底。\n7，Safari 浏览器重新设计，地址栏放到了底下，更美观了（但是我还不会用）。\n8，照片增加 ocr 识别，长按可复制粘贴。\n9，iCloud 新增专用转接代理（不明白用途）。\nBug：\n1，微信朋友圈不能发视频。\n2，汉化不完全，粘贴显示 paste",
-          "link": "https://www.v2ex.com/t/782029#reply28",
-          "publishedOn": "2021-06-07T22:37:34.000Z",
-          "wordCount": null,
-          "title": "[Apple] iOS15 更新内容汇总"
         }
       ]
     },
