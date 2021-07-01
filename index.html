@@ -24,899 +24,877 @@
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 大家用的什么卡，多少月租？多少通用流量？哪个运营商？目前还可以买到？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786899#reply1">
+                <summary class="article-expander__title">[LeetCode] leetcode 33 解法求解释</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/787031#reply0">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>问与答 - @tyit -</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 已在二线城市定居，有没有必要去北京？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786898#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>已在二线城市还房贷，经济上没什么压力。
-但毕竟是二线城市，无论是薪资水平，还是公司数量，都要比北京差很多。
-而且因为很多一线打拼的朋友回二线，加上高学历本地人也不少，所以也还是有些卷。
-所以有没有必要去北京干几年？</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[iMac] 貌似 MAC 系列不支持 win10.</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786897#reply4">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>imac  2020  上午试着检测了一下，再搜了下相关信息。  有点忧伤，不过 imac 还是我最中意的桌面电脑。
-以后再看看会不会有什么变化。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] C 语言有没有比较方便简单的 http server 库</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786894#reply4">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>有个程序需要启动本地服务器供其他服务调用，不太想换其他语言(python go...)
-目前代码都是 C 的，C 有没有比较简单的 http server 库可以简单对接一下，提供接口参数就 ok 了</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[Next.js] Next.js return the 404 error page in getInitialProps</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786893#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>搬运自 stackoverrflow
-直接贴代码
-export const getServerSideProps &#x3D; wrapper.getServerSideProps(async ({ req, res, locale, query, store }) &#x3D;&gt; {
-  const { productId, categoryId } &#x3D; query
-   
-  const checkItem &#x3D; await getProductBySlugSSR(productId, categoryId, store)
-
-  if (!checkItem) {
-    return { // &lt;-----------------does the trick here!!
-      notFound: true
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>题目: 33. Search in Rotated Sorted Array
+一个很清晰简洁的解法: Clever idea making it simple
+int search(vector&amp; nums, int target) {
+    int lo &#x3D; 0, hi &#x3D; nums.size();
+    while (lo  target)
+            // 这儿为什么不能 -1 ?
+            hi &#x3D; mid;
+        else
+            return mid;
     }
-  }
-    
-  return {
-    props: {
-      ...await serverSideTranslations(locale, [&#x27;common&#x27;]),
-    }
-  }
-})</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[全球工单系统] 用码云当博客的图库一段时间后，有些图片会无法访问，果然码云也不靠谱</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786892#reply5">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>下面是访问提示：
-
-实际上这个图片的内容是（这图片哪里违规了）：
-
-另外，求推荐有哪些好用又便宜的云存储网站？</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 物流保价的损失究竟是谁承担的?</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786891#reply5">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>昨天寄快递(内存条),用菜鸟裹裹的我要寄件预约了个快递上门,结果上门后快递员看是内存条,说贵重物品送容易坏,坏了他要赔,想拒单.
-我说我有保价的而且也不算贵重,他说保价了还是他赔钱(我当场迷惑),公司不赔的,都是快递员赔钱,让我叫顺丰,最后拒单了</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[Windows] 加入了 Office insider</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786888#reply5">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>四个角也圆了，但只是圆不够润。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[搜索引擎优化] 网站作 301 跳转,可从哪个检测工具看流量转移?</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786886#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>如标题,请问网站由 A 域名作 301 跳转至 B 域名,
-可以从哪个检测工具(无论线上或软件)检测出原先 A 域名的流量与权重,转移至 B 域名?</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[酷工作] [厦门][双休]Morecoin 团队招聘/Golang 开发工程师/量化系统开发工程师/移动端开发工程师/测试工程师</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786884#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>一、公司介绍：
-（一）简介：
-厦门喵柚网络科技有限公司成立于 2018 年 10 月，专注于新技术的发展应用与革新， 致力于策略 trade 的研发，怀揣着成为“全球最懂策略的新技术公司”的愿景，创造了一系列策略 trade 智能产品，如 AI 量化，趋势轮动，精选组合策略等；给用户创造了更好的 trade 方式，同时也给用户创造了优质的 trade 环境，使之深入人心。我司在新技术研发和商业应用落地已走在了行业的前列。 
-（二）发展历程
-2018 年 9 月，公司接受知名新安全公司慢雾科技的审计。
-2018 年 10 月，主要业务为限时回购业务，成交额全国前三，并且做到 100%安全回款，此项业务盈利已完全覆盖团队 。
-2019 年 10 月，Morecoin App 上线，自此开发各类行业内优质产品，成立了策略研发团队，在行业市场投资工具这块持续发力。
-2020 年 7 月，上线「聚合 trade 」板块，聚合全球前三 trade 所深度，项目齐全。
-2020 年 9 月 ，推出「精选策略」板块。
-2020 年 11 月，开始陆续推出 AI 量化产品「 AI 趋势捕捉 1 号」、「趋势轮动」，弥补了市场的空缺，为用户提供实现资产增值的新 trade 模式。
-至今，平台运营稳定，0 坏账，0 安全事故，在业内拥有良好的口碑。
-（三）坐标：厦门-观音山
-（四）关于我们 morecoin
-（五）工作环境：
-二、薪酬福利
-工资奖金：高于业内水平，半年涨薪一次
-多种奖励：季度、年度优评，项目奖、业绩奖、优秀员工奖、公司业务提升奖
-带薪假期：享受国家规定带薪休假+过节福利假+带薪病假
-上班时间：9:30-18:30，双休，按照法定节假日实行休假
-各种茶点：不限量零食饮料任你挑选
-员工健康：每年一次提供全身体检
-三、招聘入口
-（一）目前在招岗位：测试工程师 /Golang 开发工程师 /移动端开发工程师 /量化系统开发工程师 /Flutter 开发工程师
-四、主动申请
-没有找到心仪的职位？也欢迎你主动申请，你可以将你的申请提交至 imeos@more.top
-在你的申请表中，请附上简历和求职信，请包含尽可能多的履历信息，及有关你感兴趣的工作类型的详细信息。
-你发送的主动申请，将保存在我们的人才库中。 如果某个职位空缺与你的个人资料相符，我们将与你联系。
-五、招聘内容
-以下内容为缩减版本，详情可前往 BOSS 直聘搜索“厦门喵柚网络科技有限公司”
-（一）测试工程师
-岗位职责：
-1. 根据需求和设计文档编写测试案例编写及执行
-2. 分析和准确定位问题，进行 BUG 跟踪验证
-3. 对线上运营产品的反馈或缺陷及时响应，保证产品质量
-职位要求：
-1. 热爱测试工作，熟悉软件测试生命周期
-2. 了解计算机网络原理，了解常用网络协议
-3. 逻辑思维清晰，沟通能力良好，积极主动，学习能力强
-（二） Golang 开发工程师
-岗位职责：
-1. 参与需求分析，根据情况评估开发周期及时间，并按时按质交付
-2. 依据业务需求、UI 来设计 API 接口，并编写相关文档
-3. 关注代码质量，能进行完整的代码功能自测
-任职要求：
-1. 一年左右后台系统开发经验，优秀应届生也可，计算机相关专业优先
-2. 熟练掌握 golang 语言，有 C++/python 语言使用经验者更佳
-3. 熟悉 HTTP 协议，能按照 RESTFul API 规范设计接口
-4. 熟练掌握数据结构、算法、计算机网络、数据库等相关基础知识
-（三）移动端开发工程师
-岗位职责：
-1. 根据设计要求，完成 Android/IOS 客户端功能模块编开发工作
-2. 持续改进移动 APP 性能、安全性、稳定性和可扩展性
-3. 参与多端统一工作
-职位要求：
-1. 全日制本科以上学历
-2. 具备 Android 或 IOS 客户端开发经验
-3. 了解多端统一解决方案者优先，包括且不限于 Flutter 、React Native 等
-（四）量化系统开发工程师
- 岗位职责：
-1.设计和优化量化 trade 系统，包括 trade 、分析和风险控制等
-2.Linux 下低延迟系统设计、开发和维护，涉及数据库、进程间通讯、高性能计算等。
-3.参与程序化 trade 、统计套利、市场中性等领域的量化策略和模型开发
-4.分析策略风险及收益属性，分析策略效能，跟踪分析实盘策略及策略检测和改进
- 任职要求：
-1.一年以上量化或者服务端开发经验
-2.熟练使用 C++或 Golang ；熟悉常用数据结构
-3.熟悉 MySQL，Redis，MongoDB 以上两种数据库</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[Python] 请教下, 用 Python 调用 goroutine 实现的线程池, 做一些 http 请求可行吗</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786883#reply7">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>No content preview</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 求救！系统 macOS 10.15.7 (19H1217)，重启后，定位服务自动关闭</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786882#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>已尝试过重置 SMC 、NVRAM 、PRAM，没有效果，bug 还稳定下来了，每次重启都能自动关闭定位服务了。
-现状：偏好设置-安全性与隐私-隐私-定位服务-启用定位服务这个选项，在重启设备后自动会取消勾选。
-因为系统里东西多，也不想重装（因为这就是重装之后发现的，也不能保证重装后一定不会复发）。
-在 stackoverflow 和 google 也找了很久，没啥相关的内容。
-咨询下，有什么解决方法呢？</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[推广] 加入涂鸦开发者！免费领取购价值 199 元的智能跳绳！</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786878#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>第 1 步：注册涂鸦 iot 平台（需要使用下方链接注册才能领取）
-https://t.tuya.com/1D38MyR5
-第 2 步：创建涂鸦小程序（选择 APP-小程序 SDK-项目开发-创建微信小程序）
-
-第 3 步：填写审核表单
-https://survey.tuyacn.com/survey/d8nb3meu</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[React] 在一个列表中，当 selected item change 了，如何合适的捕捉到这个改变？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786877#reply2">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>如图，比如，当前选中的是 &quot;Category3 -&gt; Layout1&quot;，因为选中了，所以有高亮背景显示，等等。
-如果此时，我选择了另外一个 Item, 比如“Category2 -&gt; Layout2”，则，如何通知 Category3 -&gt; Layout1 取消“选中”状态，然后 Category2 -&gt; Layout2 则变为选中状态？
-本来我的想法是，在这个组件 /app 的全局，添加一个 selectedItem 和一个 previousSelectedItem 变量，专门用于维护”选中“状态，每次 有鼠标点击一个 Item 的时候，发送消息，改变 selected &amp; previous selected item，再进行渲染。
-这样的话，我可能需要有一个 map, key 是 item&#x27;s id, value 就是这个 item 对象。当 selected 对象改变时，通过这个 map，和 key 找到对应的 item，然后 改变它的 state，这样，react 就会只 re-render 这两个对象了，而不是 render 所有的 items.
-但感觉不是很”优雅“，所以，来请教一下大家。有没有更好的方法。
-谢谢！
-
-p.s. 
-框架使用的是 react, redux or useReducer.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[酷工作] [麦客 CRM 招聘] PHP 开发工程师-月薪 18-36K-成都 IFS</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786875#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>岗位职责：
-1.负责麦客与麦客周边支持应用的后端开发，包括 WEB 、APP 及微信小程序等；
-2.参与产品技术架构的设计与讨论，配合团队其他角色完成功能模块的研发上线全过程工作；
-3.达成一定高度的任务目标，包括但不限于产品功能的完善度、易用度、效率等技术指标。
-岗位要求：
-1.精通：PHP+MySQL+Linux 以及数据结构、算法 ；
-2.熟悉：Web 开发相关技术（ HTML 、CSS 、JavaScript ） ；
-3.参加过 ACM 或类似 ACM 的其他竞赛（ NOIP 、NOI 等）加分 ；
-4.有.NET 、移动端（ iOS 、Android 、Symbian 、Windows Phone ）开发经验者加分；
-5.有产品意识，从产品以及用户需求的角度进行相对应的学习与开发。
-面试流程：机试 + 面试
-办公地点：成都市锦江区红星路三段 IFS 一号办公楼
-简历投递链接： https://talents.mikecrm.com/GQAtjO7</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[职场话题] 你有这样的同事吗？如何一起工作？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786874#reply4">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>刚入职一家公司，正好在重构代码，经理给架构师分配了两个人，我和一个老员工(年龄不大)，姑且叫他 A 吧。
-架构师把架构和代码都写好了，前两天，A 就开始和架构师“抬杠”了，为什么要把这个包拆分？。。。等等一些在我看来不是问题的问题，然后架构师就一一解答了，最后问 A，有困难吗？ A：有困难，但我们能克服！！！把架构师整无语了。
-昨天开始，我们先开始定义接口，要按代码规范来，A 又开始了，这个状态码为什么要这样？这个方法已经判断 null，为什么还要再判断？（其实没有判 null，架构师把源码都指出来了，还不承认，整的架构师和我都无语了，过了一会儿，还过来找我，说：这里就是判断了！我：。。。）
-
-刚才，我们和架构师在对代码，架构师接了个电话，我看到他代码里包路径用的下划线(java)，提醒了一下，包名别用下划线，A 又开始了：那用什么？又不能用驼峰，那怎么命名？我：全小写就好了，还有这个 git 日志最好写清楚一下，要不都不知道改了啥。A：行了，你别说，他（架构师）就不会注意！！！我：。。。
-
-ps：1. 重构的原因是老项目就是💩山，没有业务划分，大家也没有代码规范，想怎么写就怎么写，只要能跑就行
-个人认为 A 就是为了抬杠而抬杠，而且技术是那种一瓶子不满半瓶子咣当的人。不会就虚心接受嘛！他不是，一定要让别人认同他的观点，或者真的知道是自己的错，就不说话了， 反正就是不承认自己错了
-问：如何不被他带到坑里</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] YAPI 是停止维护了吗？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786873#reply6">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>好久没更新了，ISSUES 也没人清。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[Windows] 微软想通了？ Surface Pro 3 给推送了 Windows 11，已经升级好了</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786871#reply3">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>之前即使是加入了 Dev 频道，也不推送，只是说不满足安装，昨天竟然推送了，而且正常升级。
-
-看来 Surface Pro 3 之前不给安装纯属微软嫌弃它 CPU 低端了。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[iPhone] 关于 App Store 下架软件更新</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786869#reply8">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>前提：主用美区
-事件：很早之前用国区帐号下载了巴哈姆特動畫瘋 APP，但是之后巴哈姆特動畫瘋主动在非台湾地区下架了 APP 。从此之后，更新就只能删除 APP 后回到国区已购里面下载。今早更新 APP，在美区帐号登陆的状态下，也收到了巴哈姆特動畫瘋的更新，但是此 APP 在美区也是未上架状态的。这是新的 feature 吗？还挺方便的。查了一下，最新版本就是 2.13.7</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[2021] 使用 qq 企业邮箱发邮件给 gmail 显示投递成功但是 gmail 没收到</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786868#reply5">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>为啥现在发邮件都这么艰难。。。不收被禁止啥的返回个失败很难么。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[信息安全] 为什么没有基于工作量证明机制的防火墙应用？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786865#reply2">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>昨天脑子里冒出来一个想法，Cloudflare 有一个 5 秒盾防火墙，我想着能不能增加他的复杂度或者安全性。
-我设想的是这样的：
-1.浏览器向服务器发起请求，服务器生成一个一次性私钥，然后用私钥加密一段文本，把加密后的内容发送给浏览器
-2.浏览器收到密文后进行暴力破解，把破解后的私钥再发回服务器
-3.服务器验证通过，生成新的密钥，加密文本后把加密后的密文和内容一起发回浏览器，
-4.浏览器展示内容，并同时破解新的密文，在下次请求时发回服务器
-...循环
-后面和朋友讨论了一下之后发现这个和比特币的 PoW 机制非常像，并且我搜索了一下，用这种工作量证明来做防火墙居然就写在维基百科的头部：
-“工作量证明（ Proof-of-Work，PoW ）是一种对应服务与资源滥用、或是拒绝服务攻击的经济对策。 一般要求用户进行一些耗时适当的复杂运算，并且答案能被服务方快速验算，以此耗用的时间、设备与能源做为担保成本，以确保服务与资源是被真正的需求所使用。”
-https://zh.wikipedia.org/wiki/%E5%B7%A5%E4%BD%9C%E9%87%8F%E8%AD%89%E6%98%8E
-但这种看起来复杂又先进的防火墙技术似乎并没有被哪个商业产品应用，这是为什么？</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[酷工作] [麦客 CRM 招聘] Web 前端开发工程师-月薪 16-28K-成都 IFS</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786864#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>岗位职责：
-1.利用 Html5 、JavaScript 和 CSS 相关技术开发跨平台的移动设备前端产品；
-2.优化前端体验和页面响应速度，优化代码并保持良好兼容性，提升易用性；创造并持续优化精致的交互体验；
-3.基于 Html5 标准编写可复用的用户界面和组件。
-岗位要求：
-1.计算机及相关专业，本科及以上学历；
-2.熟练掌握 HTML / CSS / JavaScript 相关技能，熟悉 Node.js ；
-3.熟悉 React 、Angular 、Vue 等前端框架，有其中一种框架的开发经验；
-4.具有前端工程、模块化、组件化经验，熟练使用 webpack / grunt / gulp 等一种以上的构建工具；
-5.具备良好的沟通能力，独立并积极主动，责任感强。
-面试流程：机试 + 面试
-简历投递链接： https://talents.mikecrm.com/gq7WyZ7</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] [每日一焦虑] 未来互联网行业的发展趋势在哪里？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786862#reply3">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>看帖有感： https://v2ex.com/t/786671#;   深感选择大于努力
-it 行业不断内卷，相信很多人像我一样倍感焦虑
-想自己做点什么，却发现什么都做不了，你能想到的别人早就已经想到了
-什么都做不了的现在，只能好好做好打工人，所以我在想能不能提前了解下一次风口（或者说市场需求），提前准备以迎合市场需求，从内卷中另辟蹊径。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[酷工作] [杭州/上海] 支付宝体验技术部小程序生态招前端工程师 P5 起</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786861#reply3">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>做什么？
-做小程序生态相关工作，包括但不限于小程序 IDE 、框架、工具类库等等。同时也有部分 Node.js 应用，例如开发者社区、开发者文档的维护等等。
-
-要求是什么？
-1. 前端基础扎实，熟悉至少一个主流的前端研发框架及构建（ React 、Vue 、Webpack 等）；
-2. Node.js 基础扎实，熟练掌握服务端领域知识（ Node.js/Java ）；
-3. 对前端工程领域（构建、部署、监控、研发等）有较深入的理解和实践；
-4. 重视用户体验，能够打造出令人惊艳的功能；
-5. 有技术好奇心和持续学习能力，能够不断通过技术升级提升前端领域的研发效率；
-6. 良好的产品意识、数据意识，善于规划执行、协调沟通，结果导向。
-
-怎么投简历？
-shikong2014@gmail.com</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[Windows] Win10 21h1 远程 RDP 10bit 花屏问题</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786858#reply8">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>家里显示器是支持 10bit 的，所以在 Nvidia 控制面板开启了 10bit 色深，可是最近发现只要一开 10Bit RDP 显示就会异常，具体表现就是花屏，颜色很诡异。各位有没有遇到这种问题？</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] PS5 的 PULSE 3D 耳机附带 USB 适配器能否支持 Switch Pro 的连接？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786857#reply1">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>No content preview</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 大佬们，二本计算机科学与技术专业，毕业后是留在广州好还是去深圳呢？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786856#reply3">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>如题，插本生。如果在广深最低工资得多少才能租房生存？大约多少能过得比较舒服？如果是刚毕业的二本，一般 hr 会开多少价呢</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[Apple] 请教下关于 AirPods Pro 的问题</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786854#reply8">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>两个月前官网下单买的 AirPods Pro，用了几次之后，耳机开始有股味道，请问下这是什么原因？能有什么解决办法呢？另外感觉佩戴起来大概一个小时就感觉耳朵有点不舒服的样子😂</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 新工作工资比现在的低，值得跳槽吗？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786852#reply6">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>目前的工作刚转正，岗位是 ERP 实施，直接领导是总经理，为什么刚转正就在找下家呢，原因是我可以预知这家公司 ERP 项目根本就上不了，最大的难点就是直接领导拖后腿，根本就狗 屁不懂的，还要瞎指挥，又听不见劝，但是老板很信任他都是让他负责的，我感觉自己就是个背锅的，除了每天动不动写计划话外，真正的问题没有得到任何解决。公司层面，没啥管理制度，扣钱很积极，福利基本没有。现在转正薪资到手 10K
-新工作机会的公司是家台 企，马上就要在宝岛上市了，岗位 IT 主管，独立部门，部门也就只有你一人而已，直接领导总经理大 陆人，面试谈下来工作内容不多，主要就是 ERP 运维和上新的项目，IT 工作基本外包掉的，但是工资没有目前高，转正工资税后到手 8.2K ，13 薪，每年会调薪
-现在犹豫的就是工资比现在低，跳槽毕竟有很多不确定因素，工资如果高的话那冒险跳槽也值得，就是工资低了，不知道值不值得冒险跳槽，好处就是可能每年会调薪，工作内容明确</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[酷工作] 内推+实习｜ AI 辅助药物研发 | 风口行业 + 准独角兽｜后端、前端、算法等</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786851#reply1">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>长期招聘：Java 后端   数仓开发 前端开发 算法工程师 等等
-公司：望石智慧（ 2018 年成立，北京海淀黄庄）目前正处于风口行业 业务：ai 辅助药物研发 公司不大 70 人（大部分都是硕士） 去年融资 5 轮 最近 B 轮和 B+融资金额一亿美金
-工资与福利超好，讲究快乐和高效，不鼓励无意义的加班 没有 996
-内推邮箱 xurongfei@stonewise.cn （全程面试辅导支持）</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[Visual Studio Code] VSCode 首個通用串口通信擴展 Serial Port Helper</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786849#reply13">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>最近應群友需要，寫了一個串口通信的 VSCode 擴展：Serial Port Helper。
-可以支持連接多個串口。
-
-
-
-支持基本的 TX / RX 。
-
-
-
-另外還加入了可以發送 Hex 和文件的功能。
-因爲我只有一塊 Arduino 的開發板，所以還沒有做很廣泛的兼容性驗證。歡迎各位 V 友有設備的都來試用看看，有什麽問題可以直接到 GitHub 上提 Issue，或是有什麽功能建議，也歡迎來反饋。感謝~
-GitHub： https://github.com/imlinhanchao/vsc-serialport-helper
-https://marketplace.visualstudio.com/items?itemName&#x3D;hancel.serialport-helper</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[酷工作] 🔥🔥🔥[新加坡] [技术移民]大型上市互联网公司，招移动端（iOS,安卓），后端（不限开发语言）开发，大数据开发， DevOps 或 SRE 及 DBA 等各类工程师，及各方向技术负责人（P8-P9），没有 996，花园城市，中文视频面试</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786848#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>纽交所上市大型互联网公司，新加坡知名团队，国际化平台，富有竞争的薪资，享受新加坡优质生活环境及教育资源，可携带配偶子女一起前往新加坡工作生活，子女可正常入托入学（最好幼儿园阶段就过来，无门槛入托入学，过了入学年纪需要参加插班考试）。现阶段技术移民（全家）最简易可操作方式。
-提供跨国中文视频技术面试，英文能看懂文档就可以了。
-新加坡税极低，比如税前折合人民币 100 万，在没做减免项扣除的情况下，税后 90 万左右（ 894250 ）；年薪越高跟国内税率差距越大。高增长幅度的上市公司股票。
-公司提供 18 天年假，14 天带薪病假，6 天育儿假（有孩子的），14 天法定节假日。无政治性加班，更好的工作与生活的平衡状态。公司有设施完善的餐厅，休息室，淋浴间，整层的健身房等。配 MacBookpro+显示器，互联网顶尖公司办公环境。
-公司提供 EP （新加坡专业人士工作准证），提供配偶和子女的 DP （家属准证），公司医疗保险包含配偶和子女的医疗保险，在职期间新生儿出生，公司提供 8000 新币（ 4 万人民币）的育儿津贴
-
-要求统招本科，三年以上工作经验，互联网大厂背景优先；专家及 leader 岗可以微信详细沟通细节（岗位方向比较多，基本涵盖了所有的技术方向）
-社会安定，全球安全指数最高的国家。欢迎大家来参观和看机会。
-有意可发简历到： sophia.liu@dadaconsultants.com
-或微信了解详情：sophia_liu611
-Software Engineer - iOS
-Job Description:
-Develop new business features and building reusable components
-Translate UI / UX designs into high quality code
-Explore and evalu…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[职场话题] 老大们集体跑路，我应不应该跑路？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786847#reply15">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>现在在一个传统行业的算比较大的外企里，最近部门领导大变动。
-我们负责产品和实施的老大，以及集成部门的老大都离职了。。。
-大部分原因是因为大老板。
-我们大老板属于外部招来的。
-三年内，算上这两个老大，基本已经是把部门领导不是他带来的人都给干掉了。
-而且，这两年的业务，之前其他人积累的市场他基本都放弃了，因为他把所有的资源都集中在他看重的市场上了。
-他是销售出生，以市场为导向，完全不管产品的规划和设计，导致现在产品线一塌糊涂。。。
-现在部门的业绩岌岌可危，来接走的老大的坑的人，也完全没有。。。
-一些有经验的同事说，大老板就是来镀金的，用公司的招牌给他发展自己的人脉，到时候走了再把销售部门一起带走，去别的地方还是一把手。。。
-如果，他把部门弄烂跑路，我们就会面临被拆分或者是被干掉。。。
-现在一个人负责三个产品设计，开发，售前，部分项目的管理。
-大家觉得要不要跑路？</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[分享发现] 发现某软件违反了开源协议，是否应该出警</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786846#reply11">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>今天突然发现 xdown 这个软件使用了 qbittorrent （ GPL 协议）的代码，但没有以 GPL 协议开源
-邮箱联系 xdown 的作者，希望它遵守协议开源
-在 qbittorrent 的仓库开 issue 反映这件事
-当作无事发生
-不知道各位关于这件事是怎么想的呢，有没有遇到过类似的情况</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 程序员如何利用下班时间搞钱？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786843#reply12">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>公司不怎么卷，下班有一些个人时间。如何利用下班时间搞钱，除了接私活。接过几次私活，遇到的都是想花小钱办大事的</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[Redis] redis 集群搭建求助</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786842#reply2">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>版本
-Redis server v&#x3D;4.0.14 sha&#x3D;00000000:0 malloc&#x3D;jemalloc-4.0.3 bits&#x3D;64 build&#x3D;25108fc8c0aa24db
-
-用三台机器搭建一个测试 redis 集群
-192.168.11.225
-192.168.11.226
-192.168.11.227
-
-
-关闭了 selinux,关闭了 firewall,开放了+10000 的端口,现在就卡在了如下的地方,
-&gt;&gt;&gt; Creating cluster
-&gt;&gt;&gt; Performing hash slots allocation on 6 nodes...
-Using 3 masters:
-192.168.11.225:6379
-192.168.11.226:6379
-192.168.11.227:6379
-Adding replica 192.168.11.226:6380 to 192.168.11.225:6379
-Adding replica 192.168.11.227:6380 to 192.168.11.226:6379
-Adding replica 192.168.11.225:6380 to 192.168.11.227:6379
-M: c695368eeb6ca56856eb40497888486edd1c011a 192.168.11.225:6379
-   slots:0-5460 (5461 slots) master
-M: 3105b30565cc2bcff62d8816f2439417d388249e 192.168.11.226:6379
-   slots:5461-10922 (5462 slots) master
-M: b7dadc6fae9b582e5180f659a6f29e662de21cc8 192.168.11.227:…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[程序员] 现在很多人看源码似乎都是为了面试，纯粹的程序员应该在思考啥？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786840#reply31">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>No content preview</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[Android] Google 推安卓应用的 AAB 格式对国内应用会有什么影响？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786839#reply17">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>6 月 29 日 Google 通过开发者博客宣布，2021 年 8 月开始，Google Play 将要求所有新应用以 Android App Bundle 的格式（ AAB ）进行打包和分发，此前主要以 OBB 格式保存的额外数据包则要求采用 Play Asset Delivery 和 Play Feature Delivery 服务进行推送；已上架应用暂时不受影响。此举将正式取代以 APK 格式安装包为主的应用分发方式。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[程序员] 海思固件 V500R020，内核 4.4.197 ，加载 外部 自编译模块， 显示 PLT sections 问题</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786837#reply2">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>linux 官方内核 4.4.197 中 arch/arm/kernel/module.lds 的内容是 
-SECTIONS {
-        .core.plt : { BYTE(0) }
-        .init.plt : { BYTE(0) }
+    return -1;
 }
-编译成的 ko 模块，在海思中运行提示 错误。
-module PLT section(s) missing
-随便找一个海思固件中的 ko，拖到 ida 里查看，section 里 只能查到  .plt  和 .init.plt 。
-尝试修改  arch/arm/kernel/module.lds  中的 .core.plt 为 .plt
-能加载，但是，用 lsmod 查看，模块加载是失败的，显示 -1 。
-dmsg 查看日志，显示
-[ 5188.608302] ------------[ cut here ]------------
-[ 5188.608360] WARNING: CPU: 1 PID: 10602 at kernel/module.c:1105 module_put+0x78/0x13c()
-[ 5188.608373] Modules linked in: getshell(O) ...
-[ 5188.609581] CPU: 1 PID: 10602 Comm: insmod Tainted: P W O 4.4.197 #1
-[ 5188.609597] Hardware name: Hisilicon A9
-[ 5188.609649] [] (rtos_unwind_backtrace) from [] (show_stack+0x10/0x14)
-[ 5188.609686] [] (show_stack) from [] (dump_stack+0x88/0xa8)
 
-查阅了相关  Tainted P W O 似乎与问题无关。
-我想可能还是修改的 sections 有问题。
-将 core.plt 修改成 plt 虽然没报 PLT section(s) missing，但是似乎内核找不到相关 section 定义的内容。
-问题非常奇怪，有米有知道的，望不吝赐教。
-相关研究在这里，我已经 push 到 github
-https://github.com/0neday/Exploit-HS8545M-ONT/tree/main/persist-root-shell/linux-4.4</span>
+这个解法省了我几万个脑细胞, lo &#x3D; mid + 1 很好理解, 但是 hi &#x3D; mid - 1 为什么出错, 我想破脑袋都没想明白...</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[Apple] MBP 右侧 typec 口没法输出了</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786836#reply11">
+                <summary class="article-expander__title">[分享创造] 写了一个 Mac 端的图片浏览器之 Foto-1.0-alpha.1 早期版本—(3)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/787030#reply0">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
-                    <span>今天早上到公司，给电脑（ MacBook Pro (13-inch, 2016, Four Thunderbolt 3 Ports)）发现右侧 typec 插上信号线，显示器没反应，换了个口子就正常了。无意中插上 usb 小风扇，发现风扇没有在充电。
-试了下，接上充电线 MBP 是可以充电的，但是外接设备就不能输出信号和充电了，很奇怪。</span>
+                    <span>接上篇：《写了一个 Mac 端的图片浏览器—(2)》
+今天把应用名字定下来了,Foto(读作 Photo),顺便把 logo 画了.
+然后签名了一个 alpha 版本用作测早期版本分发给大家使用,希望大家反馈一下使用问题:)在此感谢,预计在下下周会在 AppStore 上架第一个版本.
+!下载链接-蓝奏云!</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[酷工作] [北京-望京]并不高大上的驻场项目团队招聘[交付工程师][测试工程师][软件工程师]</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786834#reply2">
+                <summary class="article-expander__title">[职场话题] 北京在职（非全）计算机研究生报考选择</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/787029#reply1">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
-                    <span>项目信息：
-1 、服务德资知名主机厂商
-2 、落地自动驾驶辅助计算平台
-3 、有机会跟车测试
-岗位要求（通用）
-1 、本科及以上学历。1 年以上实际工作经验
-2 、具备良好的计算机专业基础知识，包括但不限于计算机网络、数据库、数据结构等
-3 、掌握 java 、python 任意开发语言，能够参与实际的工程级别开发
-4 、掌握 linux 基础操作，能够编写简单的 shell
-5 、有数据库使用经验，包括但不限于 mysql 、postgresql 、oracle
-6 、了解大数据相关的知识，包括但不限于 hadoop 、spark 、hdfs 、mq 等
-7 、了解 docker 、k8s 的基础操作
-8 、掌握基础软件测试能力，包括但不限于制定测试计划、设计测试用例、白盒测试等
-9 、良好的计算机思维，具备分析复杂问题的能力
-10 、能读写英文，能口语表达更好
-福利待遇：
-1 、薪资 12-20k，五险一金（绝对不会只给 12 ）
-2 、965 工作时间（不会安排驻场加班）
-其他信息：
-1 、上面的岗位要求写的很宽泛，所以有兴趣的小伙伴自行参考
-2 、请将简历发到我的个人邮箱（带上意向岗位），后续会用公司邮箱回复大家，
-3 、由于岗位并不高大上，所以要求也并不硬性，核心要求就是“具备自我驱动能力”，“愿意接受新事物”，“性格好”，“基础扎实”
-4 、我是项目负责人，真诚求人
-cy5kaW5nc2h1b0BvdXRsb29rLmNvbQ&#x3D;&#x3D;   (base64)</span>
+                    <span>帮人选，但对北京的大部分学校实在不了解，希望能得到各位的帮助，参考的因素主要是：
+相对好考
+如果 1 不能明显满足，则考虑花费相对较少的（包括学费和部分学校不给住宿需要租房的开销）
+请各位帮忙看看，感激不尽。</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[职场话题] 你们办公室吵吗？ 怎么解决这个问题？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786833#reply34">
+                <summary class="article-expander__title">[Windows] 问大家一个问题，我目前是 Win10 dev 版系统，我该怎么更新后续 Win10 测试版呀？ 开启 Insider 后自动给我下载 Win11，可是我不想更 Win11，谢谢。</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/787028#reply2">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
-                    <span>各种闲聊和技术方案讨论。。。。外放歌曲。。。😥😥😥
-大家遇到过吗？</span>
+                    <span>No content preview</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 想提交工单奈何网站太旧了</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786831#reply1">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>刚开始在 chrome 里面操作发现 js 报错了，后来依次换成 firefox，edge，edge 的 ie 模式，ie，都不行，没招了，各位大佬还要啥招么</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[酷工作] [21、22 届校招] 后台前端移动端产品， base 深圳宝安，东南亚头条资讯平台，业务已盈利牛人多氛围好</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786830#reply1">
+                <summary class="article-expander__title">[Python] 大佬们是怎么培养自己的面对对象编程能力（思想）的？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/787026#reply1">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(1 min)</span>
-                    <span>人才直通车 [ BASE64 ]
-邮箱：ZGVuZ21laWxpbmdAeGJvbmxpbmUubmV0IA&#x3D;&#x3D;
-微信：MTM1MTA3MDk1MzE&#x3D; （微信撩请注明心仪的职位+V2 ）
+                    <span>有的时候实现同样功能看其他人用 oo 实现，感觉很难，几乎看不懂。那些人是怎么思考的。。怎么才能做到。。。比如有些功能用过程方便一点，有些用对象方便一点，怎么能把握好那个点，而且在写面对对象的时候有底气自己的实现方法较优（感觉自己写的时候总不太得劲，</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[宽带症候群] 折腾许久，始终跑不满千兆</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/787025#reply6">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>华为的万兆路由千兆 lan 口，把 cat5e 网线拔了换 cat6，路由器换了 ax3600，接上电脑怎么跑都是只有 945 兆，光猫拨号直连电脑和桥接都差不多，非常不爽😕，听说要把光猫换成 2.5G lan 口的才行，搜了一下价格劝退</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[酷工作] 得物 Java 技术专家(坐标上海）</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/787023#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>工作职责：
+1.负责得物 App 电商业务系统核心架构设计
+2.编写代码实现产品功能，完成项目开发，撰写相关文档，参与需求分析
+3.负责核心技术问题的攻关，技术方案的选型、系统优化，协助解决项目开发过程中的技术难题
+要求
+1.6 年以上 Java 及 Java Web 开发经验， 具有扎实的程序设计基本功，能够独立担当功能模块的架构设计开发
+2.理解 Java 常用设计模式，并且能够合理运用，基本技术特性，如 Java 数据结构，多线程编程，Java IO 等
+3.熟练使用 Java 常用框架和工具，如 Spring boot 、Spring Cloud 、SpringMVC 、Struts 、Hibernate 、Mybatis 等
+4.熟悉缓存 Redis 、Memcache/Couchbase，缓存设计和模式及其应用
+5.熟悉数据库原理并熟练掌握相关优化方案，熟悉 ORACLE 、MySql 数据库开发技术及相关工具，熟悉数据库设计，熟练掌握 SQL 语句
+6.能在类 Unix 环境下熟练开发，掌握 Java 开发，Tomcat 配置、MySQL 配置，有 shell/python 脚本开发能力
+薪资待遇：
+base 可谈，base 薪资*12 薪+年终奖（实际定级以最终 offer 情况为准，基本 16 薪左右）
+薪酬福利与补贴：五险一金（公司将按照国家及当地法律要求缴纳法定社会保险及公积金）、免费晚餐、生日福利、节日礼物、运动俱乐部、法定假期、带薪假期、员工租房补贴 1200 元（公司走路半小时之内范围）、加班补贴（晚上九点以后算加班，打车报销）
+联系方式：微信 a-zuang</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[汽车] 行车记录仪从何时起变味了？互联网的一些风气蔓延到了硬件产业里去了？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/787022#reply3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>相信很多人对行车记录仪的要求很简单：平时启动车辆后就开始工作，无需用户手动操作开启录像，甚至感受不到它的存在；而关键时刻能可以便捷地调阅录像，清晰还原事件经过，并能够通过简单的操作将录像拷贝到自己的手机上，或与他人分享。
+但似乎这些对于一台记录仪最基本的要求，实现起来也越来越不容易了。可能是互联网上的一些风气蔓延到了硬件产业里去了？
+用过好几款记录仪，分享一下近半年以来的体验。
+甚至连你的录像文件也免不了被“画地为牢”？
+想看录像？请先授予我们的 APP 以下权限
+都 2021 年了，某司开发者还不知道 iOS 相册权限有”仅添加“选项吗？
+这个选项可比 iOS 14 推出“部分照片”权限早了不止多少年哦。既然你们都为 iOS 14 “部分照片”设置好了文案引导用户开启“全部照片”权限，是不是可以认为你们没有守住一个“只需要单向导入媒体（记录仪 -&gt; 手机）的 APP ”应该遵守的底线呢？
+瓜田李下，用不着的数据的就不要拿。否则你就得举证自己没后台上传，还不如管住自己的手。
+至于请求位置权限，依照 Apple Developer Documentation - CNCopyCurrentNetworkInfo 似乎是合理的，因为 APP 需要知晓当前连接的 Wi-Fi 信息以连接记录仪。此外请求“本地网络”权限也应是合理的。
 
- [团队业务简介] 
-小步网络是一家迅雷系的创业公司（老板是迅雷前技术副总裁，迅雷前十号员工；团队近一半是迅雷和腾讯过来的）。主营业务是东南亚头条资讯 App （直观理解就是东南亚版今日头条），立志做东南亚的内容分发平台，目前越南、泰国、印尼已经位列 Top1，马来、菲律宾等国家也已上线产品，自有产品用户数 5000 万+，日活 400 万+；合作的产品矩阵日活 1000 万+。
- [公司发展] 
-公司已融资到 B+轮，知名机构和大厂如 SIG 、启明、Oppo 等均有参投；公司 2019 年底已经初步了收支平衡，20 年已开始全面盈利
- [产品及业务] 
-目前主力产品为新闻资讯 App，亦拓展其他类型业务，丰富流量类型及加速商业化变现，如电商、游戏相关等
-新闻资讯 App 可苹果 /谷歌应用商店下载体验：VN Ngay Nay 、Báo hay 24h 、Indo Today
- [福利氛围] 
-公司弹性管理、开放平等，上下班不打卡、入职就有带薪年假（ 3 天）、带薪病假（ 2 天 /月）、每天下午茶、每周三运动日、生日会及生日礼物、年度体检、知识分享等，团队牛人多成长快，团队氛围简单不劳心。
-公司有清晰的人才发展体系，各个职类有相应的岗位 Leader，关注各职类人才的培养、发展；
-公平可期待的薪资，每年两次调薪，丰厚的年终奖
-目前业务发展快速，业务上升期，暂时大小周的休息制度，周三运动日
- [公司地址] 
-公司地址位于宝安区宝源路 F518 时尚创意园，1 号线坪洲地铁站附近，交通便利，附近租房性价比高
+另外经测试，iOS 不同系统语言下、不同地区商店下载到的 iOS APP 、不同地区不同商店下载到安卓 apk 所请求的权限是一致的，似乎不存在下列行为行为，值得肯定。
+if (system_language &#x3D;&#x3D; &#x27;zh_CN&#x27;): 
+{
+    ask more permission;
+}
 
-一、产品运营（校招）
-岗位职责：
-负责头条（东南亚各国）、电商、游戏相关等项…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[分享创造] 半年开发了一个 Vuejs+serverless 的伪进销存系统，三天跑了 7 个付费客户</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786829#reply27">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>本人开建材类实体店 9 年了，迫于越来越难做，已经开始出现亏损状态。过年后就一直筹备开发一套可用于个体工行户和小微批发商的店铺管理系统，主要用来管理店铺销售记录、库存、客户应收应付、商品信息等等内容，用了 5 个月时间终于拿出来了这个基本可以见人的版本。
-硬广：
-https://www.yundianguan.com （云店管）
-试用入口： https://my.yundianguan.com （ 14 天免费试用，注册当天付款可额外获得 1 个月零 14 天的赠送时长）
+这似乎是个 MP4 文件？不好意思，不用我们的私有协议播放器你就是打不开
+尝试从手机看录像，已经够折腾了。试试看把存储卡取出，用电脑读取里面的视频。
 
-这套系统目前还缺失的最大功能是打印，其他完成度还算比较高了。前端采用的是 Element，后端则使用的 unicloud 的云函数、云数据库等。
-用户部分自己没做，直接集成了目前国内唯一做用户管理比较好的 Authing 的服务，目前使用感觉良好。
+说好的 MP4 ？
 
-个人觉得不同于其它产品的几个卖点：
-1 、不需要建立期初账套，不需要先录入客户信息，可以在开单时直接录入。
-2 、开进货单可以上传原始进货凭证（开过实体店的都知道，有些货进了后来就不知道从哪个供应商进的了，或者因为时间太长售后扯皮，有了原始进货凭证就不怕了）
-3 、首页小工具快捷查看客户针对某商品的最近成交价（客户突然打电话过来问某个产品的价格，你却忘记了上次卖给他多少钱。。。）
+还很“贴心”地在存储卡根目录里放了个播放器。
 
-这个市场由于需要用的商家都基本部署了，所以我前几天花了三天时间，每天两三个小时的样子跑了一下本地的线下实体店，大部分的路边店都表示没需求，三天时间总共成交了 7 个付费客户（其中还包括原本就有打算使用的朋友两个，也就是实际上只跑了 5 个客户），现在感觉这样效率很低。
-实际上，如果客户能够给我演示的机会，我个人感觉很多店铺还是有需求的。但是客户都是习惯性的“不需要”，演示的机会根本都没有，自然也就无法成交。不知道各位有什么建议没有？ v 友中有没有开实体店的（尤其适用于需要管理客户欠款的行业），想问问你们到底怎么看这类系统。</span>
+至少有个证书
+
+对高清屏支持就别指望了，调了好几次兼容性设置才正常显示（异常界面没截图，就像大多数没做优化的 exe 那样：字体要么需要用显微镜，要么越过边界）
+
+甚至还很贴心地在私有协议播放器里内置了“导出”功能（这个 &quot;Ps&quot; 格式是什么东西）
+
+导出以后，可否正常播放？
+
+一言难尽的播放体验。总结了各个播放器对导出文件的兼容性：
+导出格式
+MP4
+Ps （实为 HEVC)
+
+
+
+
+Win10 默认播放器
+No
+No
+
+
+QuickTime Player
+No
+No
+
+
+macOS 预览
+Yes
+No
+
+
+iOS 文件
+Yes
+No
+
+
+IINA
+No
+Yes
+
+
+一些感想
+现在越来越多人在车上安装行车记录仪，甚至有很多车在出厂的时候就已经预装了记录仪。有些厂家还将汽车四周的 360 度全景镜头与记录仪有机结合，在行车过程中显示辅助图像，而在停车后录制视频（例如某新能源厂家的“哨兵模式”）。
+
+从最开始的”一颗摄像头+一张存储卡“的基本操作，到后来的与“电子狗”结合的设备，再到最近一些号称搭载“AI 人工智能芯片”并配备“高级辅助驾驶系统 ADAS“（基于视觉方案的提醒前面变绿灯、前车起步、前向行人 /车辆碰撞预警等功能）的新款记录仪，越来越多的功能被堆砌到一个巴掌大的小方盒里。
+
+这些新增的“录像以外”的功能，一些对于有特殊需求的驾驶员朋友确实属于刚需，但这些附加功能是否会导致行车记录仪过于臃肿，并挤占了原本最重要的“录像功能本身”的存在感？类比互联网上的种种现象，大家都在往自己身上添加各类新功能，生怕别人有的自己没有。
+
+这里不是说“录像以外”的功能 100% 都是花里胡哨、华而不实的花瓶。一个有用附加功能的例子：货车司机有时需要排长队，一等就是很久，有“前车起步提醒”功能可以让他们能够在等待时稍作休息，又避免睡过头被“加塞”。
+
+作为行车记录仪厂家，研发的最高优先级始终都应该围绕“录像功能本身”，“平时无感知，遇事易查阅”。</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[职场话题] 大家找工作是如何避坑的？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786828#reply6">
+                <summary class="article-expander__title">[分享发现] 大家见过最小的能跑 Windows 的笔记本是什么样的?</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/787021#reply10">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
-                    <span>最近两年，换了三份工作，感觉坑一个比一个大。
-1.我每次面试的时候基本上都会问对方部门离职率如何，但实际上根本没有哪个面试官真实回答。
-2.脉脉等论坛提问，但是由于不同部门差异太大，根本没啥参考意义，要遇到同部门的太难了
-3.问朋友，同 2，就算找到同公司的，不同部门也没意义</span>
+                    <span>我知道 GPD 做了不少. 口碑一般. 我买过两个, 不算差. 也不惊艳, 有些小毛病.
+其中一个就是 USB 兼容性有点差, 我的 GPD Pocket 带不了外置的头戴式摄像头.
+这就是我发问的原因了, 大家知道有哪些小小的 WIN 笔记本? 最好和手机一样大, 我好拿来带头戴摄像头.
+似乎是不是可以淘一个以前流行了一阵的 win 平板?</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 文科生专业选择问题</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786827#reply5">
+                <summary class="article-expander__title">[Apple] M1 在 iPad Pro 上似乎表现不佳</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/787020#reply0">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
-                    <span>河南省的二本文科生，报什么专业好，女生，今年高考 528</span>
+                    <span>大米评测了 iPad Pro 12.9 2021，这个 M1 的表现似乎不太好，最后稳定状态竟然和 A12Z 差不多。 ​​​（引用自 MebiuW 微博）
+好像是散热问题和降频情况。
+ [ [大米评测] 被禁锢的 M1 性能，iPadPro2021 &amp; iPadOS15 评测：你的下一台电脑还是电脑-哔哩哔哩]  https://b23.tv/5OG8kC</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 我该不该换工作呢?</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786826#reply84">
+                <summary class="article-expander__title">[程序员] 写 scheme 的同学们会时刻担心爆栈吗？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/787019#reply6">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
-                    <span>现在:
-三线城市程序员,27 岁
-每月工资实际到手 6200 元
-家乡,在这里有房有车,18 年结婚的, 现在孩子 2 岁, 父母都在这里,新买的一套 140 的房子刚装修完还没有入住
-朝九晚五双休,偶尔加班,工作轻松胜任,没有压力
-曾经创业赚了不少钱, 目前每个月银行的存款利息是工资几倍
-公司没有前途,甚至随时可能倒闭
-换工作:
-杭州
-咨询了在杭州工作的 HR 同学,我去的话最少能拿到 2w-3w
-工作时间 早 9 点-晚 9 点,大小周或者单休,疯狂加班
-吃住开销不清楚, 感觉不低
-我现在很纠结, 到底要不要离开舒适圈出去闯一闯, 毕竟我现在的工资实在是太低了, 和同期的同学比差了几倍, 而我自认为技术很好,去杭州找工作没有任何问题. 老婆孩子是我最舍不得的. 出去以后肯定没时间回家,不能陪伴宝宝的童年. 如果不出去, 这辈子也就这样了, 30 岁以后, 再想出去就很难了.</span>
+                    <span>虽然写的时候会很享受这种“声明”式带来的快感，享受这种语言带来思考的乐趣
+但是回归现实，感觉总是会担心递归过深、复杂度上升、不好调试等问题</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[求职] [云原生] 找一个 Golang 职位</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786822#reply3">
+                <summary class="article-expander__title">[Apple] 更新 macOS Monterey 之后看 bilibili 视频有异常。</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/787017#reply2">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
-                    <span>简单描述一下我的基本情况
-参与大型开源项目 PaaS 平台的开发，有模块设计与开源社区经验。
-熟悉常用数据结构与算法，并结合优化实际项目时间、空间复杂度。
-熟悉 Redis 的调度机制及其实现原理，熟悉常用缓存淘汰算法、负载均衡算法。
-熟悉 DevOps 流程、CICD 自动化流程以及团队协同工具及流程。
-熟悉微服务与分布式理论，有大型生产系统排查经验。
-技术栈：Redis 、ElasticSearch 、Docker 、K8s 、Cassandra 、Kafka 、MySQL 、Protobuf 等，主要是做搜索与查询及相关产品类似 Grafana 。
-想找一个查询方向的工作，base 地优先杭州上海，如果是 Leader 或组内直招更好。
-更多详情： https://github.com/luoyuctl/resume/blob/main/Golang_R&amp;D_Devloper.pdf</span>
+                    <span>看 b 站视频的时候会出现弹幕滚动突然停止，之后视频就会卡顿（网络良好，缓存条很长应该不是缓存的问题）显示正在缓冲，之后不到一秒又恢复正常，但弹幕数量就变少了，之后又开始反复出现这个问题，而且任何视频都显示只有 1 人在看。本想着可能是 beta1 的 bug，但在更新了 beta2 之后问题依然存在。这个问题在 BigSur 上完全没有出现过，请问伙伴们有同样的问题吗？大佬们这该如何解决啊？求求了呜呜呜，太恼人了。</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[程序员] 应届生期望的程序员工作 V.S. 实际的程序员工作</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786821#reply21">
+                <summary class="article-expander__title">[硬件] 黑群晖，求推荐主板</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/787014#reply2">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
-                    <span>最近带人，应届生说这和我想象中的程序员不一样，想象中的程序员工作都是用各种牛逼的技术不断地去从零到一做一个产品，也就是天天都在做新产品，而实际上，大部分体量稍大的公司，都已经有自己的主线产品，招一个生机蓬勃的应届生进来，很可能只是让他在一个维护了十几二十年的系统中缝缝补补，以及按照客户的需求在这个十几二十年的系统上二次开发新增无外乎增删改查的功能。
-应届生们怎么看待这种差异？
-导师应该怎么骗应届生愿意在公司浪费光阴来 CRUD ？</span>
+                    <span>最近打算新组一台黑群晖，本来是准备用闲置的台式机 10400+B460M 迫击炮弄的，结果这块主板死活不能正常载入 918+的 loader （已经打了驱动扩展补丁），一搜发现这款主板好像不太兼容，而且 10 代的平台本来也支持黑群晖不太好，目前只能两手准备，换一块 10 代能正常物理安装黑群晖的主板，或者降级到 8 代平台，请问各位有没有玩黑群晖的能推荐下自己用的主板。
+需求：
+支持 8 代或者 10 代 intel CPU
+能物理安装 918+的 loader 和系统
+MATX 版型
+6 个 sata 口 (sata 口最好朝上）
+2 个 m2 口（能支持 918 的两个 nvme 缓存）
+谢谢各位</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 有没有文字描述转 latex 的工具或 api?</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/787013#reply2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>比如我描述一下， 一加一等于二，或者 sinx 的泰勒展开式这种，可以直接生成对应的 latex 。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[教育] 北邮还能不能作为(信安专业)考研的理想学校？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/787012#reply10">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>说下本人现状：家在 3 线，本科末流 211 信安专业，不会日站渗透，还跑去研究密码学。一战随便选了北邮（密码应用方向），但天天摸鱼没认真备考，结果拉了。现在刚毕业回家被家人催着准备二战。
+家人觉得北邮是 211 不行，想让我去世一大、zju 的网安，总觉着 985 更好。
+题外话：趁着春招的末尾也投过上海一家密码检测机构，密码应用测评工程师，差不多跟渗透测试工程师一样的安全审计，要经常去甲方现场，但更侧重数据安全。面试过去十多天最终被劝退了(能力不如其他候选人，性格不合适，我也不接受去做售前)。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[macOS] 有合购 devonthink3 pro server 的吗?</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/787010#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>目前官网推出 25%的活动。一个位置 600 元 都是服务版的。有想买的同学请留言</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[机械键盘] 求推荐一款适合在家敲代码的高性价比的青轴键盘</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/787009#reply1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>也欢迎推荐和分享其他舒适、提高生产力的装备，比如电脑桌、椅子等。另外本人穷，拒绝高端产品，多谢。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Linux] 一个 Linux 手册页的 wiki</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/787008#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>一个用 dokuwiki 搭建的 wiki
+用来做 Linux 命令的手册页
+http://linux.liuxfe.com</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Python] 请问下 PPT 批量替换文本的 API 是什么？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/787007#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>最好直接调用 PPT 自带的替换功能。
+手里有几千个 PPT （.pptx 和.ppt 都有））文件里有个关键字要批量替换
+类似 Word 的 Selection.Find, 网上找的很多库（ pptx 这种）没法替换组合图形和表格里的文本。
+目前我用的方法是遍历每个 Slide 的每个 Shape，在判断每个 Shape 是否是组合 Shape，是的话递归，然后在遍历每个表格的每个 Cell 。
+结果就是嵌套了 5 层循环，一个 27 个 Slide 的 PPT 需要 1 分钟才能处理完，请问老哥们有啥好方法吗？</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[职场话题] 如果自己骑的驴能打 8 分(满分 10 分)，还要冒风险找马吗</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/787006#reply2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>关于驴:
+1.钱不多，但足够温饱
+2.业务压力比较大，但干的活恰巧是楼主比较喜欢的方面。(基本 975 的节奏)
+3.和直系 leader 的关系比较融洽，工位紧挨着对方，对方也乐于指点我。
+4.和组内同事关系还算不错
+5.挺讨厌高层领导的一些做事方式，但很少和高层接触。同时也很清楚自己不太可能晋升，不会长久待下去。
+今天被一个 wlb 方面特别好的外企马找上了，马的地址和驴相距很近，面试几乎没什么成本。楼主大概率通不过面试，想面试主要也是为了涨涨姿势，了解自己目前和马的差距。
+但楼主不是能藏住事的人，再加上工位紧挨着 leader，很担心被 leader 看出来。
+楼主该骑着驴去看马吗</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Windows] 在 Windows 11 上玩儿了一下游戏</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/787004#reply10">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>启动《暗黑破坏神 III 》的时候报了个错，点确定后可以正常进入游戏。
+
+
+《炉石传说》没有问题，可以正常启动。
+
+手柄完美支持，没有发现异常。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[程序员] VS Code 插件 - 自动纠正代码中的中英文空格写法</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/787002#reply1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>基于 Rust 编写的 CLI 工具，用于自动纠正文案，给 CJK （中文、日语、韩语）与英文混写的场景，补充正确的空格，同时尝试以安全的方式自动纠正标点符号等等。
+除了纯文本的自动纠正以外，AutoCorrect 基于 Parser 的方式对各种类型源代码文件支持，能自动识别文件名，并准确找到字符串、注释做自动纠正。
+基本能支持所有的语言，实现逻辑简单，基于语言的方言做了 Parser，只处理字符串、注释部分，其他的忽略。
+AutoCorrect 的方案最早于 2013 年 出现于 Ruby China 的项目，并逐步完善规则细节，当前准确率较高（级少数异常情况），你可以放心用来辅助你完整自动纠正动作。
+https://ruby-china.org/topics/20489
+本来最早的时候，只是写了库，用来解决 Ruby, Go, Rust 项目里面使用，后面逐渐发现，深入一点实现，可以搞成一个 fmt 工具，自动处理，加上当前 VS Code 插件的能力，可以搞一个保存的时候自动纠正。
+VS Code 插件
+https://marketplace.visualstudio.com/items?itemName&#x3D;huacnlee.auto-correct
+AutoCorrect 设计的原则是类似 Gofmt 默认开启，在 VS Code 保存的时候会执行格式化。
+效果演示
+
+CLI 工具安装
+https://github.com/huacnlee/autocorrect
+希望这个小工具能帮到你改善项目中的文档、注释、文案，也期望能帮助改善中文开源社区项目的文案细节。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[NAS] NAS 每天添加 100GB 文件，想自动移到世纪互联？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/787001#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>现在每天 NAS 增加 100G 文件，容量还剩 12T 左右
+还能坚持一段时间，因为有很多付费网盘，最喜欢 onedrive 世纪互联，想问下有什么办法自动同步到世纪互联吗，同步完成删除本地文件，腾出空间！
+目前想到的就是用 rclone 隔一段时间执行一次移动命令！
+没有长期使用过 rclone 不知道移动命令靠不靠谱
+
+copy 我用的多，是可以的
+
+或者有没有其它方案，请教一二</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[职场话题] 大家的房租占工资（月到手工资）的比重是多少啊？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786998#reply26">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>8 月（上海）就要租房了，还在纠结该租多贵的合适。
+想看看大家伙都是怎么分配到手工资的，房租能占到到手工资的 1/3 吗？</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[深圳] 深圳龙华 近龙华地铁站 城中村 公寓 一房一厅 由于工作变动需要转租</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786997#reply1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>泊寓
+住了还不到一年，房租 1800 便宜 300 左右给
+没有家私，但是有自己新买的冰箱，电饭煲，电磁炉，洗衣机，都给你，到时候不想住了想卖掉还是干啥随意
+网拉的是电信；房子卧室朝南，巨舒服；带阳台(朝西南，240 度左右)；独立厕所，独立厨房；一房一厅，厅还可以，自己买个小沙发装饰下还是挺舒服
+我就不拍我自己目前住的了，加了我 wechat 后给你看样板视频吧，你住进来之前我会自己请阿姨打扫卫生
+喜欢的联系我 wechat (注明来意): bmlja19uZ3Bvbmc&#x3D;</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Docker] ibm 的 k8s 要间隔多久才能拉取 dockerhub 最新的镜像</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786996#reply2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>在 dockerhub 构建了一个镜像，比如 aaa:test 。
+用 ibm 的 k8s 容器服务，首次添加 aaa:test 是正常的，当 github 仓库更新过后，dockerhub 再次构建 aaa:test，ibm 拉取的 aaa:test 镜像还是第一次的，没有更新过。
+在本地机器使用 docker 可以拉取最新的镜像。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[酷工作] [北京] 蚂蚁金服-网商银行产业金融团队招人啦～～</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786995#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>JD：
+网商银行-Java 开发专家 /高级专家（产业金融）-北京
+职位描述
+1. 主导产业金融系统分析与设计工作，承担核心功能或组件的代码编写；
+2. 作为团队核心成员带领团队与业务团队背靠背解决行业问题实现行业升级的需求，沉淀中台能力和行业解决方案。
+3. 对行业现有的系统和应用进行梳理重构，抽象出底层业务模型和能力，满足业务快速奔跑的同时建设和丰富底层模型和能力。
+4. 参与团队的稳定性建设和安全生产，保障日常大促的系统稳定和线上问题的预警监控以及应急解决方案。
+职位要求
+1. 熟悉 Java/J2EE， 基础扎实，熟练掌握常用 Java 技术框架，能编写高质量简洁清晰的代码。
+2. 熟悉分布式技术，了解微服务、容器、缓存、消息系统等技术者优先。
+3. 熟练掌握常用数据结构和算法，具备良好的面向对象编程、设计能力；
+4. 具备一定的架构能力，对常见的中间件有使用经验，并理解其原理和适用场景；
+5. 良好的系统化思考能力，沟通协作能力以及 owner 意识；
+6. 有行业解决方案相关系统开发设计经验者优先。
+待遇：13+3 薪（去年团队成员全部超过这个数，无 3.25 ）
+作息时间
+周一、二、四：10:00 - 21:00
+周三、五：10:00 - 18:00 （领导带头执行）
+周末基本无线上问题（周五不上线），无人找
+福利：午餐、晚餐餐补，九点夜宵、打车，工作居住证不排队，80 万免息贷款，父母年度体检
+周报：团队领导双周报，大头兵无周报
+职级：P6/P7 （ HC 多多）
+联系方式：abamp1h （钉钉） insister_949@163.com</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[杭州] [转租] 杭州 湘湖家园 两室一厅 中的一室转租</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786991#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>位置：杭州市湘湖地铁站湘湖家园
+简介：
+两室一厅的阁楼，6 楼，有个不大不小的阳台
+转租原因：
+可入住时间：
+绿色软件联系方式（ base64 解码）：
+照片是晚上拍的，会显得比较暗，白天采光很好
+图片查看：</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] window 版微信在 4K 屏下，无法跟随系统缩放比例？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786990#reply3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>微信的通用设置已经勾选了“跟随系统的缩放比例”，但是将系统的缩放变大之后，微信只是把窗口大小变大了，字体和元素没变化，还是很小、像素字。怎么解？难道是祖传 BUG?win10，win11 都这样
+
+-----更新
+最后发现，微信缩放要先从 100%开始，之后更改的才会生效。但是调到 200%效果依然很差。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] idea 格式化 sql 语句的问题</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786989#reply2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>如图, 
+在 ide 的 database 插件中, 写 sql 语句时会把一些较长的整数格式化成 3 个一小截, 很难受, 有知道怎么取消这种格式化的老哥吗?</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 有什么管理服务器上多个执行程序的简单方法</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786988#reply7">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>感觉应该算不上运维，就是一个项目里需要几个可执行程序，有没有什么比较合适的方法可以管理这些进程的启动，停止，重启等等</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[程序员] ANU 和 UNSW 的 PhD 怎么选择？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786984#reply9">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>都是编译器方向，UNSW 多给了保险的钱</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[酷工作] 上海叠纸游戏最新岗位</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786983#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>[上海叠纸游戏]
+游戏公司，扁平管理！公司很棒，老板 Nice，Base16 。
+旅游津贴，额外年假，免费早餐，福利多多。
+（目前在杨树浦路地铁站，下半年会搬到五角场）
+工作时间 10:30-19:30，可以早来早走，弹性工作。
+海量职位急招！！！… 赶快扫码投递吧！</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 为什么优惠券都有个编码，而不直接用 ID?</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786982#reply9">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>编码观点：
+让别人猜不到你的规模
+ID 观点：
+我自增 ID 设置的很大也可以啊</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[游戏] 2012 年的时候 有一款叫 火影世界的游戏，谁知道这个游戏的情况。</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786980#reply1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>2012 年的时候 ，当时很火爆，横板 2D 那种 火影世界， 群里有大神吗，</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[知乎] 租客是否有义务协助房东提前找新租客？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786978#reply22">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>事情是这样的，我打算租到这个月月底就不租了，房东要让中介上门拍 VR 挂到网上，我觉得这是侵犯了我的个人隐私权，所以拒绝了房东，房东因此也跟我大吵了一顿，这件事到现在还没结束。
+首先是租房合同，合同的约定租期到期是今年的 3 月份，当时跟房东在微信上约定续租到今年 7 、8 月份，房东答应了，并且涨租 100 块，并且约定好退租提前一个月通知房东。
+现在我想 7 月底退租，房东想安排中介上门 VR，我以侵犯我的个人隐私拒绝了房东这个要求。在这里请教一下大家（稍后也会向律师咨询，先问问大家的看法）：
+1 、我作为租客，在我租房期间，我拥有房子的使用权，我是否有权拒绝中介上门拍照？
+2 、我是否有义务协助房东在我租期到达之前找到下一位租客？
+3 、租房合同没说到房东毁约的情况，如果房东牵制我现在搬出去，我是否有权向房东要毁约赔偿金？
+4 、租房合同只是说需要提前通知房东不再续租，并没有说房东可以拍照之类的。
+备注：我并不是要阻止房东提前找下一位租客，我答应了房东可以带人上门看房，但要把我的居住环境拍照放到网上，我无法接受。
+希望有相关经验的朋友提供一下建议，谢谢。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[程序员] xmake v2.5.5 发布，支持下载集成二进制镜像包</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786977#reply11">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>xmake 是一个基于 Lua 的轻量级跨平台构建工具，使用 xmake.lua 维护项目构建，相比 makefile/CMakeLists.txt ，配置语法更加简洁直观，对新手非常友好，短时间内就能快速入门，能够让用户把更多的精力集中在实际的项目开发上。
+2.5.5 版本中，我们继续改进远程包集成的体验，实现在云端预编译包，然后直接下载集成预编译的二进制包。这对于一些编译非常慢的包，可以极大的减少包的安装时间。
+另外，新版本中，我们还重新实现了新版的本地包生成方案，完全无缝支持 add_requires 和 add_packages，从此远程包和本地包可以使用统一的集成方式来维护。
+项目源码
+官方文档
+入门课程
+新特性介绍
+下载安装预编译包
+之前 xmake 内置的包管理器每次安装包，都必须下载对应的包源码，然后执行本地编译安装集成，这对于一些编译非常慢的大包，以及一些依赖的编译工具非常多的包，安装起来会非常的慢。
+尤其是在 windows 上，不仅三方包对编译环境的依赖更加复杂，而且很多打包编译非常慢，例如：boost, openssl 等等。
+为此，我们基于 github action 实现对包的云端预编译，会将常用配置的包都去预编译一遍，然后存储到 build-artifacts 仓库的 Releases 下。
+然后，我们在安装包的时候，会自动从二进制镜像包源下载，实现快速集成（目前仅支持预编译 windows 包，后期会逐步放开到其他平台）。
+我们会预编译每个包的 plat/arch/MT/MD/static/shared 等各种配置组合，根据唯一的 buildhash 来精确拉取用户实际需要的包，所有的编译产物都会用 7zip 压缩打包，如下图：
+
+配置镜像源加速下载
+由于我们的预编译产物都放置在 github 上，对于国内用户，考虑到访问 github 并不…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Java] 对于一个类，如何获取其中一个 List成员变量的 T.class</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786975#reply8">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>例如：
+class A {
+	private List list;
+    //todo get set
+}
+
+我怎么通过 A.class 获得 B.class</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[前端开发] 老铁们，从自己轻松的角度， css 是让 ui 妹子写更好，还是自己写更好？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786973#reply11">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>新项目，设计由一个妹子负责，前端只有我一个人。
+
+我知道各位想吐槽这种开发模式，但是我在想，
+
+此妹子有男友</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 求 goaccess 的 log-format 设置，用来分析腾讯云的 cdn 日志</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786972#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>我想分析腾讯云的 ecdn 日志，求教一个求分析工具 goaccess 的 log-format 、time-format 和 date-format 设置，日志单行格式是这样的：
+20210701120015 113.120.62.89 abc.com /latest/68 6599 122 2 200 NULL 940 &quot;Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36&quot; &quot;(null)&quot; GET HTTPS miss</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[北京] 海淀幸福里老带新</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786971#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>有人想买海淀幸福里吗(新楼盘)，从我这里老带新，双方可以各领 3 万元的车位抵用券。本人业主，wechat: alfred-TP</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] AMDRX560 直通给 ESXI6.7 的 Win10， EFI 模式会发生开机画面死机并且虚拟机无法中断的问题</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786970#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>传统 BIOS 能正常启动，但有概率导致宿主机死机
+然后想看看 EFI 模式是否正常，结果直接死机，新装一个系统正常进入桌面后，也是一直通就卡死
+有没有人遇到过这种问题的？</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[ WATCH] 国行 Watch6 翻新机， ECG 问题/售后请教</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786969#reply11">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>一个月前买的，某宝买了个账号激活 ECG，一开始测试心电图很好用，基本坐直了手指放那个旋钮上就好了。昨天晚上突然就不好用了，很难测试，老是倒计时中途断了，比如 30-29-28，又回到 30， 提示手没放好，表与手腕不贴合，但是我明明坐得很好，手也没有动。成功几率为尝试 20 次能有一次成功。
+问：
+大家有没有碰到相同的问题，还是我这个是翻新机的原因？
+假如我拿去专卖店，会不会因为国行没有这个功能而拒绝售后？</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Windows] 在不退域的情况下，有没有什么好方法阻止域控推送策略？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786968#reply7">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>有本机管理权限。
+目前是用火绒的自定义防护功能保护部分路径、注册表读写权限来阻止策略实施。
+有没有其它更好用方便的方法？不退域。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[求职] [上海]求一个 web 前端职位</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786967#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>1.5 年前端工作经验
+会 html，css，会基本的 vue.js ，JavaScript 不是很精通，希望能继续在前端上发展学习
+能看着文档写 echarts，做过简单的 canvas 动画
+使用过 element，ivew 库
+会基础的 Photoshop
+项目做的都是 PC 端的，没做过小程序
+薪资 5-7k 就行
+通勤 50-90 分钟都能接受
+接受加班</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 怎么才能提高 github 项目的 star 数？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786966#reply2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>辛辛苦苦搞的项目，没啥流量，star 也很少；
+要怎么改进，内容大家觉得哪些还可以优化
+ https://github.com/tuihou123321/FE-interview</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[酷工作] golang 工程师， c/c++网络工程师</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786965#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>「杭州默安科技招聘」- Saas 研发工程师
+工作职责：
+构建零信任、可信网关、SASE 等 Saas 平台
+优化平台性能，处理和转发能力
+设计优化实现 HA 和 Scaling
+设计优化实现微服务和分布式能力
+职位要求：
+本科以上学历，计算机相关专业，英语良好
+熟悉 go，常用中间件，数据结构&amp;算法基础良好
+熟练使用 linux，有系统问题解决、调优能力
+熟悉网络编程，熟悉长连接，c10m，io 多路复用等话题
+了解微服务，分布式系统等相关知识
+加分项，有 cdn 、slb 等开发经验
+「杭州默安科技招聘」- 网络研发工程师
+工作职责：
+构建高性能网络（流量识别、处理、转发能力）
+设计优化实现规则引擎
+优化核心组件性能和 scale up 能力
+设计并开发产品内核 bypass，内核模块相关业务
+职位要求：
+本科以上学历，计算机相关专业，英语良好
+熟悉 c/c++，数据结构&amp;算法基础良好
+熟练使用 linux，有系统问题解决、调优能力
+熟悉 dpdk/pfring/xdp 任一种技术
+熟悉 linux 网络，如协议栈、netfilter 、namespace 等
+了解 lkm 开发与问题定位
+加分项，有 kprobe 、systemtap 、perf 任一 linux tracing 相关经验
+「杭州默安科技招聘」- 后端研发工程师
+工作职责：
+平台安全业务开发（威胁检测、防火墙、欺骗防御、流量审计、态势感知等）
+大规模流量在线处理、分布式深度流解析
+为安全业务建模，设计并开发能稳定检出威胁事件的组件或模块
+优化产品的技术和业务架构
+构建产品的 ci/cd 流程
+职位要求：
+本科以上学历，计算机相关专业，英语良好
+熟悉 go/c/c++等至少一门语言
+数据结构&amp;算法基础良好
+熟练使用 linux，有系统问题解决、调优能力
+熟悉 mysql, mongo, nginx, redis, kafka 其中一些，有相关使用经验和场景
+了解微服务，分布式系统等相关知识
+对网络编程、并发编程等后端服务话题熟悉
+加分项，熟悉网络、有高性能高可用方案经验
+「杭州默安科技招聘」- 云计算研发工程师
+工作职责：
+负责云计算平台网络（含容器网络）上流量控制、采集和分析的设计和研发
+负责产品自身的无状态和有状态应用上云
+产品深入融合 k8s，感知节点和 pods 扩容缩容
+paas 实现如 k8s 、openshift 的深度 api 对接
+职位要求：
+本科以上学历，计算机相关专业，英语良好
+熟悉 go/c/c++等至少一门语言，数据结构&amp;算法基础良好
+熟悉 docker 的原理和使用
+熟悉 k8s 架构和 api，了解架构节点中 cri 、cni 、csi 其中一个的原理和使用
+熟悉 calico 、flannel 、ovs 其中一个的原理和使用
+了解微服务、服务网格、云原生以及部分分布式话题
+加分项，熟悉网络、有高性能高可用方案经验
+以上职位觉得可以的同学，可以发邮件  Email: baixiaoshi@moresec.cn</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[程序员] 不懂就问，各位都是怎么进行单元测试（UT）的？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786964#reply8">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>测试框架推荐？
+Junit
+PowerMock
+...
+单元测试的要求是啥样的呢？
+如何去组织和具体实施，有木有啥具体标准之类的？
+关于测试的其他（性能测试等），如何成为一个合格的测试？
+小弟 Java curd boy，希望从事相关行业的大佬不吝赐教，小弟感激涕零，蟹蟹~~</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[macOS] 求助怎么吧 macos 的移动硬盘当内置硬盘用</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786963#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>No content preview</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 有没有大佬知道这个曲子是哪一首啊，各种国内外的听歌识曲都识不出来</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/786962#reply7">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>歌曲在线听链接
+这曲子是一个视频的单独音频，是别人的录屏操作，所以在 1：47 的时候会有 Windows 10 的错误音
+我用网易云、QQ 音乐、shazam 、soundhound 都识别不出来...
+有没有哪位大佬知道这是啥曲子啊....</span>
                   </div>
                 </a>
               </details>
@@ -1477,7 +1455,7 @@ https://www.yundianguan.com （云店管）
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-07-01T05:31:24.436Z">2021-07-01T05:31:24.436Z</time>
+    <time id="build-timestamp" datetime="2021-07-01T17:42:06.013Z">2021-07-01T17:42:06.013Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>
