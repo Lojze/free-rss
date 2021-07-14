@@ -20,12 +20,472 @@
     <ul class="sources card">
       <li class="source">
         <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://www.williamlong.info/">月光博客</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">阿里巴巴和腾讯考虑互相开放生态系统</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.williamlong.info/archives/6495.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>据道琼斯新闻报道，阿里巴巴和腾讯考虑互相开放生态系统，阿里巴巴的初步举措可能包括将微信支付引入淘宝和天猫，而腾讯可能将允许阿里巴巴的电商信息在微信分享，或者允许微信用户通过小程序使用阿里巴巴的一些服务。
+
+
+　　外媒报道称，这将对中国的消费者互联网产生重大影响，此前因系统的相对封闭，中国的消费者互联网往往因二者的竞争关系分立为两大阵营，比如用户不能在淘宝中使用微信支付等。
+
+
+　　据知情人士透露，现在两家公司正在分别制定放松限制的计划。放松限制后消费者将拥有更便捷的体验，对阿里巴巴和腾讯而言，此举可能激发更多的竞争，但同时因为生态互通，双方也会更了解彼此。
+
+
+　　来源：道琼斯新闻</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://www.v2ex.com/">V2EX</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 苹果新推出的 MagSafe 外接电源能用 MagSafe 充电器给他充电吗?</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789460#reply0">
+                <summary class="article-expander__title">[Linux] 请教一下 FreeIPA 的 sudo 命令管理</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789588#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>期望效果：
+通过 freeipa 的 sudo 规则管理赋予普通用户使用 docker 的权限；
+目前情况：
+配置了 freeipa 的 sudo 命令：/usr/bin/docker，好像普通用户无法使用 sudo docker ps，提示：对不起，用户 xxx 无权以 root 的身份在 node1.example.com 上执行 /bin/docker images 。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] v2 大佬们，请教个甲方拖欠乙方工程款怎么讨的问题</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789586#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>公司承接了上海一家网红日料店的木制品项目，合同写着二期款在送货到后当天付款，甲方没付。说一定要到最后，最后安装完毕，甲方以各种质量问题拒付款，连二期和后期增加项目也不肯付款。之前因为熟人介绍，说增加项目先做，没另立合同，有点失误。
+如今一个月了，合同当初说好未付款不得交付使用，甲方已经开店经营一个月。
+大佬们有什么办法吗？
+我想起诉，但被拦下了。。。因为熟人介绍。
+在一家地方政府旗下的国营宾馆开的日料店，民营店。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[macOS] Type-C Hub 导致的交换机广播风暴</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789584#reply2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>终于解决了一个挺有意思的 bug，拿出来分享下
+之前总发现局域网偶尔不可用，换了好几次硬件都没解决问题。但刚刚发现同事电脑休眠后就会导致整个内网挂掉，在我的电脑上 ping 网关会提示 Destination Host Unreachable 。敲了下他的键盘，取消休眠后恢复正常。这个过程重复几次后发现 Wifi 一直是正常的，不禁让我怀疑是交换机的问题。（我这边内网拓扑图可以简化成 光猫 -&gt; Wifi -&gt; 交换机 三层结构
+就去搜了搜交换机相关的故障，发现了之前听说的 broadcast storms 症状和我这边情况一致，用 “mac sleep cause broadcast storm“ Google 了一下，发现有人也遇到了同样的问题：
+https://www.reddit.com/r/networking/comments/an6lfq/pass_though_power_usb_type_c_hubs_cause_broadcast/
+https://lucumr.pocoo.org/2020/7/6/usb-c-network-hubs/
+令人啼笑皆非，在搜索前我一直以为是同事电脑的什么奇怪配置攻击了内网，没想到会是这个 type-c 的转接头导致的问题。
+刚刚，发现有中文资料说绿联的这个转接头需要在 mac 上装驱动来避免这个问题： https://www.pianshen.com/article/15821431478/ 但需要明天测试了。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] tableau 如何按时间段里每一天的具体时刻进行分类？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789583#reply1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>写了一个高频策略，想看一下每次交易盈利情况和时间的关联。但是 tableau 自带只能按具体的分钟、小时...分类，比如我想看每一天的 9：31 的情况但是按分类就是只能看每一天每个小时的 31 分的情况</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 有没有自托管的手机/PC 输入法？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789582#reply6">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>最近好多手机输入法因为收集用户信息的问题被下架了。我用的 qq 输入法就中招了，其他还有搜狗 讯飞什么的，比较意外的是渣度输入法竟然好好的 wth😂
+于是就想到有没有自托管的跨平台输入法，有 docker 词库托管在里面什么的，这样我就丢 nas 里让他跑。。。再也不用担心输入法隐私问题了
+不过挺意外的搜了半天竟然没有找到类似的东西(倒是装了个鼠需管试了下，妈耶，有够难用)
+有人用过类似的东西吗？</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[互联网] 没十年的脑血栓写不出来 B 站的排序算法</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789581#reply2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>iOS bilibili 概念版</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[微信] 其实微信做这个自定义铃声主要是为了推视频号吧</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789580#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>自定义铃声里面都是视频号中的视频背景音乐，等于倒逼用户去接触视频号，比如喜欢 diy 的会考虑自己上传用喜欢的铃声做 BGM 的视频，还有大量流量的涌入会让更多创作者开始做视频号。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[C++] 教你们如何用最古老的 VC 编译器，来支持最新的 C++语法。</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789579#reply10">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>C++已经进化到了 std&#x3D;2023 标准，能实装各种魔幻新技术。
+然而最新的 VC++编译器，由于体积过大，只能在线安装。在线下载有些特殊 packages, 微软的官方地址还会过期，返回 404 （我都不敢相信！）
+于是乎，用回了上古 VC, 2005/2008 之类的。在渣机器上，不论启动速度，定制化插件，还是编译后文件大小，都算令人满意。唯一遗憾的是，C++11 标准是从 VC2010 开始支持的，以前版本什么美妙新语法都不支持。但是（凡事总有个但是），经过 LLVM 开发小组多年的不懈努力，终于可以让老 VC 用上最新版本的 CLANG，并且还可以调试。
+具体方法是：
+1，下载最新版本 clang 和 libc 库（ https://github.com/mstorsjo/llvm-mingw/releases ）
+2，工程里写一段 C++23 的魔法代码，然后把 CPP 编译属性改成 Custom Build 
+3，用 c:/llvm-mingw/bin/i686-w64-mingw32-clang++.exe -std&#x3D;c++2b -msse4a -mavx 来编译成 OBJ
+4，编译选项里用-g -gcodeview 生成上古 VC 能识别的调试信息（这点很重要，能单步调试，C++语言才有灵魂）
+5，见证奇迹</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[.NET] ASPdotNET 学习中，前端技术怎么选</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789577#reply1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>前情：
+ASP.NET 和 EF Core 入门资料求推荐
+ASP.NET 的学习中，前端 HTML+JS 目前是否可以绕过？
+经过一段时间的学习
+重新捡起了 C#的语法
+学习了 ASP.NET 的 MVC，razor，ef core 等，找的教程的三哥的，咖喱味英语虽然听的痛苦，但好歹也算面面俱到都能有个粗浅的解释，特别对于 JS 库使用，和 HTML 甚至和后端配合都有涉及，了解了个大概。
+在实践过程中我发现，想要做出完成的东西，UI 部分（前端）是不能绕过的
+所以应该 HTML-CSS-JS-VUE 那一套？
+还是 WASM-Blazor 这一套？
+另外我还有两个疑问和疑虑
+以前有 C/S 和 B/S 之争，后者主要就是免部署轻巧嘛；但是现在流行大前端，后端 API 化，这不又回到了 C/S 一个样子了吗？
+在学习.NET 过程中，找资料还是有不少的；但总感觉找到的资料都很难说清楚东西，大家谈论的欲望也不高……资料多流行的难道是 Java 、Go 之类的吗？
+PS：非业界，看法可能很浅薄，请不吝指点，THX</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Apple] iOS APP 是如何获取本机号码的？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789576#reply9">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>背景：iPhone12Pro，双卡：联通主卡 /移动副卡。
+现象：1. 使用手机号登陆一些 APP 时，会提示使用本机号码一键登录。这些 APP 获取的本机号码都是副卡，而期望获取主卡。2. 卡托上双卡换位置也没用。3. 控制中心左上角显示副卡在上面，主卡在下面。
+猜测：主卡 2017 年办理，开机会弹出联通欢迎界面。据说新卡不会弹出这个界面。所以猜测卡太老了导致的。
+有懂的小伙伴分析一波吗？如何让 APP 检测到的本机号码是主卡而不是副卡。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[全球工单系统] 戴尔售后可真是难啊</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789575#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>之前买的戴尔显示器严重漏光，给戴尔技术支持公众号查验过能换新，却又不给换，就因为没发票说过了三包时间，官网查保修还有不到 2 年，说只能换替代件。替代件不就是其他用户手里换下的故障机，返厂修的呗，戴尔售后电话客服是真的乱七八糟，统一一句话就是超出工作范围，需要升级到高级部门，完事就渺无音信了，315 投诉一点用也没，真够累的。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 大家有没有好奇第一个学会西语、法语的人是怎么学会的呢？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789573#reply5">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>难道语言是相通的？
+第一个实现语言翻译的人是怎么做到的呢</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[职场话题] 这样的网管工作有没有必要转行</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789571#reply10">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>本人生活在昆山，已经 35 了，有一小孩。早些年买了房子，房贷还有两年，每月还款一千多元，有一辆代步车，工资八千多点，这些是基本经济情况。
+目前在一家公司做网管工作，
+优点：
+1.公司离家近，骑电动车三分钟
+2.事少，每天实际干活半小时到一个小时的工作量
+3.公司资深老员工，各个部门领导都熟悉的很，工作上没人为难。
+4.公司 IT 部门实际就我一人，什么事情都是我说了算
+缺点：
+1.每年加薪幅度太低，两三百元而已
+2.工作未来状态一眼看到头，感觉不到希望
+3.在这样的舒适圈子呆太久了，都快没有上进之心了。
+一直想转行，但又不知道想做什么，请大家给给建议，有没有必要转行去。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[求职] 各位大哥，有没有推荐算法部门缺人的？(22 届毕业生，希望有好心人帮忙内推~)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789570#reply1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>渣硕一枚，有过计算广告相关的比赛和实习(网易)经历，目前想找一些视频推荐、电商推荐、广告推荐相关的岗位~
+联系方式： 1247930339@企鹅.com</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[2021] 公司启用了域管理，如果我登录 it 创建的域用户账户后</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789569#reply5">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>如果我登录 it 创建的域用户账户后，创建一个本地账户，还会不会被公司域管理监控到，并能获取所有权限</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[程序员] 怎么让 Debezium 正常连接到阿里云的 MongoDB sharded cluster</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789568#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>我在阿里云的一台服务器上部署了 Debezium，用来获取 MongoDB sharded cluster 的日志实现 CDC，但是 Debezium 出现了连接不上的错误。
+2021-07-13 02:40:09,047 INFO   MongoDB|dish|snapshot  Exception in monitor thread while connecting to server 172.18.69.198:27122   [org.mongodb.driver.cluster]
+com.mongodb.MongoSocketOpenException: Exception opening socket
+        at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+        at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:143)
+        at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188)
+        at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.SocketTimeoutException: connect timed out
+        at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+        at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+        at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+        at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+        at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+        at java.base/java.net.Socket.connect(Socket.java:609)
+        at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:78)
+        at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+        at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+        ... 4 more
+
+我在那台服务器上登录进 MongoDB，执行sh.status()，其结果如下图所示。
+
+也就是说“部署 Debezium 的那台服务器连接不上 replica set 中的成员”，那么怎样才能让服务器能够连接上 replica set 中的成员呢？</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[旅行] 桂林六天行程求建议(8 月初)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789567#reply3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>周六出发,两大两小,傍晚到桂林北.
+大概计划:
+自驾两天,非周末去,各分一天去龙脊梯田与阳朔.都是当天回.
+2 天半市区,1 天两江四湖+芦笛岩国宾洞,1 天王府独秀峰+博物馆.
+两天来回程火车
+住宿: 桂林北站附近
+神舟租车有 24 小时门店,因只租两天,方便租车第二天晚点还车.
+离高速出入口近,方便去龙脊梯田与阳朔.
+你的建议.
+问题:
+是否推荐自驾去龙脊梯田与阳朔?从成本来看,3 张大巴全票下来,和两天自驾成本差不多.
+自驾先去那个地区,第二天因为要还车,所以时间可能没有第一天充足.
+神舟租车三者是不是默认只有 20w? 个人便向买 160 元的三者(100w 保额)+全损险.
+自驾去漓江后,在哪里买船票,因有低龄小孩,坐不了竹筏.
+阳朔各景点好停车吗?
+自驾坐了船或竹筏,有没有共享单车或电动车方便骑回停车处?
+土著或有去过的朋友你的想分享的建议.
+谢谢!</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[微信] 使用 Mac 端微信小助手插件被腾讯封号警告了！😂</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789566#reply8">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>微信 - @Mangozhen -</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 有没有这样一款电视机。。。</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789565#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>没有自带音箱，但有外接音箱的插口
+没有电视软件，但保留其他盒子比如 apple tv 的插口
+外观大气，性价比高，没有花里胡哨的种种功能</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[职场话题] 第一次发帖，分享两个微软的挂经</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789563#reply8">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>po 到现在主要是游戏行业后端，现在是 go+redis 这个样子，姑且也算是个 senior 了，到没到 MS 的 senior 的标准还不好说，感觉 system design 这方面还有很多自己不懂的东西。
+其实不太想一直在游戏行业留着，比较想回一个不太加班的科技公司，外加英语好，所以一直比较注意这些机会，但苦于各种原因还一直在游戏行业。
+之前有创业经历，去年创业不太灵的时候 linkedin 收到过微软 HR 的邀请，尝试投递了下然后没有进面试，原因不太清楚。半年后被在微软的同学强烈的意愿下试着让他内推了下，也是给到 HR 之后就没回音了。
+今年微软的又找过来，我提了这个情况，结果这次第一个职位的面试官打电话过来约了面试时间。
+遂开始准备面试。
+第一个职位： https://careers.microsoft.com/us/en/job/1048544
+因为简历主要是游戏后端，所以背景也没啥好说的。简历里写了自己现在项目的游戏（一个回合制卡牌，1202 年还在用自动战斗那种）自己完全负责了战斗系统，而且做到了 x 倍性能优化和 xx%内存占用下降。
+面试的时候这个就多说了下，然后立刻 coding 题。结果第一题就整懵了。
+leet 里微软题库有，但是没复习到。
+input：一个 n*n 矩阵，有一个必然闭合的 1 围成的不规则区域，除了这个区域边缘由 1 组成外，矩阵其他项均为 0 。
+output：把闭合区域内的 0 全部改成 2 输出。
+知道是 DFS 但不太清楚搜索从哪里开始。后来知道是 floodfill 类型的题目（同类题在 leet 里难度算 easy ）。在面试官几乎摁着教搜索方向（四方向）和从哪儿开始搜索（矩阵四条边，把外层 0 标记，最后把外层 0 还原，内层 0 置为 2 ）之后题目算是答出来了。
+当然当时就知道因为这个不完全算自己的思路，肯定…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[MySQL] 学习数据库需要什么样的离散数学基础？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789561#reply1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>在数据库理论部分介绍：五种基本运算来合成关系代数的“除法”的目的是什么？未来在数据库设计和使用过程中哪种场景会用到这些知识？目前的 DBMS 还不支持用 sql 语言直接实现“除法”操作？还需要使用者自己造轮子？
+sql 语言不已经是高级语言了？为什么讲数据库理论还需要用关系代数来描述很多例如“外并操作”这些关系数据库具体操作内容？当实际工作中遇到需要强行并两张表的问题时，直接用对应的 sql 语句实现不就好了。就好比日常用 excel 时小张遇到需要并两张表的问题，小张不需要知道关系代数的理论。它只需要知道 excel 通过 1 、2 、3 哪些步骤实现上述目标不就可以了？
+简而言之，并表这种很具体很形象的现实问题，为什么非要用关系代数这种抽象方法来描述？？难道是要为造轮子做准备？
+《数据库系统基础教程》使用说明部分提到要求学过：数据结构，算法，离散数学。所以这本书中用到非常多离散数学的知识？需要先把离散数学的知识系统学一遍么？数据库中用到离散数学的内容主要是用于描述问题？还是为了像编程那用解决具体问题？</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[程序员] 虽然说没有银弹，但是我感觉 c++完全可以设计成更友好，开发速度更快的语言</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789560#reply23">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>c++大佬别杠我，不可否认的是 c++学起来实在太难，写起来实在太慢
+实际上很多东西感觉完全可以反过来吸收别的语言的优点</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[酷工作] [校招内推] [广州/杭州/上海] 网易互娱 2022 校园招聘，大量 Offer 等你来拿</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789559#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>网易游戏（互娱） 2022 校园招聘全面启动！ 5 大类别、100+ 岗位、3000+offer 放送！又到了一年一度的校招季节，大家伙最爱的入职机会来辣！附上助力 dalao 进入快速审核通道的网易游戏内推码 [ IP79RH ] ！欢迎 22 届毕业的研究生本科生来投！
+广阔发展前景：全球七大游戏公司之一，100+款精品游戏，强大自研能力
+竞争力 MAX 的薪酬：在行业内具有竞争力的薪资待遇，幸福猪崽不是梦
+金牌培训体系：其中新人 MINI 培训项目获得全球培训领域的最高奖项-ATD 卓越实践奖，曾孵化出《第五人格》等众多佳作
+网申时间：2021 年 7 月 13 日-2021 年 9 月 14 日
+面向对象
+面向对象：2022 届毕业生（毕业时间：2021 年 9 月-2022 年 7 月） *国内以毕业证时间为准，海外以学位证时间为准。
+招聘岗位
+
+内推方式
+复制网易互娱内推码“ IP79RH ”，PC 端登陆网易互娱暑期实习官网 https://game.campus.163.com/position/?sc&#x3D;34
+投递简历时 填写内推码“ IP79RH ”，即可完成内推
+也可以直接扫下面这个码～
+
+技术精选类岗位链接： https://game.campus.163.com/position
+技术精选类 hc 较多，拿 offer 的概率更大 快来投递吧
+有任何想要问的都可以直接回帖问我哈～另外社招也可以内推的，如有需要，也欢迎加我微信细聊 YmlsbGJpbGw&#x3D;</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Node.js] 前端新手 一个 ts 项目 怎么应用一个被修改过的 js 项目</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789556#reply4">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>现在有个开源的 js 项目
+https://github.com/coderstory/expr-eval
+这是一个表达式的解析器和执行器
+自带了 d.ts 和相关配置
+因为项目（ vue3+ts ）需要，我修改了源码，然后我就不知道整合到项目里了
+这个项目我并不想发布到什么仓库里。我在想能不能发布到本地仓库，然后开发项目引入依赖
+或者作为这个正在开发的项目的子项目（ submodule ）什么的。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 怎么看一台路由器可以带多少设备？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789554#reply2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>如题，还有路由怎么分配几个 ip 段，家用的路由有这功能吗，还是哪个固件可以？</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Java] 服务层到底接收和返回什么对象。服务层的中转对象应该是什么 O?</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789552#reply2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>最近看阿里巴巴的编程规范都绕晕了。
+controller 接受的 VO,一时有人说是 view object, 一时有人说是 value object. 文章抄来抄去，不知道哪个对。
+传进 service 层的时候到底是进来的时候就转换成 dto，还是把 vo 作为入参。返回出去的时候到底是返回一个 dto，还是返回一个 VO? 
+service 层之中 例如远端返回一个复杂 json，然后我就选了几个参数作为一个暂时对象。但这对象我也不准备直接返回出去，而是打算再和其他数据聚合，再返回甚至不返回。那么这个暂时的对象，他是属于 VO 吗，还是属于 dto 什么的。
+这个暂时对象是作为内部类写在同一个文件里呢，还是分类为什么对象呢。这个命名的问题也困扰了我很久。
+先感谢大家。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[优惠信息] 免费领取一天 b 站大会员。</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789551#reply12">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>应该是补偿昨晚宕机的影响。
+https://www.bilibili.com/blackboard/activity-ZNICv315i7.html</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 给爸妈买安卓手机，预算 1500 左右，各位 v 友有推荐吗？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789550#reply4">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
                     <span>No content preview</span>
@@ -35,786 +495,356 @@
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 请问有没有电脑上用的简单的 3d 图形软件，可以标注线段，自定义 3d 和 2d 图形：比如正方体，面和线可以自定义的，可以展开面。</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789459#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>如题，孩子对于三维和几何理解比较差一些，想更直观的展示给他</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[程序员] 由相关帖子 Jetbrain 的 Color Scheme 引出，有适合色弱用的 Theme 或者 Color Scheme</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789458#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>原贴 https://www.v2ex.com/t/789415</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[Apple] 3100 换屏幕后续</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789454#reply1">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>屏幕被搞裂开之后，历经 7 天，终于换好了
-3100 花的肉疼
-突然发现，A 面摸上去有种奇怪的感觉，好像是指头上隔了一层膜一样，手掌摸上去是正常的
-这是 mac 的特性，还是我手上沾了东西。。。
-如果是特性，这是为了什么呢
-如果是我手脏了，我去洗个手吧 emmmmmmmm</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[Apple] iPadOS 的微信无 CallKit 支持，导致只要和 iPhone 同时登入，电话响不停。</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789453#reply3">
+                <summary class="article-expander__title">[程序员] 多实例下提升单分区单消费组速度</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789549#reply7">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(1 min)</span>
-                    <span>iPadOS 和 iOS 登入同一个微信，iPhone 如果开启 CallKit 之后，只要来电 iPad 会响 1 分钟，哪怕 iPhone 已经接起来了。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[程序员] 分享数据可视化大屏设计器的开发思路</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789452#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>参考项目
-https://github.com/woai3c/visual-drag-demo
-开源地址
-https://github.com/ggymm/data-view-web
-预览地址
-http://49.233.166.224/data-view-web/data-view-instance/create
-预览地址不是很新，最近有些新功能没有同步
-技术交流，开源分享</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[微信] IOS 微信迎来史诗级更新，终于支持换声音了。。。。</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789451#reply2">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>版本 8.0.8
-居然提供了 8 种声音可选。。。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 问问 V2EX 的前端们，在公司里遇到有合作比较愉快的 UI 设计师吗？这些设计师具备怎样的特点呢</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789450#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>No content preview</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[程序员] 700W 数据的表，如何做分页查询，速度不低于 1s</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789448#reply7">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>mysql ,700W 数据的表，如何做分页查询，速度不低于 1s</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 请问如何发一个 2 到 5G 的文件给国内朋友</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789447#reply30">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>已知方案：
-阿里云或者腾讯云 oss
-优势：自由方便
-缺点：流量贵
-百度网盘
-：需要对面也有会员
-请问大家还有其他方案吗？</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[酷工作] [深圳] [内推]大疆中高级客户端开发工程师(C++ 跨平台)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789446#reply2">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>工作职责
-1.负责跨平台 CSDK 的业务模块设计、开发和维护工作。
-2. 负责技术难点攻关与架构的优化工作。
-任职要求
-1. 计算机及相关专业本科以上学历，3 年以上相关工作经验；
-2. 精通 C/C++ 语言，具备 C/C++ 跨平台开发的经验，具备扎实的数据结构和算法基础，熟悉多线程开发。熟悉面向对象设计，熟悉常用设计模式；
-3. 精通 Android 、iOS 、Windows 、Mac 等至少一个平台的开发；
-4. 熟悉 Android/iOS 平台上 C++开发经验（ NDK/Objective-C++ ）者优先，熟悉 Android/iOS 原生开发者优先；
-5. 在移动客户端、安全、音视频、图形学等某个领域有较深入研究者优先；
-6. 有大型成熟的 SDK 项目经验者优先。
-大概薪资
-中级 25k-45k 15 薪
-高级 35k-60k 15 薪
-联系方式
-微信：18814111130
-简历投递邮箱： jayme.yang@dji.com</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[Apple] iOS 微信更新，无 callkit</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789445#reply9">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>可以换铃声了
-群里关注其他人的消息</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[推广] 从页面加载到数据请求，前端页面性能优化实践分享</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789443#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>转载请注明出处：葡萄城官网，葡萄城为开发者提供专业的开发工具、解决方案和服务，赋能开发者。
-背景
-做过前端开发都知道前端的工作内容是很多的，对于 HTML 、CSS 、Javascript 、Image 、Flash 等各种内容的使用。为了更好提升应用的性能，我们需要对各种资源内容进行不同方面的优化。
-对用户而言，优化可以让应用的响应速度加快，加载更加迅速，可以带来更好的使用体验。
-对于服务商而言，前端优化能够减少页面请求数量，宽带所占带宽，有效的节省资源。
-前端优化的内容很多，按照粒度等级划分可以大致分为两类：页面优化级别和代码级别优化。
-页面优化主要针对页面加载环节，包括：HTTP 请求数、脚本的无阻塞加载、内联脚本的位置优化等内容。代码优化包括：Javascript 中的 DOM 操作优化、CSS 选择符优化、图片优化以及 HTML 结构优化等内容。
-代码级别优化则更关注数据请求，很重要的一条就是减少 HTTP 请求的数量。一个完整的 HTTP 请求需要经过路由查找，TCP 握手，发送请求，服务器响应和浏览器接收等一些列过程。对于小文件，实际下载文件的时间对于整个请求的时间占比很低，因此需要将小文件合并为大文件来传输。
+                    <span>背景
+外部团队给了一个 topic，这个 topic 只有一个分区，因为消息之间有强顺序关系。
+问题
+目前我们团队发现这个 topic 的消费速度有点慢，想优化下。
+我自己想到了两种解决办法，感觉这两种方式都不太好。
+解法 1
+基于多单消费者的基础上，自己写个线程池，并发处理消息。
+这个方法的缺点是只能有一个实例在消费消息(单消费者)，无法扩展。
+解法 2
+引入 kafka, 把消息做一层转发，可以根据自己的业务逻辑做分区。
+缺点是引入了一个中间件。
 
-（图片来自网络）
-页面级别：提升页面加载速度
-加载优化是为了解决页面内容加载速度受限于网络带宽，过于耗时的问题，主要手段有：
-项目打包优化
-Webpack 是一个前端资源加载 /打包工具。它将根据模块的依赖关系进行静态分析，然后将这些模块按照指定的规则生成对应的静态资源。通常我们使用 Webpack 将多种静态资源 js 、css 、less 转换成一个静态文件，减少了页面的请求。
-核心概念有：
-Output：告诉 webpack 在哪里输出它所创建的 bundles,以及如何命名这些文件,默认值为 ./dist 。
-Module：Webpack 会…</span>
+欢迎大佬们讨论</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[酷工作] [深圳] 运维开发工程师</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789442#reply2">
+                <summary class="article-expander__title">[软件] VLC 和 MPC-HC 这两款播放器的区别是什么？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789548#reply10">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
-                    <span>[职位诱惑] ：
-7 小时工作制
-双休不加班
-快速成长,待遇丰厚,团队优秀
-
-职位描述：
- [岗位职责] ：
-负责 CI/CD 的设计和开发，构建自动化、标准化及智能化的运维平台；
-业务系统的部署，版本自动化发布，服务端的变更；
-监控业务系统运行状况，规避系统运行风险；
-快速定位和解决服务器故障；
-推进开发和测试的流程规范化；
-
- [任职要求] ：
-三年及以上公有云使用经验，如 AWS/阿里云 /腾讯云 /青云等；
-熟悉 Linux 系统和常见服务的配置、使用、优化和安全；
-熟悉 Git/SVN 等版本控制工具，熟悉 CI/CD 相关的工具，如 Jenkins, Nexus 等；
-熟悉 Docker 容器技术；
-有数据库运维经验，熟悉 mysql，redis，rabbitmq，有相关集群搭建运维经验；
-良好的沟通能力、团队协作能力，能很好的自我驱动和自我管理。
-
-联系方式 ：Q182NzAxCg&#x3D;&#x3D;</span>
+                    <span>准备用 VLC 和 MPC-HC 代替 potplayer 但 
+VLC 似乎对老的 rmvb 格式的兼容有些问题，导致切换视频时候的声音会变大或变小。pass 。
+MPC-HC 默认音量太小，开启音频规格化后声音变得正常了。所以用了这个。
+但是似乎 MPC-HC 没有播放网络串流的功能？
+除此之外它们的区别还有什么？</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 纯棉薄 t 桖求推荐</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789440#reply0">
+                <summary class="article-expander__title">[职场话题] 在职场上时间越久越孤单是真的吗？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789547#reply1">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
-                    <span>之前穿的都是 Adidas，面料薄很舒适。
-但是感觉贵 100-150 一件，于是买了安踏和森马的，都是又厚又不是纯棉，夏天穿了热死人那种，有点绝望。</span>
+                    <span>工作也有两年多快三年了，当初一批的同事大部分都走了。觉得刚进公司的时候大家一起努力的氛围没有了，公司越来越臃肿，气氛也越来越浮躁，做的好不如说得好。
+之前看过电视剧里面一句话是：在职场上每个人都是孤单的，如果你觉得自己撑不下去，那只能证明这条路是错的。</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[汽车] 媳妇开车带着孩子出门，刚打电话说车内冒烟了</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789439#reply19">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>媳妇早上带孩子开车出去她弟弟玩，刚才给我打电话说车内冒烟，吓得我让马上电话指挥她熄火停车找灭火器，打了一系列救援，并让她弟弟赶紧开车去看，结果鉴定是打开空调后，从出风口制冷吹出的雾气。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] nfs windows 客户端限速问题</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789438#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>服务端是 ubuntu nfs server
-客户端有 windows 的也有 ubuntu 的。
-ubuntu 正常挂载，速度可以跑满。我是 1Gbps 对等，客户端服务端都是。
-windows 也是 1Gbps 对等，单挂载后，速度只有 100Mbps 跑满。我感觉是客户端限制。
-单查了很久，也没有解决方案，或者遇到同类问题的。
-windows 是 2019 server，查了下，客户端应该是 nfs v3
-ubuntu 是 20.04 ，用的是 nfs v4.1</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[酷工作] 🔥🔥[新加坡] [技术移民]大型上市互联网公司，招移动端（iOS,安卓），前端，后端（不限开发语言）， DevOps 或 SRE 等各类工程师，及各方向高级专家及技术 leader（P8-P9），没有 996，花园城市，中文视频面试</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789437#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>纽交所上市大型互联网公司，新加坡知名团队，国际化平台，富有竞争的薪资，享受新加坡优质生活环境及教育资源，可携带配偶子女一起前往新加坡工作生活，子女可正常入托入学（最好幼儿园阶段就过来，无门槛入托入学，过了入学年纪需要参加插班考试）。现阶段技术移民（全家）最简易可操作方式。
-提供跨国中文视频技术面试，英文能看懂文档就可以了。
-新加坡税极低，比如税前折合人民币 100 万，在没做减免项扣除的情况下，税后 90 万左右（ 894250 ）；年薪越高跟国内税率差距越大。高增长幅度的上市公司股票。
-公司提供 18 天年假，14 天带薪病假，6 天育儿假（有孩子的），14 天法定节假日。无政治性加班，更好的工作与生活的平衡状态。公司有设施完善的餐厅，休息室，淋浴间，整层的健身房等。配 MacBookpro+显示器，互联网顶尖公司办公环境。
-公司提供 EP （新加坡专业人士工作准证），提供配偶和子女的 DP （家属准证），公司医疗保险包含配偶和子女的医疗保险，在职期间新生儿出生，公司提供 8000 新币（ 4 万人民币）的育儿津贴
-
-要求统招本科，三年以上工作经验，互联网大厂背景优先；专家及 leader 岗可以微信详细沟通细节（岗位方向比较多，基本涵盖了所有的技术方向）
-社会安定，全球安全指数最高的国家。欢迎大家来参观和看机会。
-有意可发简历到： sophia.liu@dadaconsultants.com
-或微信了解详情：sophia_liu611
-Software Engineer - iOS
-Job Description:
-Develop new business features and building reusable components
-Translate UI / UX designs into high quality code
-Explore and evalu…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] Flyme 的锁屏壁纸连带广告关不掉，是因为魅族没钱了吗？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789436#reply6">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>第一次感觉穷真的是一件很可怕的事情，一声叹息。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[程序员] 给定若干个条件，怎么判断这些条件彼此互斥</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789435#reply4">
+                <summary class="article-expander__title">[问与答] 现在对显卡有需求，选择 3080Ti 还是 6900XT？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789544#reply4">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(1 min)</span>
-                    <span>需求是流程编辑器，想要检查用户设定的分支是否冲突
-比如左边的分支是 A&gt;80 右边的分支理论上应该是 A60，或者是 B&gt;80 这种没法做唯一性的解
-见过其他的解决方案，都是设定默认分支，当程序也不知道怎么走的时候，就走默认分支
-类似的可以扩展到多个分支，多个条件
-如果感觉不靠谱，可以限制为单条件，也就是说没有[a, b]这样的左右区间比较
-除了手写 if-else 判断有没有什么优雅方法</span>
+                    <span>目前来说的话，这两张卡溢价程度都不算特别高了。6900XT 的优势在于可以黑苹果。如果选了 3080Ti，可能还得考虑以后等 M2 出了买个 Mac mini 。
+除开这个点之外，我目前更倾向于 6900XT 。优点，一是 3A 系统的加成；二是显卡似乎有不错的超频潜力；三是更大的显存。缺点是作为最早购买 5700XT 的首批受害者，我对驱动顾虑较多
+3080Ti 的话，当然是更强大的光追性能和比较成熟的 DLSS，买显卡目的主要是打游戏，CUDA 目前还用不上
+想看看大家还有什么看法</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[ WATCH] s6 微信日常卡死</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789434#reply7">
+                <summary class="article-expander__title">[Steam] 关于 Steam 游戏管家</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789543#reply6">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(1 min)</span>
-                    <span>有无办法</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[酷工作] [实习] [微软亚洲研究院] 基于 SONiC 开源云网络操作系统的安全机制研发实习生</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789432#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>微软亚洲研究院-网络研究组招收研究实习生啦~
-微软亚洲研究院 (MSRA)-网络研究组 (Networking Research Group)
-https://www.microsoft.com/en-us/research/group/networking-research-group-2/
-&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;
-岗位： [基于 SONiC 开源云网络操作系统的安全机制研发-全职实习生, 若干名] 
-1 、工作职责：
-- SONiC 是微软推出的下一代开源云网络操作系统，为大型数据中心的交换机设备提供统一的底层操作系统支持；
-- 参与 SONiC 中某些模块的研发，如 Redis DB 、SNMP 、BGP 、DHCP 、IPv6 等等；
-- 检测 SONiC 操作系统本身的安全需求（ Spec ）与底层交换机设备实际部署的安全规则（ ACL ）之间的冲突，利用算法分析网络配置之间的不一致问题；
-- 参与开发公司在 GitHub 上的开源项目。
-2 、职位要求：
-- 熟悉计算机网络（ TCP/IP 协议栈）、云原生（ Docker，K8s ）、路由交换设备、云数据中心网络、网络安全中的一个或多个领域，有相关项目经验；
-- 熟悉 Linux C/C++、Python 、Go 中的一门或多门语言，有较强的工程能力，熟练掌握 git，代码格式清晰规范，善于团队协作；
-- 有一定英文学术论文阅读能力，能够根据论文进行系统实现；
-- 较强的沟通能力和逻辑表达能力。
-3 、具有以下条件者优先：
-- 在 GitHub 较为活跃，有自己的开源项目，或参与过知名开源项目；
-- 发表过学术论文；
-- 可以连续实习不少于 6 个月。
-&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;
-工作时间：每周 5 天，3 个月以上，能够尽快入职
-工作地点：北京市海淀区丹棱街 5 号（疫情期间可远程办公）
-如有意向请发 [中文简历 PDF ] 至：nrg-intern-recruit@microsoft.com
-简历中需标明平均分，及专业或年级排名及排名对应的总人数
- [注意] 请务必采用学校邮箱（ edu 域名）发送简历，其他邮箱（如 163 、qq 、gmail 、outlook 、hotmail 等）发送会进入公司垃圾邮件，无法被 HR 看到
-邮件标题&amp;简历 PDF 文件名格式：基于 SONiC 开源云网络操作系统的安全机制研发-姓名-学校-本|硕|博-年级-V2EX</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[职场话题] 大厂的管培生值得去吗？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789431#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>本人 211 研究生 计算机专业明年毕业</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 公司 mac 配置太低了， 有什么办法能用公司的 mac 完全代理自己的 mac 网络嘛？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789430#reply9">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>公司 mac 配置太低了， 经常卡，由于公司网络有加域限制，所以有什么办法让公司的电脑完全代理其他 mac 的网络嘛？也就是用自己电脑的硬件除了网络交给公司电脑去转发。这样可行嘛？</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[iPhone] 我的 iPhone 上 Apple Music 突然放不了歌了</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789429#reply9">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>1.没到期
-2.mac 端播放
-3.Iphone 上播客能放
-4.重启手机，iCloud 重登也没用
-解决方案，拿来吧你-_-</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 有什么好的方式下载 Google 相册里的照片？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789427#reply8">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>我通过 Google 的“管理导出作业”，把 Google 相册生成了 33GB 的压缩包，尝试本地电脑下载，太慢了，依赖于我的科学上网工具，下载非常慢且不稳定。有啥办法，可以类似离线下载，然后我可以从国内的工具中下载它？</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[Python] [爬虫问题] 有个字段是 js 生成的，麻烦帮忙</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789426#reply7">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>爬虫小白
-目标网站： https://page.auctions.yahoo.co.jp/jp/auction/j744286598
-目标字段：&#x27;送料 東京都は1,111 円（離島を除く）&#x27; 或者是 &#x27;配送方法と送料&#x27; 下面的的所有内容
+                    <span>同事跟我说注册 Steam 买了 Wallpaper Engine，要添加我为好友，发现不行。我看到他的客户端是 Steam 游戏管家，遂问他是怎么下载到的。他说是百度搜出的，输入「 Steam 官网」。我在自己的电脑上试了下，没有搜到，无痕模式下复现了，第一二条目点击都会跳转到游戏管家的安装页面，第一项则是对 Steam 官网的像素级仿制，这两项右侧有百度的广告标识。
 
-https://sm.ms/image/79ynzYdXFiQNUkK</span>
+
+同事是在该助手花了 19 元购入的 Wallpaper Engine，这也是 Wallpaper Engine 的日常价格。该助手提供了一个邮箱及密码和一个登陆账号及密码。下载 Steam，使用提供的账号，可以登陆，这是一个土耳其区的账号，购买记录为零。该游戏助手的盈利模式由此知之。
+该网站最底下的一大块内容（比如关于我们、社区、关注我们）都是装饰性的，无法点击。</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[程序员] 如何把 http 请求转成对应的 rpc 请求。</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789425#reply14">
+                <summary class="article-expander__title">[程序员] locust 和 jmeter 谁的发压能力更强</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789541#reply0">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
-                    <span>所有的对外接口都是用 pd 来定义的，能不能在网关这一层做协议的转换
-如果可以做转换，那么是手写还是程序自动转换还是说只能生成模版文件降低人工
-想了几种办法，还是思路不是很清晰，各位大佬给个思路呗。。。</span>
+                    <span>我自己测试方法是，两台电脑网线直连，一台电脑上跑 nginx，另一台上跑 jmeter 和 master worker 模式的 locust，都是相同的接口，相同的 100 并发数，相同跑 60 秒
+多次测试结果，发现 jmeter 统计的总请求数在 160W 多，而 locust 只有 100W 多
+这个能说明 locust 的发压能力低于 jmeter 吗</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[宽带症候群] 查询公网 IP 服务 icanhazip.com 现在是运行在 Cloudflare Workers 上，由 Cloudflare 接管。</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789424#reply1">
+                <summary class="article-expander__title">[iOS] 忍不了了，无线 CarPlay 延迟有人遇到吗？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789540#reply8">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
-                    <span>看到一篇最近的博客： https://major.io/2021/06/06/a-new-future-for-icanhazip/
-由于 Cloudflare Workers 是边缘计算，以后使用 icanhazip 查询 IP，应该比 ifconfig.me 等同类服务更健壮吧。</span>
+                    <span>表现
+经常错过路口，下高速下立交一个路口接一个路口，CarPlay 却延迟告知左右道。直接导致进错道
+设备
+BMW，原生无线 CarPlay，XSMax
+自己猜测
+是不是和 HomePod 等 AirPlay 投屏一样 慢半拍的？投个导航到车机上有 1-2s 的延迟？
+听歌延迟无所谓，但导航延迟就容易出问题吧？
+有没有一样用无线 CarPlay 的？是不是一样有延迟的？</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[酷工作] [广州][澳门] 量化团队招聘开发人员</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789423#reply1">
+                <summary class="article-expander__title">[分享创造] 迫于无聊，完善了一下云端起始页 on.the.top</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789539#reply12">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>地址：on.the.top 
+如题，在前段时间，大约我期末考试的时候，学了 react，迫于复习，一直没把这个做完。  
+最近几天，稍微完善了一点 。
+就是一个浏览器起始页面吧，并非导航，接入了the.top的热榜的能力。
+谈谈感受
+我主要学习后端相关知识和爬虫，之前主要是用jQuery或者MVC开发模式，自从学了react这个 js 库，感觉从手工业作坊一下子过渡到了工业化大生产。React 的 Hook 等理念，也确实很不错。
+本产品开源，欢迎交流学习，欢迎各位大佬多提意见或建议。   
+这是我用 react 写的第一个用于练手项目，勿喷。
+开源地址：on.the.top: 云端起始页 
+关于友情链接：
+目前不知道在哪里加合适。。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 自己写了个 APP，想发布任务找人测试寻 BUG，请问有这样的平台吗？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789538#reply3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>如题，求好心人。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 测试部的职责是什么？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789536#reply6">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(1 min)</span>
-                    <span>[后台开发] 
-主要职责：
-1. 负责服务端的开发和维护工作
-2. 参与服务端系统代码的重构和性能优化
-3. 按照标准撰写技术文档和软件使用说明
-任职要求:
-1. 熟练使用 Java，熟悉 Spring cloud，Spring MVC, Hibernate 等主流 Java 框架
-2. 精通服务端架构设计，性能优化和稳定性策略，有故障处理经验
-3. 熟悉常用的数据库，如 PostgresSQL 、Mysql 、MongoDB 等，能进行数据库优化
-4. 熟悉主流缓存框架，掌握 Redis 的使用
-5. 前端有一定开发经验，熟悉 HTML 、JavaScript
-6. 熟悉基本数据结构和算法，了解常用的设计模式， 具备良好的识别和设计通用框架及模块的能力
-7. 熟悉 Linux 常用指令以及网络配置，可以在 Linux 系统进行应用部署
-8. 有较强的学习能力, 有良好的沟通能力和团队协作精神
-9. 有较好的代码习惯，结构语义良好清晰，命名规范，逻辑性强 
-加分项：
-1. 熟悉多种语言，比如 python，go
-2. 对 docker 容器技术有一定了解，能使用 docker 容器
-3. 有金融行业交易相关系统开发经验，对金融业务了解
- [ flutter 开发] 
-参与 Flutter 开发框架的搭建、业务组件的沉淀以及性能优化⼯作
-使⽤Flutter 技术栈，进⾏UI 框架开发，完成⾼质量编码⼯作
-配合产品、设计、市场等其他⻆⾊，为业务提供优秀的技术⽀持
-设计良好的代码结构，编写⾼质量的代码
-本科或以上学历，计算机软件、通讯相关专业优先
-有完整系统功能搭建并发布上线的相关经验优先
-了解 Flutter 框架、Dart 语⾔，熟练使⽤各种 Flutter 布局、动画，并对 Java 有⼀定的了解
-⽬标导向，具备强烈的进取⼼和责任感, 极强的学习能⼒及良好的团队合作精神
-Base 地可选广州或者澳门，前华尔街量化 leader 带领的量化团队，机会多多，氛围融洽
-邮箱： marchochen@gmail.com</span>
+                    <span>背景：小公司，我也才工作一年，我是做后端开发的，项目都是 B/S 的。
+公司有个测试部，但每个项目的测试都让我很恼火，所以过来问问各位大佬。
+简单说下我了解的流程：项目策划和开发阶段测试部没有参与过，然后我这边开发完成后前端需要写测试指导和测试项说明书，测试部根据这两个文件测试。他们的测试就仅仅功能测试，网页点击、请求看看有没有问题。没问题了提交版本到老化房，通过鼠标宏一直登录退出进行所谓的老化测试。
+我的疑惑：测试部不应该参与项目策划，定好测试项给我们开发人员吗？除了基本的功能测试，不是还要有诸如压测等测试吗？必须要开发自测完美，测试部测试没问题这种要求合理吗？
+最后吐槽下，测试部连 F12 都不知道，每次出现问题前端后端服务端都要过去检查到底是哪里出问题了。上次给领导提意见说让他们了解下 F12，出问题时定位准确点，减少打扰我们开发次数。结果回了句，你们自己去培训他们啊，当时血压就上来了。</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[Coding] 代码扫描 | 把控代码质量的利器</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789422#reply0">
+                <summary class="article-expander__title">[问与答] 二手 surface pro6 和全新华为 matepad11，选哪个</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789532#reply14">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(1 min)</span>
-                    <span>本文作者：潘金赤 —— CODING 产品总监 
-腾讯云研发平台负责人，十年研发能效建设经验 
-CODING 代码扫描产品负责人
-有位小伙子在办公大楼门口抽烟，一位路人经过他的身边对他说：“你知不知道这个东西会危害你的健康？你有没有注意到香烟盒上的那个警告（ Warning ）？”
-
-小伙子说：“没事儿，我是一个程序员。”
-
-路人说：“这又怎样？”
-
-程序员回答道：“我们从来不关心 Warning，只关心 Error 。”
-
-以笑开场，这是一篇写给极少使用 /了解代码扫描工具的用户的“启蒙”读物。一方面因为代码扫描存在一定的技术壁垒，涉及到词法 /语法分析、编译注入、模式识别及安全等相关领域，想要了解这方面的内容可能难以下手；另一方面，由于目前大众对于代码扫描产品及其领域还存在着较多误解，极大程度上影响了代码扫描的使用体验，更有甚者直接把 Lint/Style 与扫描划了等号，让人啼笑皆非。
-CODING 代码扫描自开放试用以来，已累计为 5000+ 团队提供扫描服务，帮助开发团队及时发现了大量潜藏的代码缺陷、安全漏洞以及不规范代码。希望通过这篇文章，以一些常见场景为例，通俗易懂地解释代码扫描的价值与使用方法，帮助读者深入理解，快速上手，让代码扫描产品在助力企业建设 DevSecOps 的道路上，发挥最大的价值。
-代码扫描有什么价值
-抛开那些老生常谈的 质量前移 或 质量内建 的概念，从实际运用的角度来看，代码扫描往往是一个团队向 DevOps 转型的第二步（第一步是持续集成 /流水线）。一是因为流水线上只跑了编译打包部署还是略显单薄，二是相比单侧、接口自动化及 e2e 自动化，接入代码扫描的成本是最低的。以 Jenkins 为例，只需要运维在 Jenkins 集群中安装 SonarQube 插件，再在 Jenkinsfile 中增加一行命令，就可以在无需开发人员介入的前提…</span>
+                    <span>最近想买个平板，主要需求就是下象棋、五子棋、画画、看电子书
+在 surface pro6 和最新的华为 matepad11 选哪个上卡住了
+手机是小米的，也没有任何华为生态的东西，所以只是当 matepad11 是一个普通安卓平板
+surface pro6，主要担心，会不会多余，家里有台式机和笔记本了，对一台新的电脑需求并不高</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[Spotify] 迫于经常听歌，有 spotify 美区车位吗</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789420#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>No content preview</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 买房小白问一下：工资流水不够多，如何让银行多贷一点款给我呢，愁死了，开收入证明行吗</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789419#reply29">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>No content preview</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[生活] 你们有怒火中烧最后被自己生生憋回去的时候吗？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789418#reply65">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>早上在坪洲地铁站排队安检的时候，我边走边把挎包凑过去给小哥扫，小哥把我包扯住让我把拉链拉开给他检查，我站住后，就不小心挡住了后面一男的路，我也不知道他到底有多急，直接用手把我往边上狠狠一推头也不回快步走掉，我直接踉跄了一下，小哥都白了他一眼。我当时蒙了两秒钟，然后就感觉脑袋嗡的一下火就冒上来了。我生平最恨的就是这种嚣张目中无人没素质的人。从进站到走到站台那几十秒，我感觉我头都快被气炸了，恨不得马上拿把刀直接给他捅了。至少找他理论一下。但是我是那种一争论就很激动然后语无伦次的人，我怕我失去理智场面就会变得很难看。还是忍住了。
-这让我想到了另外一件事，有回出地铁的时候下雨了，我们就随手对着出口附近的一辆摩的招手示意他过来，结果还没等他开过来，就被另外一个师傅抢先了，我寻思毕竟是我主动找的那个人，就想绕过抢生意的师傅去坐第一个人的车，结果那个抢生意的师傅直接用摩托车挡着不让我们过，我们绕到哪儿他跟到哪儿，我就想那就不打算了。结果第一个人不干了，感觉被同行欺负了，同时生意也没了，找我们撒气，追着我们骂，边骂边扬言要打死我们，我就站在雨中跟那个人理论，他骂脏话我也尽量克制自己不要激动，最后我女朋友看不下去了，直接拿出手机说要报警才把那个人赶走。回去后，女朋友嫌我太书生气，跟这种人还讲道理，直接跟他干就好了。意思是我那个时候么有拿出男朋友应该有的气魄，没有给她安全感，让她受了惊吓。最后还因此吵了一架。
-在冲突的时候尽量保持克制，避免更多更大的冲突，不是成年人应该具备的素质吗？我就感觉在公共场合打架撕扯被很多人围观真的是件很掉分子的事儿？但今天早上我是真的有想出口恶气的想法，哪怕那个男的高我一个头比我壮，我当时是真的没带怂的。但最终还是理智战胜了“激情”。
-你们有类似的时候吗？激情被释放，或者像我一样被生生憋回去。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] Bighorn Consultants 这家公司有大佬知道么 前两天收到了他们的域名收购邮件</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789416#reply5">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Bighorn Consultants 这家公司有大佬知道么 前两天收到了他们的域名收购邮件
-我是要发财了么？</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[程序员] 鉴于没找到合适的，求推荐 Jetbrain 的 Color Scheme！</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789415#reply14">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>默认的 Color Scheme 颜色标识类别较少，因此想换一个，但是没找到看着舒服的。
-字体颜色的 Color Scheme
-不是主题 Theme ！
-不是主题 Theme ！！
-不是主题 Theme ！！ ！</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[酷工作] [实习] [微软亚洲研究院] 分布式机器学习系统仿真算法研究实习生</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789414#reply0">
+                <summary class="article-expander__title">[职场话题] 公司招人，半个月收到了接近 20 份简历，只有一份是真的。</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789531#reply11">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(1 min)</span>
-                    <span>微软亚洲研究院-网络研究组招收研究实习生啦~
-微软亚洲研究院 (MSRA)-网络研究组 (Networking Research Group)
-https://www.microsoft.com/en-us/research/group/networking-research-group-2/
-&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;
-岗位： [分布式机器学习系统仿真算法研究-全职实习生, 1 名] 
-1 、工作职责：
-- 分布式机器学习系统仿真算法的研究，建立模型，以提高系统仿真精度为目标；
-- 将算法实现与仿真系统集成，以提高系统在多种条件下的精度。
-2 、职位要求：
-- 数学、统计学、计算机科学等专业，在读本科、硕士、博士研究生；
-- 数学基础知识扎实，具有较好的统计学教育或应用背景；
-- 熟悉 Python, C/C++等语言；
-- 较强的沟通能力和逻辑表达能力。
-3 、具有以下条件者优先：
-- 熟悉分布式机器学习系统，计算机体系结构；
-- 熟悉 cuda, cublas ；
-- 可以连续实习不少于 6 个月。
-&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;
-工作时间：每周 5 天，3 个月以上，能够尽快入职
-工作地点：北京市海淀区丹棱街 5 号（疫情期间可远程办公）
-如有意向请发 [中文简历 PDF ] 至：nrg-intern-recruit@microsoft.com
-简历中需标明平均分，及专业或年级排名及排名对应的总人数
- [注意] 请务必采用学校邮箱（ edu 域名）发送简历，其他邮箱（如 163 、qq 、gmail 、outlook 、hotmail 等）发送会进入公司垃圾邮件，无法被 HR 看到
-邮件标题&amp;简历 PDF 文件名格式：分布式机器学习系统仿真算法研究-姓名-学校-本|硕|博-年级-V2EX</span>
+                    <span>我说的真的是指学历是真的，学信网可查的，然后这小姐姐实话实说自己之前做其他行业，刚培训完，现在出来找工作我是挺喜欢这种，因为本身工作要求不高，所以准备这个了。。   不知道大家怎么看学历造假，经验造假这种现象。。这比例确实惊到我了。</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 凯捷的爱立信外包和另一家人力外包公司的 ea 外包怎么选？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789411#reply3">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>老哥们给点意见。不想这么早回老家结婚，想先找家外地公司打工混着。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 多年前配了个眼镜 雾化后 写了个 wz7。有大佬知道是什么牌子么</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789409#reply5">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>多年前配了个眼镜 雾化后 写了个 wz7 。有大佬知道是什么牌子么</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[职场话题] 梦比现实好多了</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789408#reply4">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>最近因天气燥热很难入睡，睡眠质量一点也不好，还做梦。好的是做的梦质量还行，梦里 50 多岁开车四驱越野旅游，好快活。真能到那个岁数过上那种生活，该多好。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[Android] AB 的工程效率小集 #1 七月刊</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789407#reply1">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>约是年初开始，我持续不断地在一些较有讨论氛围的社区、社群，参与我感兴趣的技术话题互动。经过半年的体验，这类持续输入输出对我个人有不少的收获。一方面我能从这些社区社群看到不少新东西，例如第一时间看到世界各地的技术访谈、博客、新闻、活动；另外一方面我的知识体系在反哺社区和讨论的过程中逐步完善。
-可惜，不少的社区社群并不能被搜索引擎记录，例如 Slack 、星球、以及各种普通 IM 工具内的群组。在第八期“二分电台”讨论”持续学习“话题时，Randy 和我聊到了《 Learn in Public 》这篇文章——是的，固然加入了某个 Slack 社区后可以在里面搜索历史记录，但是它依然不是搜索引擎可见的。特别像 Gradle 这类大家“熟悉的陌生人”，我们每天都在用，但真碰到一个什么奇怪的问题想赶紧知道（不一定是 bug，可能只是一个用法、一个 API 的理解等），目前最好的办法还是去他们的 Slack 社区互动，纵然他们有论坛和 StackOverflow 的 tag 。这些“封闭”的内容无法有效地被更广泛的人群接受，新手很难从外部获取到最新的资讯、讨论；以至于我有时候甚至觉得技术分享的视频如果不把 timeline 和关键字标注出来，也会流失大量本来可以点击进入的观众。
-所以，我一直有这个想法：做一个月度或者半月的小集合，把我参与过、具有通用价值的一些东西记录下来、公开出去。
-这类问答式的内容，如果单独写成一篇，可能有些 overkill 了，所以定位在一个月度的小集的形式；
-目前以我参与过的内容为主，在所有的内容确保是无版权、或者我拥有版本的情况下，再整理、记录、沉淀，后面也会考虑加入一些 Slack 或其他群组上我看到的精彩内容；
-至于分发形式，我斟酌的结论是：先在我的博客记录，公众号 /掘金等二次分发，如果有其他朋友参与一起做且方向比较统一在工程效率和开发体验这块的话，可…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[C#] 反编译 c#遇到 unmanaged 的代码还能继续下去吗？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789404#reply1">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>用 ILSpy 反编译一个 dll 遇到这样一段代码
-long num &#x3D; *(long*)((ulong)(nint)ptr + 8uL);
-int num2 &#x3D; *(int*)ptr;
-CFile* file;
-CFile.Open(&amp;file, some_path, 36898u, null);
-
-// 以下我猜是调用了一个函数
-(
-    (delegate* unmanaged[Cdecl, Cdecl])
-    (*(ulong*)(*(long*)file + 136))
-)(
-    (nint)file, (void*)num, (uint)num2
-);
-
-🙏</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 你们平时写接口会遵循 RESTful API 吗？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789400#reply12">
+                <summary class="article-expander__title">[酷工作] [深圳] web 前端开发工程师 - 小公司 - 周末双休 - 无加班(从来不会加班，我没加班过) ( 10 ~20 人)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789529#reply6">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(1 min)</span>
-                    <span>是这样，我是前端，但是最近打算学写 api，想试试 RESTful API，看了[阮一峰的这篇文章]( http://www.ruanyifeng.com/blog/2014/05/restful_api.html)，在开始前我就想到了可能会遇到的一些问题：
-1. GET 方式参数都拼在 url 上，但是有时候一个接口甚至会携带十几个参数，比如我们现在的后台管理的一些列表就是，这个感觉有点丑
-2. &#x60;GET /zoos/ID/animals：列出某个指定动物园的所有动物&#x60;，这是文中举的一个例子，要查某个表里某个 id 关联的其它表的数据，需要把 id 放在接口地址上，这样感觉很不好看，前端处理起来也很麻烦。
-我们目前后端基本就是只用 GET 和 POST，甚至直接所有 POST 一把梭。
-想知道各位都是怎么写的，是否有实践过 RESTful 的？以及实际效果怎么样？是否有很多槽点？你觉得哪种方式更好？</span>
+                    <span>招聘要求:
+学历不限 
+薪资: 12 - 14
+工作经验 1 - 3 - 4 年吧
+招一个能独立的前端开发，至少能自己构建项目，自己封装各样的组件啥的
+我也前期会和你一起开发前端
+目前技术栈 只要 会 vue 就行，看你能力
+工作职责: 
+1 、针对产品有自己的思考和见解，再互相讨论
+2 、工作任务自由安排
+3 、维护现有的一些项目
+4 、重构一个新的项目（还有另外其他人也会参与前端，目前的我们技术前后端都会，现有的前端项目是我弄的）
+nuxt 、vue
+5 、负点责任
+工作任务自己分配，不会有人催你啥的
+上班时间: 9:00 - 6:00
+直接投我邮箱吧 
+chenf@surest.cn
+公司名称就不发了，小公司，怕被其他人鄙视</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[全球工单系统] 突然发现钉钉 PC 端背后有阿里旺旺的痕迹</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789398#reply7">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>前两天安装了个钉钉,弹出个报错,如下图所示</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[成都] 现在成都薪资怎么样？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789396#reply9">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>还有公司能给的到 45x16 这种水平普通开发（非管理层）的公司吗？
-头条、蚂蚁、腾讯、美团这种公司能给到吗？有小公司能给到吗
-前几年听说百词斩能给到，但今年百词斩薪资完全不行了。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[投资] 除了股市楼市， 21 年还有哪些小众投资方式？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789395#reply20">
+                <summary class="article-expander__title">[分享发现] win 的微信为什么要建立这么多连接</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789527#reply20">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
-                    <span>众所周知，股市需要投入大量时间精力才能勉强不当韭菜，在我看来股市投入与产出完全不成正比。21 年请问还有哪些小众投资方式？</span>
+                    <span>https://i.imgur.com/axWY2tK.png
+https://i.imgur.com/Gk4ZuDT.png
+电脑总是开几天就连不了网了，网页也打不开，只有微信能用。根据某软件报的端口耗尽了，打开火绒剑看到全是微信搞的</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[酷工作] [FinTech 社区] IT 招聘专场： 30-200 万：北上深杭新</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789394#reply0">
+                <summary class="article-expander__title">[全球工单系统] 继 B 站崩了，今天博客园也挂了</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789526#reply4">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
-                    <span>FinTech 社区是一个拥有 50,000+ 会员的金融科技社群，旨在为金融科技行业赋能，致力于金融科技行业资源共享社群。我们目前有机器学习群，技术群，量化群，校招群，数据开发群等等。
-简历邮件： career@fintechgl.com
-微信公众号：FinTech 社区
-微信号：fintech78
-官网：www.fintechgl.com
+                    <span>请求响应 502 Bad Gateway
+https://www.cnblogs.com/</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[程序员] mta.qq.com 这网站是倒闭了吗？想看一下手机市场占有率也费劲，接二连三的各种大厂停止服务😂</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789525#reply2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>上次是cnpm 主站不能访问，持续到现在还是不能访问
+这次是 https://mta.qq.com/mta/data/device     ，上礼拜想查一下移动设备的占有率，发现打不开，还以为是暂时的，没想到过了一礼拜了，估计也是凉凉了吧
 
-量化 VS 互联网视频链接：
-https://mp.weixin.qq.com/s/Mh5RL0BuYru9FuC1KmyAjQ
-
-[FinTech 社区]  IT 招聘专场：30-200 万：北上深杭新，详情请见海报。</span>
+好歹 cnpm 还提示了一下 中文字 ， 这货妥妥的一脸的宕机样🐶😂
+平时主要用的百度 腾讯的流量统计数据来做分析，都是开放查询，可以相互佐证，至少不会偏的离谱，现在缺了一条腿，又得找个新欢了😂
+有没有推荐的可以直接查看移动设备市场份额统计的网址发一下？我已经准备好白嫖了😘</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 有记账 app 支持『预算转移』和『分期』吗？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789393#reply16">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>『预算转移』
-（ 1 ）给食品花销的预算设置是 2000，但 6 月只吃了 1800，所以 7 月的食品花销的预算是 2200 。如果 7 月只吃了 1900，那么 8 月食品花销的预算应该是 2000 + (2200-1900) &#x3D; 2300 。
-（ 2 ）对于富裕（实际预算值高于设置预算值）的消费项，可以把它富裕部分的预算转给别的消费项。比如第一条里，8 月食品消费预算 2300，就可以把 300 转到电子产品消费项预算里去。
-『分期』
-7 月付房租 9000，记这个账的时候有个选项可以选择该钱花出去可用几个月，我输入个 3  个月，在统计和预算扣减上，就自动帮我计算成 7 8 9  每个月各 3000 。
-我看市面上所有记账 APP 都没这些功能。可我感觉这些功能应该有啊。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[Apple] 求 AirPods 单耳购买渠道</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789392#reply8">
+                <summary class="article-expander__title">[程序员] typecho 怎么没有 even 主题呢</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789524#reply3">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
-                    <span>迫于 AirPods 右耳离家出走，求一个购买单耳的靠谱渠道</span>
+                    <span>hugo： https://themes.gohugo.io/themes/hugo-theme-even/
+hexo： https://github.com/ahonn/hexo-theme-even
+这个主题的文章详情页看着舒服多了，搜了一圈 typecho 居然没有这个主题，搞得想换博客引擎了。。</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 问程序员要作品集合理吗？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789391#reply28">
+                <summary class="article-expander__title">[数据库] 数据库之特色功能：单元格值算法更新和算法复制</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789523#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>#数据库# #袋鼠# 袋鼠数据库管理工具之特色功能：单元格值算法更新和算法复制已支持字符串类型；
+https://github.com/dbkangaroo/kangaroo</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[推广] [盖楼抽奖] ShowMeBug 自动补全功能原理大揭秘</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789522#reply4">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(1 min)</span>
-                    <span>问与答 - @Cbdy -</span>
+                    <span>经常有读者问小编，说用 ShowMeBug 做笔面试编程题时代码自动补全功能体验特别好，想知道是怎么实现的。问的人多了，小编就安排了一篇文章来说明自动补全的原理。
+
+我们日常生活中最常见的自动补全场景是搜索引擎的搜索框，比如下图：
+
+最简单粗暴的方式肯定是将用户输入的搜索词依次与列表中的字符串进行前缀匹配，如果前缀匹配，就在搜索结果中显示。当要搜索的字符串集合较小时，这么做可以接受，但如果搜索对象集较大，就不那么高效了。
+const texts &#x3D; [&quot;show&quot;, &quot;me&quot;, &quot;bug&quot;, &quot;money&quot;];
+
+const createFilter &#x3D; (queryString) &#x3D;&gt; {
+  return (text) &#x3D;&gt; {
+    return (
+      text.toLowerCase().indexOf(queryString.toLowerCase()) &#x3D;&#x3D;&#x3D;
+          0
+    );
+  };
+};
+
+texts.find(createFilter(&#x27;sh&#x27;)) // return show
+
+如果不用这种方式，那就要考虑字典树了。引用维基百科中关于字典树的定义：
+字典树是一种有序树，用于保存关联数组，其中的键通常是字符串。与二叉查找树不同，键不是直接保存在节点中，而是由节点在树中的位置决定。一个节点的所有子孙都有相同的前缀，也就是这个节点对应的字符串，而根节点对应空字符串。
+
+因为是树，其查询效率非常高，如果要查询的字符串长度是 k，则查找的时间复杂度为 O(k)。
+不过字典树比较耗费空间，虽然可以通过三向字典树来进一步节省空间，但对于目前这个需求来说，字典树就够了。
+首先，我们要构建一棵字典树，那该怎么构建呢？
+和二叉树不同，字典树有多个分叉，常见的实现是通过多层数组映射来构建，假设输入的字符串只有 26 个小写英文字母，第一层节点…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 求一个 sql 语句优化</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789521#reply8">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>本人是菜鸟。数据库为 mysql，数据量为三千万，以下语句执行一次要三个小时，实在是。。。
+其中&#x60;t&#x60;为文章标题，&#x60;c&#x60;为长文章。以下字段做了索引：vcount 、ccount 、time 、t
+请教高人们如何优化？
+sql 如下：
+SELECT &#x60;t&#x60;, &#x60;c&#x60;, &#x60;username&#x60;, &#x60;userid&#x60;, &#x60;time&#x60;, &#x60;ccount&#x60;, &#x60;vcount&#x60;, &#x60;u&#x60;  FROM &#x60;p&#x60; where &#x60;pl&#x60;&gt;&#x3D;300 AND &#x60;ccount&#x60;&gt;&#x3D;4 AND time&gt;&#x27;2021-01-01 00:00:00&#x27; AND (t LIKE &#x27;%合作%&#x27; or t LIKE &#x27;%启发%&#x27; or c LIKE &#x27;%合作%&#x27; or c LIKE &#x27;%启发%&#x27;)  ORDER BY publish_time DESC</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[分享创造] 写了一个简单的网站，记录自己上海——武汉的骑行</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789520#reply9">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>昨天我完成了上海——武汉的骑行，全程 810km，总耗时 8 天。
+我写了一个简单网页，记录自己的整个行程，路线记录软件为 Strava。另外通过 iOS 的捷径，触发 GitHub Action 进行当前位置的更新，以及路线的绘制，让自己的朋友和家人能够实时关注到自己的动态。
+
+网站链接： https://mayandev.top/cycling/
+GitHub： https://github.com/mayandev/cycling
+灵感来源于：running-page</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[分享创造] 深圳、上海证券交易所 STEP、Binary 数据交换协议解析工具</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/789519#reply3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>估计这个东西关注的人不多吧，也没有一个现成的工具，所以开发了一个解析工具，方便开发、测试工作
+主要的功能有：报文解析、报文重组、模拟撮合生成回报
+好像不让放外链吧这里，有兴趣了解使用的加我微信吧：Foveros</span>
                   </div>
                 </a>
               </details>
@@ -1206,75 +1236,6 @@ https://mp.weixin.qq.com/s/Mh5RL0BuYru9FuC1KmyAjQ
     </ul>
   </section>
   <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-07-04">2021-07-04</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.williamlong.info/">月光博客</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">网信办：滴滴出行严重违法违规收集使用个人信息</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.williamlong.info/archives/6485.html">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>据网信中国微信公众号消息：根据举报，经检测核实，“滴滴出行”App存在严重违法违规收集使用个人信息问题。国家互联网信息办公室依据《中华人民共和国网络安全法》相关规定，通知应用商店下架“滴滴出行”App，要求滴滴出行科技有限公司严格按照法律要求，参照国家有关标准，认真整改存在的问题，切实保障广大用户个人信息安全。
-
-
-　　7月4日，针对APP被下架一事，滴滴出行官微回应称，滴滴坚决落实国家有关部门的相关要求，已于7月3日暂停新用户注册，滴滴出行App将严格按照有关部门的要求下架整改。
-
-
-　　滴滴方面称，已下载滴滴App的用户可正常使用，乘客的出行和司机师傅的接单不受影响。
-
-
-　　滴滴还称，我们将认真整改，不断提升风险防范意识和技术能力，持续保护用户隐私和数据安全，防范网络安全风险，持续为用户提供安全便捷的服务。
-
-
-　　以下为滴滴公司的公告原文：
-
-
-
-　　滴滴坚决落实国家有关部门的相关要求，已于7月3日暂停新用户注册，滴滴出行App将严格按照有关部门的要求下架整改。
-
-
-　　已下载滴滴App的用户可正常使用，乘客的出行和司机师傅的接单不受影响。
-
-
-　　真诚感谢主管部门指导滴滴排查风险，我们将认真整改，不断提升风险防范意识和技术能力，持续保护用户隐私和数据安全，防范网络安全风险，持续为用户提供安全便捷的服务。
-
-
-
-　　后续报道：网信办下架“滴滴企业版”等25款APP
-
-
-　　7月9日，据国家网信办微信号“网信中国”通报，根据举报，经检测核实，“滴滴企业版”等25款App(列表附后)存在严重违法违规收集使用个人信息问题。国家互联网信息办公室依据《中华人民共和国网络安全法》相关规定，通知应用商店下架上述25款App。
-
-
-　　国家网信办要求，相关运营者严格按照法律要求，参照国家有关标准，认真整改存在的问题，切实保障广大用户个人信息安全。各网站、平台不得为“滴滴出行”和“滴滴企业版”等上述25款已在应用商店下架的App提供访问和下载服务。
-
-
-
-
-
-　　我觉得，这事情后续发展还很难判断，网信办公告透露的信息还是非常少，“违法违规收集使用个人信息”，具体包含什么收集怎么使用没细说，不好进行分析判断，但滴滴这回估计在劫难逃，在行政上要喝一壶了。
-
-
-　　如果说中国哪个企业存在“违法违规收集使用个人信息”的情况，全拉出去枪毙可能有冤枉的，但是隔一个枪毙一个肯定有漏网的。
-
-
-　　但话说回来，最坏的情况，滴滴公司应该不会被查封关闭，因为涉及到1500万司机的就业和生活问题，如果真把滴滴公司查封关闭了，大量失业人员以及失业补偿金是很麻烦的事情。此外，黑车可能会大量增加，乘车安全会下降，资本也可能将会避险，不在这个高风险行业投资，导致行业资金减少，其他网约车不得不提价，最终回到以前都用出租车的时代。
-
-
-　　最终结果，应该是滴滴公司进行整改，修补漏洞完整制度，然后再罚一笔钱，滴滴后期看看有没有可能回到香港上市。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-07-02">2021-07-02</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -1320,7 +1281,7 @@ https://mp.weixin.qq.com/s/Mh5RL0BuYru9FuC1KmyAjQ
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-07-14T05:33:10.388Z">2021-07-14T05:33:10.388Z</time>
+    <time id="build-timestamp" datetime="2021-07-14T17:39:48.426Z">2021-07-14T17:39:48.426Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>
