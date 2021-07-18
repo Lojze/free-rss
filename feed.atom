@@ -2,691 +2,745 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lojze.github.io/free-res/index.html</id>
     <title>阅读器</title>
-    <updated>2021-07-18T05:31:18.611Z</updated>
+    <updated>2021-07-18T17:38:12.011Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://lojze.github.io/free-res/index.html"/>
     <link rel="self" href="https://lojze.github.io/free-res/feed.atom"/>
     <entry>
-        <title type="html"><![CDATA[[CSS] 关于出现滚动条导致屏幕宽度变化的解决方案]]></title>
-        <id>https://www.v2ex.com/t/790188#reply0</id>
-        <link href="https://www.v2ex.com/t/790188#reply0"/>
-        <updated>2021-07-18T05:22:15.000Z</updated>
-        <summary type="html"><![CDATA[比如有一个 div 居中，用的是 margin: auto; 
-然后还有 padding: 20px;
-然后为了解决滚动条的宽度问题，查了网上的方案有一个是 padding-left:calc(100vw - 100%);可以解决，但是这样子我原本的 padding 应该怎么计算，还可以设置吗]]></summary>
+        <title type="html"><![CDATA[[V2EX] 你觉得大萧条会重演吗]]></title>
+        <id>https://www.v2ex.com/t/790278#reply5</id>
+        <link href="https://www.v2ex.com/t/790278#reply5"/>
+        <updated>2021-07-18T16:50:29.000Z</updated>
+        <summary type="html"><![CDATA[今晚看了 罗杰斯的 危机时刻
+里面说到 全球 gov 的债务不断堆积。
+清零的时刻即将到来。
+我也不是学金融经济的 第一次看这种宏观书籍。
+搞得我心慌慌。]]></summary>
         <author>
             <name>V2EX</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[推广] 新手入门 | 穿越赛博]]></title>
-        <id>https://www.v2ex.com/t/790187#reply0</id>
-        <link href="https://www.v2ex.com/t/790187#reply0"/>
-        <updated>2021-07-18T05:13:24.000Z</updated>
-        <summary type="html"><![CDATA[订阅地址： https://zhishihezi.net/b/03c82a3d82cdf5a1d066e0e2423e48dd]]></summary>
+        <title type="html"><![CDATA[[天黑以后] 20210719 午夜俱乐部]]></title>
+        <id>https://www.v2ex.com/t/790277#reply1</id>
+        <link href="https://www.v2ex.com/t/790277#reply1"/>
+        <updated>2021-07-18T16:39:46.000Z</updated>
+        <summary type="html"><![CDATA[雨村见他回了头，便自为这女子心中有意于他。
+脂批：A0121  [◎甲戌侧] 今古穷酸，皆会替女妇心中取中自己。]]></summary>
         <author>
             <name>V2EX</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[程序员] 求推荐一个好点的鼠标，适配 macBook，感觉 Apple 的鼠标太难用了]]></title>
-        <id>https://www.v2ex.com/t/790186#reply2</id>
-        <link href="https://www.v2ex.com/t/790186#reply2"/>
-        <updated>2021-07-18T05:12:30.000Z</updated>
-        <summary type="html"><![CDATA[买了一台 macBook，在吃灰，原因竟然是鼠标不好用
-求推荐
+        <title type="html"><![CDATA[[职场话题] 团体替换太快，全是新人没啥凝聚力，平时都没人聊天开玩笑了，新人见面连招呼都不打。]]></title>
+        <id>https://www.v2ex.com/t/790275#reply5</id>
+        <link href="https://www.v2ex.com/t/790275#reply5"/>
+        <updated>2021-07-18T15:39:14.000Z</updated>
+        <summary type="html"><![CDATA[可能老了。年轻人不在意团队关系的维护？]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Windows] 升级到 Win 11，发现右键 terminal 没了]]></title>
+        <id>https://www.v2ex.com/t/790274#reply1</id>
+        <link href="https://www.v2ex.com/t/790274#reply1"/>
+        <updated>2021-07-18T15:31:17.000Z</updated>
+        <summary type="html"><![CDATA[只能通过 shift + F10 的老菜单才能打开，有哥们知道怎么在 win11 的右键新菜单添加 terminal 吗]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[分享创造] 果仁相册 - 一款轻量的相册管理软件]]></title>
+        <id>https://www.v2ex.com/t/790273#reply7</id>
+        <link href="https://www.v2ex.com/t/790273#reply7"/>
+        <updated>2021-07-18T15:29:13.000Z</updated>
+        <summary type="html"><![CDATA[果仁相册是本人业余时间开发的一款 Android 原生应用。主要功能包括：管理本地相片和管理云端（百度网盘、WebDAV 、OneDrive ）相片。APP 可在 酷安、小米 等应用商店下载。希望能在此平台结实一些产品经理和设计师。]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[宽带症候群] 坐标济南 有无合适的套餐？目前联通月消近 200，三个副卡，一个宽带。]]></title>
+        <id>https://www.v2ex.com/t/790272#reply1</id>
+        <link href="https://www.v2ex.com/t/790272#reply1"/>
+        <updated>2021-07-18T15:18:05.000Z</updated>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[随想] 大家有没有这种感觉,越接近完成,就越觉得没有意义?]]></title>
+        <id>https://www.v2ex.com/t/790271#reply6</id>
+        <link href="https://www.v2ex.com/t/790271#reply6"/>
+        <updated>2021-07-18T15:11:46.000Z</updated>
+        <summary type="html"><![CDATA[这里的完成指的是一件事,或者一个目标....
+每次想到一个东西,快完成的时候,就觉得做这个好像并没有想象中的收益那么大,感觉兴奋点完全是在于想以及过程.一旦绝大多数问题都被攻克后,就进入贤者时间了......
+但是,又由于大部分工作都做了,最后一点工作哪怕不愿意做也是要强迫自己做完,但是做的过程中完全没有开始时那么兴奋了.
+按理说越接近完成,应该越能体会到那种完成的喜悦,为啥会有一种好像自己当时就不应该做这个的感觉......]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[iPad] 二手的 18 款 iPad pro 和 air 3，如何抉择？]]></title>
+        <id>https://www.v2ex.com/t/790270#reply1</id>
+        <link href="https://www.v2ex.com/t/790270#reply1"/>
+        <updated>2021-07-18T15:01:00.000Z</updated>
+        <summary type="html"><![CDATA[此前没有任何苹果设备，想体验一把。
+
+还有就是，18 款 ipad pro 我闲鱼随便挑会踩雷么？大概价位在哪我要不要加点价]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[机器学习] colab 上如何使用数据库？]]></title>
+        <id>https://www.v2ex.com/t/790269#reply0</id>
+        <link href="https://www.v2ex.com/t/790269#reply0"/>
+        <updated>2021-07-18T15:00:25.000Z</updated>
+        <summary type="html"><![CDATA[我在网上搜了一圈，介绍上传数据的两种方式是：
+1 、将本地 CSV 文件上传到 google drive，然后在在 colab 中用 python 调用 csv 文件中的数据。
+2 、用将数据导入本地数据库例如 sqllite，google drive 的客户端中进行一份设置。使 colab 通过命令经过 google drive 通过网络调用本地 sqllite 中的数据。
+
+想了想，上述两种方式都有不足。
+第一种方式 csv 文件毕竟不是数据库文件。能承载的数据数量，维度都有限。用 colab 看中的就是 GPU 的算力。如果数据不多，还用 colab 干什么？
+第二种方式考虑到网络传输速率，让 colab 从本机数据库读取数据，这个速度是不是成问题。而且中途网络中断是不是要重读？
+所以，有没有哪位老师知道如何在 colab 上建立数据库，并将本地数据导入到云端数据库并在自己的 colab 环境中直接调用？]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[分享创造] 开发了一个 httptest 的命令行工具]]></title>
+        <id>https://www.v2ex.com/t/790268#reply1</id>
+        <link href="https://www.v2ex.com/t/790268#reply1"/>
+        <updated>2021-07-18T14:40:37.000Z</updated>
+        <summary type="html"><![CDATA[https://github.com/wklken/httptest
+测试用例非常多的时候, postman+newman 的维护变得不香了
+所以希望有一个简单轻量一点的工具能够做测试, 然而并没有找到, 所以自己搞一个, 持续更新中]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[职场话题] 实际工作中遇到过什么困难这问题怎么回答]]></title>
+        <id>https://www.v2ex.com/t/790267#reply2</id>
+        <link href="https://www.v2ex.com/t/790267#reply2"/>
+        <updated>2021-07-18T14:35:31.000Z</updated>
+        <summary type="html"><![CDATA[没有遇到过特别困难的东西]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[iPad] iPad pro 无法登陆 qq 以及 tim qq，系统 15.0]]></title>
+        <id>https://www.v2ex.com/t/790265#reply1</id>
+        <link href="https://www.v2ex.com/t/790265#reply1"/>
+        <updated>2021-07-18T14:31:52.000Z</updated>
+        <summary type="html"><![CDATA[密码正确，手机和网页版都能登陆，但是 ipad 下载的 qq 和 tim 每次登陆都是显示登陆失败，请问有同样问题的朋友吗？]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[MacBook Air] 刚买 4 个月的 MacBook，电池健康度到了 97%属于正常吗？]]></title>
+        <id>https://www.v2ex.com/t/790264#reply12</id>
+        <link href="https://www.v2ex.com/t/790264#reply12"/>
+        <updated>2021-07-18T14:27:08.000Z</updated>
+        <summary type="html"><![CDATA[4 个月期间都是电量低于 20%才充电，充完 100%就拔了充电器用，一直是用原装送的充电头，没用过其他的。但是使用环境经常到达 40 度的高温，这会有很大的影响吗？
+https://i.loli.net/2021/07/18/5P8R67crehvAlBa.png]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[分享创造] Ng-Matero v12 已发布！]]></title>
+        <id>https://www.v2ex.com/t/790263#reply1</id>
+        <link href="https://www.v2ex.com/t/790263#reply1"/>
+        <updated>2021-07-18T14:25:59.000Z</updated>
+        <summary type="html"><![CDATA[https://github.com/ng-matero/ng-matero
+将 Angular 和 Material 升级到 v12
+使用新的 Sass API @use 重构样式
+所有代码及类型都支持严格模式]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[创业组队] 找开发一起合伙创业]]></title>
+        <id>https://www.v2ex.com/t/790262#reply0</id>
+        <link href="https://www.v2ex.com/t/790262#reply0"/>
+        <updated>2021-07-18T14:21:17.000Z</updated>
+        <summary type="html"><![CDATA[有一个想法想找开发帮忙做出来
+自己了解一点产品和设计相关的东西
+目前在做原型和梳理功能
+产品是与线上教育、社交以及线下活动有关
+有意愿请私信 wx：KK5320fun]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[程序员] 大家在开发环境配置上一般会花多长时间？]]></title>
+        <id>https://www.v2ex.com/t/790257#reply15</id>
+        <link href="https://www.v2ex.com/t/790257#reply15"/>
+        <updated>2021-07-18T14:02:50.000Z</updated>
+        <summary type="html"><![CDATA[rt. 新公司是 node.js 盏，这次本地配置整个环境花了两天。。。下载 npm 包，配置各个微服务的依赖和 k8s 等等神烦<_<你们入职配环境一般花多久]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[酷工作] [北京]自动驾驶初创公司招聘相关软硬件开发人员]]></title>
+        <id>https://www.v2ex.com/t/790255#reply0</id>
+        <link href="https://www.v2ex.com/t/790255#reply0"/>
+        <updated>2021-07-18T13:56:07.000Z</updated>
+        <summary type="html"><![CDATA[公司简介：北京崭珀科技有限公司
+联系方式： mar.vsat@163.com 或 hr@jumperscience.com ，请注明来源 V2EX，可尽快安排面试。
+公司各项福利齐全，目前项目很多，发展前景良好，欢迎优秀人才加入。
+崭珀科技(JumperScience)全球第三家、国内第一家专业光场解决方案供应商，公司以自主研发的软硬件一体化光场智能系统为核心，实现了硬件及算法两个方向的突破，填补了国内在一体化光场智能系统领域的空白，成为全球第三家、国内第一家专业级光场智能系统供应商。2020 年率先在全球范围内实现了光场智能系统在无人驾驶领域的首次应用落地，处于世界领先地位。公司核心团队来自北京大学、北京航空航天大学、天津大学等一流学校，曾就职于淡马锡、微软、爱立信、Polycom 、航天、清华紫光等世界 500 强及国际知名公司，具备 10 年以上行业专业经验，团队硕士以上学历占比 70%。
+AI 算法工程师（高级）
+岗位职责：
+针对公司业务和运营场景，完成人工智能应用相关算法研发和迭代调优工作。
+从事深度学习、统计学习等机器学习算法研究、工程实现和优化等工作，包括各类传统和新型机器学习算法。
+负责计算机视觉相关的技术研发工作，包括但不限于：目标检测、语义分割、语义识别。
+完成 ARM 平台算法优化，调整网络结构，减少模型所需的计算资源，提高模型的识别准确率。
+任职条件：
+统招本科及以上学历，计算机或数学相关专业，熟练掌握计算机视觉、神经网络算法理论基础。
+熟悉计算机视觉、机器学习算法，并在以下一个或者多个领域有深入研究，图像分类、目标检测、目标跟踪和图像分割等领域。
+熟悉深度学习的框架，例如 Tensorflow, Pytorch, Caffe，SSD，Yolo 等。
+熟悉业界通用的人工智能和机器学习方案和应用流程，具有根据需求制定算法方案并完成工程开发的能力。
+熟练…]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[PowerShell] 请问如何使用 powershell 禁用/启用设备？]]></title>
+        <id>https://www.v2ex.com/t/790254#reply1</id>
+        <link href="https://www.v2ex.com/t/790254#reply1"/>
+        <updated>2021-07-18T13:49:41.000Z</updated>
+        <summary type="html"><![CDATA[触摸板有时会失灵，我想用脚本的方式重启设备，可以实现吗？
+希望能有比较详细的教学，谢谢。]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Apple] ios 上浏览器下载的文件都是保存在 icloud 上吗，另询求使用 u 盘方案]]></title>
+        <id>https://www.v2ex.com/t/790253#reply1</id>
+        <link href="https://www.v2ex.com/t/790253#reply1"/>
+        <updated>2021-07-18T13:29:39.000Z</updated>
+        <summary type="html"><![CDATA[Apple - @feng0vx -]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[macOS] FCPX 格式转换， WMV-->MOV]]></title>
+        <id>https://www.v2ex.com/t/790251#reply4</id>
+        <link href="https://www.v2ex.com/t/790251#reply4"/>
+        <updated>2021-07-18T13:20:03.000Z</updated>
+        <summary type="html"><![CDATA[工作原因，原视频经常会拿到 wmv 格式，然而这个格式无法在 fcpx 里进行编辑，请问有推荐格式转换软件，可以快速将 wmv 格式转换为 mov 格式吗？谢谢！
+ps. 对编程不熟，所以不要告诉我代码相关的了，谢谢！]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[macOS] mac 中自动生成的 .- 开头的隐藏文件如何删除？]]></title>
+        <id>https://www.v2ex.com/t/790250#reply0</id>
+        <link href="https://www.v2ex.com/t/790250#reply0"/>
+        <updated>2021-07-18T13:14:56.000Z</updated>
+        <summary type="html"><![CDATA[由于需要来回在 mac 和 windows 之间传文件，但 mac 总是会生成 .- 开头的隐藏文件，每次都要手动删除。
+有无办法关闭 mac 自动生成该文件，大家是怎么解决该问题的？]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[问与答] qplay 能不能跨 vlan 播放]]></title>
+        <id>https://www.v2ex.com/t/790249#reply1</id>
+        <link href="https://www.v2ex.com/t/790249#reply1"/>
+        <updated>2021-07-18T13:07:11.000Z</updated>
+        <summary type="html"><![CDATA[本意是将功放等多媒体设备放入单独的 vlan
+airplay 没有问题，可以跨 vlan 找到功放并顺利播放，但是 qplay 不行（把所有防火墙规则全部取消仍然不行）
+不知道各位有没有试过或者知道 qplay 能不能跨 vlan 播放，谢谢～]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Windows] C 盘的剩余空间和总空间减去占用空间的剩余不一样啊]]></title>
+        <id>https://www.v2ex.com/t/790245#reply10</id>
+        <link href="https://www.v2ex.com/t/790245#reply10"/>
+        <updated>2021-07-18T12:24:13.000Z</updated>
+        <summary type="html"><![CDATA[如上图里面，占用了 75G，理论上剩余的应该有 124G，现在只剩下 89G，查了 35G，这个差距有点大啊？]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[iPad] 求键盘推荐和笔的购买渠道]]></title>
+        <id>https://www.v2ex.com/t/790244#reply2</id>
+        <link href="https://www.v2ex.com/t/790244#reply2"/>
+        <updated>2021-07-18T12:12:34.000Z</updated>
+        <summary type="html"><![CDATA[11 寸 pro，打字不多，偶尔写写文章，家里和咖啡馆，求键盘推荐。
+另，对二代笔需求大，求推荐购买渠道。
 谢谢]]></summary>
         <author>
             <name>V2EX</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[酷工作] [北京/杭州][快手][内推]快手数据研发流量组招聘数据研发工程师]]></title>
-        <id>https://www.v2ex.com/t/790185#reply0</id>
-        <link href="https://www.v2ex.com/t/790185#reply0"/>
-        <updated>2021-07-18T04:43:40.000Z</updated>
-        <summary type="html"><![CDATA[（大数据专场）数据研发工程师 /专家- [流量-北京 /杭州] 
-职位描述
-通过数仓模型、实时\离线数据开发、数据服务等方式建设全站的流量数据能力，以数据+产品的方式提供丰富、稳定的流量领域数据赋能业务，探索数据本身的增量价值；
-建设全站数据治理和管理体系，结合业务+元数据+技术，推进资源成本的优化，保障数据产出的稳定性。
-任职要求
-有较为丰富的数据仓库研发经验，熟悉数据仓库、数据体系和数据价值的建设及优化；
-熟悉大数据架构，具备实时或离线数据研发能力，熟悉 Hive，Kafka，Spark，Storm，Hbase，Flink 等相关技术并有相关开发经验；
-具备快速学习能力、跨团队沟通协作能力，有较强的逻辑思维能力和解决问题能力；
-本科及以上学历，2-8 年以上数据研发经验。
-ps : 内推简历，现在团队 hc 很多，北京、杭州皆可。大数据专场，面试流程很快！
-邮箱 : d2FuZ3l1aGVuZzA1QGt1YWlzaG91LmNvbQ==
-微信 : MTgzMzExMjYyMTA=]]></summary>
+        <title type="html"><![CDATA[[Apple] 搞 Java 开发 macmini 8g 真的不够吗]]></title>
+        <id>https://www.v2ex.com/t/790243#reply12</id>
+        <link href="https://www.v2ex.com/t/790243#reply12"/>
+        <updated>2021-07-18T12:12:16.000Z</updated>
+        <summary type="html"><![CDATA[各位大佬 8g 如果不够的话 16g 够吗？ SSD 读写过多是因为内存太小导致的吗？ 这个读写异常解决了吗？ M1 的没办法后期扩容内存是吗？ 16g 要贵 1350，有点心疼不想上]]></summary>
         <author>
             <name>V2EX</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[Windows] 游戏台式机有必要升级 Windows 11 吗？]]></title>
-        <id>https://www.v2ex.com/t/790184#reply11</id>
-        <link href="https://www.v2ex.com/t/790184#reply11"/>
-        <updated>2021-07-18T04:41:04.000Z</updated>
-        <summary type="html"><![CDATA[那笔记本呢？]]></summary>
+        <title type="html"><![CDATA[[问与答] 手机做简单分词查询问题]]></title>
+        <id>https://www.v2ex.com/t/790239#reply0</id>
+        <link href="https://www.v2ex.com/t/790239#reply0"/>
+        <updated>2021-07-18T12:06:28.000Z</updated>
+        <summary type="html"><![CDATA[我在手机上做了个简单的分词查询，随意测试了下，六个字符组成了 21 个词，这样做多大的量会把手机搞挂？纯属好奇]]></summary>
         <author>
             <name>V2EX</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[硬件] 家用 HomeLab 机器求助]]></title>
-        <id>https://www.v2ex.com/t/790180#reply3</id>
-        <link href="https://www.v2ex.com/t/790180#reply3"/>
-        <updated>2021-07-18T04:07:34.000Z</updated>
-        <summary type="html"><![CDATA[背景
-目前家里已经有个老台式机，配置如下：
-E3 1235LV5
-Asus P10S WS
-416=64G （趁着前几年便宜加满了）
-1T+2T+44T （较为混杂）
-安装了一个 proxmox 平时自己玩，但是感觉这个有点重，而且不想把鸡蛋放到一个篮子里。
-在树莓派上玩 k3s 感觉不错，打算买几个小主机作为家里的 homelab 的计算节点，原有台式机作为“存储”节点。
-纠结
-从树莓派看到了 j 系列的软路由，再到 NUC 。感觉已经迷茫了。下面是一些纠结的点：
-CPU：要求不高 不用求新 相信操作系统还能帮我调度调度 新的可以考虑 AMD （穷 不装黑苹果） 老的 INTEL 
-内存 : 一定要大 目前 DDR3 8G 还是 DDR4 16G 或者 32G 。感觉内存大能跑多个容器，CPU 可以复用。内存复用有点悬。老平台的 DDR3 是不是最大就是 8G 了？再大性价比就不高了？ 如果这样的话是不是直接上 DDR4 顶满好一些呢？其实说白了应该还是机器数量和容量之间的对比。
-硬盘：128G （感觉有点小 打打日志啥的基本就没了） 256G （这个应该适中，不过也要看 CPU 内存所容纳的容器数量） 不太想再买 CF 卡啥的了，最好能直接带个 SSD 。当然自己买便宜的也行。反正是计算节点。无状态的。
-总结
-预算：老平台 1k 左右 新平台高可以上 2-3k 再高就不想折腾了。
-老平台：老 CPU+8G 内存+128G 多弄几个 比如 3 个？这样就 3k 了，感觉性价比不是那么高。
-新平台：新 CPU+32G/64G 内存+256/512 一个或者两个（不够再加），预算控制在 3-4k 。这样管理成本啥的都比较少。
-目前个人倾向于新平台，老平台玩玩做个单一功能的可能还好。各位帮忙看看以上的需求的话，用哪种方案比较好呢？接受任何板砖拍醒。
-（不介意矿渣啥的，做好是 X86 架构。ARM 也不是不可以就是有些软件折腾起来费劲。）
-新平台的方案通过搜索 V2 论坛，AMD 平台推荐了如下两种：
-华擎 deskmini A300/X300
-华硕 PN50]]></summary>
+        <title type="html"><![CDATA[[Apple] 请问苹果可以有选择地忽略 AirPlay 的对象吗？]]></title>
+        <id>https://www.v2ex.com/t/790236#reply7</id>
+        <link href="https://www.v2ex.com/t/790236#reply7"/>
+        <updated>2021-07-18T11:23:21.000Z</updated>
+        <summary type="html"><![CDATA[我住在一个合租的房子里。大家共用一个 Wi-Fi 。最近室友开始用 elmedia 播放器，好像可以支持 airplay 到她的 MacBook 上。问题来了，她的 MacBook 现在出现在了我隔空播放的列表中，我好怕一不小心点错把自己正在听或看的内容投到她电脑上，请问这种问题怎么解决呀？]]></summary>
         <author>
             <name>V2EX</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[全球工单系统] QQ 邮箱电脑网页版，邮件查看页有两种风格。如何固定使用其中一种？]]></title>
-        <id>https://www.v2ex.com/t/790176#reply0</id>
-        <link href="https://www.v2ex.com/t/790176#reply0"/>
-        <updated>2021-07-18T03:39:18.000Z</updated>
-        <summary type="html"><![CDATA[看着像大卡片式的，双击邮件主题会折叠成只剩邮件主题
-粗体的邮件主题，右侧有个星标，下方依次是发件人，时间，收件人，正文]]></summary>
+        <title type="html"><![CDATA[[酷工作] [北京] [全职] 太极图形招聘 前端工程师/渲染工程师/交互设计师]]></title>
+        <id>https://www.v2ex.com/t/790235#reply0</id>
+        <link href="https://www.v2ex.com/t/790235#reply0"/>
+        <updated>2021-07-18T11:18:27.000Z</updated>
+        <summary type="html"><![CDATA[公司介绍
+太极图形 (Taichi Graphics) 团队（北京格拉飞可斯科技有限公司）主导开发开源基础设施太极 (Taichi) 编程语言 (15K stars, 7K commits, 60+ contributors, 500K+ downloads)，专注图形学、编译器、高性能计算、人工智能相关技术，拥有世界领先的技术积累。团队成员均来自 MIT 、哈佛、宾大、清华、Google 、微软等顶尖学府和企业，54%+ 成员本科毕业于清华大学，人均 IOI/NOI/ACM-ICPC 金牌数 >= 2 。团队旨在打造图形计算、物理仿真的标准基础设施，让图形编程惠及每一人
+极具竞争力的报酬，特别优秀的同学有期权回报。
+工程团队也有参与国际顶级图形学与人工智能学术会议（ SIGGRAPH 、ICLR 、NeurIPS 等）论文发表的机会。
+公司已获得国际知名风险投资机构天使轮投资，资金充裕。
+弹性工作制，965 双休不加班  
+Github 主页 
+官网 
+招聘岗位
+高级前端工程师
+待遇: 20-40k
+工作职责：
+负责公司 Web 相关产品与网站的研发
+与产品经理、设计师、后端工程师紧密工作在一起，负责公司各产品易用性改进、界面技术优化和网站性能优化
+必要技能：
+本科及以上学历，计算机及相关专业
+熟悉 HTML5/CSS3/JavaScript 等 Web 技术以及通用标准。有丰富的使用现代 JavaScript/TypeScript 前端框架(React, Vue 等)的实战项目经验，熟悉各类浏览器、Web 技术本身的优缺点。
+熟悉 Windows + Linux/macOS 开发环境，以及基于版本控制、代码评审和自动化测试的团队协作模式
+熟悉用户交互设计理论，熟悉流行的设计语言(Ant, Flat, Material 等)，对 UI/UX 有自己的见解和追求，热衷分析并改善产品的用户体验。
+思路清晰，具备极强的沟通能力和团队协作精神，善于学习、总结，乐于分享。具备良好的英文沟通能力，特别是阅读和写作能力。
+加分项：
+有使用过 WebGL 技术的经验
+熟悉一门后端语言(go, java etc)
+图形渲染工程师
+待遇: 20-40k
+工作职责：
+研发基于 Taichi 编程语言的的图形工具
+开发基于现代图形 API 的高质量实时渲染引擎
+必要技能：
+熟悉计算机图形学理论。有基于物理的实时渲染相关经验
+有使用主流游戏引擎（ Unity/Unreal ）和三维软件（ Houdini 、Substance 、Max 、Maya 等）的使用经验
+熟练掌握 Python 3 和现代 C++，一门 shading language (GLSL, HLSL 等），以及任意一套现代 Graphics API 
+加分项：
+有相关论文发表
+有使用过 WebGL 技术的经验
+交互设计师
+待遇: 20-40k
+工作职责：
+负责太极图形相关 Web 产品相关的交互与视觉设计工作。
+参与定制产品界面风格、标准，熟悉组件设计 /设计系统 /视觉规范等
+必要技能：
+设计专业知识背景，1 年以上的互联网或移动互联网设计经验，熟悉 Web 设计规则。
+熟练使用 PS, AI, Figma，Sketch，Axure 等设计相关软件。
+有活跃的创意思维，出色的审美和理解能力，重视细节。
+较强的沟通能力，思维逻辑清晰，能够从用户角度去思考设计。
+简历请附带作品集
+地址在北京海淀区中关村
+yidong.ma@taichi.graphics (投递时备注：姓名-岗位-信息获取渠道)]]></summary>
         <author>
             <name>V2EX</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[求职] [广州/佛山] 4 年多前端找 965 的工作]]></title>
-        <id>https://www.v2ex.com/t/790175#reply4</id>
-        <link href="https://www.v2ex.com/t/790175#reply4"/>
-        <updated>2021-07-18T03:32:48.000Z</updated>
-        <summary type="html"><![CDATA[大专仔
-Vue 和 React 都能写，Vue 更熟
-TS 也能写，但是没有大佬们写得那么 6
-Docker 也会用一点点
-Express/EggJS/NestJS 也能写过，但是没有实际项目经历，都是自己有空的时候写着玩的
-简历在这里
-也不求五险一金全额了，但也别最低基数
-薪资的话，广州 15k，佛山 13k 就行
-佛山指的是南海区（顺德我是怕了），广州指的是附近有地铁站的公司
-目前有个外包的 offer，只要有合适的真 965 工作，一个月到位
-邮箱：emhvdS4xMzA3ODQxNzc5MkBxcS5jb20=
-微信：MTE3MjE2OTU5MQ==]]></summary>
+        <title type="html"><![CDATA[[南京] 南京有什么靠谱的驾校吗？]]></title>
+        <id>https://www.v2ex.com/t/790234#reply1</id>
+        <link href="https://www.v2ex.com/t/790234#reply1"/>
+        <updated>2021-07-18T11:17:50.000Z</updated>
+        <summary type="html"><![CDATA[教练负责一点的，最好不要是那种不送点礼就不好好教你的那种]]></summary>
         <author>
             <name>V2EX</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[生活] 厦门对比福州]]></title>
-        <id>https://www.v2ex.com/t/790174#reply6</id>
-        <link href="https://www.v2ex.com/t/790174#reply6"/>
-        <updated>2021-07-18T03:23:47.000Z</updated>
-        <summary type="html"><![CDATA[厦门的 php 工资高一点还是福州的工资高一点，还有消费？]]></summary>
+        <title type="html"><![CDATA[[奇思妙想] 做了一款达文西同款的手电筒小程序]]></title>
+        <id>https://www.v2ex.com/t/790232#reply0</id>
+        <link href="https://www.v2ex.com/t/790232#reply0"/>
+        <updated>2021-07-18T11:11:18.000Z</updated>
+        <summary type="html"><![CDATA[《国产凌凌漆》电影里面达文西给周星驰做了一款太阳能发电的手电筒，只需要有光，就能让手电筒发亮。
+受到启发后，立马根据此灵感做了一个小程序。
+思路：
+1 、根据屏幕亮度，来控制相机的闪光灯，(屏幕亮度值范围 0-1，0 是最暗，1 是最亮)，大于等于 0.9 才能触发闪光灯开关。（目前用的是这个方案）
+上面这个方案有个缺陷，屏幕设置自动亮度的可以看到效果，如果不设置自动亮度，就会失效
+2 、实时读取摄像头的每一帧画面，解析画面的亮度值，大于某个亮度值，就触发闪光灯开关，但是此方案需要将灯光对准摄像头才可以。
+上面这个方案也有缺陷
+体验地址：]]></summary>
         <author>
             <name>V2EX</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[C++] __builtin_expect(!(x), 1) 这里的 ! 有什么特殊作用吗?]]></title>
-        <id>https://www.v2ex.com/t/790171#reply4</id>
-        <link href="https://www.v2ex.com/t/790171#reply4"/>
-        <updated>2021-07-18T02:50:48.000Z</updated>
-        <summary type="html"><![CDATA[阅读源码的时候看到一个宏, 不太理解为啥要加 !!, 就是下面的 __builtin_expect
-负负得正,不是不用加吗
-#if (defined(__GNUC__) && __GNUC__ >= 3) || defined(__clang__)
-#define  unlikely(x)  __builtin_expect(!!(x), 0)
-#else
-#define  unlikely(x)  (x)
-#endif
+        <title type="html"><![CDATA[[Apple TV] 这代 apple tv 跟上代模具是一模一样啊]]></title>
+        <id>https://www.v2ex.com/t/790231#reply2</id>
+        <link href="https://www.v2ex.com/t/790231#reply2"/>
+        <updated>2021-07-18T11:00:29.000Z</updated>
+        <summary type="html"><![CDATA[拿到手对比了下，可以说一模一样，除了遥控器…库克真的是库存克星…]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Go] Go 语言写的爬虫如何模拟登录 T-Mobile 官网？求帮忙分析一下 T-Mobile 登录逻辑]]></title>
+        <id>https://www.v2ex.com/t/790230#reply2</id>
+        <link href="https://www.v2ex.com/t/790230#reply2"/>
+        <updated>2021-07-18T10:34:08.000Z</updated>
+        <summary type="html"><![CDATA[account.t-mobile.com/signin/v2/
+第一次用 Go 写爬虫，需要爬一些 T-Mobile 登录后可见的数据，但 T-Mobile 登录逻辑我好像看不懂，登录前请求头里的 Authorization 是从哪里获取的，这个密码又是怎么加密的呢？折腾了两天怎么模拟登录都是 500 错误，它们 cookies 的有效期又只有 15 分钟。用 Selenium 的话太慢了，除了 Selenium 外还有什么好办法么？]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[分享创造] 开发一款云暖手宝！让你在办公室不再受冻~]]></title>
+        <id>https://www.v2ex.com/t/790229#reply3</id>
+        <link href="https://www.v2ex.com/t/790229#reply3"/>
+        <updated>2021-07-18T10:18:41.000Z</updated>
+        <summary type="html"><![CDATA[为什么有这个项目
+受 云空调 启发，我想做一个云暖手宝。重点是，我的暖手宝真的能暖手！  
+大夏天的为什么要暖手？
+各位大佬的办公室空调温度开的一定很低，此时云空调显得不重要了。
+为什么呢？
 
-抱歉, 标题打了两个 ! , 结果被吞了一个]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[微信] 微信最新的多设备登录依然无法支持 ios 和安卓手机同时登录啊，双机党很痛苦]]></title>
-        <id>https://www.v2ex.com/t/790170#reply4</id>
-        <link href="https://www.v2ex.com/t/790170#reply4"/>
-        <updated>2021-07-18T02:44:15.000Z</updated>
-        <summary type="html"><![CDATA[微信最新的多设备登录依然无法支持 ios 和安卓手机同时登录啊，双机党很痛苦]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Linux] Ubuntu 上面 Nginx 配置了 https，死活无法访问，不知道啥问题]]></title>
-        <id>https://www.v2ex.com/t/790169#reply14</id>
-        <link href="https://www.v2ex.com/t/790169#reply14"/>
-        <updated>2021-07-18T02:27:24.000Z</updated>
-        <summary type="html"><![CDATA[root@VM-0-10-ubuntu:/etc/nginx/conf.d# uname -a
-Linux VM-0-10-ubuntu 4.15.0-118-generic #119-Ubuntu SMP Tue Sep 8 12:30:01 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
-root@VM-0-10-ubuntu:/etc/nginx/conf.d# pwd
-/etc/nginx/conf.d
-root@VM-0-10-ubuntu:/etc/nginx/conf.d# cat default.conf 
-server {
-    listen 443 ssl;
-    server_name  www.site.top;
-
-    ssl_session_cache   shared:SSL:10m;
-    ssl_session_timeout 10m;
+因为我们特么的冷啊！！隔壁同事偷偷把空调调到 16 摄氏度......而你只能用仅有的毛毯盖住大腿，娇嫩的双手还在被刺骨的空调风无情的吹着。这你能忍？？
+你又社交恐惧，也不想因为调高温度和同事多说一句话。那你能咋，总不能戴个手套吧。这样不会被当成变态吗。
+你需要一个暖手宝，但又不能被别人看见你在用暖手宝。是吧，那多奇怪，外面将近 40 度呢。
+所以 Cloud Hand-Warmer 诞生了！它小巧甚至隐形，它随时随地温暖着你娇贵的玉手！
+产品优势
  
-    ssl_certificate  /book/swb/site.top_bundle.crt;
-    ssl_certificate_key  /book/swb/site.top.key;
-    location / {
-        root   /usr/share/nginx/html;
-        index  index.html index.htm; 
+基于云，无需携带，随时随地使用  
+可视化操作，颜值大方美观可爱，操作简单  
+加热过程呼吸式设计，温暖进你心里
+最高温度和设备绑定，完全自适应，设备越旧效果越好，完全照顾低端市场  
+不用花钱，永久免费！！！  
+如何使用
+云地址：点击进入
+点击进入 
+点击 中间开关 启动暖手宝，上下箭头 调整温度挡位。左侧为档显，目前一共有八个档位，如果你对你的电脑不自信，请你一丢丢一丢丢加档，否则一切损失与我无关，ε=ε=ε=┏(゜ロ゜;)┛
+
+当开关打开时，周围呼吸灯亮起，左侧档线显示当前挡位，可以通过档调来调节。  
+
+再次点击开关，呼吸灯熄灭，档显熄灭，关闭暖手宝。  
+绝美的思路
+回忆一下你在被子里用电脑刷 b 站 看视频的时候，看不了几分钟 电脑就变的烫手 了，这个场景很明显是电脑散热不正常。等等？？！......
+散热？我们的生产工具会散热？那何不让它的热量 散发的更大些，以至于让它来温暖我们瑟瑟发抖的双手？看到没有，这不就解决以上的需求了吗？
+我们的思路就来了，把 CPU 跑满！让电脑持续发热！用 资本家的电脑 温暖我们 无产阶级的手！ 
+跑满 CPU
+用 Javascript 将 cpu 跑满很简单，我们在日常工作中经常这么干（老板，不是我 bug 多，当时手真的冷），但 Javascript 一直在阻塞运行时，视图层是操作不了的。这就可能导致网页崩溃：暖手宝启动但关不掉了......  
+这肯定是不行的，所以我使用 Web Worker 来做大数运算，这样即使我们的 CPU 利用率很高了，但我们还是可以停止 暖手宝的作业，使 CPU 回到正常水平。  
+const isStart = ref(false);
+const worker = new Worker("main.js");
+const nowLevel = ref(1);
+const switchBtn = () => {
+    isStart.value = !isStart.value;
+    worker.postMessage({
+        isStart: isStart.value,
+        level: nowLevel.value,
+    });
+};
+
+在主进程中，当开关切换时，将 是否开始 isStart 和 挡位 level 变量传入子线程中。
+self.addEventListener('message', function (e) {
+    const level = e.data.level || 1
+    if (e.data.isStart) {
+        startTimer(level)
+    } else {
+        stopTimer()
     }
-
-}
-
-nginx 信息
-root@VM-0-10-ubuntu:/etc/nginx/conf.d# service nginx status
-● nginx.service - A high performance web server and a reverse proxy server
-   Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)
-  Drop-In: /etc/systemd/system/nginx.service.d
-           └─override.conf
-   Active: active (running) since Sun 2021-07-18 10:24:26 CST; 2min 50s ago
-     Docs: man:nginx(8)
-  Process: 14799 ExecStop=/sbin/start-stop-daemon --quiet --stop --retry QUIT/5 --pidfile /run/nginx.pid (code=exited, status=0/SUCCESS)
-  Process: 14826 ExecStartPost=/bin/sleep 0.1 (code=exited, status=0/SUCCESS)
-  Process: 14811 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
-  Process: 14800 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
- Main PID: 14813 (nginx)
-    Tasks: 3 (limit: 4464)
-   CGroup: /system.slice/nginx.service
-           ├─14813 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
-           ├─14827 nginx: worker process
-           └─14828 nginx: worker process
-
-Jul 18 10:24:26 VM-0-10-ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
-Jul 18 10:24:26 VM-0-10-ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Apple] Apple TV 在不通地区下载的 APP 内购是互通的吗？]]></title>
-        <id>https://www.v2ex.com/t/790167#reply7</id>
-        <link href="https://www.v2ex.com/t/790167#reply7"/>
-        <updated>2021-07-18T02:23:11.000Z</updated>
-        <summary type="html"><![CDATA[我一直用的是国区 ID，最近入了 Apple TV 打算内购 Infuse7，我在国区下载软件，然后订阅 Infuse Pro，在 Apple TV 上用美区下载 Infuse7 然后切换到国区恢复购买就可以激活国区的订阅，在 iPad 上用美区下载的 Infuse7 然后 App Store 切换回国区就无法激活订阅，需要卸载 Infuse7 然后在国区下载才可以激活订阅。]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[MacBook Pro] 13 年 mbp 清灰换硅脂，感觉还能用几年！]]></title>
-        <id>https://www.v2ex.com/t/790166#reply9</id>
-        <link href="https://www.v2ex.com/t/790166#reply9"/>
-        <updated>2021-07-18T02:20:32.000Z</updated>
-        <summary type="html"><![CDATA[话说屏幕胶条老化了，好更换么？ tb 上面质量咋样]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Apple] Macbook Pro 15inch 2018 和 HP Thunerbolt G2 Dock 的视频输出问题]]></title>
-        <id>https://www.v2ex.com/t/790163#reply1</id>
-        <link href="https://www.v2ex.com/t/790163#reply1"/>
-        <updated>2021-07-18T02:12:16.000Z</updated>
-        <summary type="html"><![CDATA[迫于想要体验单根线连 MBP 拖 4K+1080P 双屏幕最好还有 usb3.1gen2 的优 niu 雅 qu 需求,去海鲜市场收了一个国行在保修的 G2.
-考虑到水果对于 MST 的支持,第二个显示器只能用 G2 上的雷电输出转换 DP, 但是问题来了,只有拔插显示器和 DP 的链接,才能顺利认出来,反复尝试后没有发现新的结果.
-倒是连上之后,无论是重启还是幻想,外置屏幕都能顺利识别
-4K 屏幕是 Dell P2415Q,1080P 屏幕是 Dell P2214H, 雷电口插了一根淘宝随便买的 DP 转 HDMI]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[问与答] 最近学习 Python 基金模型。建了个高质量 Python 基金模型的微信群，有想从事这方面的兄弟们可以加群一起讨论下]]></title>
-        <id>https://www.v2ex.com/t/790162#reply1</id>
-        <link href="https://www.v2ex.com/t/790162#reply1"/>
-        <updated>2021-07-18T02:09:19.000Z</updated>
-        <summary type="html"><![CDATA[如题，本人之前一直是上班族，但是一直想业余时间学习投资，有相同经历的兄弟们或者已经从事基金从业者的大佬愿意指点一下的可以加群，谢谢]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[酷工作] [FinTech 社区] Go 开发工程师 - 20-35k/月 - 北京]]></title>
-        <id>https://www.v2ex.com/t/790161#reply0</id>
-        <link href="https://www.v2ex.com/t/790161#reply0"/>
-        <updated>2021-07-18T02:01:43.000Z</updated>
-        <summary type="html"><![CDATA[FinTech 社区是一个拥有 50,000+ 会员的金融科技社群，旨在为金融科技行业赋能，致力于金融科技行业资源共享社群。我们目前有机器学习群，技术群，量化群，校招群，数据开发群等等。
-简历邮件： sztech@fintechgl.com
-微信公众号：FinTech 社区
-微信号：fintech89
-官网：www.fintechgl.com
-
-量化 VS 互联网视频链接：
-https://mp.weixin.qq.com/s/Mh5RL0BuYru9FuC1KmyAjQ
-
-[FinTech 社区] Go 开发工程师 -  20-35k/月 - 北京，详情请见海报。]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[全球工单系统] 115 是故意限速的吧]]></title>
-        <id>https://www.v2ex.com/t/790160#reply16</id>
-        <link href="https://www.v2ex.com/t/790160#reply16"/>
-        <updated>2021-07-18T02:00:29.000Z</updated>
-        <summary type="html"><![CDATA[每个月下载流量到了一定程度，就会限制单任务 1.5MB/s，继续使用还会变成 350KB/s 。
-你要说 115 有明确的说明多少流量内是高速，多少流量外限速也就算了，但 115 从来没有这种说明。
-而且 115 根本就没有在线客服可言，电话更是不可能打得进去，只能去他们的 115 社区发帖，发帖还是要审核的。
-辛亏没上车十年 VIP，这几个月的到期绝对不续费了。]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[问与答] obs 文字问题]]></title>
-        <id>https://www.v2ex.com/t/790159#reply0</id>
-        <link href="https://www.v2ex.com/t/790159#reply0"/>
-        <updated>2021-07-18T01:44:59.000Z</updated>
-        <summary type="html"><![CDATA[obs 添加文本，换了字体，大部分都是这样乱码，怎么解决？]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[程序员] 面试经典题目--二叉搜索树的最近公共祖先]]></title>
-        <id>https://www.v2ex.com/t/790158#reply2</id>
-        <link href="https://www.v2ex.com/t/790158#reply2"/>
-        <updated>2021-07-18T01:43:50.000Z</updated>
-        <summary type="html"><![CDATA[不得不说，刷题已经和爬山、溜娃一样，成为湾区三俗，基本几个湾区的工程师碰在一起，讨论的话题总跳不出这个圈。爬山，哦不，刷题作为一个贯穿码农整个职业生涯的必须品（就算是我目前呆的微软谷歌这种养老公司也总得跳一跳，毕竟雪花的大包裹是真香啊），几年来基本每天不间断的刷，算是对这一块略有心得。帖子的前半部分想分享一些我作为面试官的常出的一些经典题目，以及题目思路的解析以及一些同类题的归纳，帖子的后半部分我会参考坛友们的留言和拍砖，来决定后面的走向
-帖子会长期保持更新，只要是带娃的间隙就会偷偷上来更一下，尽量保持每周两更。
-本期我们分享 面试经典题目--二叉搜索树的最近公共祖先
-欢迎 LinkedIn 勾搭： https://www.linkedin.com/in/alice-chen-343975200/]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[分享创造] Gorse v0.2.x: 开箱即用的开源推荐系统]]></title>
-        <id>https://www.v2ex.com/t/790156#reply0</id>
-        <link href="https://www.v2ex.com/t/790156#reply0"/>
-        <updated>2021-07-18T01:32:24.000Z</updated>
-        <summary type="html"><![CDATA[距离上次在 V2EX 推广已经是两年前啦：一个 Go 语言实现的 RESTful 的推荐系统后端。
-在这两年以来，主要对 Gorse 进行了以下升级：
-支持 MySQL 、MongoDB 存储，将存储层解耦。
-支持自动调参，导入数据后即可自动选择最佳的推荐模型和参数。
-支持物品标签，可以利用物品标签进一步提高推荐准确率。
-实现了一个图形化控制台，可以实时查看系统状态。
-将服务、训练和推理分离到多个节点，从而支持分布式推荐（单机训练）。
-GitHub 仓库地址： https://github.com/zhenghaoz/gorse]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[问与答] 有没有格力空调智能远程控制开关方案]]></title>
-        <id>https://www.v2ex.com/t/790154#reply17</id>
-        <link href="https://www.v2ex.com/t/790154#reply17"/>
-        <updated>2021-07-18T00:55:32.000Z</updated>
-        <summary type="html"><![CDATA[目前家里有台格力空调不带智能控制应用的，想下班到家之前把空调远程开启，目前有没有什么方案通过硬件安装来完成远程控制空调的开启]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Python] 大量的 try 应该怎么复用]]></title>
-        <id>https://www.v2ex.com/t/790153#reply9</id>
-        <link href="https://www.v2ex.com/t/790153#reply9"/>
-        <updated>2021-07-18T00:45:16.000Z</updated>
-        <summary type="html"><![CDATA[一个 flask web 应用，有很多数据库操作 method，大部分 commit 是如下，想问下大家会怎么去服用
-
-# ...
-
-try:
-
-    session.add(sth)
-
-    session.commit()
-
-except Exception as e:
-
-    session.rollback()
-
-    raise e
+}, false);
 
 
-我的一些想法
-函数调用，感觉不是很好
-装...装饰器
-google 搜索到有人用 with 关键字实现，似乎还不错
-在一个基类里面做一些强制措施]]></summary>
+在 work.js 中，监听主线程发来的消息，isStart 为 true 时，开启大数计算定时器，疯狂侵占 CPU 资源。
+欢迎访问仓库：点击进入
+免责说明
+主板烧了别找我（问问老板算不算工伤）
+网页崩溃资料没保存别找我
+暖和吗，暖和就完事儿了  
+什么？最高挡位你都感觉不到温度？（大佬，你滴电脑大大滴好）  
+......]]></summary>
         <author>
             <name>V2EX</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[生活] ［ CBSN］ Car Catapults Off Highway 99 In Yuba City, Crashes Into Road Below]]></title>
-        <id>https://www.v2ex.com/t/790151#reply0</id>
-        <link href="https://www.v2ex.com/t/790151#reply0"/>
-        <updated>2021-07-17T22:36:38.000Z</updated>
-        <summary type="html"><![CDATA[https://sacramento.cbslocal.com/?p=708836]]></summary>
+        <title type="html"><![CDATA[[分享创造] 我写了一个 US 签证状态自动查询加微信推送系统 https://track.moyu.ac.cn/]]></title>
+        <id>https://www.v2ex.com/t/790227#reply10</id>
+        <link href="https://www.v2ex.com/t/790227#reply10"/>
+        <updated>2021-07-18T10:17:21.000Z</updated>
+        <summary type="html"><![CDATA[申请了签证以后天天刷状态，后来写了小网站自动刷新状态再用测试公众号推送。
+迫于测试公众号只能有 100 个关注者，注册了正式的服务公众号，并且自己搞定了验证码。
+https://track.moyu.ac.cn/
+这个网站每隔 4 个小时自动查询一次状态，如果状态和上次不一样，将推送到绑定的微信帐号上。
+欢迎大家使用，有效缓解焦虑。
+Github: https://github.com/yuzeming/CEACStatTracker]]></summary>
         <author>
             <name>V2EX</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[macOS] Monterey Beta 3 里 Safari 又改回来了]]></title>
-        <id>https://www.v2ex.com/t/790150#reply11</id>
-        <link href="https://www.v2ex.com/t/790150#reply11"/>
-        <updated>2021-07-17T20:09:22.000Z</updated>
-        <summary type="html"><![CDATA[太多人抱怨😂 Safari 改回原来的独立标签栏，刷新按钮也加回来了
-https://9to5mac.com/2021/07/14/macos-monterey-beta-3-brings-redesigned-safari-tab-interface-to-address-complaints/]]></summary>
+        <title type="html"><![CDATA[[macOS] 各位大神： Monterey beta3 无法打开 FCPX，怎么办？]]></title>
+        <id>https://www.v2ex.com/t/790225#reply5</id>
+        <link href="https://www.v2ex.com/t/790225#reply5"/>
+        <updated>2021-07-18T09:59:43.000Z</updated>
+        <summary type="html"><![CDATA[如题，在线求解答，谢谢！]]></summary>
         <author>
             <name>V2EX</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[MacBook] M1 的 macbook 发现不了 MX Anywhere2s]]></title>
-        <id>https://www.v2ex.com/t/790149#reply5</id>
-        <link href="https://www.v2ex.com/t/790149#reply5"/>
-        <updated>2021-07-17T20:04:24.000Z</updated>
-        <summary type="html"><![CDATA[intel 的 mac，windows，ipad os 都可以，就是这款识别不了， 请问有谁遇到过类似的情况么？ 有什么解决思路？]]></summary>
+        <title type="html"><![CDATA[[iDev] 苹果审核 ipv6 的问题]]></title>
+        <id>https://www.v2ex.com/t/790224#reply26</id>
+        <link href="https://www.v2ex.com/t/790224#reply26"/>
+        <updated>2021-07-18T09:58:46.000Z</updated>
+        <summary type="html"><![CDATA[苹果小白，刚刚把公司的应用写完了，准备上架，哪知道第一天就被苹果拒绝了，理由是「 App 功能不完善，登录不了账户」，还给了一张登录时候提示网络错误的截图。我自己测试了下，是可以正常登录的。后来有在网上搜索下，发现是因为 iPv6 的原因，苹果会在 ipv6-only 的环境下测试（而我们的服务器是不支持 ipv6 的）。在网上搜了一圈，看到一篇觉得应该靠谱的文章： https://developer.aliyun.com/article/641639
+应该是出自阿里云的官方。
+想问下大家，大家都是怎么解决 ipv6 的问题的，我用的是阿里云的 ECS，上面的链接的解决方案是不是靠谱，一般选择其中的方案 1 还是方案 2 ？或者还有其它简单的解决方案适合我这种小白使用。
+这两天一直在研究这个问题，真的太痛苦了，不太懂这种底层网络的问题。。。o(╥﹏╥)o]]></summary>
         <author>
             <name>V2EX</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[问与答] 我想问一下 netstat 命令输出中的 ::: 是什么意思]]></title>
-        <id>https://www.v2ex.com/t/790147#reply5</id>
-        <link href="https://www.v2ex.com/t/790147#reply5"/>
-        <updated>2021-07-17T18:38:29.000Z</updated>
-        <summary type="html"><![CDATA[如图]]></summary>
+        <title type="html"><![CDATA[[程序员] 浏览器总是有 waiting sb.scorecardresearch.com]]></title>
+        <id>https://www.v2ex.com/t/790223#reply4</id>
+        <link href="https://www.v2ex.com/t/790223#reply4"/>
+        <updated>2021-07-18T09:45:26.000Z</updated>
+        <summary type="html"><![CDATA[Mac 系统，Edge 浏览器。每次打开一个网站都有 waiting sb.scorecardresearch.com ，
+这是个什么玩意儿，如何清除掉？]]></summary>
         <author>
             <name>V2EX</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[天黑以后] 20210718 午夜俱乐部]]></title>
-        <id>https://www.v2ex.com/t/790146#reply10</id>
-        <link href="https://www.v2ex.com/t/790146#reply10"/>
-        <updated>2021-07-17T17:58:07.000Z</updated>
-        <summary type="html"><![CDATA[半夜又下雨了，大雨，吵得睡不着，好气。合理怀疑女娲补天的时候是不是漏了我头顶这一块？]]></summary>
+        <title type="html"><![CDATA[[PHP] tp5.1 版本下队列的问题]]></title>
+        <id>https://www.v2ex.com/t/790221#reply3</id>
+        <link href="https://www.v2ex.com/t/790221#reply3"/>
+        <updated>2021-07-18T09:42:03.000Z</updated>
+        <summary type="html"><![CDATA[对应的队列版本是
+"topthink/think-queue": "2.0.4"  
+命令行配置参数如下
+
+
+[program:test-worker]
+process_name=%(program_name)s_%(process_num)02d
+command=/usr/bin/php  /www/test/think  queue:work --daemon --queue default --delay 0 --memory 128 --sleep 3 --tries 1
+autostart=true
+autorestart=true
+user=ubuntu ;
+numprocs=2 ;
+redirect_stderr=true  ;把 stderr 重定向到 stdout，默认 false
+stdout_logfile=/var/log/supervisor/test-queue.log
+现在出现问题如下
+队列由 supervisorctl 守护。
+如果我执行一个任务。test-queue.log 会出现两条记录。一个成功，一个失败。
+业务是正常的。但是造成这个的原因不知道怎么回事。
+
+如果我把 tries 设置为 0 则队列的任务会一直执行，打印日志提示$this->delete()一直删除失败
+
+现在准备把 tp-queue 队列用在核心业务，但是现在重点是让我觉得这东西不可靠。
+--------]]></summary>
         <author>
             <name>V2EX</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[问与答] 群晖想加块 SSD 做缓存，这个有没有什么条件]]></title>
-        <id>https://www.v2ex.com/t/790143#reply4</id>
-        <link href="https://www.v2ex.com/t/790143#reply4"/>
-        <updated>2021-07-17T16:55:20.000Z</updated>
-        <summary type="html"><![CDATA[PVE 的黑群晖，直通了块四口 SATA 卡
-SATA 协议的 SSD 可以做缓存吗？
-听说只读缓存和写入缓存必须要两个 SSD 做各自的工作？能不能一个 SSD 负责两个工作？]]></summary>
+        <title type="html"><![CDATA[[iPhone] 后悔三十几刀时没购入 infuse！]]></title>
+        <id>https://www.v2ex.com/t/790220#reply24</id>
+        <link href="https://www.v2ex.com/t/790220#reply24"/>
+        <updated>2021-07-18T09:35:59.000Z</updated>
+        <summary type="html"><![CDATA[现在 74.99 刀，贵😭]]></summary>
         <author>
             <name>V2EX</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[问与答] IT 培训 能否攻下芯片领域这座山头？]]></title>
-        <id>https://www.v2ex.com/t/790142#reply24</id>
-        <link href="https://www.v2ex.com/t/790142#reply24"/>
-        <updated>2021-07-17T16:19:53.000Z</updated>
-        <summary type="html"><![CDATA[越来越多的大厂进入了芯片开发领域，IT 培训机构应该也嗅到了这股味道。
-芯片门槛有多高，IT 培训能否拿下这个山头呢？ 耳边时常回想起培训的广告语：
-*马程序员，月薪过万的逆袭。
-零基础学人工智能。
-刚毕业就进了大厂，只因他学了这些课程。
-......
-移动互联时代，他们搞定了 App 开发。
-大数据时代，他们搞定了 Java 全家桶随手粘来。
-人工智能时代，他们搞定了 Python 算法机器学习。
-物联网嵌入式不在话下，全栈前后端更是信手拈来。
-感谢这些培训机构，给行业输送了数量庞大的 IT 人才。。。
-现在就看芯片设计了。。。]]></summary>
+        <title type="html"><![CDATA[[问与答] 有在给 sci-hub 那批种子备份做种的朋友吗？]]></title>
+        <id>https://www.v2ex.com/t/790219#reply8</id>
+        <link href="https://www.v2ex.com/t/790219#reply8"/>
+        <updated>2021-07-18T09:26:27.000Z</updated>
+        <summary type="html"><![CDATA[我之前提到了一个想法 使用 p2p 网络获取 sci-hub 上的论文
+大部分代码工作已经完成了，但是由于能力限制不可能一个人生成所有数据块的索引
+
+希望各位在做种的人提供一下帮助
+需要做得事情见 https://github.com/Trim21/sci-hub-p2p/wiki/索引收集工作 目前大概还有 806 个种子没有索引]]></summary>
         <author>
             <name>V2EX</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[问与答] 求 pixel 4 安卓 12 beta 电信补丁]]></title>
-        <id>https://www.v2ex.com/t/790140#reply0</id>
-        <link href="https://www.v2ex.com/t/790140#reply0"/>
-        <updated>2021-07-17T15:54:43.000Z</updated>
-        <summary type="html"><![CDATA[彦祖们
-Pixel 4 安卓 12 有电信补丁出来了吗？我试了下原先安卓 11 的补丁不能用（此版本来源机锋，现在论坛关了）
-感谢。
-先祝每一个彦祖都能遇到他的结衣~
-补：
-我刚上了 12beta，重启一次后居然屏幕触控失灵了，目前已回刷 11 。]]></summary>
+        <title type="html"><![CDATA[[问与答] 请教大家一个关于汇编的问题。]]></title>
+        <id>https://www.v2ex.com/t/790217#reply8</id>
+        <link href="https://www.v2ex.com/t/790217#reply8"/>
+        <updated>2021-07-18T09:16:50.000Z</updated>
+        <summary type="html"><![CDATA[在学习王爽的《汇编语言第三版》时，有个示例要求利用栈将程序中的数据逆序存放；无论是作者的例子，还是我稍微修改后的程序运行结果都没有问题，但是不知道为什么栈内的内容总是和预期的不一致，请大家帮我解答一下。
+作者的例子如下：
+
+我觉得既然只是逆序存放 8 个字型数据，那就用 dw 定义 8 个字型数据就行了，无需 16 个；然后我就重新只定义了 8 个字型数据，同时将初始的栈顶偏移地址改为了 20H 。
+
+然后用 DEBUG 进行调试，跳转到第一次循环结束的地方，入栈的结果  076A:10 1F  是正常的，但是原数据的后四个
+076A:8 F  被改写了。
+
+再次跳转到程序结尾部分，逆序存放的结果  076A:0 F  是正确的，但是栈的后四位  076A:18 1F  又被改写了。
+
+用 DEBUG 调试了一下作者的示例程序，发现也存在这样的情况，不仅栈的后四位  076A:28 2F  被改写了，就连没有使用的  076A:1A 1F  也被改写了。究竟是什么原因导致这些地方总是被改写了呢？]]></summary>
         <author>
             <name>V2EX</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[问与答] 上海美术电影制片厂 六部经典动画长片 哪 6 部？]]></title>
-        <id>https://www.v2ex.com/t/790139#reply2</id>
-        <link href="https://www.v2ex.com/t/790139#reply2"/>
-        <updated>2021-07-17T15:45:17.000Z</updated>
-        <summary type="html"><![CDATA[http://baby.sina.com.cn/edu/06/2809/183218971.shtml
-《天书奇谭》。它是迄今为止上海美术电影制片厂六部经典动画长片中，中国唯一一部具有原创情节的动画。]]></summary>
+        <title type="html"><![CDATA[[宽带症候群] 电信盒子建议]]></title>
+        <id>https://www.v2ex.com/t/790216#reply4</id>
+        <link href="https://www.v2ex.com/t/790216#reply4"/>
+        <updated>2021-07-18T09:11:16.000Z</updated>
+        <summary type="html"><![CDATA[由于开通宽带的时候没有开通 itv，现在需要开通 itv，但是不送电视盒子，我想咸鱼淘一个，请问各位大佬，买这个有什么坑要避吗？]]></summary>
         <author>
             <name>V2EX</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[Jupyter] 如何在内网环境从 Windows SSH 访问 Linux 服务器]]></title>
-        <id>https://www.v2ex.com/t/790138#reply3</id>
-        <link href="https://www.v2ex.com/t/790138#reply3"/>
-        <updated>2021-07-17T15:38:53.000Z</updated>
-        <summary type="html"><![CDATA[如 Windows 本地机没有网络，可以在内网通过一个特定端口连接服务器。按照一般的 SSH 连接教程（如： https://thedatafrog.com/en/articles/remote-jupyter-notebooks/ ），服务端没有问题，但是在本地无法通过给定地址（ http://127.0.0.1:port ）访问。请问这是哪一步存在问题，还是这种方法本身就有限制，本人对网络方面不是很懂。
-附：
-有没有大佬知道怎么在服务器打开图片时进行本地展示，在以上给出环境下该如何配置？]]></summary>
+        <title type="html"><![CDATA[[问与答] 练习 Sql 四个表相连时一个疑问]]></title>
+        <id>https://www.v2ex.com/t/790215#reply9</id>
+        <link href="https://www.v2ex.com/t/790215#reply9"/>
+        <updated>2021-07-18T09:00:58.000Z</updated>
+        <summary type="html"><![CDATA[表字段
+–1.学生表
+Student(s_id,s_name,s_birth,s_sex) –学生编号,学生姓名, 出生年月,学生性别 
+–2.课程表
+Course(c_id,c_name,t_id) – –课程编号, 课程名称, 教师编号 
+–3.教师表
+Teacher(t_id,t_name) –教师编号,教师姓名 
+–4.成绩表
+Score(s_id,c_id,s_score) –学生编号,课程编号,分数
+题目：查询没学过"张三"老师授课的同学的信息  
+我的做法，四表相连，但我只做得出 学过"张三"老师授课的同学的信息：
+SELECT st.*,t.t_name
+from student st 
+JOIN score s on st.s_id=s.s_id
+JOIN course c on c.c_id=s.c_id
+JOIN teacher t on t.t_id=c.t_id
+where t.t_name="张三"
+
+老师文档的答案用的是子查询的嵌套 where 方式，
+select st.* from student st where st.s_id not in(
+  select sc.s_id from score sc where sc.c_id in 
+(select c.c_id from course c left join teacher t on t.t_id=c.t_id where  t.t_name="张三")
+  )
+
+如果不用子查询，我上面的四表相连，
+最后的 where 要怎么改才可以符合题意]]></summary>
         <author>
             <name>V2EX</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[问与答] mac 上有什么软件，去背景噪音 可以媲美 adobe audition？]]></title>
-        <id>https://www.v2ex.com/t/790137#reply9</id>
-        <link href="https://www.v2ex.com/t/790137#reply9"/>
-        <updated>2021-07-17T15:37:00.000Z</updated>
-        <summary type="html"><![CDATA[我 因为偶尔要录制视频， 所以 需要去背景噪音， 然后用 final cut pro 进行处理视频画面
-在我的实践中， 去背景噪音，没有一个是 adobe audition 的对手
-但是 用 adobe audition 就必须安装 adobe cloud,  这个 cloud 自带的 core sync 等进程有些流氓， 关了会重新打开，  删了， 更新了版本后， 又出现了。  能耗仅次于 chrome 在我的电脑上
-所以，我想问问， 有没有其他软件，没那么流氓， 去噪功能，可以媲美 adobe audition 
-谢谢]]></summary>
+        <title type="html"><![CDATA[[上海] 九号线 九亭地铁站 九城湖滨小两室 自住房子出租]]></title>
+        <id>https://www.v2ex.com/t/790213#reply2</id>
+        <link href="https://www.v2ex.com/t/790213#reply2"/>
+        <updated>2021-07-18T08:49:11.000Z</updated>
+        <summary type="html"><![CDATA[九城湖滨小两室，房子位于二楼，就在湖边，小区环境非常好，小桥流水，绿化很赞，这之前都是自己住，由于小孩子到外区上学，故出租. 6000 元 /月，押一付三.
+生活非常方便，金地广场可以方便的购物看电影，附近有第四小学，第四幼儿园等学校。适合徐家汇，漕河泾开发区上班的同学, 主卧放了上下铺，也非常适合有小孩子的家庭居住.
+刚刚拍的房子内部视频: https://b23.tv/Vhmo2i
+微信联系: H_Minghe]]></summary>
         <author>
             <name>V2EX</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[生活] 提醒一下大家，多抓鱼的二手书可能卖的比淘宝新书还贵]]></title>
-        <id>https://www.v2ex.com/t/790135#reply21</id>
-        <link href="https://www.v2ex.com/t/790135#reply21"/>
-        <updated>2021-07-17T15:26:06.000Z</updated>
-        <summary type="html"><![CDATA[打算买本 DDIA 学习，发现多抓鱼卖的二手书比淘宝新书还贵]]></summary>
+        <title type="html"><![CDATA[[Arduino] 你们都用什么 ide 去写 arduino？]]></title>
+        <id>https://www.v2ex.com/t/790212#reply5</id>
+        <link href="https://www.v2ex.com/t/790212#reply5"/>
+        <updated>2021-07-18T08:43:01.000Z</updated>
+        <summary type="html"><![CDATA[默认的 arduino 用的我快吐血了，platformio 国内下载实在是太慢了，请问你们都用什么 ide ？推荐一下]]></summary>
         <author>
             <name>V2EX</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[宽带症候群] 千兆光猫跑出近 2Gbps 的速度]]></title>
-        <id>https://www.v2ex.com/t/790134#reply5</id>
-        <link href="https://www.v2ex.com/t/790134#reply5"/>
-        <updated>2021-07-17T15:20:42.000Z</updated>
-        <summary type="html"><![CDATA[千兆宽带
-HS8145X6 光猫，跑出 1.6Gbps 下行。。
-ICG3000F 真是个好东西，WAN 到 HS8145X6 做双线聚合，LAN 口接 40G 交换机的千兆口做 4 线聚合]]></summary>
+        <title type="html"><![CDATA[[问与答] 如何快速确认 airpods 已连上 mbp/ iPhone ，不是外放状态]]></title>
+        <id>https://www.v2ex.com/t/790211#reply4</id>
+        <link href="https://www.v2ex.com/t/790211#reply4"/>
+        <updated>2021-07-18T08:41:22.000Z</updated>
+        <summary type="html"><![CDATA[日常工作时，每次用 airpods，都要先调小音量，小心反复确认在 mbp 上播放音乐时，不是外放状态。特别是这时如果打开了 iPhone，airpods 会自动切换到 iphone，就更要注意了。
+有没有一个可靠稳定的方法，可以确认 airpods 已连接，可以放心播放音乐？]]></summary>
         <author>
             <name>V2EX</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[问与答] 用 nuxt.js 写的博客部署在 vercel，有没有什么办法可以再部署一个简单的管理后台，可以在多台电脑发布文章]]></title>
-        <id>https://www.v2ex.com/t/790131#reply2</id>
-        <link href="https://www.v2ex.com/t/790131#reply2"/>
-        <updated>2021-07-17T14:52:56.000Z</updated>
-        <summary type="html"><![CDATA[问与答 - @zxCoder -]]></summary>
+        <title type="html"><![CDATA[[信息安全] 求助， data 后面的加密内容是啥？怎么解密]]></title>
+        <id>https://www.v2ex.com/t/790209#reply1</id>
+        <link href="https://www.v2ex.com/t/790209#reply1"/>
+        <updated>2021-07-18T08:10:46.000Z</updated>
+        <summary type="html"><![CDATA[中了个毒，抓包发现他 get 了一些信息到服务器，像知道是啥信息
+Index?d=1&member_id=XXXXXXXXXXX&stamptime=1626536357&data=tk7NtoHmmtGIA4bFKerHQAzbZhozb3kIGwbJBU74PxLYLViyjGoZicf8Prlf0bId6HeSPv7l32y5vxs4lAcBDVddY4ZPyDBkZBBALkYGSQ5FRsboR8xTIcNBuF
+Index?d=1&member_id=XXXXXXXXXXX&stamptime=1626575982&data=lhiWfsiG-LHqQSUxrZTOV9aJ0yOOhJKPRwiycxRpENj7GWyPt9nIffzKG2W6TH1qlnRsN7kMFgIMsuR5U6ofedAdLqF0bdkmTzDBfUGBkAloBcnEJmcV4zPpVJKw]]></summary>
         <author>
             <name>V2EX</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[Android] 现在有哪个 apk 导出软件能把“分体的“apk 全部导出的？]]></title>
-        <id>https://www.v2ex.com/t/790130#reply7</id>
-        <link href="https://www.v2ex.com/t/790130#reply7"/>
-        <updated>2021-07-17T14:44:32.000Z</updated>
-        <summary type="html"><![CDATA[就是那些不再是一个 base.apk 、还有好几个 split_XXX.apk 甚至其他资源的 app，老的那些 apk manager 之类的还是只能导出一个 base，拿到其他手机上没用～]]></summary>
+        <title type="html"><![CDATA[[Python] Nodejs 之后， Python 在 Web 开发领域还有啥优势么？]]></title>
+        <id>https://www.v2ex.com/t/790207#reply25</id>
+        <link href="https://www.v2ex.com/t/790207#reply25"/>
+        <updated>2021-07-18T07:54:15.000Z</updated>
+        <summary type="html"><![CDATA[Python 的 Web 框架的并发性能被 nodejs 吊打。真要有复杂的后端服务都上 JAVA 了，也不会用 Python 。
+现在就连自动化测试这块很多都可以给 nodejs 做了。除了机器学习和作为胶水语言，感觉在 Web 领域 python 的空间越来越小了。]]></summary>
         <author>
             <name>V2EX</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[游戏] 13 号线北苑 ，家里组个德扑咸鱼局，现有 4 人，有好心人来成个局吗~（组局真难）]]></title>
-        <id>https://www.v2ex.com/t/790129#reply1</id>
-        <link href="https://www.v2ex.com/t/790129#reply1"/>
-        <updated>2021-07-17T14:43:19.000Z</updated>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[问与答] 问一个字符集、编码的问题]]></title>
-        <id>https://www.v2ex.com/t/790127#reply1</id>
-        <link href="https://www.v2ex.com/t/790127#reply1"/>
-        <updated>2021-07-17T14:15:10.000Z</updated>
-        <summary type="html"><![CDATA[就是 application.properties 里边有中文的时候，IDEA 中勾选了 Transparent native-to-ascii conversion，使用记事本打开，中文字符显示的是 unicode 编码。
-当然我可以用 native2ascii 这个转换显示出中文，或者生成一个新文件。
-原来的 application.properties 和生成的新文件的区别是什么？也就是，unicode 在之前看是编码，转了后打开可以看到是对应中文，转换前后在这背后是啥区别？底层的编码数据有何异同？
-比如\u5FC5,转之前本质是独立的斜杆加字母的一连串英文字符串吗？那之后？]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[问与答] 关于 PHP 、 Java 和 go 的服务器问题]]></title>
-        <id>https://www.v2ex.com/t/790126#reply7</id>
-        <link href="https://www.v2ex.com/t/790126#reply7"/>
-        <updated>2021-07-17T14:03:02.000Z</updated>
-        <summary type="html"><![CDATA[请问为什么 php 和 java 这种脚本语言，（ java 应该算半个）需要 apache 或者 tomcat，而 go 这种就不用呢？是语言特性决定缺少某种功能还是因为 go 自带的 net 库已经实现了类似 apache 和 tomcat 的功能呢？]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[问与答] 求推荐一个配镜片的老板]]></title>
-        <id>https://www.v2ex.com/t/790125#reply2</id>
-        <link href="https://www.v2ex.com/t/790125#reply2"/>
-        <updated>2021-07-17T13:48:33.000Z</updated>
-        <summary type="html"><![CDATA[记得 v2 以前有个老板安利过他家的镜片，刚搜了一会没找到。求各位推荐配镜片的地儿～]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[职场话题] 闲了一周了。啥事都没做。怎么写周报呢？]]></title>
-        <id>https://www.v2ex.com/t/790122#reply11</id>
-        <link href="https://www.v2ex.com/t/790122#reply11"/>
-        <updated>2021-07-17T13:15:55.000Z</updated>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Java] Spring 的循环依赖问题]]></title>
-        <id>https://www.v2ex.com/t/790121#reply0</id>
-        <link href="https://www.v2ex.com/t/790121#reply0"/>
-        <updated>2021-07-17T13:12:14.000Z</updated>
-        <summary type="html"><![CDATA[什么是循环依赖呢？可以把它拆分成循环和依赖两个部分来看，循环是指计算机领域中的循环，执行流程形成闭合回路；依赖就是完成这个动作的前提准备条件，和我们平常说的依赖大体上含义一致。
-放到 Spring 中来看就一个或多个 Bean 实例之间存在直接或间接的依赖关系，构成循环调用，循环依赖可以分为直接循环依赖和间接循环依赖。
-Spring 的循环依赖问题]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[浏览器] 请问有哪些与 edge 集锦类似的服务呢？]]></title>
-        <id>https://www.v2ex.com/t/790119#reply5</id>
-        <link href="https://www.v2ex.com/t/790119#reply5"/>
-        <updated>2021-07-17T12:50:45.000Z</updated>
-        <summary type="html"><![CDATA[喜欢集锦功能，但 edge 实在用不惯……]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Telegram] 实现学习小组功能的 tg 机器人？]]></title>
-        <id>https://www.v2ex.com/t/790118#reply2</id>
-        <link href="https://www.v2ex.com/t/790118#reply2"/>
-        <updated>2021-07-17T12:40:04.000Z</updated>
-        <summary type="html"><![CDATA[解决网上兴趣 /学习小组成员多互动少的问题。
-简单想到的基本功能：
-1. 按水平层级不同，为参与学习的同学们分层，通过进阶考核即可进入下一个层级；
-2. 同层级的同学组成小群，交流经验、互相鼓励。
-不知道是否已有现成的机器人或者 app ？]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Windows] 有哪些知名的应用适配了 win10 暗色模式（dark mode）？]]></title>
-        <id>https://www.v2ex.com/t/790117#reply15</id>
-        <link href="https://www.v2ex.com/t/790117#reply15"/>
-        <updated>2021-07-17T12:38:36.000Z</updated>
-        <summary type="html"><![CDATA[win10 支持暗色模式已经有差不多几年了，到现在几乎就没见过有应用专门适配了 win10 的深色模式（ dark mode ）。
-只见过浏览器、一些跨平台程序（比如 vscode，idea 系列）支持深色模式，然而人家也不是专门针对 win10 适配的，而是自绘 UI，全平台适配的，说白了跟 win10 没啥关系。
-微软这么尴尬吗。]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[分享创造] 🚀做了个简单小应用，帮人解决拖延~]]></title>
-        <id>https://www.v2ex.com/t/790115#reply2</id>
-        <link href="https://www.v2ex.com/t/790115#reply2"/>
-        <updated>2021-07-17T12:25:19.000Z</updated>
-        <summary type="html"><![CDATA[解决拖延没动力，可以和朋友商量好，如果到期没完成我就给你一百，估计会增添不少动力，如果不想麻烦别人可以来这😁😁
-网站： https://tuoyan.luonb.cn]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[macOS] MAC 连 WINDOWS（家庭版）有无方便快捷的远程桌面方案？（内网为主）]]></title>
-        <id>https://www.v2ex.com/t/790114#reply10</id>
-        <link href="https://www.v2ex.com/t/790114#reply10"/>
-        <updated>2021-07-17T12:22:28.000Z</updated>
-        <summary type="html"><![CDATA[RT
-试了 JUMP DESKTOP MOONLIGHT 这 2 个，貌似是录屏传输，windows 桌面的颜色非常奇怪，不知道是什么原因。
-RDP 家庭版不支持，之前用起来感觉是非常方便的。不知道还有其他合适方案不。]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[硬件] 2021 求推荐电视盒子]]></title>
-        <id>https://www.v2ex.com/t/790113#reply18</id>
-        <link href="https://www.v2ex.com/t/790113#reply18"/>
-        <updated>2021-07-17T12:19:37.000Z</updated>
-        <summary type="html"><![CDATA[请问 2021 比较靠谱的电视盒子有哪些？
-我找了一圈，是不是只有小米、腾讯极光、创维可以选了？第一次买没啥经验，来请大家分享一下自己的体验~
-我想想自己的需求，其实只要满足基本影视要求，保持网络稳定不要动不动转菊花就可以？价格 500 内。]]></summary>
+        <title type="html"><![CDATA[[问与答] （有偿）亲戚今年硕士毕业，想在广州找个工作，市场调研方向的，老铁们求推荐]]></title>
+        <id>https://www.v2ex.com/t/790205#reply2</id>
+        <link href="https://www.v2ex.com/t/790205#reply2"/>
+        <updated>2021-07-18T07:31:43.000Z</updated>
+        <summary type="html"><![CDATA[亲戚学历还挺好的，本科 211，研究生海外
+本来是想做互联网产品的，但不想承担互联网加班的氛围，
+所以想转做市场调研方向，求老铁们推荐几个好公司，
+我自己找了好几家发现都是坑。。。
+基本的要求是：
+不要很厉害的加班，接受 995
+方向：市场调研，媒体传播，互联网一类的
+推荐的公司如果进了，我会来联系推荐的老铁发红包，
+再次感谢老铁们。]]></summary>
         <author>
             <name>V2EX</name>
         </author>
