@@ -2,37 +2,1001 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lojze.github.io/free-res/index.html</id>
     <title>阅读器</title>
-    <updated>2021-07-22T05:31:28.260Z</updated>
+    <updated>2021-07-22T17:40:40.726Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://lojze.github.io/free-res/index.html"/>
     <link rel="self" href="https://lojze.github.io/free-res/feed.atom"/>
     <entry>
-        <title type="html"><![CDATA[[Apple] 视频软编码的时候 M1 确实不如八核 i9]]></title>
-        <id>https://www.v2ex.com/t/791040#reply3</id>
-        <link href="https://www.v2ex.com/t/791040#reply3"/>
-        <updated>2021-07-22T05:15:57.000Z</updated>
-        <summary type="html"><![CDATA[刚刚编译了一个有 Apple NEON 补丁的 ffmpeg，随便拿了一集 Rick and Morty，用 x265 做了一个压片测试，结果如下：
-Intel，用时 12min11s 。
-M1，用时 13min24s，慢了 10%。
-Intel 的结果：
-encoded 34437 frames in 731.41s (47.08 fps), 1413.17 kb/s, Avg QP:29.99
+        <title type="html"><![CDATA[[问与答] 有质量可靠的指纹锁推荐吗？]]></title>
+        <id>https://www.v2ex.com/t/791192#reply0</id>
+        <link href="https://www.v2ex.com/t/791192#reply0"/>
+        <updated>2021-07-22T17:36:03.000Z</updated>
+        <summary type="html"><![CDATA[苦于自己过保的 Yale 智能门锁经常把自己锁在门外（触摸屏幕没有反应）...想问问大家有什么质量可靠的指纹锁吗？
+需求：
+1. 质量可靠，不会因为失灵把自己锁在外面。
+2. 指纹锁，识别可靠（不需要考虑老人小孩）。
+3. 最好是推拉的，拿快递的时候推拉的比转动的应该方便一些。
+目前看中的是三星的 P50，感觉互联网品牌是不是质量会相对差一些？而且也不需要什么特别的功能。看了几个品牌的淘宝评价，几乎每一个都有被锁在门外的差评，不知道真假...觉得还是看看大家自用的感受会靠谱一些。感谢！]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[马斯克：特斯拉很可能重新接受比特币支付]]></title>
+        <id>https://www.williamlong.info/archives/6504.html</id>
+        <link href="https://www.williamlong.info/archives/6504.html"/>
+        <updated>2021-07-22T17:17:46.000Z</updated>
+        <summary type="html"><![CDATA[当地时间周三，特斯拉CEO埃隆·马斯克在The B Word大会上表示，特斯拉可能重新接受比特币支付。马斯克称，他个人持有比特币、以太坊以及狗狗币，特斯拉和SpaceX都只持有比特币。他还表示，比特币挖矿正“转向可再生能源”，特斯拉很可能会恢复把比特币作为买车的支付方式。
 
-________________________________________________________
-Executed in  731.75 secs    fish           external
-   usr time  132.28 mins  140.00 micros  132.28 mins
-   sys time    1.63 mins  756.00 micros    1.63 mins
 
-M1 的结果
-encoded 34437 frames in 804.03s (42.83 fps), 1413.12 kb/s, Avg QP:29.99
+　　马斯克言论传出后，比特币劲升8%，至3160.16美元，以太币急升11.6%，至1993.36美元。特斯拉股价在盘后交易中下跌0.8%，至655.30美元。
 
-________________________________________________________
-Executed in  804.08 secs    fish           external
-   usr time   91.92 mins    0.09 millis   91.92 mins
-   sys time    0.41 mins    1.30 millis    0.41 mins
 
-感觉有两点：
-Intel 的 Mac 其实一开始性能要更好，但是跑久了之后可以明显感觉到降频。
-比较好奇为什么 M1 的 usr time 比 Intel 小那么多，不知道这是怎么算的，毕竟 M1 虽然是大小核，但也是 4+4 八核处理器。]]></summary>
+　　马斯克表示，特斯拉的使命是加速可持续能源的到来，当然也有必要在比特币的能源使用方面做适当的尽职调查，希望通过更多的调查，以确认可再生能源使用率最有可能达到或超过50%，且具增长趋势，如果一切符合预期，特斯拉将恢复接受比特币付款。
+
+
+　　“我可能会推高价格，但不会逢高卖出，我希望看到比特币成功。”马斯克补充道。]]></summary>
+        <author>
+            <name>user@gmail.com (guest)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[iPad] iPad Pro 2021 用 Thunderbolt 线连接 Macbook Air M1，可以高速传输文件嘛？貌似设备无法识别]]></title>
+        <id>https://www.v2ex.com/t/791191#reply0</id>
+        <link href="https://www.v2ex.com/t/791191#reply0"/>
+        <updated>2021-07-22T17:01:12.000Z</updated>
+        <summary type="html"><![CDATA[貌似设备无法识别
+https://www.reddit.com/r/iPadPro/comments/npv0im/thunderboltusb4_connection_to_m1_mac/
+有没有其他人试过。
+苹果真是奇葩]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[问与答] 个人网址的百度的搜索关键词是怎么被他人打入这样的广告?]]></title>
+        <id>https://www.v2ex.com/t/791190#reply0</id>
+        <link href="https://www.v2ex.com/t/791190#reply0"/>
+        <updated>2021-07-22T16:47:54.000Z</updated>
+        <summary type="html"><![CDATA[个人的小破站. 比如第二个关键词, 基本每天都有一个这样的关键嵌入进来.
+
+有些还明目张胆说 关键词 seo 请联系 xxxx 这样的 字样
+请问这类关键词如何做到的?]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Java] 关于 Java 的 Supplier<T>接口的疑问，为什么可以传入静态方法]]></title>
+        <id>https://www.v2ex.com/t/791189#reply2</id>
+        <link href="https://www.v2ex.com/t/791189#reply2"/>
+        <updated>2021-07-22T16:35:19.000Z</updated>
+        <summary type="html"><![CDATA[这三段代码其实是一致的
+        //生成随机数流
+        Stream<Double> randoms = Stream.generate(Math::random);
+        
+        Stream<Double> randoms2 = Stream.generate(() -> Math.random());
+        
+        Stream<Double> randoms3 = Stream.generate(new Supplier<Double>() {
+            @Override
+            public Double get() {
+                return Math.random();
+            }
+        });
+
+后面两段我都能理解，第一段为什么 Math 的静态方法也算是可以当做 Supplier 接口的实现者，我有点想不通]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Apple] mbp m1 屏幕反光这个问题有解吗]]></title>
+        <id>https://www.v2ex.com/t/791187#reply3</id>
+        <link href="https://www.v2ex.com/t/791187#reply3"/>
+        <updated>2021-07-22T16:22:40.000Z</updated>
+        <summary type="html"><![CDATA[用外接屏幕没有反光问题，但有时候需要直接用到笔记本屏幕，如果此时头顶有灯的话，严重干扰视线。查了一下解决方法：
+1，贴膜 2，移除光源 3，大幅调高屏幕亮度]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[职场话题] 米哈游 2022 届~~秋季校园招聘正式开始啦！ 700+Offer（可内推哦）]]></title>
+        <id>https://www.v2ex.com/t/791186#reply0</id>
+        <link href="https://www.v2ex.com/t/791186#reply0"/>
+        <updated>2021-07-22T16:18:48.000Z</updated>
+        <summary type="html"><![CDATA[米哈游 2022 届~~秋季校园招聘正式开始啦！ 700+Offer （可内推哦）
+米哈游内推！内推！内推！重要事情说三遍！
+社招持续进行中～通过内推链接查看各个岗位具体要求，一键投递简历，offer 快人一步，各位优秀的老爷们小姐姐们小哥哥们，简历赶紧投起来吧
+面向对象
+校招全职岗位
+2022 届毕业生(毕业时间为 2021 年 9 月 1 日-2022 年 8 月 31 日)
+校招实习岗位
+2023 届毕业生(毕业时间为 2022 年 9 月 1 日-2023 年 8 月 31 日)
+*中国大陆以毕业证为准，非中国大陆地区以学位证为准
+2022 届秋招内推链接： https://app.mokahr.com/recommendation-apply/mihoyo/24513?recommendCode=AEVIP&codeType=1&hash=%23%2Fjobs%3Fpage%3D1
+社招内推链接： https://app.mokahr.com/recommendation-apply/mihoyo/26460?recommenderId=936494&hash=%23%2Fjobs%3Fzhineng%3D22500
+PS：移动端显示请在微信客户端打开链接，复制链接发送到微信文件传输助手，然后点击链接即可打开
+PS：内推简历优先筛选哦，欢迎大家评论转发推荐给需要的小伙伴。
+a 、优秀的薪酬福利：
+行业 Top 薪酬激励，六险二金 16 薪，1 年两次调薪窗口，10 天带薪年假，旅游基金，豪华年节福利，定期体检，免费晚餐，不限量零食饮料，丰富多彩的节日礼品…… 最优秀的你值得最高的回报，米哈游期待你的到来。
+通勤相遇，尽享班车 ，福利不停，我在 miHoYo，等你一起拯救世界。
+b 、关于米哈游
+米哈游成立于 2012 年，业务主要集中在国产动漫文化下的移动、PC 及主机领域。作为研发商，陆续推出《崩坏学园 2 》、《崩坏 3 》、《未定事件簿》、《原神》等优秀产品,并制作了虚拟角色<a href="https://testerhome.com/yoyo">@yoyo 鹿鸣_Lumi 。
+米哈游以极高的游戏制作品质、忠实的玩家群体、漂亮的全球化营收数据，悄然挑战和改写着游戏的业态。在游戏领域之外，米哈游围绕多款原创 IP，推出了动画、漫画、音乐、小说、周边等多元产品，打造动漫游戏全产业链，向成为一家世界一流的国产动漫公司迈进。
+米哈游总部位于中国上海，并在新加坡、美国、加拿大、日本、韩国等国家与地区进行全球化布局。目前,公司员工超过 3000 人,多数来自世界顶尖高校和知名互联网公司。
+程序&技市类
+游戏客户端开发
+NLP 深度学习研究员
+游戏服务器开发
+图形工程师
+构建工程师
+图形算法工程师
+渲染开发
+图像算法工程师
+引擎开发
+数据开发
+游戏测试开发
+Jawa 后端开发
+游戏测试
+Golang 后端开发
+场景测试
+Web 前端开发(信息化)
+运维开发
+Web 前端开发(平台)
+动作生或研究员
+web/APP 测试工程师
+强化学习研究员
+测试工程师〔信息化)
+数字人深度学习研究员
+产品经理实习生〔运维向)
+图形学研究员〔深度学习方向)
+Web 前端开发实习生〔信息化》
+项目管理
+Jawa 后端开发实习生(信息化)
+项目管理(信息化)
+美术表现类
+角色原画师
+3D 角色设计师
+怪物原画师
+3D 场景设计师
+场景原画师
+硬表面模型师
+机械原画师
+关卡美术设计师
+美直插画师
+游戏动画师
+二维动画原画师
+CG 动画师
+城市规划设计师
+游戏特效师
+游戏 UI 设计师
+CG 特效师
+视觉设计师
+音效设计师
+产品 UE 设计师
+视频设计师
+周边设计师
+分镜师
+角色原画实习生
+灯光师
+场景原画实习生
+技术美术〔材质贴图)
+3D 角色实习生
+技术美术〔程序化生成)
+3D 场景实习生
+技术美术〔场景)
+游戏 UI 实习生
+技术美术(动画)
+3D 特效实习生
+3D 培训生
+视觉设计实习生
+原画综合培训生
+视频设计实习生
+产品 UI 实习生
+ 产品策划类
+系统策划
+数值策划
+关卡战斗策划
+交互策划(UE)
+文案第划 /编剧
+游戏与平台运营类
+游戏与平台运营
+用户研究
+市场商务类
+市场商务
+市场数据分析
+营销策划
+境外发行类
+境外培训生
+网页产品实习生
+境外社群实习生
+综合管理类
+HR 招聘
+HR 培训
+雇主品牌文案
+财务会计
+法务专员
+采购专员
+BP(算法团队)
+BP(游戏业务)
+BP(平台)]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[macOS] Mac QQ 怎么不支持快速登录]]></title>
+        <id>https://www.v2ex.com/t/791183#reply0</id>
+        <link href="https://www.v2ex.com/t/791183#reply0"/>
+        <updated>2021-07-22T15:46:47.000Z</updated>
+        <summary type="html"><![CDATA[是由于我用的是 App Store 版本的原因吗？]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[问与答] 程序员学英语，应该选英式， 还是美式？]]></title>
+        <id>https://www.v2ex.com/t/791182#reply7</id>
+        <link href="https://www.v2ex.com/t/791182#reply7"/>
+        <updated>2021-07-22T15:43:40.000Z</updated>
+        <summary type="html"><![CDATA[这两者，除了音标的发音有区别， 在一些 表达方式上，也有一些差距
+我目前的想法是，选择美式， 因为很多互联网上的大项目、大公司、。。。 都是美国人弄的
+所以学美式，可能会好一些
+想听听大家的意见
+谢谢]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[游戏] moonlight-stream 卡在 552 报错]]></title>
+        <id>https://www.v2ex.com/t/791181#reply3</id>
+        <link href="https://www.v2ex.com/t/791181#reply3"/>
+        <updated>2021-07-22T15:27:30.000Z</updated>
+        <summary type="html"><![CDATA[准确来说,应该并不是因为端口转发限制的......
+因为在我没启动 moonlight 之前
+linux 主机去 traceroute win 主机是都能访问的
+但是一旦进行连接后(主机找到了,选择串流的游戏 /桌面)
+再 traceroute 就失败,同时也会报 552 也就是端口转发规则 48010 48000
+很费解,是不是 nvidia 已经封了这个方式?我目前是都升到最新版本用的
+对了是局域网.没做任何转发限制(之前能 traceroute 通应该也证明了这一点吧...)
+发现占用端口的是这个程序nvcontainer.exe杀掉后再连接还是会启动]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Python] 训练出随机森林的模型后,能否手工修改它的特征权重 rf_model.feature_importances_]]></title>
+        <id>https://www.v2ex.com/t/791180#reply0</id>
+        <link href="https://www.v2ex.com/t/791180#reply0"/>
+        <updated>2021-07-22T15:20:30.000Z</updated>
+        <summary type="html"><![CDATA[rf_model.feature_importances_[0]=0.1
+不过重新查看其值, 似乎没有修改成功.]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[问与答] chrome 打开油管网站就闪崩，版本 91，后面升级为 92 也一样]]></title>
+        <id>https://www.v2ex.com/t/791179#reply0</id>
+        <link href="https://www.v2ex.com/t/791179#reply0"/>
+        <updated>2021-07-22T15:16:15.000Z</updated>
+        <summary type="html"><![CDATA[应该不是插件的问题，访客模式下访问也崩溃，有时候只在地址栏输入网址都崩溃（还没回车），好难啊]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[DNS] Cloudflare 升级在中国的网络，并改善 DNS 服务]]></title>
+        <id>https://www.v2ex.com/t/791178#reply11</id>
+        <link href="https://www.v2ex.com/t/791178#reply11"/>
+        <updated>2021-07-22T15:16:11.000Z</updated>
+        <summary type="html"><![CDATA[Cloudflare 和京东云合作改善 Cloudflare 网络在中国的体验，各位大佬能帮忙测试一下吗？
+1.1.1.1 以后 DNS 查询直接在中国大陆内了，不知道 DOH 能不能在国内使用。
+https://blog.cloudflare.com/upgrading-the-cloudflare-china-network/]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Windows] 谁听说过 sysmgr 病毒，在 c 盘下，]]></title>
+        <id>https://www.v2ex.com/t/791177#reply0</id>
+        <link href="https://www.v2ex.com/t/791177#reply0"/>
+        <updated>2021-07-22T15:13:41.000Z</updated>
+        <summary type="html"><![CDATA[可以感染 win10 以前系统，不知道谁传染的，很厉害]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[iCloud] 请问 icloud 扩容什么姿势价格最低？]]></title>
+        <id>https://www.v2ex.com/t/791176#reply1</id>
+        <link href="https://www.v2ex.com/t/791176#reply1"/>
+        <updated>2021-07-22T15:13:15.000Z</updated>
+        <summary type="html"><![CDATA[我有一个国区一个美区
+主账号美区
+下载墙内 app 用国区
+如题
+谢谢各位彦祖]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[程序员] 现在还有哪些银行卡有短信提醒，或者是导出账单功能]]></title>
+        <id>https://www.v2ex.com/t/791175#reply8</id>
+        <link href="https://www.v2ex.com/t/791175#reply8"/>
+        <updated>2021-07-22T15:07:35.000Z</updated>
+        <summary type="html"><![CDATA[每次用微信公众号看账单太麻烦了]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[程序员] 一个存在了挺久的分享美景美食的 v2 wx 群，近期吸纳一些新会员。]]></title>
+        <id>https://www.v2ex.com/t/791170#reply0</id>
+        <link href="https://www.v2ex.com/t/791170#reply0"/>
+        <updated>2021-07-22T14:45:26.000Z</updated>
+        <summary type="html"><![CDATA[群建了比较长的时间了，都是 v 站会员。最开始是准备讨论技术问题，后来逐渐话题趋于综合。目前准备吸纳一些「志同道合」的新鲜血液。
+群的主题主要是以下几个：
+生活美食，美景分享。（重点）
+职场吐槽。
+聊天打屁。
+技术问题解答。
+排解生活中的苦闷。
+群员具有以下特征：
+活跃会员基本在 30 岁上下。
+前端居多。
+名片都按照城市和技术栈分了类。
+大部分都比较好交流。
+喜欢发沙雕图和宠物图片。
+虽然偶尔都会吐槽，但是整体还是积极向上的。
+群内规范如下：
+禁止 zz
+禁止 sq
+禁止恶心，恐怖信息。
+禁止无限制的负能量和抱怨。
+注意看群公告。
+提倡客观冷静和谐，反对极端情绪化对立。
+根据以上信息，如果觉得群的主题和群员的画像和自己的意向相符合的话，可以扫码入群哈。
+另外，群每隔一段时间会清理一次僵尸粉。如果加了群了觉得不合适，退了就行。
+如果没有退，就是当的保持一下活跃度，比如多帮助群里面的人解决技术问题等等。]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[问与答] 关于 Java 和 go 高并发的话题]]></title>
+        <id>https://www.v2ex.com/t/791169#reply19</id>
+        <link href="https://www.v2ex.com/t/791169#reply19"/>
+        <updated>2021-07-22T14:45:05.000Z</updated>
+        <summary type="html"><![CDATA[go 因为有协程，所以高并发是它的一大优势，但是我看博客，别人说 groutine 的底层也是线程池，这样跟 Java 也一样，为什么 go 在高并发这块就很厉害呢（我不知道 Java 在高并发这块是不是比 go 弱，我没做过什么高并发项目）。发散一下就是 Java 的 NIO +线程池（现实例子就是 netty ）跟 go 在高并发这块差距是不是巨大？]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[程序员] 低代码重构复杂系统?]]></title>
+        <id>https://www.v2ex.com/t/791168#reply6</id>
+        <link href="https://www.v2ex.com/t/791168#reply6"/>
+        <updated>2021-07-22T14:44:20.000Z</updated>
+        <summary type="html"><![CDATA[老板让我们用一个低代码平台重构我们的项目, 项目挺复杂, 用的还是你们听都没听过的 用友 低代码平台, 官网连客户案例都没有, 最怕这些中型公司的低代码平台, 全是坑, 说实话, 就是垃圾, 用低代码平台开发复杂系统, 比用 java 还复杂 3 倍, 功能还简陋 5 倍. 学个 vue 还有点用, 学它? 就算低代码以后会成主流, 连轮不到用友吧? 大概 2 年后自己公司都不会维护了.]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[杭州] 杭州租房求助]]></title>
+        <id>https://www.v2ex.com/t/791167#reply1</id>
+        <link href="https://www.v2ex.com/t/791167#reply1"/>
+        <updated>2021-07-22T14:42:43.000Z</updated>
+        <summary type="html"><![CDATA[拱墅万达附近的单身公寓和二室有推荐吗？]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Python] 小白初学 Python ，有没有大佬可以帮忙简化一下代码]]></title>
+        <id>https://www.v2ex.com/t/791165#reply2</id>
+        <link href="https://www.v2ex.com/t/791165#reply2"/>
+        <updated>2021-07-22T14:37:31.000Z</updated>
+        <summary type="html"><![CDATA[import pandas as pd
+import openpyxl
+#用来保存结果的列表
+two = []
+urltwo = []
+urltwoo = []
+three = []
+urlthree = []
+urlthreee = []
+
+four = []
+urlfour = []
+urlfourr = []
+five = []
+urlfive = []
+urlfivee = []
+letters = "abcdefghijklmnopqrstuvwxyz"
+#几位数，自己定
+ttwo = [a+b for a in letters for b in letters]
+tthree = [a+b+c  for a in letters for b in letters for c in letters]
+ffour = [a+b+c+d  for a in letters for b in letters for c in letters for d in letters]
+ffive = [a+b+c+d+e  for a in letters for b in letters for c in letters for d in letters for e in letters]
+#域名后缀
+hz = "logistics.com.br"
+hz2 = "comex.com"
+#开始
+for k2 in ttwo:
+    url2 = [k2 + hz]
+    url22 = [k2 + hz2]
+    urltwo.append(url2)
+    urltwoo.append(url22)
+    two = urltwo + urltwoo
+ 
+for k3 in tthree:
+    url3 = [k3 + hz]
+    url33 = [k3 + hz2]
+    urlthree.append(url3)
+    urlthreee.append(url33)
+    three = urlthree + urlthreee
+
+for k4 in ffour:
+    url4 = [k4 + hz]
+    url44 = [k4 + hz2]
+    urlfour.append(url4)
+    urlfourr.append(url44)
+    four = urlfour + urlfourr
+for k5 in ffive:
+    url5 = [k5 + hz]
+    url55 = [k5 + hz2]
+    urlfive.append(url5)
+    urlfivee.append(url55)
+    five = urlfive + urlfivee
+#导出结果
+data = {'两个字母': two,'三个字母': three,'四个字母': four,'五个字母':five}
+frame = pd.DataFrame(data)
+frame.to_excel("E:\BaiduNetdiskWorkspace\个人\python\猜域名.xlsx")]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[问与答] 求助帖：交通事故中，谁才是弱者？求支招！]]></title>
+        <id>https://www.v2ex.com/t/791164#reply16</id>
+        <link href="https://www.v2ex.com/t/791164#reply16"/>
+        <updated>2021-07-22T14:33:04.000Z</updated>
+        <summary type="html"><![CDATA[不吐不快，万万没想到会以这种方式第一次感受到来自正义代表的“洗礼”。
+简述：
+地理位置：重庆
+时间：21 日早上八点多，在上班路上遇到了对向车道的美团电单车突然逆向拐到我这车道发生的碰撞事故。
+
+行车记录仪的视频过程拍的很清楚，不知道上传哪里。
+详细描述：
+我一直处于右侧车道正常行驶的状态，对面骑美团电单车的孕妇单手脱离方向摸头发，随后车辆发生偏转，企图支下左脚控制无果，加速向我这边冲过来，虽然我刹住了但电单车撞到我的车头，然后电单车孕妇倒地，下车拨打 110/120，然后孕妇被送医，扣车，进行酒驾测试（读数：0 ）。
+目前的情况：
+22 日去询问情况（以为就简单的定责），没想到结果是依“情”办案，叫双方协商。
+已经非常明示的跟我方表示（没有责任是不可能的）就算对方导致的事故但对方受这么重的伤，你在路上没有“注意路面情况，安全驾驶”（真是一个口袋，啥都能套），如果你妥协那么就自己承担个次责，或者等我们扣车进行测验（至少三十天）而且责任分担还会是一样的解决。
+真是好无奈，特别是从 JC 的口中说出“于情于法”这个词时，真的很讽刺。
+目前的打算：
+0 、无法担责（对方是孕妇，且离预产期就差一个月左右，然后大腿好像骨折了，担责看到那么多例子可以预想后期纠纷无穷。）
+1 、目前不打算妥协，等待下次协商，协商不成就向上一级申请复议。
+2 、向相关部门进行申诉。
+希望各位或有相关经验的小伙伴能支个招。]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[iPhone] 求更新 iOS 15 的朋友帮忙测试一个无障碍的 Bug]]></title>
+        <id>https://www.v2ex.com/t/791163#reply7</id>
+        <link href="https://www.v2ex.com/t/791163#reply7"/>
+        <updated>2021-07-22T14:23:54.000Z</updated>
+        <summary type="html"><![CDATA[想请大家帮忙测试一下 iOS 15 是否修复了这个 Bug 。
+简单描述一下 Bug : 和无障碍中的缩放控制器有关。
+1· 如果点击缩放控制器，可以移动已放大区域
+2· 如果点击缩放控制器以外的其他地方，不应该影响已放大区域
+BUG: iOS 14 中不满足第二条。也就是控制器以外的其他地方依然可以影响已缩放区域缩放范围
+如何帮忙测试：打开缩放控制器 (iOS 14)：
+设置 
+辅助功能 
+缩放 
+打开缩放开关（这时会立即启用缩放。你可以三指同时双击屏幕，关闭）
+缩放控制器
+打开显示控制器开关
+Bug 详细信息，我发了一个博客记录如下：
+https://www.huangwei.icu/2021/07/22/ios-%e8%a7%86%e8%a7%89%e6%97%a0%e9%9a%9c%e7%a2%8d-%e7%bc%a9%e6%94%be%e5%8a%9f%e8%83%bd/]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[问与答] 为什么大多数系统数据表设计，类型字段都喜欢用字符串而不是整型]]></title>
+        <id>https://www.v2ex.com/t/791162#reply6</id>
+        <link href="https://www.v2ex.com/t/791162#reply6"/>
+        <updated>2021-07-22T14:23:37.000Z</updated>
+        <summary type="html"><![CDATA[用整型查询不是更快吗？
+比如类型有"01" "02"，这里衍生另一个问题，既然都是字符串，为何不用"1", "2",还浪费空间
+是出于什么考虑？我想到的有几个原因
+防丢精度防出错，比如前端传个 long 型 雪花 id
+"01"有前导 0, 表明该字段最大值为 99
+还有其他什么血泪教训吗？]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[问与答] 想问问大家是怎么看待实习生的？]]></title>
+        <id>https://www.v2ex.com/t/791161#reply5</id>
+        <link href="https://www.v2ex.com/t/791161#reply5"/>
+        <updated>2021-07-22T14:09:38.000Z</updated>
+        <summary type="html"><![CDATA[如题。想问问大家是怎么看待实习生的。
+面的后台卡发岗，实习了好几周了，开发没干到，文字工作倒干了不少，已经熟读并背诵外包功能介绍文档了哈哈哈。感觉公司或者说 leader 也不是很看重对实习生培养，很多实习生干杂活，都想早点跑路。
+和家人抱怨 jd 货不对板然后被教育实习生就是干杂活，没人愿意带实习生。然后我玻璃心碎了 hhhhh 。不过马上就跑路了，心态躺平了。
+打了一堆文字，后面想想算了，虽然我不觉得他们会上 v2ex，但是还是保全自己。]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[杭州] 杭州有没有养鱼的 v 友，搞了个本地交流群~]]></title>
+        <id>https://www.v2ex.com/t/791160#reply0</id>
+        <link href="https://www.v2ex.com/t/791160#reply0"/>
+        <updated>2021-07-22T14:07:55.000Z</updated>
+        <summary type="html"><![CDATA[v 站很少有人养鱼吗，兰寿、泰狮等等的
+建了个 qq 群，627885720
+ps：自从我 5 月份养鱼以来，以前一直很瘦的，现在竟然开始胖了，缓解压力神器！！！]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[酷工作] 抖音后端，直播核心钱包团队（春晚红包）（直播送礼）招人 招人！]]></title>
+        <id>https://www.v2ex.com/t/791159#reply0</id>
+        <link href="https://www.v2ex.com/t/791159#reply0"/>
+        <updated>2021-07-22T14:02:01.000Z</updated>
+        <summary type="html"><![CDATA[抖音后端，直播核心钱包团队（春晚红包）（直播送礼）招人 招人！！！
+欢迎校招生私信简历，有私必回，直接推 hr 的 leader ！ 社招也要，上船的好时机！
+入职请吃饭
+邮箱：ODU5NTk4NzMyQHFxLmNvbQ== (qq)]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[分享发现] 发现浅色（亮色）和深色（暗色）对戴近视眼镜人的影响]]></title>
+        <id>https://www.v2ex.com/t/791156#reply7</id>
+        <link href="https://www.v2ex.com/t/791156#reply7"/>
+        <updated>2021-07-22T13:39:46.000Z</updated>
+        <summary type="html"><![CDATA[首先说下个人观点：浅色 YYDS，深色更疲劳更累
+浅色模式书签栏
+
+深色模式书签栏
+
+请戴眼镜的同学，头画圈（类似“O”）看上图里 YouTube 的 Logo，是否发现浅色和深色有所变化？
+也请不近视的同学帮忙看下有无区别。]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[宽带症候群] 虚拟机 + Wireguard 的 NAT 问题]]></title>
+        <id>https://www.v2ex.com/t/791155#reply2</id>
+        <link href="https://www.v2ex.com/t/791155#reply2"/>
+        <updated>2021-07-22T13:35:13.000Z</updated>
+        <summary type="html"><![CDATA[阿里云轻量服务器：
+有公网 IP + 安全组端口全开 + 打上 Fullcone 补丁 。
+
+服务器配置：
+192.168.1.222 是 NS 的 局域网地址。
+
+
+
+Virtualbox 虚拟机：
+有线桥接模式，连上后能互相 ping 通。
+
+客户端配置：
+
+防火墙配置：
+
+
+
+存在问题：
+Nintendo Switch 将网关设置成虚拟机 IP 后，网络测试结果为服务器地址，但 NAT 类型没有提升到 A 。]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Python] Python 碰到一题，大家有没有更好的解法]]></title>
+        <id>https://www.v2ex.com/t/791154#reply11</id>
+        <link href="https://www.v2ex.com/t/791154#reply11"/>
+        <updated>2021-07-22T13:17:12.000Z</updated>
+        <summary type="html"><![CDATA[nput_data = [
+    ['格力', '格力电器'],
+    ['格力', '美的', '格力电器', '美的集团'],
+    ['中国民生投资股份有限公司', '中民投'],
+    ['格力', '格力电器', '格力集团'],
+    ['工银', '中信证券', '工行', '中国工商银行'],
+    ['建行', '建设银行', '北大光华'],
+    ['中国银行', '工行', '工商银行', '港交所'],
+    ['中行', '建行', '工行', '中金', '工商银行', '中国银行', '建设银行'],
+    ['农行', '建设银行', '建行', '中行'],
+    ['中国民生投资股份有限公司', '上海金融法院', '中民投', '启信宝']
+]
+输出:
+            {('格力', '格力电器'): 3,
+             ('美的', '美的集团'): 1,
+             ('中民投', '中国民生投资股份有限公司'): 2,
+             ('格力', '格力集团'): 1,
+             ('工银', '中国工商银行'): 1,
+             ('建行', '建设银行'): 3,
+             ('中行', '中国银行'): 2,
+             ('工银', '工商银行'): 2}
+
+
+from itertools import chain
+from collections import defaultdict
+
+data = list(chain(*nput_data))
+res = [set(i) for i in data]
+
+count = defaultdict(int)
+for index,row in enumerate(res):
+    for index2,i in enumerate(res):
+        if row.issuperset(i) and row != i:
+            count[(data[index2],data[index])] += 1
+            break]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[程序员] 有什么算法能使一列数组中较远数据逐渐变小]]></title>
+        <id>https://www.v2ex.com/t/791152#reply5</id>
+        <link href="https://www.v2ex.com/t/791152#reply5"/>
+        <updated>2021-07-22T13:08:36.000Z</updated>
+        <summary type="html"><![CDATA[譬如一个时序的数组，最近的 100 个数据不变，大于 100 的根据与当前的距离逐渐变小。]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[问与答] 求不错的 gitbook 推荐]]></title>
+        <id>https://www.v2ex.com/t/791151#reply1</id>
+        <link href="https://www.v2ex.com/t/791151#reply1"/>
+        <updated>2021-07-22T13:06:34.000Z</updated>
+        <summary type="html"><![CDATA[如题 想求一些不错的 gitbook 推荐
+java 、服务端、计科、架构、面经都可以]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[酷工作] [实习] [微软亚洲研究院] 基于 SONiC 开源云网络操作系统的安全机制研发实习生]]></title>
+        <id>https://www.v2ex.com/t/791150#reply0</id>
+        <link href="https://www.v2ex.com/t/791150#reply0"/>
+        <updated>2021-07-22T13:01:17.000Z</updated>
+        <summary type="html"><![CDATA[微软亚洲研究院-网络研究组招收研究实习生啦~
+微软亚洲研究院 (MSRA)-网络研究组 (Networking Research Group)
+https://www.microsoft.com/en-us/research/group/networking-research-group-2/
+========================
+岗位： [基于 SONiC 开源云网络操作系统的安全机制研发-全职实习生, 若干名] 
+1 、工作职责：
+- SONiC 是微软推出的下一代开源云网络操作系统，为大型数据中心的交换机设备提供统一的底层操作系统支持；
+- 参与 SONiC 中某些模块的研发，如 Redis DB 、SNMP 、BGP 、DHCP 、IPv6 等等；
+- 检测 SONiC 操作系统本身的安全需求（ Spec ）与底层交换机设备实际部署的安全规则（ ACL ）之间的冲突，利用算法分析网络配置之间的不一致问题；
+- 参与开发公司在 GitHub 上的开源项目。
+2 、职位要求：
+- 熟悉计算机网络（ TCP/IP 协议栈）、云原生（ Docker，K8s ）、路由交换设备、云数据中心网络、网络安全中的一个或多个领域，有相关项目经验；
+- 熟悉 Linux C/C++、Python 、Go 中的一门或多门语言，有较强的工程能力，熟练掌握 git，代码格式清晰规范，善于团队协作；
+- 有一定英文学术论文阅读能力，能够根据论文进行系统实现；
+- 较强的沟通能力和逻辑表达能力。
+3 、具有以下条件者优先：
+- 在 GitHub 较为活跃，有自己的开源项目，或参与过知名开源项目；
+- 发表过学术论文；
+- 可以连续实习不少于 6 个月。
+========================
+工作时间：每周 5 天，3 个月以上，能够尽快入职
+工作地点：北京市海淀区丹棱街 5 号（疫情期间可远程办公）
+如有意向请发 [中文简历 PDF ] 至：nrg-intern-recruit@microsoft.com
+简历中需标明平均分，及专业或年级排名及排名对应的总人数
+ [注意] 请务必采用学校邮箱（ edu 域名）发送简历，其他邮箱（如 163 、qq 、gmail 、outlook 、hotmail 等）发送会进入公司垃圾邮件，无法被 HR 看到
+邮件标题&简历 PDF 文件名格式：基于 SONiC 开源云网络操作系统的安全机制研发-姓名-学校-本|硕|博-年级-V2EX]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[macOS] 为什么 Mac 在暗色模式下选动态桌面会自动变成静态的]]></title>
+        <id>https://www.v2ex.com/t/791149#reply2</id>
+        <link href="https://www.v2ex.com/t/791149#reply2"/>
+        <updated>2021-07-22T12:58:56.000Z</updated>
+        <summary type="html"><![CDATA[在暗色模式下，系统偏好设置->桌面->选择动态桌面，桌面会自动变成「深色（静态）」的，还要再从菜单中选择「动态」。从 Catalina 到 Big Sur 都是这样，这是 bug 吗？]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[问与答] 来合肥出差了，合肥有啥好玩的]]></title>
+        <id>https://www.v2ex.com/t/791148#reply0</id>
+        <link href="https://www.v2ex.com/t/791148#reply0"/>
+        <updated>2021-07-22T12:44:58.000Z</updated>
+        <summary type="html"><![CDATA[大概待两个月，住在高新区望江台，有 V 友可以找我来玩啊哈哈]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[问与答] 一个疑似 base64 编码的数据求解]]></title>
+        <id>https://www.v2ex.com/t/791146#reply5</id>
+        <link href="https://www.v2ex.com/t/791146#reply5"/>
+        <updated>2021-07-22T12:16:37.000Z</updated>
+        <summary type="html"><![CDATA[最近找到了可以获取 Microsoft Edge 的 Offline Installer （不需要管理员权限安装的 exe 包体，跟官网提供的 enterprise msi 包体不同）的一个 API：
+curl -XPOST "https://msedge.api.cdp.microsoft.com/api/v1.1/internal/contents/Browser/namespaces/Default/names/msedge-stable-win-x64/versions/91.0.864.54/files?action=GenerateDownloadInfo&foregroundPriority=true" -d '{"targetingAttributes":{}}'
+
+除了 Offline Installer 外，还有增量包体。应该是 MicrosoftEdgeUpdate 程序调用的 API，用来检查和下载更新。一个返回示例：
+[{"FileId":"MicrosoftEdge_X64_91.0.864.54_91.0.864.41.exe","Url":"http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/cfa50eb3-534c-46d0-a913-a39d579988b7?P1=1627558634&P2=404&P3=2&P4=HwucV0KjBP5sgCX2JFNT1DJwRmSPPyB6s1Uz1alehA9pHlFW%2bG9u1aD1nouRZDtTluLU1qtiwL2tYXfKmm4dfA%3d%3d","SizeInBytes":8344976,"Hashes":{"Sha1":"pYhI3UY0IAQf7ko9D4eAWuCbYJg=…]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[问与答] 有没有什么神器将网站的接口转成自己的本地数据吗？目前我只能一个个复制接口返回数据成 mock 数据]]></title>
+        <id>https://www.v2ex.com/t/791144#reply2</id>
+        <link href="https://www.v2ex.com/t/791144#reply2"/>
+        <updated>2021-07-22T12:07:38.000Z</updated>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Python] jupyter 好像坏掉了，进去以后提示库载入错误，没有 autopep8 模块，然后有些前两天用过的模块也 ModuleNotFoundError，该怎么修？]]></title>
+        <id>https://www.v2ex.com/t/791143#reply0</id>
+        <link href="https://www.v2ex.com/t/791143#reply0"/>
+        <updated>2021-07-22T12:03:37.000Z</updated>
+        <summary type="html"><![CDATA[rt,顺便问下，pycharm 或者其它 ide 可以像 jpnb 一样就着已有的结果，试着运行代码块吗？感觉 jpnb 有点像奶头乐，阻止我变强了。。。]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Windows] 最近折腾 hyper-v 的一些吐槽]]></title>
+        <id>https://www.v2ex.com/t/791142#reply9</id>
+        <link href="https://www.v2ex.com/t/791142#reply9"/>
+        <updated>2021-07-22T12:01:04.000Z</updated>
+        <summary type="html"><![CDATA[hyper-v 就不是给个人用的，都好多年了还不支持文件共享。网络配置很复杂，实际上现在 windows 宿主机也是被虚拟成 hyper-v 的虚拟机，只是一个特殊的带 hyper-v 管理端的操作系统而已。
+网络配置太复杂了，我配置好 internal 模式后，随便关了 public 网络文件共享后，linux 的客户机就 ping 不通 internal 交换机地址了。我为啥要区动网络文件共享？因为配置 samba，想安全一点。然后 samba 也是个巨大的配置坑，我根本不想去碰。
+为啥要用 hyper-v ？
+我被 wsl2 莫名奇妙的网络问题折腾太厉害了，有时候服务能 ping 通，端口也能通，就是不能收发数据通信。。。。很多同学抱怨 wsl2 里面开个 http 服务器有时能连上，有时连不上，就是这个问题。我一个月前碰到一个 rpc 服务连接的问题，调试了好几个小时，就差去动手抓包了，最后由于太晚了，就关机睡下了。第二天开机后问题消失了。。。。。
+docker 和 hyper-v 不能共存，经常会在开机时 docker 报错。尤其是你好几个月从来没有打开过 hyper-v，突然手贱打开了一下就会有这个问题，并且之后会一直伴随你每次开机报错。。。。
+wsl2 有时候你用着用着文件目录就变成了 unreachable，我不想管这个问题，也不想去修，一般都是重新启动 wsl 。
+还有 wsl 是个残废的 linux，很多命令没有，比如 netstat，还有些莫名奇妙的问题，就是用着用着 docker 不能用了。。。。
+如果你要用 wsl2 建议把 hyper-v 禁掉，我已经打算去弄个 vmware 了。]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[优惠信息] 彩云天气 pro 免费领取 1 年会员的方法（适用于领不到 1 年会员）]]></title>
+        <id>https://www.v2ex.com/t/791141#reply2</id>
+        <link href="https://www.v2ex.com/t/791141#reply2"/>
+        <updated>2021-07-22T11:49:37.000Z</updated>
+        <summary type="html"><![CDATA[正常来说，如果你已经有会员，是领取不到 0 元 365 天会员的。
+解决方法：
+退出现在登录的账号
+登录的时候选择“其它方式登录”，我 iOS，所以用的 Apple id 登录
+点击首页的“48h”，或者在会员中心点击购买 365 天。我是选择点 48H，直接成功
+随便填个邀请码，比如：83151844 。因为没有绑定手机号，会提示你绑定一个手机号。这个时候你可以绑定原来已经领取会员的手机。
+返回到主页，再点击右上角“人形”图标，会显示你刚才绑定的手机号尾号，再点击“会员中心”，可以检查下是否多了 1 年。
+注意，目前彩云天气 Pro iOS 端限免了，以前是要 90 多元下载的。]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[深圳] 深圳，求租房，坐标：西丽、东角头、福田片区，本人在长城大厦办公（整租哈）]]></title>
+        <id>https://www.v2ex.com/t/791140#reply0</id>
+        <link href="https://www.v2ex.com/t/791140#reply0"/>
+        <updated>2021-07-22T11:46:49.000Z</updated>
+        <summary type="html"><![CDATA[深圳租房，真是一件比较困难的事情。目前在福田上沙一小单间，住了半年。月底到期了。
+现在还在 市民中心上班，不过 10 月搬到长城大厦了。准备换新租房，最佳预期在：西丽周边一片、东角头周边一片、或者还是福田片区了。
+最佳最佳期望的：
+① 一些老（味道）旧小区（或自建房）
+② 楼顶楼顶楼顶~ 带露天大阳台那种（-- 就冲这个去 --），是否步梯都不介意（充当每日锻炼）
+③ 一房一厅 或者大单间。（方便放一辆单车，现在在上沙小单间，极其困难的挪出单车...）
+④ 打算长租的，空房也可以的，自己添加布置也方便
+⑤ <del>预算.....好难..</del>
+如上唠叨，各位有适合的转租的或者有房大佬们，感谢私聊推荐（或者小探讨下，本人来深打工小半年，请多指教）。谢谢有劳~
+绿色软件：d29qaWE5NTczMjE=]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Java] com.google.protobuf 无解的包冲突= =]]></title>
+        <id>https://www.v2ex.com/t/791139#reply4</id>
+        <link href="https://www.v2ex.com/t/791139#reply4"/>
+        <updated>2021-07-22T11:33:46.000Z</updated>
+        <summary type="html"><![CDATA[hbase-client 1.3.1 依赖 com.google.protobuf 的版本是 2.5.0
+正好要在项目里面增加 netty-grpc，为了调用其它部门的 grpc 接口
+但是 netty-grpc 依赖的 com.google.protobuf 最少都是 3.0.0 起的。
+所以没办法在同一个项目里用
+hbase 买的 tx 云的 升级不了大版本。比如说我只能从 1.3.1 升到 1.3.2
+瞬间无解 难受啊]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[嵌入式开发] PlatformIO IDE 真是用过的最糟糕的 IDE 了]]></title>
+        <id>https://www.v2ex.com/t/791137#reply0</id>
+        <link href="https://www.v2ex.com/t/791137#reply0"/>
+        <updated>2021-07-22T10:58:04.000Z</updated>
+        <summary type="html"><![CDATA[动不动就卡死，没有任何提示。有人说是玩具，不太准确，垃圾更合适一点。
+PlatformIO: Rebuilding IntelliSense Index
+看了下 github 上的 issue，很久之前就有人提了相同的 issue
+不知道 Marlin 为啥要用这玩意做 IDE
+https://community.platformio.org/t/vscode-platformio-and-the-dreaded-intellisense-index-rebuild/6296
+https://github.com/platformio/platformio-vscode-ide/issues/68
+https://github.com/platformio/platformio-vscode-ide/issues/2208]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[推广] 推荐一手羊毛群看到的有流量卡]]></title>
+        <id>https://www.v2ex.com/t/791136#reply0</id>
+        <link href="https://www.v2ex.com/t/791136#reply0"/>
+        <updated>2021-07-22T10:55:25.000Z</updated>
+        <summary type="html"><![CDATA[消息来源：某羊毛群，虽然这可能不是什么羊毛，不过我也找不到其他更优惠的套餐了
+本质是校园卡，非学生是办不了的，但大概是运营商迫于压力，也不管是不是真的学生
+要求：
+年龄：16~30 周岁（超年龄需要提供辅助（ P ）证件）
+包含：
+20G 全国通用流量 /月（跨月自动结转）
+10G 全国通用流量 /月（需每个月自行到手机营业厅领取）
+30G 全国定向流量 /月（范围： https://lm.189.cn/liuxingcard/liuxingcard_index.html ）
+10 条国内短信 /月
+200 分钟国内语音 /月
+爱奇艺、腾讯视频、B 站会员每月领取一次（可领取合约期+1 次）宣传页面说是盲盒抽取，实际上是自选
+号码：
+可自选
+归属地固定北京
+费用：
+一次性预付合约期内所有费用
+300 元一年（合约期 12 个月）
+500 元二年（合约期 24 个月）
+合约期过后，转为 19 元 /月的套餐（也许到时候可以续期，但一两年以后，谁知道呢）
+根据往年的经验，也就是我两年前的经验，这种卡过两三个月还能白嫖到一些免费的流量包（ 10G~50G 不等），当然了，这个现在也只是猜测。]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[程序员] 我这个招聘贴能吸引到真正优秀的程序员吗？]]></title>
+        <id>https://www.v2ex.com/t/791135#reply6</id>
+        <link href="https://www.v2ex.com/t/791135#reply6"/>
+        <updated>2021-07-22T10:43:12.000Z</updated>
+        <summary type="html"><![CDATA[Apifox （ apifox.cn ）招人啦~~
+职位:
+WEB 前端开发工程师 12~20K
+高级 WEB 前端开发工程师 20~32K
+职位诱惑：
+期权 奖金 纯技术精英团队 Geek 团队 没有不懂技术的产品经理 全员“MacBook Pro+4k 显示器” 免费下午茶
+岗位描述：
+参与 Apifox （ https://www.apifox.cn ）项目开发（专注于研发工程效率的 SaaS 平台，API 文档、调试、Mock 、测试一体化协作平台，纯技术型项目，没有不懂技术的产品经理给你提需求）;
+负责核心业务功能的前端研发工作；
+配合产品经理和设计师，通过各种前端技术手段，提高用户体验并满足性能要求；
+负责前端页面开发和维护，并根据需求优化产品性能；
+研究前沿的前端技术并参与维护前端框架和规范;
+技术栈：前端 TypeScript+React+Ant Design+Electron，后端 TypeScript+Node.js;
+岗位要求：
+本科及以上学历，至少 1 年以上 web 前端开发工作经验；
+精通使用各种 web 前端技术，包括 HTML5/CSS/Javascript/TypeScript 等；
+熟悉一种或多种常用前端框架，如（ React 、Vue 、Angular 等）；
+熟悉使用 webpack 等模块化、工程化工具；
+拥有开发流程中的代码规范意识、配置管理规范意识、文档撰写规范意识；
+有 React 开发经验者优先；
+有 TypeScript 开发经验者优先；
+有 Electron 开发经验者优先；
+有 Node.js 开发经验者优先；
+我们希望你是：
+认同我们的理念：追求效率，推行自动化，持续改善的文化
+有代码洁癖和工程思想：我们期望你是创造价值的工程师，不是售卖劳力的程序员
+有 Geek 范： 认同 UNIX 设计哲学，熟练使用各种 Geek 工具
+善于协作沟通：有团队沟通协作、项目进度及时间管理实践基础
+是一个终身学习者：保持学习，热爱分享，技术视野开阔，对业界新技术敏感
+关于我们，投简历前希望你能了解：
+我们是 Geek 团队，只招优秀的技术人（能力强，或者目前能力一般但是爱学习能快速成长）
+我们注重团队技术氛围，注重技术人员的学习成长，每周都有技术学习分享会、Code Review
+我们注重代码质量，垃圾代码是不可接受的
+如果你不是一个爱学习爱折腾的人，请不要投我们，因为即使来了也融入不了团队
+我们相信优秀的人只愿意与优秀的人共事
+我们扁平化管理，没有职场的勾心斗角，没有条条框框，我们相信优秀的技术人不需要管理
+来这里，让优秀的你，只与优秀的人共事
+工作地点：
+广州市天河区天河北路 233 路中信广场（林和西地铁站上盖）
+简历发送邮箱：
+hr@apifox.cn
+Apifox 官网：apifox.cn
+接口文档管理工具]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[问与答] 关于 OneDrive 个人/家庭版、世纪互联版和教育版的问题]]></title>
+        <id>https://www.v2ex.com/t/791133#reply8</id>
+        <link href="https://www.v2ex.com/t/791133#reply8"/>
+        <updated>2021-07-22T10:40:29.000Z</updated>
+        <summary type="html"><![CDATA[微软账号买的家庭版和个人版，下载文件的地址是1drv.com，服务器是在境外吗（香港好像有节点）？楼主现在主要用这个，但下载速度很迷，有时能跑满带宽，有时候只有几十 KB/s 。
+大学买了 Office365，通过学校入口登陆进去能看到学校名字+“由世纪互联运营”字样，文件下载地址是 sharepoint.cn，速度很快，这个服务器应该是在国内。但是网上有人说这种学校管理员是能看到 OneDrive 中的文件的，想知道是否属实，以及在哪里可以看到相关条款呢？
+最近发现，在 https://www.microsoft.com/zh-cn/education/products/office 通过 edu.cn 邮箱注册可以免费取得 A1 授权，其中也包含 OneDrive，下载地址是sharepoint.com，速度也很快，但没有长期用所以不清楚服务器在国内还是境外？以及这种是否会被管理员看到文件呢？
+想知道除了以上几种方案外，还有没有能稳定使用国内版OneDrive 的办法？（淘宝卖号感觉不靠谱）]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[分享发现] 分享一个河南暴雨看到的新闻
+https://www.baidu.com/s?wd=救命文档]]></title>
+        <id>https://www.v2ex.com/t/791132#reply0</id>
+        <link href="https://www.v2ex.com/t/791132#reply0"/>
+        <updated>2021-07-22T10:40:24.000Z</updated>
+        <summary type="html"><![CDATA[使用的是腾讯文档
+https://www.baidu.com/s?wd=救命文档]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[程序员] 求推荐做笔记的软件/服务/方法，最好是能和 Wordpress 有良好互动的]]></title>
+        <id>https://www.v2ex.com/t/791131#reply0</id>
+        <link href="https://www.v2ex.com/t/791131#reply0"/>
+        <updated>2021-07-22T10:20:42.000Z</updated>
+        <summary type="html"><![CDATA[本来本着内容最重要的想法，现在在用 wordpress 做笔记，但是不得不说，编辑器实在是太烂了，
+光是一个 max-width，就有够折腾的了，还有其他一大堆困难。
+求推荐（标题），最好是能上传到网站（ wordpress ）上的。 因为不上传，根本不想回顾，或者没有总结的动力（虽然上传了也是设置成私密）]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[反馈] [抗议] 真伤心~为什么我的帖子会被标到水贴里面？只是用一种隐喻的方式提问就给我标水了吗？]]></title>
+        <id>https://www.v2ex.com/t/791130#reply9</id>
+        <link href="https://www.v2ex.com/t/791130#reply9"/>
+        <updated>2021-07-22T10:20:17.000Z</updated>
+        <summary type="html"><![CDATA[我的标题是：无面男和稻草人要如何才能成为下一个小白和哈尔？ id 是：791091 ？发布在问与答。
+内容是：
+无面男要如何才能成为下一个千寻心中的小白？
+稻草人要如何才能成为下一个苏菲心中的哈尔？
+
+问题是我在生活中遇到。
+提问的核心思想是想寻找求 v 友们变强的方法。也没有违反社区的规则。只是用一种隐喻的方式提问就给我标水了吗？
+多好的一个社区为什么会这样不尊重一个普通用户深切，诚恳的提问！ 哎，真伤心~]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[iOS] 关于支持 Apple music 空间音频的第三方耳机]]></title>
+        <id>https://www.v2ex.com/t/791129#reply2</id>
+        <link href="https://www.v2ex.com/t/791129#reply2"/>
+        <updated>2021-07-22T10:18:23.000Z</updated>
+        <summary type="html"><![CDATA[除了官方 AirPods 和 beats，有哪些第三方厂商的真无线耳机支持空间音频么？例如：索尼 bose 三星等等。没在别处看过相关说明。]]></summary>
+        <author>
+            <name>V2EX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[问与答] 跟房东扯皮之后咋办？]]></title>
+        <id>https://www.v2ex.com/t/791126#reply2</id>
+        <link href="https://www.v2ex.com/t/791126#reply2"/>
+        <updated>2021-07-22T09:56:30.000Z</updated>
+        <summary type="html"><![CDATA[各位 V 友，我今年 4 月通过链家找得房，跟房东签了 1 年半，按季度交房租。前两天厨房的吊顶年久失修，突然塌掉了，房东上门维修，结果上门发现胶枪玻璃胶都没带，我有自己备用的就无偿提供了，结果在他们离开的时候我发现电扇被他们搞坏了，立不住了，并且电扇底部托盘被涂了玻璃胶，显然是他们弄坏之后偷偷补救的(电扇支架之前确实有松动，但绝没有到无法直立的程度)，联系房东，人家完全不认账，说之前就是坏的，并且第二天没来维修吊顶，导致我这两天都没法使用厨房。我全力配合维修，结果搞成这样，我很不爽啊，打算待会见面扯皮并且要求赔偿一台电扇。我想问，如果后续房东不继续维修，或者维修不到位，或者不赔偿，我是否该自己花钱维修，然后在把产生的一切费用都从下次租金中扣除？并且以影响我正常使用为理由，延长租期？房东是否能以我没缴纳全额租金为理由，扣我押金？还有，有啥靠谱的法律咨询渠道吗？
+谢谢！
+合同相关内容截图：]]></summary>
         <author>
             <name>V2EX</name>
         </author>
@@ -70,848 +1034,6 @@ Intel 的 Mac 其实一开始性能要更好，但是跑久了之后可以明显
 　　华为云电脑团队]]></summary>
         <author>
             <name>user@gmail.com (guest)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[京东] 买到假（二手）货应该如何干京东， 最省心的办法是退货吗？]]></title>
-        <id>https://www.v2ex.com/t/791039#reply3</id>
-        <link href="https://www.v2ex.com/t/791039#reply3"/>
-        <updated>2021-07-22T05:09:05.000Z</updated>
-        <summary type="html"><![CDATA[基于多年使用京东以及对京东的信任， 近日我在京东购买了一个 gucci 包， 价格 1.5 万出头，买的时候就很犹豫，为什么这么便宜。
-到手后发现就算不是假的， 也是个翻新货
-其实大概率是个假货， 如下图
-https://i.imgur.com/arzs0uV.jpg
-https://i.imgur.com/k2uln3f.jpg
-https://i.imgur.com/LjRI72y.jpg
-https://i.imgur.com/TTx8wap.jpg]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[美酒与美食] 汉堡王的椒香鸡腿真是好吃到爆]]></title>
-        <id>https://www.v2ex.com/t/791038#reply8</id>
-        <link href="https://www.v2ex.com/t/791038#reply8"/>
-        <updated>2021-07-22T05:04:17.000Z</updated>
-        <summary type="html"><![CDATA[出差时意外发现的，为了它已经吃了 3 顿汉堡王了。
-属于咸香型，很有嚼劲。不像炸鸡腿那么腻，也不像新奥尔良味道那么冲。总之一切刚刚好。 
-送的调味包也不错，我用它蘸薯条吃。 
-特此分享:-)]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[酷工作] [北京 or 成都] [20K-30K] [React] [Typescript] Moka 招募前端小伙伴啦]]></title>
-        <id>https://www.v2ex.com/t/791036#reply0</id>
-        <link href="https://www.v2ex.com/t/791036#reply0"/>
-        <updated>2021-07-22T04:58:17.000Z</updated>
-        <summary type="html"><![CDATA[[北京 or 成都]  [ 20K-30K ]  [ React ]  [ Typescript ]  Moka 招募前端小伙伴啦
-我们希望你（重要性从高到低排列）
-热爱前端行业，喜欢折腾新东西，对新鲜事物充满好奇。
-优秀的编程能力。有数据结构和算法基础，懂得如何编写简洁易读的代码。
-过硬的专业知识。js （或 ts ）、html 、css 、网络协议、浏览器 API 、前端框架（ React 、Vue 、Angular 任意）、工具链（ babel 、webpack ）等方面有良好的知识储备。
-3 年及以上工作经验。有大型前端项目经历加分。
-有热情有活力，开放的心态，主动作为，有责任感，自省自驱，追求极致的用户体验。
-我们需要你
-React，Typescript （不会没关系，我们有类型体操教练）。
-HR 领域 toB SaaS，核心业务线开发（招聘管理系统，核心人事系统）。
-参与前端基建（前端组件库，性能监控&优化，自动化测试，代码重构）。
-我们能给你（基本标准，跟大厂比不了，没有就是没有）
-五险一金，补充医疗保险，打车报销。
-mbp （也可选择 windows 笔记本或台式机），2K 显示器。
-咖啡，零食，下午茶，团建。
-自由、放松、真诚、直接的团队氛围（因为俺崇尚这样的氛围，大家基本都是 90 后）。
-FAQ
-能否远程 /兼职办公？
-不能。
-办公地点在哪？
-北京在知春路，成都在高新区，具体办公地点正在筹备中
-对学历是否有要求？
-没有，我们看能力不看学历。当然，平心而论，如果你的学历不好看，简历筛选自然就会重点看其他部分，对简历通过率确实有影响。
-没用过 react 可以吗？
-可以。前端框架上手是很容易的，相信聪明的你能很快学会。
-扫码投递简历哦]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[分享发现] 炒饭的网络迷踪版，挺有意思的，给一张照片寻找拍照地点时间，里面有挺多有意思的题目和大牛的神推理解题。]]></title>
-        <id>https://www.v2ex.com/t/791035#reply1</id>
-        <link href="https://www.v2ex.com/t/791035#reply1"/>
-        <updated>2021-07-22T04:55:40.000Z</updated>
-        <summary type="html"><![CDATA[网络迷踪]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[问与答] 用 vue 仿了个抖音，开源后不商用会不会有侵权的问题呀？]]></title>
-        <id>https://www.v2ex.com/t/791032#reply4</id>
-        <link href="https://www.v2ex.com/t/791032#reply4"/>
-        <updated>2021-07-22T04:42:32.000Z</updated>
-        <summary type="html"><![CDATA[如题，会不会被寄律师函告我侵权啥的？我看论坛有仿 PC 端网易云的]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[问与答] mac 上有什么周期提醒的软件？]]></title>
-        <id>https://www.v2ex.com/t/791031#reply0</id>
-        <link href="https://www.v2ex.com/t/791031#reply0"/>
-        <updated>2021-07-22T04:25:14.000Z</updated>
-        <summary type="html"><![CDATA[一天内每一小时提醒之类的]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[区块链] Asset Management 项目招聘合约工程师]]></title>
-        <id>https://www.v2ex.com/t/791029#reply0</id>
-        <link href="https://www.v2ex.com/t/791029#reply0"/>
-        <updated>2021-07-22T03:57:55.000Z</updated>
-        <summary type="html"><![CDATA[Hi all，
-我们是一个在 solana 链上做开发的团队，6 月参加了 solana Hackathon，获得了一个专项奖，在此基础上我们开发了一个 AssetManagement 平台，已经获得了海外一个基金的天使投资，最近需要扩张团队，希望找到有以下经验的同事共同开发。
-1. solana 开发经验，如果有直接入职
-2. rust 开发经验，因为 solana 上面原生语言是 rust，所以有 rust 经验会上手快很多
-3. 其他区块链合约开发经验
-坦率来讲，做区块链开发的技术人员很少，solana 又是新链，开发资源很少，现有的技术基础设施也存在各种问题。但是毋庸置疑区块链行业具有非常大的前景。
-上面的几点，击中其一就欢迎过来一起聊聊。
-工作方式：远程，onsite 上海均可。
-薪资：变动范围很大。加上项目奖可以到每月收入大几万。另有项目 token 可以拿。
-请联系微信
-base64 X18weGFi (微信是新注册的，会有风险提示）]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Google] YouTube 看了一场 53 分钟的比赛，至少 5s 跳过了九个广告]]></title>
-        <id>https://www.v2ex.com/t/791027#reply0</id>
-        <link href="https://www.v2ex.com/t/791027#reply0"/>
-        <updated>2021-07-22T03:46:52.000Z</updated>
-        <summary type="html"><![CDATA[一般新上传的视频是还没来得及加广告的，观赏最佳。
-有的视频广告会在时间轴展示，一般看到那种 5 分钟一个的都不会完整看完。
-被标记为中国 ip 没广告的人别再发主题炫耀了]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Kubernetes] 分享一个 vim 管理 k8s 的方法]]></title>
-        <id>https://www.v2ex.com/t/791026#reply4</id>
-        <link href="https://www.v2ex.com/t/791026#reply4"/>
-        <updated>2021-07-22T03:46:18.000Z</updated>
-        <summary type="html"><![CDATA[在.vimrc 里面添加配置
-map <F6> :.w !/usr/local/bin/klog
-
-klog 脚本内容如下
-#!/bin/bash
-read a
-kubectl  logs -f --tail 10 $a
-
-使用：
-用 vim 打开一个包含 pod 名字的文件，跳转到某一条 pod 所在的行，按 f6 就可以直接查看 pod 日志。]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[全球工单系统] 七牛的消息通知系统抽风了]]></title>
-        <id>https://www.v2ex.com/t/791025#reply0</id>
-        <link href="https://www.v2ex.com/t/791025#reply0"/>
-        <updated>2021-07-22T03:45:47.000Z</updated>
-        <summary type="html"><![CDATA[去年因为七牛的扣费系统体验不佳就把账号注销了，从昨天到现在发了几十条短信和邮件
-https://i.imgur.com/frq4RaV.pngImgur
-https://i.imgur.com/o6grNa5.png]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[分享发现] 遇到消防培训骗局，太险了！]]></title>
-        <id>https://www.v2ex.com/t/791024#reply3</id>
-        <link href="https://www.v2ex.com/t/791024#reply3"/>
-        <updated>2021-07-22T03:43:43.000Z</updated>
-        <summary type="html"><![CDATA[昨天公司搞了消防培训课，放了几个火灾现场视频，ppt 都没讲完，培训很快就结束了。最后填个反馈卡，下面居然开始卖东西了，价格都是 298，288，还有套餐 2650 。看了火灾视频，像我这种怕死的人肯定会买，而且买了几个报警器，总价一千多。
-就在刚才没多久拿到货，在京东搜了下价格差太多。意识到可能是个骗局，网上搜“消防骗局”，果不其然跟我遇到的一摸一样，趁人还没走远我打电话叫快递回来要退货（东西有问题），他让我找售后，我说你不退货我就报警。骗子不一会儿上门把钱退给我，陪了几十块快递费。
-现在想想昨天的各种细节，有很多破绽，比如 ppt 都没讲完就说时间有限，快速结束培训；培训结束后反馈单子里面居然卖东西，而且价格离谱；以及送货的快递很不专业，连个 pos 机都没。
-在此分享下经历当个提醒吧]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[酷工作] Base 深圳 | 国企招网络运维、 Java 开发岗，不加班！还包住！]]></title>
-        <id>https://www.v2ex.com/t/791023#reply0</id>
-        <link href="https://www.v2ex.com/t/791023#reply0"/>
-        <updated>2021-07-22T03:42:10.000Z</updated>
-        <summary type="html"><![CDATA[关于我们
-我们是专业的猎头团队，受用人单位委托寻觅良才。
-本期共有两个全职正编岗位在招：网络运维工程师、开发工程师（ Java ）金融。部分信息应企业要求做了隐藏处理，还请谅解。
-岗位保证真实，投递必有回音，正在找工作的牛人们抓紧机会。
-一、网络运维工程师
-工作经验：3 年及以上
-学历要求：全日制 985/211 本科及以上
-薪资待遇：年薪 25W 以内
-工作地点：深圳
-岗位职责：
-1.负责运维工作的规划、部署、实施、监控、数据备份、容灾备份、数据迁移、日志分析、故障排除和虚拟调优等工作；
-2.负责私有云平台的规划、搭建及整体实施工作；
-3.协助项目组完成上线前系统的部署实施工作；
-4.遵守项目过程体系，完善系统拓扑图、日常运维等相关文档。
-任职要求：
-1.全日制 985/211 计算机及相关专业本科或以上学历，具有 3 年（含）以上 IT 运维工作经验。
-二、开发工程师（ Java ）金融
-工作经验：1 年及以上
-学历要求：全日制 985/211 本科及以上
-薪资待遇：年薪 25W 以内
-工作地点：深圳
-岗位职责：
-1.配合软件系统及模块的方案设计；
-2.独立完成软件系统及模块的编码，按期保质完成开发任务；
-3.协助测试人员完成软件系统及模块的测试；
-4.负责编制与项目相关的技术文档，保证文档资料的质量；
-5.协助运维人员提供应用系统的技术支持，保障应用系统的安全、稳定。
-任职要求：
-1.全日制 985/211 计算机及相关专业本科或以上学历，1 年以上相关工作经验；优秀应届生也可以。
-投递方式
-简历请发至邮箱： szzhilianrpo@zhaopin.com.cn （邮件主题请备注：意向岗位+姓名）
-所有岗位招聘信息、线上交流、程序员福利活动、线下招聘专场活动相关信息首发于:
-公众号 [深圳 IT 好职汇]
-添加微信：SZITzhaopin01，备注姓名+岗位，免费拉你进行业社群，和大神同堂切磋学习，还有大厂内推机会等着你！
-感谢您的投递，祝您生活愉快！]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Android] 小米 mix2s 有没有流畅点的系统版本推荐?]]></title>
-        <id>https://www.v2ex.com/t/791022#reply9</id>
-        <link href="https://www.v2ex.com/t/791022#reply9"/>
-        <updated>2021-07-22T03:41:16.000Z</updated>
-        <summary type="html"><![CDATA[RT，一台备用机，最近变得好卡，想重刷个系统，多年苹果党，对安卓不熟，另外，mac 电脑用什么软件刷安卓手机？]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Apple] 时到今日才知道， M1 的 Macbook air/pro 只能外接一台 4k 显示器]]></title>
-        <id>https://www.v2ex.com/t/791020#reply14</id>
-        <link href="https://www.v2ex.com/t/791020#reply14"/>
-        <updated>2021-07-22T03:38:12.000Z</updated>
-        <summary type="html"><![CDATA[习惯双显示器开发，M1 的 Macbook air/pro 感觉太鸡肋了。买 16 寸，又觉得心不甘。
-或者说 Macbook air 得配带鱼屏？]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[问与答] 大家试用了阿里云无影远程桌面了吗？]]></title>
-        <id>https://www.v2ex.com/t/791019#reply8</id>
-        <link href="https://www.v2ex.com/t/791019#reply8"/>
-        <updated>2021-07-22T03:37:18.000Z</updated>
-        <summary type="html"><![CDATA[1 元可以试用一个礼拜 4C8G 的云桌面。
-我以前一直在设想 5G 低延迟高带宽带来的行业颠覆是什么，云桌面是我觉得最能大展身手的地方。
-我设想以后 5G 遍地开花的时候，我们的生产力工具以及手机，上面只需要一个低功耗的 ARM 芯片，一个高分辨率高保真的屏幕，加一个 5G 芯片。所有的工作都在云上完成，再也不需要什么同步工具了。也不用再更新换代硬件产品，需要提升配置的时候，就是每个月再加一点钱。
-游戏不在讨论范围哈，低延迟还是做不到那么低。
-还有目前的价格看来还是不够亲民，可能要先从一些大胆的企业开始出发吧。]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[问与答] 请问 Tampermonkey 插件（油猴脚本）本身有安全隐患吗？]]></title>
-        <id>https://www.v2ex.com/t/791018#reply8</id>
-        <link href="https://www.v2ex.com/t/791018#reply8"/>
-        <updated>2021-07-22T03:35:51.000Z</updated>
-        <summary type="html"><![CDATA[我通常写好 Chrome 插件以后，会通过 Chrome 的开发者模式直接本地加载使用。之前看到很多人推荐使用 Tampermonkey 插件（传说中的油猴脚本插件），写了个抢茅台脚本用 Tampermonkey 试用，觉得真的很方便。我准备把 Tampermonkey 用在业务上，不知道是否有安全隐患，各位老哥有熟悉这方面的可否解答下，非常感谢！
-我看到谷歌对上架的 Chrome 插件都有审核，个人理解是应该不会有什么风险。但是毕竟本人这方面的知识不够，还想请教下各位老哥。]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[macOS] macOS 11.5 已发布，补丁包 2.93GB]]></title>
-        <id>https://www.v2ex.com/t/791017#reply2</id>
-        <link href="https://www.v2ex.com/t/791017#reply2"/>
-        <updated>2021-07-22T03:31:44.000Z</updated>
-        <summary type="html"><![CDATA[macOS Big Sur 11.5 — 需要重新启动
-macOS Big Sur 11.5 包括针对 Mac 的以下改进：
-	•	“播客”中的“资料库”标签页可让您选择查看所有节目或仅查看关注的节目
-本更新还修复了以下问题：
-	•	“音乐”资料库中的播放次数和上次播放日期可能不会更新
-	•	登录搭载 M1 芯片的 Mac 电脑时，可能无法使用智能卡
-有关本更新的更多详细信息，请访问： https://support.apple.com/HT211896
-有关本更新安全性内容的详细信息，请访问： https://support.apple.com/HT201222]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[问与答] 求助帖：亲人是聋哑人，我应该怎样帮助她去改善就业情况？]]></title>
-        <id>https://www.v2ex.com/t/791015#reply22</id>
-        <link href="https://www.v2ex.com/t/791015#reply22"/>
-        <updated>2021-07-22T03:27:35.000Z</updated>
-        <summary type="html"><![CDATA[交代背景: 我姐是聋哑人（小时候打针致聋），她本身学习能力很强，但是在读高中的时候过于叛逆，自己给办理了退学手续导致现在的文凭就是一个初中毕业生。
-七八年前她在一个杂志印刷厂工作，按份计费，她做得多，一个月还是能收入 4K+这个薪资在重庆来说还是可以了。
-奈何好景不长印刷厂倒闭了，后面这些年做了很多不同的工作（基本都是体力活）收入都很低（目前来说就 2k+），她觉得很苦恼。
-我现在时常在想有没有什么办法能让她生活得更轻松一点，下面是我天马行空想过的一些方案：
-美团聋哑人送外卖，她自己倒是不排斥这个，但是家里人不同意我觉得也确实不太安全。
-做面包糕点：长沙好像有个聋哑人做面包很火？
-室内设计：设计师似乎需要更多的沟通
-希望各位大佬能给我更多建议，我的目标只是想改善下现状，可以是多挣钱，也可以是轻松点。]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[问与答] 迫于领导，抗压买 SUV，预算 20w 左右，吴彦祖们有啥好建议]]></title>
-        <id>https://www.v2ex.com/t/791014#reply4</id>
-        <link href="https://www.v2ex.com/t/791014#reply4"/>
-        <updated>2021-07-22T03:24:21.000Z</updated>
-        <summary type="html"><![CDATA[1.求推荐车型
-2.该车型最大的亮点
-3.求分期 /全款的优劣]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[职场话题] 有些人真就这么自私]]></title>
-        <id>https://www.v2ex.com/t/791013#reply61</id>
-        <link href="https://www.v2ex.com/t/791013#reply61"/>
-        <updated>2021-07-22T03:23:19.000Z</updated>
-        <summary type="html"><![CDATA[单纯吐槽，旁边工位新入职一个小哥，不知道用的啥键盘，敲起来那叫一个响
-键盘不知道啥轴体的，但感觉比我 filco 茶轴声音大，关键它那个不知道空格还是回车有点卡键，每次打完几个键最后重重的按一下这个有点卡的键作为收尾，声音就是先有点涩的轻响，然后完全按下去又是啪的很大一声，我他么直接想把显示器砸他脑袋上，艹了
-这些人丝毫没有办公室是公共场所的自觉么？
-现在默默把我降噪耳机戴上感觉稍微能好一点，当然后面如果他还是这样，我准备找他说说
-话说我觉得但凡有点自觉的人，就不应该让别人因为这个感到困扰吧
-单纯吐槽一下]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[宽带症候群] 发现电信得宽带免费大提速真是个好得惠民政策。]]></title>
-        <id>https://www.v2ex.com/t/791011#reply16</id>
-        <link href="https://www.v2ex.com/t/791011#reply16"/>
-        <updated>2021-07-22T03:07:27.000Z</updated>
-        <summary type="html"><![CDATA[家里宽带现在一个月 99，100M, 一个月手机卡 3 张 20G 300 分钟话费。
-免费提速到了 200M   直接申请就行 都不用验证身份证，只需要账号就可以直接升级。
-第一次使用免费提速好多年前了，记得那会家里带宽才 2M 吧好像 ， 然后 免费提到了 4M .  后面一点一点 到 30M  50M  100M  到现在得 200M]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[职场话题] 有人了解华锐金融的吗？]]></title>
-        <id>https://www.v2ex.com/t/791010#reply0</id>
-        <link href="https://www.v2ex.com/t/791010#reply0"/>
-        <updated>2021-07-22T03:06:16.000Z</updated>
-        <summary type="html"><![CDATA[职场话题 - @liangjx -]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[问与答] 迫于（假装）提高 iPad 生产力，求推荐好用的云电脑]]></title>
-        <id>https://www.v2ex.com/t/791009#reply3</id>
-        <link href="https://www.v2ex.com/t/791009#reply3"/>
-        <updated>2021-07-22T03:05:47.000Z</updated>
-        <summary type="html"><![CDATA[平时只把 iPad 带回家（有键盘和触控板的那种），有时候想用一下电脑或者玩玩 steam 小游戏，用 anydesk 这类远程控制软件效果不是很理想（可能是学校网不是很好），所以问问各位彦祖们有没有了解过现在的云电脑平台。
-不过还是知道，这其实是个伪需求，也没指望效果能多好就是了，更多的还是想倒腾着玩（]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[游戏开发] 亚马逊新出的网游《新世界》把玩家 3090 显卡给炸了， 980 却没事, 主要发生在 EVGA RTX 3090。]]></title>
-        <id>https://www.v2ex.com/t/791008#reply11</id>
-        <link href="https://www.v2ex.com/t/791008#reply11"/>
-        <updated>2021-07-22T03:04:00.000Z</updated>
-        <summary type="html"><![CDATA[听说是该游戏的菜单页面刷新率（ FPS ）没有设置上限导致的（长见识了，又学到..），加上 EVGA RTX 3090 在功耗控制上的极端策略，导致显卡过热炸了。]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[教育] [求助] 广州成人高考 计算机科学与技术专业]]></title>
-        <id>https://www.v2ex.com/t/791006#reply0</id>
-        <link href="https://www.v2ex.com/t/791006#reply0"/>
-        <updated>2021-07-22T03:00:37.000Z</updated>
-        <summary type="html"><![CDATA[有没有学校可以推荐的
-有没有哪些机构是有坑的
-有没有哪些机构是值得推荐的
-这个成考实际用途大吗]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[问与答] 刚发现阿里云盘分享页还能被搜索引擎收录？]]></title>
-        <id>https://www.v2ex.com/t/791005#reply0</id>
-        <link href="https://www.v2ex.com/t/791005#reply0"/>
-        <updated>2021-07-22T03:00:22.000Z</updated>
-        <summary type="html"><![CDATA[问与答 - @s609926202 - https://i.imgur.com/gjgZyCg.png]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[程序员] （已上线）你觉得这款产品怎么样？ base 上海，加入我吧，寻找创始合伙人！]]></title>
-        <id>https://www.v2ex.com/t/791003#reply4</id>
-        <link href="https://www.v2ex.com/t/791003#reply4"/>
-        <updated>2021-07-22T02:53:57.000Z</updated>
-        <summary type="html"><![CDATA[Hi，你好，我是微信凹凸小区小程序的创始人，凹凸小区 001 号员工
-我现在在做一款微信小程序叫：凹凸小区。（可以搜索体验一下），因为是外包出去开发的，所以还有很多 bug，一直想找个技术合伙人。
-我想把它做成一款社区生活指南平台（也可以创建虚拟社区，谁申请创建，谁负责管理和拉新，可以理解为贴吧的吧主）  
-里面包含四个板块：
-社区公告信息（包含社区最新公告，社区物业电话，居委电话等，鼓励用户自己上传，上传审核通过后奖励荣誉称谓，社区热心人和等级奖励） 
-社区约玩 （板块里展示社区周边的最新活动，如展览，party 等好玩的免费的或付费的活动，有一定等级的用户也可以自己发布） 
-社区二手 （用户上传自己的闲置，选择免费赠送或出售，其他用户可以用自己上传的闲置申请以物易物或者直接购买） 
-社区周边 （展示社区周边商家和个人信息，电话，是否可以免费配送，是否可以上门服务，查看社区用户的评价，社区用户在评价后可以转发到社区动态）
-注：个人也可以申请在社区周边开摊位，展示在社区周边的商家列表里，可以出售自己的服务技能 关于社区动态板块，有了新的社区公告信息会转发到社区动态并展示由 XXX 贡献，用户在参与社区约玩也可以选择发不到社区动态找人一起参加 
-现在在找核心创始团队，base 上海，上海以外的就不考虑了，能全职最好，希望你有共同的理想和目标，看好我们在做的方向，有颗创业的心 也欢迎大家提出任何的意见建议和想法，我都会看的，感谢！]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[上海] 想去一下音乐会，请教各位几个问题]]></title>
-        <id>https://www.v2ex.com/t/791002#reply7</id>
-        <link href="https://www.v2ex.com/t/791002#reply7"/>
-        <updated>2021-07-22T02:49:38.000Z</updated>
-        <summary type="html"><![CDATA[没去过音乐会，来大城市就想着去体验一下
-我在淘票票上搜的久石让的音乐会，有好多场，还是不同的乐团表演的。
-想问一下有比较好的推荐吗，或者其他的也可以]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[问与答] 彩云天气 Pro ，拖影问题]]></title>
-        <id>https://www.v2ex.com/t/791001#reply0</id>
-        <link href="https://www.v2ex.com/t/791001#reply0"/>
-        <updated>2021-07-22T02:45:06.000Z</updated>
-        <summary type="html"><![CDATA[白嫖改 app 的会员，体验后返回主界面滑动有拖影~
-12 IOS15.0beta2.0
-是个例吗？ 大家有没有遇到这种现象]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[问与答] 分红币的实现原理]]></title>
-        <id>https://www.v2ex.com/t/790999#reply0</id>
-        <link href="https://www.v2ex.com/t/790999#reply0"/>
-        <updated>2021-07-22T02:40:54.000Z</updated>
-        <summary type="html"><![CDATA[最近市场上出现了很多分红币，比如最近流行的（ BabyDoge, MiniDoge 之类的），大概模式都是交易手续费的 x% 按照持有比例分给所有持币人，今天我们来解析一下背后的代码实现方式。
-第一想法肯定是计算出分红的手续费之后，按照比例给所有人加上，solidity 代码如下：
-// 分红总金额
-uint profit;
-
-// 当前总持币量
-uint totalAmounts;
-
-for (uint i = 0; i < users.length; i++) {
-// 给每个用户分红
-    amounts[i] += amounts[i] / totalAmounts \* profit;
-}
-
-但这样做会有一个很大的问题：随着持币人数过多，每一笔转账消耗的计算资源会急速增长，甚至超出交易的单笔上限。
-目前分红类代币采用了一个很聪明的做法，使用了类似于金融中的通缩概念：“如果货币总量减少，每个人手上的货币不就变得更值钱的，相当于变相完成了分红“
-接下来我们来看源代码是怎么实现的
-// 存储用户的虚拟数量
-mapping(address => uint256) private _rOwned;
-// 真正的发行量（比如发行了 1w 枚币，精度为 0，_tTotal = 10000 ）
-uint _tTotal;
-
-uint256 private constant MAX = ~uint256(0);
-// 最大的一个可以整除 _tTotal 的数，这个数字类似于“虚拟的货币总量”
-uint _rTotal = (MAX - (MAX % _tTotal));
-假设在合约部署时需要把 1w 枚币发给 owner，代码如下
-
-constructor() {
-    _tTotal = 10000;
-
-    // 初始化 rTotal
-    uint256 private constant MAX = ~uint256(0);
-    uint _rTotal = (MAX - (MAX % _tTotal));
-
-    // 把所有的币发给 owner
-    _rOwned[owner] = _rTotal;
-}
-
-那么此时怎么计算用户余额呢？我们来看 balanceOf 函数
-function balanceOf(address account) public view override returns (uint256) {
-    uint256 currentRate = _rTotal / _tTotal;
-    return _rOwned[account] / currentRate;
-}
-
-看起来就是先用 虚拟货币总量 / 真实货币总量 得到一个比例，然后除以这个比例即可拿到真实的余额。
-我们再看一下 最重要的 transfer 函数是怎么实现的，我们假设分币比例是 3%
-function transfer(address from, address to, uint amount) public {
-    uint currentRate = _rTotal / _tTotal;
-    uint rAmount = amount _ currentRate;
-    // 3%的分红
-    uint rProfit = amount _ currentRate _ 3 / 100;
-    // 转让人扣除 100%
-    _rOwned[from] = _rOwned[from] - rAmount;
-    // 接收人收到 97%
-    _rOwned[to] = _rOwned[to] + rAmount _ 97 / 100;
-
-    // 剩下 3%扣除总的虚拟货币，这时候所有人的 banlanceOf 函数计算都会按照比例增长
-    _rTotal = _rTotal - rProfit;
-}
-
-不得不说整套体系设计得挺厉害的，虽然存在一定的计算误差，但大大提高了计算效率。
-联系作者
-微信：czz5242199
-telegram: @zhuozhongcao]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[问与答] 迫于暑假「长达」一个月，请教各位前辈，假期该学点什么？]]></title>
-        <id>https://www.v2ex.com/t/790997#reply9</id>
-        <link href="https://www.v2ex.com/t/790997#reply9"/>
-        <updated>2021-07-22T02:37:29.000Z</updated>
-        <summary type="html"><![CDATA[你谁啊 ？
-华东某 985 软件工程大一在读学生，准确的讲应该是准大二。
-现在会什么 ？
-惭愧，由于高中没有竞赛等相关经验以及学校课程设计的原因，目前只会一部分 Cpp ；同时由于个人学习能力的原因，大一期间除了课程作业并没有进行额外的项目练习。
-「只会一部分 Cpp 」是什么意思 ？
-到现在为止只学习了
-C 语言
-OOP(基于 Cpp)
-想学什么 ？
-找个简单项目练练手，提高一下姿势水平。
-学一门新的语言，能写点小东西自用。
-...
-假期很宝贵，你还是多去玩玩吧。
-你好，有在玩的。
-烦请各位前辈指路（手动感谢）]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[酷工作] [上海/世纪公园/PM] 兴业数金（兴业银行全资子公司）创新孵化团队招聘「数字化业务设计师」岗，大量 HC，可接受研发转岗]]></title>
-        <id>https://www.v2ex.com/t/790996#reply5</id>
-        <link href="https://www.v2ex.com/t/790996#reply5"/>
-        <updated>2021-07-22T02:36:22.000Z</updated>
-        <summary type="html"><![CDATA[公司介绍
-兴业数金是国内最早成立的银行系金融科技子公司（与平安集团的金融壹账通为同一年成立），目前为兴业银行的全资科技子公司，定位是为整个兴业集团提供科技服务（对内服务，成本中心导向型），对接总行和下设的各分行、支行，通过科技力量赋能业务完成数字化转型。
-部门团队介绍
-兴业数金下设多个研发分中心，我们是「数字金融创新中心」下的「创新孵化团队」。「数字金融创新中心」是兴业银行开展前沿技术研究、创新产品孵化的主要平台，研究金融科技领域的新技术、新工具，开展技术与应用创新，实施创新类信息化建设项目等；中心聚焦两种类型的创新：1 ）构建数字化的未来银行，利用 5G 、人工智能、大数据、物联网、云计算等新技术创新金融服务模式，构建数字化的未来银行； 2 ）科技赋能新的战略方向，利用传统技术为新的战略方向提供科技赋能，例如医疗、教育、住建等场景生态圈建设。
-「创新孵化团队」负责设计创新孵化机制设计，支持新产品从 0 到 1 孵化，营造良好创新环境氛围，与外部创新生态开展广泛合作。
-岗位描述
-主要工作内容
-根据本行业务及数字化转型的战略方向，开展对应领域的相关研究与数字化创新平台产品设计，推动金融与各类生态场景深度融合，提供无处不在、无时不在的金融服务，建立起生态经营的新模式；
-广泛对接总、分行各部门收集创新创意，通过科学创新方法论，开展用户调研、行业调研、商业模式设计等工作，使一个创意变成一个可执行的商业计划书，并立项实施；
-牵头相应行业场景生态圈 / 金融科技平台在孵化阶段的建设工作。包括项目管理、需求收集分析撰写、和外部企业的商务合作、系统测试、系统上线后运营体系设计等工作；
-复盘、总结各类创新产品的打法，不断完善方法论，指导后续实践；
-协助总分行参与行业重点客户营销，参与重点客户标书编制和应标讲演等工作。
-总之，我们希望你拥有一定的科技、研发背景，也具备泛产品经理的通用能力，所以 PM 和期望转岗 PM 的研发小伙伴速速看过来吧～
-岗位要求
-国内、外知名高校全日制本科及以上学历，经管、计算机等相关专业，具有扎实的专业基础；
-具备较强学习能力、逻辑思维能力，具备利用短时间快速了解一个陌生领域的能力；
-具备较强的文案与方案写作能力；
-具备较强的沟通协调能力及团队合作精神；
-具备基本的数据分析编程能力优先，例如 Python ；
-从工作中能获得什么
-全面了解本行各条线业务知识，以及战略规划；
-掌握通过行业与客户调研，快速系统化梳理一个产业各业务环节及对金融的需求，设计数字化方案赋能行业痛点，挖掘行业金融需求通过金融科技手段将组合式的金融服务嵌入的方法；
-广泛对接头部创新加速器、孵化器、VC PE 、创业公司、咨询公司，了解市场最前沿的科技能力及场景；
-氛围良好的团队，有竞争力的薪酬福利体系。
-简历投递前的一些小提示 ⚠️⚠️
-因为兴业数金现在是兴业银行的全资科技子公司，所以内规政策、招聘流程也向行内看齐，所以会有一些硬性条件：
-最近一份工作满 3 年，或最近的 2 份工作，每份均满 2 年；若只有 1 份工作经历的，该工作经历满 2 年；
-最高学历为本科的：全日制统招，在我司认可的院校范围内（境内共 109 所，境外共 719 所，可直接投递简历，亦可 DM 详细咨询 :P ）；最高学历为硕士的：全日制统招，不限院校；
-掌握基础的编程能力（因为笔试中会考编程题，但应该只是简单的数据结构和算法题 :P ）
-如个人能力特别出色者，可申请例外；
-
-工作地点：上海，浦东新区，世纪公园附近（Hint：楼上、楼下有银联）
-工作时间：9 AM - 6 PM，正常双休，12 PM - 1:30 PM 午休
-简历投递方式
-WeChat: 18601622461
-邮箱：zhouyifei [at] cib.com.cn （公司邮箱偶尔会丢信，建议优先微信联系）
-企业微信：]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[iPhone] 感觉 iPhone 的手机背面敲击的功能并不是很好使]]></title>
-        <id>https://www.v2ex.com/t/790995#reply19</id>
-        <link href="https://www.v2ex.com/t/790995#reply19"/>
-        <updated>2021-07-22T02:33:23.000Z</updated>
-        <summary type="html"><![CDATA[手机 IP12，官方硅胶壳，设置了敲击 2 下手机后壳锁屏，敲击 3 下手机后壳截图。有时候轻轻敲 2 下就能锁屏，有时候使劲敲也不行，还有时候明明敲了 2 下，然后截图了，甚至有时候没有敲就截图了，就很迷。大家设置这个功能了吗？遇到过我这个问题么？]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[程序员] 发现了一本很好的 gitbook，但是貌似作者不更新了（哭]]></title>
-        <id>https://www.v2ex.com/t/790994#reply10</id>
-        <link href="https://www.v2ex.com/t/790994#reply10"/>
-        <updated>2021-07-22T02:31:59.000Z</updated>
-        <summary type="html"><![CDATA[https://coderxing.gitbooks.io/architecture-evolution/content/
-发现了一本很好的 gitbook，但是貌似作者不更新了，真的很可惜
-有家人知道为什么停更的吗？不知道家人们有没有另外类似的书籍推荐一下？]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[酷工作] [实习] [微软亚洲研究院] 基于机器学习的爬虫检测实习生]]></title>
-        <id>https://www.v2ex.com/t/790993#reply1</id>
-        <link href="https://www.v2ex.com/t/790993#reply1"/>
-        <updated>2021-07-22T02:31:15.000Z</updated>
-        <summary type="html"><![CDATA[微软亚洲研究院-网络研究组招收研究实习生啦~
-微软亚洲研究院 (MSRA)-网络研究组 (Networking Research Group)
-https://www.microsoft.com/en-us/research/group/networking-research-group-2/
-========================
-岗位： [基于机器学习的爬虫检测-全职实习生, 1 名] 
-1 、工作职责：
-- 收集 Azure 云平台租户的 Web 日志，利用深度学习、聚类等技术进行日志分析，实现对爬虫攻击行为的画像；
-- 挖掘日志中的 HTTP 协议字段、鼠标轨迹、设备指纹等特征，制定检测规则，训练 ML 模型，从而对 Azure WAF 安全防火墙进行改进；
-- 参与维护本组在 GitHub 上的开源项目。
-2 、职位要求：
-- 熟悉 AI 、机器学习、深度学习（如 CNN 、LSTM ）、数据挖掘、网络安全中的一个或多个领域，有相关项目经验；
-- 熟悉 Go 、Javascript (React) 、Python 中的一门或多门语言，有较强的工程能力，熟练掌握 git，代码格式清晰规范，善于团队协作；
-- 有一定英文学术论文阅读能力，能够根据论文进行系统实现；
-- 较强的沟通能力和逻辑表达能力。
-3 、具有以下条件者优先：
-- 在 GitHub 较为活跃，有自己的开源项目，或参与过知名开源项目；
-- 发表过学术论文；
-- 可以连续实习不少于 6 个月。
-========================
-工作时间：每周 5 天，3 个月以上，能够尽快入职
-工作地点：北京市海淀区丹棱街 5 号（疫情期间可远程办公）
-如有意向请发 [中文简历 PDF ] 至：nrg-intern-recruit@microsoft.com
-简历中需标明平均分，及专业或年级排名及排名对应的总人数
- [注意] 请务必采用学校邮箱（ edu 域名）发送简历，其他邮箱（如 163 、qq 、gmail 、outlook 、hotmail 等）发送会进入公司垃圾邮件，无法被 HR 看到
-邮件标题&简历 PDF 文件名格式：基于机器学习的爬虫检测-姓名-学校-本|硕|博-年级-V2EX]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[健康] 半年没复发口腔溃疡，经验给大家参考一下。]]></title>
-        <id>https://www.v2ex.com/t/790992#reply25</id>
-        <link href="https://www.v2ex.com/t/790992#reply25"/>
-        <updated>2021-07-22T02:28:59.000Z</updated>
-        <summary type="html"><![CDATA[论坛经常有帖子求教关于口腔溃疡的帖子，本人有十几年的口腔溃疡史，几乎是每个月必长，经常都是长三四个，痛苦不堪。
-以前尝试过以下方案：
-1.保持口腔清洁，早中晚三次刷牙，使用漱口水，使用牙线，结果没用。
-2.每年定期去医院洗牙，结果没用。
-3.坚持了十多年每天跑步十公里，增加身体抵抗能力，结果没用。
-可见本人口腔溃疡的发作，与身体素质和口腔卫生没有太大关系。
-后尝试买复合维生素 B （很小瓶的那种，100 粒）只要几元钱，坚持每天吃一粒，哪怕不发作也坚持每天一粒，结果近半年了一次也没发作过，真是神奇了。网上查了一下坚持每天一粒，对身体没有什么副作用。
-供口腔溃疡发作的参考一下。]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[前端开发] 浏览器渲染问题疑惑]]></title>
-        <id>https://www.v2ex.com/t/790991#reply5</id>
-        <link href="https://www.v2ex.com/t/790991#reply5"/>
-        <updated>2021-07-22T02:27:16.000Z</updated>
-        <summary type="html"><![CDATA[<body>
-<div id="root">
-</div>
-</body>
-<script>
-  const div = document.querySelector('#root')
-  div.innerHTML = '1'
-  const now = performance.now()
-  console.log(div.innerHTML);
-  while (performance.now() - now < 100) {
-    console.log(now)
-  }
-  console.log(div.innerHTML);
-  div.innerHTML = '2'
-  console.log(div.innerHTML);
-</script>
-
-不懂就问：
-这段代码在 chrome 渲染直接渲染成 2，没有 1 的过程，是为什么？这段 while 阻塞不生效？ js 上是符合代码的逻辑的，但是渲染上是直接 2，有什么资料可供查看？]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[问与答] 如何提高防电信诈骗的小程序注册量]]></title>
-        <id>https://www.v2ex.com/t/790989#reply6</id>
-        <link href="https://www.v2ex.com/t/790989#reply6"/>
-        <updated>2021-07-22T02:23:27.000Z</updated>
-        <summary type="html"><![CDATA[朋友在村委里工作，硬性指标要有四五千的防电信诈骗微信小程序的注册量，在村里发动过大家去注册，但是收效甚微，不知道各位大哥有什么好办法么。]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[职场话题] 最后选择了吉利(路特斯汽车部门)，香！]]></title>
-        <id>https://www.v2ex.com/t/790988#reply21</id>
-        <link href="https://www.v2ex.com/t/790988#reply21"/>
-        <updated>2021-07-22T02:22:34.000Z</updated>
-        <summary type="html"><![CDATA[base 武汉，给的也还可以，20*14，965，每月补贴有 1k，前端]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[宽带症候群] 联通宽带的限速有问题]]></title>
-        <id>https://www.v2ex.com/t/790987#reply7</id>
-        <link href="https://www.v2ex.com/t/790987#reply7"/>
-        <updated>2021-07-22T02:20:58.000Z</updated>
-        <summary type="html"><![CDATA[联通的 100m 宽带用 speedtest 测速，前几秒速度有 500M,之后会变成 100M 的速度
-我用 qbittorrent 下载的时候可以跑到 500M,并且稳定保持这个速度，为什么没有限速到 100M ？
-没有多播等操作]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[macOS] Mac 访问路由器管理界面非常慢, windows 很快]]></title>
-        <id>https://www.v2ex.com/t/790986#reply18</id>
-        <link href="https://www.v2ex.com/t/790986#reply18"/>
-        <updated>2021-07-22T02:09:46.000Z</updated>
-        <summary type="html"><![CDATA[使用多台设备访问局域网的网关路由器的管理界面, mac 与其他设备的表现差异很大.
-已经测试的设备和结果如下,(有线与无线连接结果一致)
-设备
-页面打开时间
-
-
-
-
-macbookpro2020
-3-30s
-
-
-mac mini m1 3 台
-3-30s
-
-
-dell 笔记本 2 台
-小于 1s
-
-
-thinkpad 笔记本 1 台
-小于 1s
-
-
-android 2 台
-小于 1s
-
-
-有人知道这是什么原因吗?]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Windows] 从 win10 升级到 win11 了]]></title>
-        <id>https://www.v2ex.com/t/790985#reply10</id>
-        <link href="https://www.v2ex.com/t/790985#reply10"/>
-        <updated>2021-07-22T02:08:01.000Z</updated>
-        <summary type="html"><![CDATA[感觉还不错]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[问与答] 语雀文章的多版本是如何设计的]]></title>
-        <id>https://www.v2ex.com/t/790984#reply2</id>
-        <link href="https://www.v2ex.com/t/790984#reply2"/>
-        <updated>2021-07-22T02:04:19.000Z</updated>
-        <summary type="html"><![CDATA[这里并不限于语雀，其他网站也是有这个功能的
-好奇这个功能的实现，有点类似简化版的 git
-目前看语雀的接口他们应该是使用的版本号来实现的
-在做执行 diff 的时候会返回代表两个版本号的 content 和 content_html 字段
-然后在本地进行差异运算
-当然这只是我的思路，这种方案空间会占用很大，无用数据有点多
-还有没有其他的方式呢？]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Apple] macos10.15 如何将文件夹取消隐藏]]></title>
-        <id>https://www.v2ex.com/t/790981#reply22</id>
-        <link href="https://www.v2ex.com/t/790981#reply22"/>
-        <updated>2021-07-22T01:55:33.000Z</updated>
-        <summary type="html"><![CDATA[事情是这样的，mac 桌面文件突然全部消失了，然后在网上找到了解决方案“Command+Shift+.”将文件重新显示在桌面上了，但是恢复的文件夹全都是浅色的，应该是处于隐藏状态了。但是上述命令是将电脑里所有隐藏文件都显示出来了，有很多不需要显示出来的东西，想问一下如何将一些我需要显示的特定文件夹修改为非隐藏状态？试了网上的chflags nohidden 命令无效。]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[问与答] 关于 apisix 如何绑定域名的问题]]></title>
-        <id>https://www.v2ex.com/t/790980#reply0</id>
-        <link href="https://www.v2ex.com/t/790980#reply0"/>
-        <updated>2021-07-22T01:53:51.000Z</updated>
-        <summary type="html"><![CDATA[apisix 网关怎么绑定一个域名。
-如果用 nginx 反代到 127.0.0.1:9080，会有其他影响吗]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[程序员] 面试经典题目--买卖股票的最佳时机 II]]></title>
-        <id>https://www.v2ex.com/t/790978#reply1</id>
-        <link href="https://www.v2ex.com/t/790978#reply1"/>
-        <updated>2021-07-22T01:46:00.000Z</updated>
-        <summary type="html"><![CDATA[不得不说，刷题已经和爬山、溜娃一样，成为湾区三俗，基本几个湾区的工程师碰在一起，讨论的话题总跳不出这个圈。爬山，哦不，刷题作为一个贯穿码农整个职业生涯的必须品（就算是我目前呆的微软谷歌这种养老公司也总得跳一跳，毕竟雪花的大包裹是真香啊），几年来基本每天不间断的刷，算是对这一块略有心得。帖子的前半部分想分享一些我作为面试官的常出的一些经典题目，以及题目思路的解析以及一些同类题的归纳，帖子的后半部分我会参考坛友们的留言和拍砖，来决定后面的走向
-帖子会长期保持更新，只要是带娃的间隙就会偷偷上来更一下，尽量保持每周两更。
-本期我们分享 面试经典题目--买卖股票的最佳时机 II
-欢迎 LinkedIn 勾搭（备注 V2 ）： https://www.linkedin.com/in/alice-chen-343975200/]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[职场话题] offer 比较~]]></title>
-        <id>https://www.v2ex.com/t/790976#reply11</id>
-        <link href="https://www.v2ex.com/t/790976#reply11"/>
-        <updated>2021-07-22T01:35:30.000Z</updated>
-        <summary type="html"><![CDATA[一个朋友最近拿到两个 offer，都在上海，前端开发相关，不确定去哪家，求建议。
-1. 腾讯 ieg，做游戏视频相关开发，总包 69 左右，3-1
-2. 抖音音乐，总包 79 左右，2-1
-希望可以从平台、业务、加班、晋升机会和薪水等方面综合考虑。
-求各位大佬意见]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[程序员] 各位的开发需要编写的文档是怎么弄出来的？]]></title>
-        <id>https://www.v2ex.com/t/790973#reply10</id>
-        <link href="https://www.v2ex.com/t/790973#reply10"/>
-        <updated>2021-07-22T01:27:18.000Z</updated>
-        <summary type="html"><![CDATA[开发过程中，免不了要需要弄出文档来。目前我所知的开发文档分为 Api 接口文档，数据模型文档，测试文档。
-这类文档各位是怎么弄出来的？
-是在开发写代码之前弄？，那就是自己在 word 文件上，或在线文档管理网站里面，打字手写出来的。这样的话，感觉挺耗费时间的，不累吗，一开始能想出所有的内容吗？
-是在开发过程中弄？那是通过自定义文档生成吗。在类和接口方法上，标注注释类似 java 的注解。然后通过自己写的或别人写的文档生成工具扫描这类内容，生成 html 或者 json 或者 word 。自己在手写打字补充一些内容。
-我个人是倾向于读取开发代码的内容，并生成文档的方式，来弄出文档的。]]></summary>
-        <author>
-            <name>V2EX</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[iPhone] 中国联通开机问候语]]></title>
-        <id>https://www.v2ex.com/t/790972#reply17</id>
-        <link href="https://www.v2ex.com/t/790972#reply17"/>
-        <updated>2021-07-22T01:16:27.000Z</updated>
-        <summary type="html"><![CDATA[中国联通的开机问候语简直流氓，经常有时候信号不好半夜断开又连接，半夜神不知鬼不觉的就弹出来了。然后手机就在那个页面卡一晚上，一来费电，二来容易烧屏，有什么办法关闭不？
-我在网上搜到了进 sim 卡应用关闭，但在 iPhone 上没找到进入的入口。]]></summary>
-        <author>
-            <name>V2EX</name>
         </author>
     </entry>
     <entry>
@@ -1004,6 +1126,64 @@ android 2 台
 　　稿源：海外网]]></summary>
         <author>
             <name>user@gmail.com (guest)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Valve掌机Steam Deck公布]]></title>
+        <id>https://www.williamlong.info/archives/6500.html</id>
+        <link href="https://www.williamlong.info/archives/6500.html"/>
+        <updated>2021-07-19T13:40:23.000Z</updated>
+        <summary type="html"><![CDATA[7月16日，V社出品的便携式PC掌机Steam Deck正式公布，将会在今年12月正式发售和玩家见面。这款掌机64GB版售价399刀、256GB版529刀、512GB版649刀，预计将于2021年12月开始发货。Steam Deck采用定制的AMD芯片，V 社宣称该掌机可流畅运行最新的3A游戏。
+
+
+　　该设备内置AMD Van Gogh APU，包含一个四核Zen 2 CPU，8个线程和8个计算单元的AMD RDNA 2图形芯片，搭配16GB的LPDDR5内存。据Valve称，有三个不同的存储选项：64GB eMMC存储售价399美元；256GB NVMe SSD存储售价529美元；以及512GB NVMe SSD存储售价649美元。还可以使用microSD卡插槽扩展可用的存储空间。
+
+
+　　配置细节如下：
+
+
+　　CPU: Zen 2 4c/8t, 2.4-3.5GHz (最高 448 GFlops FP32)
+
+
+　　GPU: 8 RDNA 2 CUs, 1.0-1.6GHz (最高 1.6 TFlops FP32)
+
+
+　　APU功耗: 4-15W
+
+
+　　RAM: 16 GB LPDDR5 RAM (5500 MT/s)
+
+
+　　存储: 64 GB eMMC (PCIe Gen 2 x1)
+
+
+　　256 GB NVMe SSD (PCIe Gen 3 x4)
+
+
+　　512 GB high-speed NVMe SSD (PCIe Gen 3 x4)
+
+
+　　作为掌机，Steam Deck机身有大量的控制选项，有两个拇指杆，拇指杆下面有两个小触控板，ABXY按钮，一个D-pad和一个7英寸触摸屏。该设备也有一个用于运动控制的陀螺仪。与Switch一样，它在每侧有两个肩部触发器，还有四个背部按钮（每侧两个）。
+
+
+　　Steam Deck的板载40瓦时电池为大多数游戏提供了几个小时的时间，Valve表示，"对于较轻的负载，如串流游戏，较小的2D游戏，或网络浏览，可以期望得到最大的电池寿命大约7-8小时"。
+
+
+　　Valve还将出售一个底座，可以用它来支撑Steam Deck，并将它插入电视等外部显示器。不过，不需要购买底座就可以把它插入电视，如果你有合适的电缆就可以。
+
+
+　　在软件方面，Steam Deck运行的是Valve所说的 "新版SteamOS"，它针对移动外形因素进行了优化。但实际的操作系统是基于Linux的，并利用Proton作为兼容层，允许基于Windows的游戏运行，而不要求开发者专门为Steam Deck移植这些游戏。当然，最终，Steam Deck仍然是一台成熟的Linux电脑，这意味着更多的技术用户也能够访问到常规的Linux桌面，还能够插入鼠标、键盘和显示器，并安装其他游戏商店、常规PC软件、浏览网页等。
+
+
+　　Valve指出，Steam Deck的功能是为了模仿桌面上的常规Steam应用程序，包括聊天、通知、云保存支持，以及所有你的资料库、收藏和收藏夹都保持同步。Valve也提供远程游戏功能，直接从游戏电脑向Steam Deck传输游戏。
+
+
+　　微评：Steam Deck是基于Steam OS系统，本质上是基于Linux，这需要游戏厂家开发对应的Steam OS的游戏版本才行。目前Steam商店里的3A大作大多都没有支持Steam OS的版本。
+
+
+　　游戏厂商要是针对Steam Deck进行优化，需要花很大的成本，如果Steam Deck的用户量很少，那还不如开发Switch版更合算一些。而且，用户很多已经购买了Windows版本的游戏，开发出来的Steam Deck版本游戏也没法卖更多的钱。]]></summary>
+        <author>
+            <name>williamlone@gmail.com (williamlong)</name>
         </author>
     </entry>
     <entry>
@@ -1185,56 +1365,6 @@ android 2 台
 　　来源：道琼斯新闻]]></summary>
         <author>
             <name>user@gmail.com (guest)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[斗鱼宣布终止与虎牙的合并协议]]></title>
-        <id>https://www.williamlong.info/archives/6494.html</id>
-        <link href="https://www.williamlong.info/archives/6494.html"/>
-        <updated>2021-07-13T10:21:10.000Z</updated>
-        <summary type="html"><![CDATA[7月12日消息，斗鱼今晚宣布，尊重并将遵循国家市场监管总局的决定，决定终止与虎牙的合并协议。此外，斗鱼根据合并协议的条款，董事会批准了总额为6000万美元的现金股息。考虑到合并终止，斗鱼董事会批准取消现金股利。
-
-
-　　国家市场监督管理总局7月10日宣布，根据《反垄断法》第二十八条和《经营者集中审查暂行规定》第三十五条规定，市场监管总局决定依法禁止此项经营者（斗鱼和虎牙）集中。
-
-
-　　之后，腾讯公司就“市场监管总局依法禁止虎牙公司与斗鱼国际控股有限公司合并”一事回应称，公司将认真遵守审查决定，积极配合监管要求，依法合规经营，切实履行社会责任。
-
-
-　　市场监管总局审查表明，如虎牙与斗鱼合并，将使腾讯单独控制合并后实体，进一步强化腾讯在游戏直播市场的支配地位，同时使腾讯有能力和动机在上下游市场实施闭环管理和双向纵向封锁，具有或者可能具有排除、限制竞争效果，不利于市场公平竞争、可能减损消费者利益，也不利于网络游戏和游戏直播市场规范健康持续发展。经评估，腾讯提出的附加限制性条件承诺方案不能有效解决前述竞争关注。
-
-
-　　市场监管总局审查表明，本案相关市场为中国境内网络游戏运营服务市场和游戏直播市场。腾讯在上游网络游戏运营服务市场份额超过40%，排名第一；虎牙和斗鱼在下游游戏直播市场份额分别超过40%和30%，排名第一、第二，合计超过70%.目前，腾讯已具有对虎牙的单独控制权和对斗鱼的共同控制权。如虎牙与斗鱼合并，将使腾讯单独控制合并后实体，进一步强化腾讯在游戏直播市场的支配地位，同时使腾讯有能力和动机在上下游市场实施闭环管理和双向纵向封锁，具有或者可能具有排除、限制竞争效果，不利于市场公平竞争、可能减损消费者利益，也不利于网络游戏和游戏直播市场规范健康持续发展。经评估，腾讯提出的附加限制性条件承诺方案不能有效解决前述竞争关注。
-
-
-　　稿源：IT之家]]></summary>
-        <author>
-            <name>user@gmail.com (guest)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[《星球大战》系列电影影评]]></title>
-        <id>https://www.williamlong.info/archives/6493.html</id>
-        <link href="https://www.williamlong.info/archives/6493.html"/>
-        <updated>2021-07-12T07:45:00.000Z</updated>
-        <summary type="html"><![CDATA[《星球大战》是一个历史悠久的系列科幻电影，该片描写，在很久以前，一个遥远的银河系，肩负正义使命的绝地武士与帝国邪恶黑暗势力作战的故事。正传三部曲依次于1977年至1983年上映，前传三部曲依次于1999年至2005年上映，后传三部曲依次于2015年至2019年上映。该系列电影共计收获票房超过100亿美元，在全球系列电影票房排行中位居第二，仅次于《复仇者联盟》系列。
-
-
-　　按剧情先后顺序，这九部影片分别是：《幽灵的威胁》（1999年）、《克隆人的进攻》（2002年）、《西斯的复仇》（2005年）、《新的希望》（1977年）、《帝国反击战》（1980年）、《绝地归来》（1983年）、《原力觉醒》（2015年）、《最后的绝地武士》（2017年）、《天行者崛起》（2019年）。
-
-
-　　《幽灵的威胁》、《克隆人的进攻》与《西斯的复仇》被合称为“前传三部曲”。它们所处的时代被称为“共和国陨落”。这个时代的主要矛盾是共和国与分离势力之间的战争。战争的结果是分离势力被打败，银河共和国被改组为银河帝国。
-
-
-　　《新的希望》、《帝国反击战》与《绝地归来》被合称为“正传三部曲”。它们所处的时代被称为“帝国时代”。这个时代的主要矛盾是银河帝国与抵抗军之间的“银河内战”。战争的结果是银河帝国被打败，义军同盟被改组为新共和国。
-
-
-　　《原力觉醒》、《最后的绝地武士》与《天行者崛起》被合称为“后传三部曲”。它们所处的时代被称为“新共和国时代”。这个时代的主要矛盾是第一军团与抵抗军之间的战争。战争的结果是抵抗组织获胜。
-
-
-　　观看的话，建议按照拍摄年份观看：《星球大战正传1：新的希望》（1977年）、《星球大战正传2：帝国反击战》（1980年） 、《星球大战正传3：绝地归来》（1983年）、《星球大战前传1：幽灵的威胁》（1999年）、《星球大战前传2：克隆人的进攻》（200…]]></summary>
-        <author>
-            <name>williamlone@gmail.com (williamlong)</name>
         </author>
     </entry>
     <entry>
