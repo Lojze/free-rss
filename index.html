@@ -51,45 +51,7 @@ add_header Strict-Transport-Security &quot;max-age&#x3D;31536000&quot;;
 　　但有一点需要注意，Strict-Transport-Security中的max-age的时间不能小于15552000。
 
 
-　　对于windows server服务器，打开网站目录下的 web.config 这个文件，在相应的位置添加上针对 https 响应的 url 重写规则（黑体部分），并保存。
-
-
-
-
-
-
-
-    
-
-        
-
-            
-
-                
-
-                    
-
-                    
-
-                        
-
-                    
-
-                    &lt;action type&#x3D;&quot;Redirect&quot; url&#x3D;&quot;https://{HTTP_HOST}/{R:1}&quot;
-
-                    redirectType&#x3D;&quot;Permanent&quot; /&gt;
-
-                
-
-            
-
-            
-
-                
-
-                    &lt;match serverVariable&#x3D;&quot;RESPONSE_Strict_Transport_Security&quot;
-
-                        pattern&#x3D;&quot;.*&quot; /&gt;</span>
+　　对于window…</span>
                   </div>
                 </a>
               </details>
@@ -105,7 +67,7 @@ add_header Strict-Transport-Security &quot;max-age&#x3D;31536000&quot;;
                 <summary class="article-expander__title">科技爱好者周刊（第 169 期）：五菱汽车的产品设计</summary>
                 <a class="article-summary-link article-summary-box-outer" href="http://www.ruanyifeng.com/blog/2021/07/weekly-issue-169.html">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
+                    <span class="article-reading-time">(4 min)</span>
                     <span>这里记录每周值得分享的科技内容，周五发布。...</span>
                   </div>
                 </a>
@@ -119,144 +81,456 @@ add_header Strict-Transport-Security &quot;max-age&#x3D;31536000&quot;;
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 现在 node/ror/py 在 web framework 上是什么情况？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792677#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>迫于无聊，想找点东西学一些后端，以上语言在 web framework 上的完备性和前景如何？不用考虑就业因素，单纯从语言未来发展、框架健全性、快速实现上聊一聊。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[PlayStation 5] PS5 终于快可以自己加 SSD 了</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792676#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>PlayStation 在官网宣布了第一个测试版系统更新，其中包括期待已久的内置 M.2 SSD 接口的使用权限。该权限启用后，玩家可以为 PS5 增加 M.2 接口的 SSD，支持在 SSD 下载、储存、更新、游玩 PS5 游戏。PS5 用户可以安装它来升级其 PS5 主机或 PS5 数字版主机的存储容量。
-索尼指出可用 SSD 需要支持 PCIe Gen4x4 M.2 NVMe 接口，容量在 250GB~4TB 之间，读取速度推荐在 5500MB/秒以上。
-看了下 JD，这种 SSD 还不便宜。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 我又来请教 V 友了，关于独居老人被强制打疫苗的问题</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792674#reply2">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>事情是这样的：
-爷爷奶奶在老家农村独自居住，前两天有工作人员上门要求老人也必须打疫苗，然后二话不说就把我爷爷带上车，载去打疫苗。工作人员量了爷爷血压，发现血压过高，然后就给了一颗降血压的药要我爷爷吃，吃完血压降下来就直接打疫苗。打完以后，爷爷回到家一直吐，也吃不下饭，奶奶都担心爷爷不行了。现在今天爷爷缓过来了，状态好点了。
-爷爷本身身体一直都不太好，前几年脑还出了点血，做过手术，奶奶也是有糖尿病和高血压。
-请问，独居在家的、手无寸铁的老人家可以怎么避免被强制拉去打疫苗？这种强制拉老人打疫苗的行为哪里可以投诉？感谢 V 友</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[酷工作] [北京 or 成都] [20K-30K] [React] [Typescript] Moka 招募前端小伙伴啦</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792673#reply0">
+                <summary class="article-expander__title">[Windows] Windows 11 已经可以在 Beta 通道更新</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792818#reply0">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(1 min)</span>
-                    <span>[北京 or 成都]  [ 20K-30K ]  [ React ]  [ Typescript ]  Moka 招募前端小伙伴啦
-我们是谁
-Moka 智能化招聘管理系统-以优质的用户体验，为 HR 招聘提供智能化系统
-Moka (北京希瑞亚斯科技有限公司) 成立于 2015 年，为企业提供极致体验、数据驱动的智能化 HR SaaS 产品，致力于通过一流技术和服务赋能企业人才战略。
-作为国内发展最快的 HR SaaS 厂商之一，成立以来，先后获得峰瑞资本、GGV 纪源资本、金沙江创投、高瓴资本、襄禾资本、蓝湖资本等多个知名资本青睐，并于 2020 年 8 月获 B+ 轮融资，B 轮融资累计超 3 亿。
-截至目前，Moka 累计服务包括小米、滴滴、麦当劳、安踏集团、上海医药、华东医药、arm china 、松下、元气森林、Shopee 、作业帮等超过 1100 余家客户，业务涵盖互联网、连锁零售、生物医药、智能制造、电商、教育等多个领域，在北京、上海、广州、深圳、杭州、成都等城市均设有办公室。
-我们希望你（重要性从高到低排列）
-热爱前端行业，喜欢折腾新东西，对新鲜事物充满好奇。
-优秀的编程能力。有数据结构和算法基础，懂得如何编写简洁易读的代码。
-过硬的专业知识。js （或 ts ）、html 、css 、网络协议、浏览器 API 、前端框架（ React 、Vue 、Angular 任意）、工具链（ babel 、webpack ）等方面有良好的知识储备。
-3 年及以上工作经验。有大型前端项目经历加分。
-有热情有活力，开放的心态，主动作为，有责任感，自省自驱，追求极致的用户体验。
-我们需要你
-React，Typescript （不会没关系，我们有类型体操教练）。
-HR 领域 toB SaaS，核心业务线开发（招聘管理系统，核心人事系统）。
-参与前端基建（前端组件库，性能监控&amp;优化，自动化测试，代码重构）。
-我们能给你（基本标准，跟大厂比不了，没有就是没有）
-五险一金，补充医疗保险，打车报销。
-mbp （也可选择 windows 笔记本或台式机），2K 显示器。
-咖啡，零食，下午茶，团建。
-自由、放松、真诚、直接的团队氛围（因为俺崇尚这样的氛围，大家基本都是 90 后）。
-FAQ
-不能
-北京在知春路领航科技大厦
-成都在高新区，具体办公地点正在筹备中
-没有，我们看能力不看学历。当然，平心而论，如果你的学历不好看，简历筛选自然就会重点看其他部分，对简历通过率确实有影响。
-可以。前端框架上手是很容易的，相信聪明的你能很快学会。
-扫码投递简历哦
+                    <span>据微软 7 月 29 日讯（也就是北京时间的 7 月 30 日了），“我们很得瑟地宣布，我们已经把 Windows 11 全民测试版弄进 beta 通道了！”  
+We are very excited to announce we are releasing Windows 11 Insider Preview Build 22000.100 to Windows Insiders in the Beta Channel! 
+刚刚把工作电脑加进了 beta 通道，已经下载了 51%了，看看会有什么坑。
+另外，据说微软在 Windows 11 中永久解决了蓝屏的问题，因为 BSOD 已经变成Black Screen of Death了。
+随着行业的标准化，将来的 Windows 11 BSOD 和 Mac OS 的五国起码在颜色和闹心程度上变得更统一了。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[奇思妙想] 是不是能在 Web 服务上引入类似 SSH 的公钥认证的身份验证方式</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792817#reply3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>当然不是说传统的用户名密码就要淘汰
+在用户能保证自己所使用的私钥安全储存的情况下，以公钥认证来验证身份既能防止暴力破解，也能防止撞库吧
+对于高级用户来说，还能省去手动鉴权的步骤
+至于盗用用户设备，现行基于 cookie 的保持登录状态也不能很好地解决这一问题
+唯一的缺点可能就是一旦私钥泄漏，所有网站立刻完蛋</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[生活] 微博上这些帖子都是真的吗？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792816#reply1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>晚上刷微博，在热帖下面看见有人发维权的评论，点头像进去看了几个帖子好像也挺真实的。
+https://weibo.com/u/3229420474
+所以我也转发了，不过我还是想和大家讨论讨论这种事。当然啦，无脑的输出情绪对我们的生活没有什么好的改变啦，所以希望看到一些有意义和建设性的讨论~~</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Chrome] WebOTP API</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792815#reply1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Chrome 93 的新功能：
+https://developer.chrome.com/blog/cross-device-webotp/</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[信息安全] M1 的 Macbook Pro 可以拿来做渗透吗？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792813#reply5">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>好不容易等到可以装 ARM 的 Windows 了，于是想买个 M1 的 Macbook Pro，主要工作是拿来做渗透测试，然后问题来了，不知道 ARM 的 Windows 能不能跑经常渗透测试用的 EXE 的工具？
+有没有好心人试过？求解答~</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[分享发现] 卡丁车真的很解压，没有尝试过建议尝试一下。</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792811#reply4">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>今天团建第一次开。不出意料的连续车祸，但依然很爽，尤其是那种加速急转弯。时间到了依依不舍。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[NAS] 请教一个群晖局域网速度问题</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792810#reply3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>自己搭的黑群
+从群晖文件的直接通过浏览器下载文件
+单个下载任务速度始终在 1MB 左右
+如果同时多起几个任务的话
+速度可以叠加大概到 7MB 左右
+如果是上传文件倒是可以到 16MB 左右
+已经关闭加密 协议已经改成下限 smb2 上限 smb3
+通过 iperf3 测试 udp 和 tcp 带宽都在 100 Mbit 左右
+有没有大神知道怎么回事？
+怎么才能让单个任务占满带宽</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[京东] 京东会员免费领取万达电影至尊月卡</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792809#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>入口 京东 app 首页-plus 会员-生活特权-万达电影 进入即可领取 共一张会员卡加 4 张优惠券
+话说万达会员卡好用吗</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 越来越刻薄，脾气越来越差，怎么办？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792808#reply13">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>1.住在城中村，对面的开着门大声说话、看短视频，说了也没用，让人心烦。
+2.去火车站取个学生票，看到工人确认一个事好几遍，自己竟然抢过工作人员的话，用不耐烦的语气(意识到后立刻减慢语速，微笑，显得自己十分虚伪)转述自己的理解，搞得买票的人连连说不好意思耽误我了。
+3.回到家打开朋友圈，看到几个读心理的同学转发的营销信息，说来说去就是赶紧来学心理学吧，心理学对工作婚姻、家庭、教育下一代非常有帮助，我们这有大咖 xxx，一大堆虚之又虚头衔放在大咖名字下边...心里感到恶心。去搜心理咨询行业现状，发现全是彼此捧臭脚的、带二维码的个体户在评论。火大，想到他们在挣钱，心里更是愤怒。
+4.去逛常常逛的 chouti，帖子的质量不是一般的低，不是禁止评论就是类似这样的评论:中国人真牛 X，我自豪我是中国人。
+5.同样的，在朋友圈看到未来的研究生同学在晒录取通知书，还评论说真高兴恰逢百年 xxx...，纳闷了，一个综合几个榜单排名 200 左右的二本学校、这专业刚被允许招研究生，有什么好自豪的，想起自己要和这样的同学一起读书感觉仿佛自己在自取其辱，恨自己庸人自扰。
+6.最烦的还是第 4 条。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] buildroot 如何重新编译 kernel</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792807#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>使用 buildroot 编译系统镜像，我修改了 output/build/linux-4.18.12/ 中的 dts 文件，请问怎么重新编译 kernel?
 
-PS：后端也有岗位在招，可以扫码后点击查看更多职位，搜索后端即可</span>
+我试了几种办法都不行，如下：
+make linux-dirclean
+make linux-rebuild
+这样会把 output/build/linux-4.18.12/ 整个目录删掉，我修改的部分也就被删掉了。
+
+有没有大佬熟悉 buildroot 的，支个招。</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[分享发现] Teambition 网盘宣布于 2021 年 9 月 30 日停止运营</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792671#reply0">
+                <summary class="article-expander__title">[宽带症候群] 电信网络是否降速</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792806#reply1">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
-                    <span>尊敬的 Teambition 用户，经过一段时间的内测运行，我们决定在 2021 年 9 月 30 日下架 Teambition 的「网盘」服务。
-来源： https://thoughts.teambition.com/share/60f93bf0811ba5004a2c8a21</span>
+                    <span>这段时间发现电信网络速度很慢，4g 才 2m   不知道宽带怎么样，大家也这样吗？还是我基站问题</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 现在主流的那种论坛系统有哪些呢，想参考一下功能做一个练练手</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792670#reply0">
+                <summary class="article-expander__title">[问与答] 小弟问一下， mac 输入 set -gx editor xxx，输出了一堆东西是什么意思？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792805#reply0">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
-                    <span>问与答 - @zxCoder -</span>
+                    <span>+omz_termsupport_preexec:1&gt; [[ &#x27;&#x27; &#x3D;&#x3D; true ]]
++omz_termsupport_preexec:3&gt; emulate -L zsh
++omz_termsupport_preexec:4&gt; setopt extended_glob
++omz_termsupport_preexec:7&gt; local -a cmdargs
++omz_termsupport_preexec:8&gt; cmdargs&#x3D;( env )
++omz_termsupport_preexec:10&gt; [[ env &#x3D; fg ]]
++omz_termsupport_preexec:44&gt; local CMD&#x3D;env
++omz_termsupport_preexec:45&gt; local LINE&#x3D;env
++omz_termsupport_preexec:47&gt; title &#x27;$CMD&#x27; &#x27;%100&gt;...&gt;$LINE%&lt;&lt;&#x27;</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[全球工单系统] 彩云天气 预报一点都不准, 这软件有什么用?</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792669#reply15">
+                <summary class="article-expander__title">[macOS] MacBook 迁移的时候空间不足</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792804#reply0">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>坐标广州科学城.
-昨晚看天气说今天阴天没雨.
-今天早上看天气也是说没雨.
-12:14 分到现在外面暴雨如注,12:14 躺床上不想下楼收衣服,明明听到很大的雨声, 看软件写的是小雨.开窗口看看那暴雨,没办法下去收衣服.打着伞收完衣服已经全身湿身了, 进门再看软件才变成大雨了. 这种下雨了才告诉更新状态有什么用???
-等一会 12:24 看软件又写的是后面 30 分钟中雨转小雨, 看窗外的确小点了.
-12:30 至今外面又是大雨了,开启软件看它写的是 74mm, 一小时内暴雨.
-就像问问作者, 彩云天气是天气预报还是天气实时通知啊?
-利益冲突:
-2 年前购买了彩云天气 pro 用户.</span>
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>500 G 空间才用一半左右， 用的雷电+迁移助力进行迁移。
+每次都提示空间不足，资源库占用的空间太多了。
+请问有小伙伴遇到过么，是怎么解决的？
+旧电脑是 Intel 新电脑是 M1
+
+实际电脑才占用 300G，另一台 mac 是新电脑。</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[程序员] 有什么像 golang 一样低内存占用, 但是语法更偏向 Java /c++/js 的语言吗?</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792668#reply14">
+                <summary class="article-expander__title">[北京] 北苑华贸城德扑周末咸鱼局继续凑人</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792802#reply0">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>程序员 - @zoharSoul -</span>
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>暂定周日，目前 4-5 人，希望能凑到 6 人，1bb&#x3D;1 毛，有意 vx：cmFtcGFnaW5nOQ&#x3D;&#x3D;
+成局不易，好心人一生平安</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 2021 年 搜索引擎 bing vs google ， bing 还是那么差吗？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792667#reply6">
+                <summary class="article-expander__title">[问与答] typora 有个 bug 一直没修</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792801#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>test:
+如果 markdown 是这种格式的话，在正文一输入中文，就自动跳到 test: 后面了
+实际场景中遇到的是，hexo new 一个 post 的时候，要生成一些 heading，每次输入正文的时候，自动跳到 description 哪一行了。输入英文字母就不会。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[分享创造] PhotoViewer v3.6.0 已发布！近两年以来的重要版本更新！</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792800#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>https://github.com/nzbin/photoviewer
+因工作忙碌，精力有限，PhotoViewer 已经很久没做大版本更新了，v3.6.0 算是近两年来比较大的一个优化版本。熬了一周的夜，对很多网友提出的问题集中做了优化。新增 embed mode （嵌入模式），修复很多交互细节问题。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] Chevereto 图床生成的图片 url 自动带上了 :443 端口这样的字符串，有人知道怎么干掉它吗</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792799#reply2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>如上图所示，不希望在 url 里显示 :443</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 在去植发之前，想知道大家去的哪里的哪个品牌的植发机构，效果怎么样</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792798#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>本人遗传父亲的两额角不长头发，而且有点严重，去理发店理发师每次都有点为难。只能剪那种塌下来盖住额角的发型，显得人不精神。发个帖子看看大家的经历，好选择一家值得信赖的植发机构。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[分享发现] 分享一个 反对党八股</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792797#reply1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>摘抄部分内容
+一个人写党八股，如果只给自己看，那倒还不要紧。
+或印成一本书，那问题可就大了，它就可以影响许多的人。
+党八股也就是一种洋八股。这洋八股，鲁迅早就反对过的⑷。
+我们为什么又叫它做党八股呢？这是因为它除了洋气之外，还有一点土气。
+也算一个创作吧！谁说我们的人一点创作也没有呢？这就是一个！（大笑） 
+来源
+毛爷爷选集 第三卷 https://www.bilibili.com/read/readlist/rl334156
+https://www.bilibili.com/read/cv8111562 
+八股文的吐槽
+八股文面试也算日经贴了
+于是 网上一篇篇
+2020 最新 JAVA 面试题
+吐血总结 2021 最新 JAVA 面试题
+总结
+打不过他，就加入他。doge</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[职场话题] 有同行大佬嘛，帮忙看看简历，谢谢。</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792796#reply7">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(1 min)</span>
-                    <span>以前的接触中，前辈们都说 google 更好
-想问问， 如今 2021 年了，  bing 是否还那么不堪
-你在实际体验中， 两者有何优劣？ 
+                    <span>我的简历经过了几个版本的优化，总感觉依然不满意。也问了几个在大厂的同行朋友，看了看他们的简历，个人感觉也很一般，有的甚至就短短几行字，试问怎样写一份好的简历？
+下面是我的简历，已做脱敏处理。
+https://www.965.one/2021/06/29/resume/</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[广州] Pixel 4A 屏幕裂了，广州有手机店可以修吗？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792795#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>RT and 不想寄修</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] js 能同时监听两个方向键吗， canvas 画图，想控制八方向移动</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792794#reply2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>网上找了个解决方案，效果不太好
+document.onkeydown&#x3D;function (e){
+    console.log(e.key);
+    switch (e.key){
+        case &quot;ArrowLeft&quot;:
+            dx-&#x3D;5;
+            break;
+        case &quot;ArrowRight&quot;:
+            dx+&#x3D;5;
+            break;
+        case &quot;ArrowUp&quot;:
+            dy-&#x3D;5;
+            break;
+        case &quot;ArrowDown&quot;:
+            dy+&#x3D;5;
+            break;
+    }
+}
+
+document.onkeyup&#x3D;function (e){
+    console.log(e.key);
+    switch (e.key){
+        case &quot;ArrowLeft&quot;:
+            dx&#x3D;0;
+            break;
+        case &quot;ArrowRight&quot;:
+            dx&#x3D;0;
+            break;
+        case &quot;ArrowUp&quot;:
+            dy&#x3D;0;
+            break;
+        case &quot;ArrowDown&quot;:
+            dy&#x3D;0;
+            break;
+    }
+}
+
+
+window.setInterval(()&#x3D;&gt;{
+    // ...
+},100);</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] evernote 打过折吗？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792793#reply3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>挺喜欢用这个软件的，作为一个笔记本觉得挺不错。国内的印象笔记经常打折，便宜的时候，专业版也才几十块钱一年，但是因为数据库在国内，用着总觉得不放心，想转 evernote 。然而去官网看了一下价格以后。。。专业版 9.9 刀 /月，一年不得上百刀，用不起呀。。。所以就想知道 evernote 会不会像印象笔记这样子打折。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Chrome] Chromium 跳转到推广链接，最终排查出是 「扩展管理器(Extension Manager)」</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792792#reply5">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>1.发现问题：
+之前访问 taobao, jd, amazon 的时候，会发现第一个 Tab 会闪一下，以为是 Chromium 的 bug，也没在意。
+Desmos，就在我搜索硬盘相关信息时，Desmos 弹窗问我是否确定离开，于是发现不对劲，点击确定，居然发现跳到了 union-click.jd.com 的一个链接
+union-click.jd.com，发现有多次历史，忍不了了，于是开始找原因   
+2.初步搜索
+又把跳转后的链接找来
+https://wdc.jd.com/?cu&#x3D;true&amp;utm_source&#x3D;dh.tbyuantu.com&amp;utm_medium&#x3D;tuiguang&amp;utm_campaign&#x3D;t_1000537640_&amp;utm_term&#x3D;...
+
+在 ~/.config/chromium 里用 
+$ grep -Ril &quot;tbyuantu&quot; .
+$ grep -Ril &quot;union-click&quot; .
+
+命令搜索，只找到几个关系不大的文件，关于拓展的信息没有找到
+t_1000537640_ 字段，找到一篇公众号，但与我已用方法相同，只好自己探寻原因  
+3.再次探索
+整理了一下已知信息，既然只在第一个 Tab 里跳转，那我就守株待兔好了
+union-click.jd.com 和 dh.tbyuantu.com 指向了无效的地址
+注：oozo.net 是我的网站，也就是说，它会自动跳回原网站
+gjldcdngmdknpinoemndlidpcabkggco 发出的，而红色的那个则是由 dhdgffkkebhmkfjojejmpbldmpobfkfo 发出的，之所以被取消，是因为我 用 SwitchyOmega 指向了无效代理，它又防止被发现才取消的
+4.整理信息
+由于我对 dhdgffkkebhmkfjojejmpbldmpobfkfo 是比较信任的，虽然鼠标放上去显示来自于它，但导出 har 文件后并没有找到它，也看了一下相关 js 代码，没有什么问题，估计是我使用 dev tools 的方法不正确（dhdgffkkebhmkfjojejmpbldmpobfkfo 里已关闭所有插件）
+gjldcdngmdknpinoemndlidpcabkggco 上，打开
+chrome-extension://gjldcdngmdknpinoemndlidpcabkggco/ct.js
+
+一搜索，就找到了跳转的地址 p.extfun.com，终于破案了
+5.相关信息
+dhdgffkkebhmkfjojejmpbldmpobfkfo  :  Tampermonkey
+gjldcdngmdknpinoemndlidpcabkggco  :  Extension Manager
+chrome-extension://gjldcdngmdknpinoemndlidpcabkggco/ct.js 的存档
+V2EX 上有相同遭遇的帖子</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[程序员] 有交流 nft 的吗</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792791#reply3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>今天在 opensea 上传了朋友的作品, 出售手续费就要 28 刀.....
+work
+各位是以什么姿势玩的</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[游戏开发] 终于花时间把游戏框架的关卡编辑器弄出来了用 C# 写的，框架用的是 MonoGame</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792790#reply4">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>废话不多说直接上代码吧
+https://github.com/ChrisChou-freeman/LevelEditorByMonoGame
+S 键保存
+G 键显示或者隐藏网格</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[健康] 大家的年中体检结果都怎么样？身体还好吗？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792789#reply4">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>刚体检完，个人的的检测报告显示需要注意的有 2 项：
+尿酸偏高，接近 600 umol/L, 让调整饮食结构，少熬夜。
+慢性咽炎。建议多喝水，少吃辣，不抽烟喝酒。
+目前这两项似乎没给生活带来什么困扰，不过我这个尿酸还是挺吓人的，以后还是要注意下。不知道大家的结果怎么样呢？</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 有什么单词管理软件， 可以自定义语音源、音标、释义 等信息？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792788#reply4">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>市面上大多数背单词 app 、词典 app 我都用过，这些 app 都偶尔有几个单词， 注释、释义、发音 等不正确、甚至南辕北辙
+只要一个 app 里，出现两次错误，我就不咋信任它了， 感觉很头疼， 谁知道将来还会遇到多少错误的，
+之所以发现错误，是因为刚好这几个单词我认识， 还有很多我不认识的单词， 可能不知不觉中，把我给误导了
+所以才提这个问题
 谢谢</span>
                   </div>
                 </a>
@@ -264,589 +538,355 @@ PS：后端也有岗位在招，可以扫码后点击查看更多职位，搜索
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[分享创造] 写了个简单的 Java sql 执行监控</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792666#reply0">
+                <summary class="article-expander__title">[Apple] App Store 崩了？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792787#reply9">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>我自己的是崩了，截止发帖前发现同样有大规模用户在微博上报告 app store 崩溃了。但上了🪜却能用？</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Java] mybatis batch 插入</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792786#reply0">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
-                    <span>平时开发的时候有时候要看一下执行的 sql 是啥,为什么数据不对之类的，看程序的日志太乱了。正好最近在学习 java agent 相关的知识，就写了这个工具。
-使用
-直接 java -jar ***.jar 运行即可，注意要使用 jdk 里面的 java 命令 ，不是单独 jre 里，因为缺少 tools.jar 包
-目前个人测试还是没问题的，不过给一同事试了下，不知道为什么 DriverManager.getDrivers() 返回的驱动为空。
-预览图
+                    <span>使用 mybatis executortype.batch 每批插入 1000 条数据，遇到报错应该怎样日志打印出来报错的那条数据呢，LOG 开的是 INFO，目前想到的是 try catch 插入的方法打印报错的整个 1000 条数据。。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[App Store] app store 又挂了？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792785#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>几台设备都不开 app store 。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[分享创造] 分享一个 electron 的工具箱</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792784#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>在 mac 上装了个虚拟机，终于把 rubick 的 windows 版本跑起来了。快来体验尝试吧！一款基于 electron 的开源工具箱。https://github.com/clouDr-f2e/rubick</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[程序员] GitLab - 怎么禁止特定仓库的动态出现在 Activity？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792783#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>程序员 - @JasonLaw -</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[路由器] 华硕 koolshare 固件 酸酸乳</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792782#reply1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>我找不到最新版本的时候华硕官改的酸酸乳插件。。。各位大侠，哪里有下，请指导。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] xshell 对 ssh 客户端进行了优化吗，在 xshell 连接主机后不会自己断开，在 terminal 中 ssh 连主机过段时间显示进程退出，要重新连</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792781#reply3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>问与答 - @proxytoworld -</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Kubernetes] 大佬们，用 k8s+Jenkins 去构建 Android 的话 gradle 缓存怎么搞？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792778#reply8">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>现在是 gradle home 的缓存放在 nfs 服务器上，然后 pod 挂载 gradle 缓存的 pvc，但是多个 pod 并行执行的话会有文件锁直接导致报错。
+现在的想法是每次构建前把 nfs 的缓存目录 copy 到 pod 的 gradle home，但是 gradle home 太大了（ 15g 左右），本机 cp 都要几分钟，影响构建时间，而且如何更新 gradle home 的内容也很麻烦
+大佬们有没有好的解决方案？</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[macOS] Iterm2 在使用 zsh-autosuggestions 时闪烁</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792777#reply11">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>最近从 Terminal.app 转到了 Iterm2，在使用的时候发现输入命令的时候 zsh-autosuggestions 插件会出现自动推荐的命令闪烁的问题。也就是说后面可以自动补全的那段灰色的指令会随着输入闪烁，出现频率特别高。
+在使用 Terminal.app 的时候没有遇到过这种问题。个人感觉应该是渲染问题之类的，但实在是找不到具体原因，有人遇到过类似的问题吗？真不行只能换回 Terminal.app 了</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 想给老公入一个文石 Boox Nova3，有用过的 V 友反馈一下使用体验吗？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792776#reply4">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>我老公业余时间热爱读书
+所以 2013 年给他入了 Kindle Paperwhite
+前两年又给他升级成了 Kindle Oasis3
+但他最近喜欢上了微信读书
+觉得微信读书的书目更全 体验更好 也更方便
+无奈 Kindle Oasis3 对微信读书网页版的支持很差（听说 Oasis 之外的 kindle 都还不错，只有 oasis 用起微信读书来很别扭）
+所以我考虑今年七夕给他换一个能安装微信读书的墨水屏阅读器
+目前想要给他换一个功能和体验上和 Kindle Oasis 接近的
+性能稳定、品质有保障的阅读器
+且支持安装各类在线阅读软件
+目前初步选了文石 Boox Nova3
+一方面是因为它本身是微信读书阅读器的代工
+所以兼容上肯定有保障
+另一方面是它 7.3 的屏幕和机身重量也是刚刚好
+目前看网上的各类测评都还不错
+就是不知道长期使用感如何 以及是否存在什么硬伤
+所以来发帖问一下用过的 V 友们体验如何
+如果不够好 是否有更合适的产品推荐
+万分感谢🙏</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[电影] 电影《怒火重案》很不错</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792775#reply2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>是暑期档最好的一部电影了，
+推荐大家去看看，</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Flutter] [外包项目] Flutter 单个单个页面效果实现</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792773#reply1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>有收 Flutter 页面效果实现的没，单个单个页面算钱。。。
+挣点小钱</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Java] 不能通过 cglib 代理类直接设置被代理类的 public 字段的值</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792772#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>spring cglib 代理类，无法通过 obj$spring$proxy.name &#x3D; &#x27;xxx&#x27;的方式，为 obj 对象的 name 属性设置值。
+为什么这样呢，cglib 的原理是创建子类，那子类不也可以设置父类的 public 属性吗？求解答</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[宽带症候群] 有哪些合理合法的大流量应用？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792771#reply9">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>最近出现了很多民用宽带（乃至商宽）没有在合同中限制流量，却因为大流量上传、下载而被“关照”的消息。  
+在没有证据的情况下直接停宽带还是不太合理，所以在这里讨论一下，当今有哪些合理合法的大流量应用？（单月可达 TB 级）  
+抛砖引玉：  
+人工智能、机器学习的数据集。这些数据集达到 100GB 的很普遍，有的单个就突破了 1TB 。下载完成后，还有可能经过处理再上传到其他地方。  
+在线观看超高清视频。b 站 4K 视频的流量可以达到 4GB/h 。一户人家平均每天累计观看 8.5 小时的 4K 视频，月流量就能达到 1TB 。  
+实时监控的异地存储。在一地安装监控，将数据实时传输到云或者另一地保存以提升安全性。由于视频是 24h 连续采集的（如果没开省流等功能），即便码率不高（ 3Mbps 以上），累积下来的上传流量也可达到 1TB 。  
+自建软件源镜像。例如自建 cnpm 仓库，光是在 V2EX 就能搜到很多讨论。这些仓库的建立和同步是很耗费流量的（ 2015 年的 cnpm 就可达 300GB ），全量同步的话达到 TB 级别应该是容易的。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 你们的手机贴膜吗，贴的什么膜</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792770#reply22">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>现在用 k20pro，之前用的只有四边贴合中间留空的玻璃膜，观感大打折扣。
+今天贴了闪魔的全贴合玻璃膜，四周白边要用白边液，想问问白边液这东西对屏幕有什么影响吗？
+还有为什么市面上的玻璃膜都是清一色的平直玻璃，没有适配跟曲面屏弧度的玻璃膜</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Big Data] 硅谷最火的数据分析工具 dbt 究竟是什么？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792769#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>dbt 提供了很多软件开发的思想和工具到数据分析领域，有了 dbt 以后更多的分析师会习惯成为这些功能的使用者，而不是开发者。软件工程开发者已经习惯在需要写一个新的需求的时候，直接使用一个现成的工具，他们只需要简单的构建就可以使用，然后将他们的工作再贡献回社区。在 dbt 中分析师也可以做同样的事情。
+这两年国外的数据产品 dbt 非常的火，国内好像讨论很少，最近翻译了一篇 dbt 创始人介绍 dbt 的文章也写了一篇使用 dbt 的教程帮助大家了解 dbt：指路</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[宽带症候群] 单台国内机做跳板，有什么方法可以连接到多台国外的 vps 上？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792768#reply1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>国外的 vps 有位置有 Singapore，Toyko，Seoul，Ohio 。都是用的 v2ray，国内跳板机有没有什么办法根据 uid 不同或者监听的端口不同将流量转发到对应的国外 vps 上？
+我现在看 v2ray 文档只找到关于负载均衡的信息，并没有找到指定流量走哪个服务器信息。
+要求是指定 uid 无论访问哪里，都走同一条指定的线路，而不是根据目的地来区分。
+谢谢</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[游戏] 现在有哪些游戏像街机《三国志》或《恐龙快打》那样能摔敌人</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792767#reply1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>如标题中的游戏，在连按“攻击”键打敌人时，只要按住“上”键或“下”键就可以把敌人捉住并向前或后摔过去，顺便把远处的敌人也撞开。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[酷工作] [深圳] 万科物业科技团队招聘工程师、产品经理、交互设计师</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792766#reply0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>关于万科物业
+万科物业发展有限公司成立于 1990 年，是万科企业股份有限公司的全资下属机构。万科物业已进驻中国大陆 65 个大中城市，服务的住宅、写字楼、商业、政府公共物业等项目逾 600 个，合同面积逾 1 亿平方米，目前年营业额 40 多亿。
+关于我们
+你可以选择加入的，是万科物业的软装家居平台，我们严选 8000+ 优质商户，覆盖全国 46 个城市，服务全国 3000+ 小区 300w 户家庭。
+你还可以选择加入万科物业的房屋资产经营团队，交易业务科技化团队。业务面向超 2600 个住宅社区、400 万户家庭。
+我们触达的用户群体是中国最高净值的人群，连接他们生活的方方面面。我们要做的是通过互联网优化人力和资源效率，深入挖掘用户价值，让管理更加高效，让用户的生活更加便利和安心。
+我们要用更流畅、更个性的服务丰富其中的各种角色和行为。
+我们有扁平的管理方式，业务发展期，专业线和管理线都有足够空间。
+我们的工作（摸鱼）方式
+战略上，我们是一家互联网科技服务公司，战术上，我们依然具有根深蒂固的传统企业基因，但这并不影响我们在工作（摸鱼）方式上的自由选择，老板信奉干完自己该干的事即可的原则，原则上早 9:00 晚 5:30，但可以灵活调整适合自己的工作时间（不打卡），在这里，work-life balance 是每个人的常态，工资水平客观地说比互联网企业低，但在同行业内属于中上水平，换算成时薪不比 996 少多少。
+希望你能
+会百度，也能 Google
+能自如地与不同类型的人交流
+能适应传统行业的一些传统（如周一对着装的要求）
+产品能懂技术，技术能懂运营，运营能懂产品
+工作地点
+工作地点在福田区梅林路 63 号万科大厦，地铁上梅林站步行 5 分钟。公司有食堂，一般好吃但不贵。12:00 午饭，1 点 30 结束午休，5 点 30 下班。节假日正常休，每年 15 天年假，过年…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[C] 今天用学习用 C 实现队列结构时，编译执行阶段出现非常邪乎的问题</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792765#reply15">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>这是我的环境：
+Windows 10
+VS Code
+MinGW
+下面是我的实现代码：
+#include &quot;stdio.h&quot;
+#include &quot;stdlib.h&quot;
 
+#define OK 1
+#define ERROR 0
+#define CAPACITY 10
 
-随便修改 java class 的感觉还是蛮有意思的
-地址 https://gitee.com/thetbw/monitor-jdbc</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[程序员] 想买个摩托车,不只是通勤</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792665#reply12">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>好像喜欢机车很久了,但之前因为各种原因一直都是&quot;云骑&quot;,没有一辆真正属于自己的车.
-这个月月初 push 了一把自己,花了一星期考完了增驾,想着先加入正规军.又恰好朋友手头有个多的川崎 Ninjia400 的订单(车和关单都到了,现货),就让我有一些纠结.  
-劣:  
-首先家里肯定不是很支持的,主要是安全.但我自己不是飙车和跑山爱好者.  
-杭州的骑行环境虽然还行,但毕竟还没有感受过,有时候早上骑小电驴上班能遇到 2-3 波交警.  
-额外开销,有点乱花钱的意思,目前没有四轮,摇号应该也遥遥无期还.  
-骑车频率可能没我想的那么高,只是偶尔通勤(短途还是想着小电驴为主)或者和朋友出去遛遛车.   
-有想着节假日不走高速骑回家(120 公里左右),发现从城西去萧山的路线必跨主城区,会不会容易被小套餐?  
-优:  
-喜欢很久了,应该不是一时上头.
-问题
-想听听大家想法
-有在杭州这边骑车的大佬们,想听听目前的情况</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] Kafka 出现了严重的数据倾斜应该怎么办？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792664#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>其它 partition 的 lag 都是正常的，但是有一个 lag 堵了很多。每个 lag 的数据必须在 5 分钟内消费完成，否则就会失效。现在这个堵包的 partition 里面的数据基本上已经全部过期了。我应该怎么清空这个 partition 的 lag，但不影响其它的 partition ？
-因为如果我修改 group id 和和 offset commit 方式为 latest，那么其它 partition 的数据会丢一部分。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[分享发现] 看了#北京 2 例确诊在长沙活动轨迹#，这也太详细和精确了，有点恐怖</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792663#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>7 月 25 日：9 时 50 分，乘坐 C8875 次列车（ 06 车厢）从益阳火车站出发，于 11 时 07 分到达城铁长沙站，11 时 18 分到达长沙地铁锦泰广场站乘坐地铁 2 号线，11 时 38 分至沙湾公园站下车，11 时 47 分到达长沙保利 MALL，直接通过 1 号口扶梯直达五楼费大厨就餐，12 时 48 分离开费大厨至旁边的公共洗手间上厕所，后乘 13 号直梯经 1 号口离开保利 MALL，12 时 53 分到达长沙地铁 2 号线沙湾公园站乘坐地铁，13 时 07 分到达长沙火车南站，从长沙南站东广场 A 区进站候车，13 时 48 分至茶颜悦色排队购买奶茶，等待约 20-30 分钟。后直接检票进站，乘坐 G486 （ 05 车厢）于 14 时 27 分出发至北京。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[游戏] XSX 完虐 PS5，不服来辩</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792661#reply26">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>性能更好
-体积更小
-UWP 应用，白嫖各大视频网站会员</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[前端开发] 公司或项目组只有一个前端的话，这个前端有哪些好处和坏处</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792660#reply2">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>如题
-一个人负责一个项目的前端这种，体验如何</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[iPhone] 12 的 USB 分享网络 Windows 下的速度还是 100Mbps 吗？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792659#reply2">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>iPhone - @gainsurier - ![]( https://discussions.apple.com/content/attachment/6a83f915-7bbb-4e7c-8532-b8dbf3907246)</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[iOS] ios extension 获取到的 CMSampleBuffer，如何传给 main container?</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792658#reply2">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>最近在学 flutter native 混合开发，调用 replaykit2 获取到 cmsamplebuffer 数据，想保存为 mp4，以供 flutter 可以读取 。
-ios 开发是最近两天在学，还很混乱。ios extension 和主 container 是不同的沙盒环境吗？怎么样才可以把 extension 中保存的文件共享到 main container ?
-还是说，把 cmsamplebuffer 传给 ios appdelegate.swift,在 appdelegate 里处理？
-求大家给个思路，不知道是不是姿势不对，翻了一天 google 了。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[MySQL] mysql 四百万左右数据 count(*) 49 秒才响应，求助大佬怎么优化？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792656#reply29">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>EXPLAIN SELECT COUNT(*) AS tp_count FROM &#x60;fa_people_check&#x60; &#x60;people_check&#x60; LEFT JOIN &#x60;fa_people&#x60; &#x60;people&#x60; ON &#x60;people_check&#x60;.&#x60;people_id&#x60;&#x3D;&#x60;people&#x60;.&#x60;id&#x60; LIMIT 1;
+typedef int Status;
+typedef int ElementType;
 
+Status initQueue();
+Status isEmpty();
+Status isFull();
+Status enQueue();
+Status deQueue();
 
-大佬们，像这种怎么优化字段提升查询速度。 执行一次 49s 就很离谱</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[宽带症候群] 奇怪，最近上海联通也开始卡出口了？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792655#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>家里两条线
-一条电信 1000M 精品网
-一条联通原先 200M
-上周刚去升级了 1000M 的联通
+typedef struct
+{
+  ElementType *array;
+  int front, rear;
+  int capacity;
+  int size;
+} *Queue;
 
-上传 30Mbps （给到 50 左右）
-最近 3 天内发现原本 ntt 去日本的 vps，ping 一直稳定在 50 左右
-现在会发生 10 个 icmp 在 50，接下来瞬间去 150ms
-很不稳，另外从前不丢包的现在开始丢包了
+int main(void)
+{
+  Queue q &#x3D; NULL;
+  initQueue(&amp;q);
+  enQueue(q, 1);
+  enQueue(q, 2);
+  enQueue(q, 3);
+  int foo;
+  deQueue(q, &amp;foo);
+  deQueue(q, &amp;foo);
+  deQueue(q, &amp;foo);
+  printf(&quot;%d&quot;, foo);
+  return 0;
+}
 
-最近也测试了几大厂商（ linode 、v 、do ）的 vps，都能明显感觉到 GFW 的作用，会瞬间断流有时候还会 reset （和电信一样）
-已经分辨不出是 GFW 的问题还是联通出口有问题，还是联通 QOS 了</span>
+Status initQueue(Queue *q)
+{
+  (*q) &#x3D; (Queue)malloc(sizeof(Queue));
+  (*q)-&gt;capacity &#x3D; CAPACITY;
+  printf(&quot;capacity &#x3D; %d\n&quot;, (*q)-&gt;capacity);
+  (*q)-&gt;array &#x3D; (ElementType *)malloc((*q)-&gt;capacity * sizeof(ElementType));
+  …</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 提问一个正则匹配的问题</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792654#reply0">
+                <summary class="article-expander__title">[Apple] 有人去 Apple 官方店修过妙控键盘吗</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792764#reply3">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
-                    <span>如果我只想要正则匹配结果中的部分内容，有什么办法吗？比如我现在需要在一段文字中找出电话号码
-文字 demo：
-你好啊 010-6565656 你好！
-我的正则
-/\d+-\d+/
-这样拿到的匹配结果是 010-6565656,但是如果我只想要匹配结果中的电话号码，而不要区号的话怎么写呢（匹配语句里面还是得包含区号，只是输出结果不要区号）？我依稀记得有个什么写法可以只拿到想要的部分。但是太久没写正则了，不记得叫啥了，搜索引擎搜了半天也不知道关键字是啥</span>
+                    <span>这东西能修吗，保修政策是怎么样的？配件类的东西本身序列号查不到任何信息。
+我的键盘松垮的太离谱，和同学的妙控键盘差很远，想去换一个的或者看看怎么说，同样的产品品控能差这么多吗
+（ iMac 的那种白妙控，不是 iPad Pro 的妙控</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[美酒与美食] 炒菜野路子——咖喱</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792653#reply5">
+                <summary class="article-expander__title">[奇思妙想] 一个想法，可触摸实体按键键盘</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792763#reply1">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
-                    <span>最近在油管新学了个炒菜的野路子：清汤水煮+咖喱
-放水，放想吃的任何东西，之后加两块咖喱，这样随随便便煮出来的菜都超级好吃！
-优点：
-少油少盐，比火锅底料 /豆瓣酱健康
-随便煮出来的菜都很香很香！
-缺点：
-格调不高，菜色不好看</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[宽带症候群] 广东电信好像开始封号大流量上传的了</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792652#reply6">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>贴吧不少用 pcdn 和 pt 的好像被警告和封宽带了</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[iPhone] 下面这 3 个需求有办法满足吗？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792651#reply1">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>目前用了苹果快 2 年，买了 3 个 iPhone + 2 个 MBP + iMac + iPad
-对于我个人，
-体验上有几个不舒服的地方：
-1. 不得不用 Chrome，Safari 的插件扩展自由度很低
-2. iPhone 也比较封闭，自由度不够，比如微信里面的浮窗不让开新窗口，非 Safari 桌面不让固定网页快捷方式
-3. 无法一套账户解决所有问题，很多网站注册的快捷方式只支持 Facebook Google，加上玩游戏要 Windows，我要多管理 Google + Microsoft 两个邮箱账号（这有点强迫症了
-舒服的地方有：
-1. 视觉效果很好，不伤眼睛
-2. 接力，多设备体验统一</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[程序员] 共享一个终端上的字典</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792650#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>终端开发必备工具，支持 Linux/MacOS(M1/X86)。
-Go：
-https://github.com/vonnyfly/dict
-学了点 rust，也发一下：
-Rust：
-https://github.com/vonnyfly/dict-rs</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 百度网盘改完密码后之前用记住密码登录过的设备不需要重新输入新密码？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792647#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>百度网盘账号给公司两个同事临时用了一下，之后我昨天改了密码，但是今天我在使用百度网盘客户端的时候发现不需要重新输入密码就可以直接登录，试了一下手机上，也是这样
-在网页端的设备管理看到是记住了这些设备，可以让它退出登录，但是我在登录的时候也没有让选择是常用设备登录或者是临时设备登录啊，百度网盘这个设计是不是有些不合理了</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[程序员] 撸了个在线工具箱，各位有什么建议吗？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792646#reply10">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>日常有些需求会用到各种在线工具，但是有些在线工具实在比较古老，所以自己撸了几个，各位有什么比较常用的需求吗？征集一下。
-工具箱地址： https://tools.yuanfen.net/
-目前上线的工具：
-JSON 解析&amp;格式化
-随机密码生成
-Base64 编码&amp;解码</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[iMac] 今年会有 M 芯片的 27 寸 iMac 吗</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792645#reply1">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>教育优惠 24 寸，还是等 27 寸的？平常做设计没有移动办公的需求，不考虑 mbp 了（手上已有一台 15 款 mbp ）</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[程序员] 求个 MAT 1.5 mac 版</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792644#reply1">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>如题，MAT 下载页面点进去都是 404，各种 backup 也都是 404 。。。
-https://www.eclipse.org/downloads/download.php?file&#x3D;/mat/1.5/rcp/MemoryAnalyzer-1.5.0.20150527-macosx.cocoa.x86_64.zip
-有大佬有的话求一份，，求求了</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 求助，我的域名访问不了了。。。。。</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792642#reply4">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>我有一个域名，在国内访问一点问题没有，在美国就无法访问了，请问这类问题应该如何解决呢？</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 我想翻译 springcloud 的中文文档，怎么同步更新比较好？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792640#reply3">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>我想把 spring 系列的文档都给翻译一遍，用 deepl （闲没事儿做）。
-官方文档更新的时候，怎么去同步更新比较有效率。我现在的想法是把正在翻译的 HTML 页面下载到本地（大都是一个文档一个页面）。官方更新后，再去把官方最新的 HTML 下载到本地。然后用文本差异对比工具，比较两个 HTML 的不同处，再手动修改一下差异处。然后呢，把最新版本的 HTML 存起来。等待下一次更新。重复操作。
-大家有啥更好的办法吗？或者说有什么比较好的文本差异对比工具推荐吗？</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[程序员] CloudQuery 首次开放 API， v1.4.1 将开放「部门导入」和「用户导入」</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792639#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>「 API 具有功能丰富、发展迅速且公共可用的特点，极大地推动了以 API 为中心的业务增长。原因有很多，比如 API 随处可用的特性、高效的开发和部署平台，以及摆脱资金密集型需求的金融模型。」
-——《 Evolution of the API economy 》
-随着企业对客户体验关注度的增加，越来越多企业期望以低成本、无摩擦的方式融入成熟的生态系统，由此引出「 OpenAPI 」的概念。API 以其高度的灵活性、友好性来面对众多前来调用的开发者，成功在各分布式应用之间进行接口调用与数据互通，构造一座无形的数据桥梁。
-OpenAPI 描述语言也被称为接口描述语言（ IDL ）。描述语言通常以结构化的方式形成文档，因为同一工具生成的所有文档都遵循相同的格式约定，所以比自由形式的文档更具有可读性。此外，描述语言通常足够精确，可以自动生成各种软件类库，方便以各种语言来接入、调用 API 。
-CloudQuery 开放 API 的意义：从社区中来，到社区中去
-CloudQuery 是一款出生于社区，生长于社区的产品，各位社区用户见证着我们的成长，但在我们自身功能还未完善的时候， 之前很多用户提到的内部 OA 、组织架构对接功能就显得格外力不从心。自 CloudQuery 诞生的那一天起，我们就赋予了它基本的价值观：「开放、包容、互助、共赢」。所以我们产品逐渐趋于稳定的今天，也终于可以实现当初「开放」的承诺。
-在 1.4.1 版本中我们将开放首个用户模块的 API，后续也会逐步开放审计、权限模块 API 。我们来自于社区，最终也会回归社区，希望最后是我们和社区内的用户一起来把 CloudQuery 做成一款广受欢迎、贴合数据操作人员使用场景的数据库工具。
-技术实现
-前文已经提到各种新兴行业趋势和技术已经导致 API 激增，当前应用程序组件不再是单个进程中在一台机器上彼此通信的内部对…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[iMac] 想用绿色的秒控鼠标交换一个绿色的秒控板</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792637#reply5">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>用了两周的秒控鼠标还是不太习惯，有 v 友想要交换的吗？可以按成色补差价～</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[北京] 北京 北苑路北暖山生活 方圆 3 公里内 范围内租房求助</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792636#reply1">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>去年清友园租了一个自如主卧 3580 .    今年一看  都要 4200 了。。  还不加服务费， 这价格涨的太快了，  下个月 15 号房子到期了 ，求问这附近有合适的房子推荐吗，  一居室 主卧 大开间  都可以
-wx:
-ODM2NDgwMDg&#x3D;</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[Java] Arthas 和 GC 的那点事：动态日志，强制 GC</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792635#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Arthas是 Alibaba 开源的 Java 诊断工具，深受开发者喜爱。
-Github： https://github.com/alibaba/arthas
-文档：https://arthas.aliyun.com/doc/
-一、线上应用怎么动态打印 GC 日志？
-小白正在上班摸鱼，突然运维告警，线上应用突发 GC 问题，GC 时间变长，响应变慢。
-火速登陆机器，想检查 GC 日志，忽然发现，线上应用 JVM 参数没有打印 GC 信息😂。
-如果增加 JVM 参数，那么要重启应用，现场就没有了，怎么办？
-Arthas 可以解决这个问题！
-二、使用 dashboard 命令查看 GC 信息
-在 dashboard 命令里可以直接看到 GC 的数据，次数和时间：
+                    <span>我平时在打字时，对于字母都可以轻松的实现盲打了，但是数字键却总是按错。
+打拼音时如果第一个首选词就是我想要的，那我按空格就好了，但如果候选词在第三个、第五个的时候我就很容易按错。因为数字键使用的频率远远低于字母键，而且数字键(拼音的话常用的是 1-6)都是左手去按，手离开了字母区域后重新在一排数字键上定位时是迷茫的，注意力不得不从屏幕转移到键盘上。
+同样的问题也出现在输入符号上面，尤其是各个键盘的布局和按键大小(尤其是笔记本)有一些略微的差别，按符号时也从是要打断打字的过程，把注意力转移到键盘上。
+所以我希望笔记本上的键盘可以可以感知用户的触摸，当我的手放在按键上时，可以在输入法(输入区域附近或直接在屏幕的某个固定位置)上显示我将要按下哪个按键。如果有多个手指同时放在上面就都显示出来，根据手指接触的面积显示不同深浅的强调。
 
-三、使用 vmoption 命令动态打开 GC 日志
-https://arthas.aliyun.com/doc/vmoption
-$ vmoption PrintGC true
-Successfully updated the vm option.
- NAME     BEFORE-VALUE  AFTER-VALUE
-------------------------------------
- PrintGC  false         true
-
-$ vmoption PrintGCDetails true
-Successfully updated the vm option.
- NAME            BEFORE-VALUE  AFTER-VALUE
--------------------------------------------
- PrintGCDetails  false         true
-
-打开上面两个选项之后，当应用发生 GC 时，就会在标准输出里打印 GC 日志。
-四、使…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 8000 一个月在上海能活下去吗？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792633#reply35">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>这两天跟一个朋友聊天，然后说起来工资，我随口说了句我哥们侄女，一个月 8000，然后朋友说 8000 一个月在上海是不是太低了，我就在想：难道现在真的是随随便便就月薪过万了吗？是抖音、快手刷多了，还是真的以为平均工资就是能拿到的工资？</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[美酒与美食] 分享一种茄子的美味做法：煎茄子，喜欢吃茄子的朋友不要错过</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792632#reply12">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>估计有些北方省份以面食为主食的朋友应该吃过这种做法，就是把茄子切成薄片，裹上面糊，用油煎一下即可。嗯，就是将面糊煎至金黄，馋哭隔壁小孩的那种，当然做出来后它的味道也真的能把小孩馋哭，外焦里嫩，面皮酥脆，茄子鲜嫩，口感非常独特。之前让我的同事们试吃过，他们也是赞不绝口。
-食材：
-茄子 面粉 水 盐 食用油
-茄子要选用稍微粗一些，粗细比较均匀的，青茄子、紫茄子皆可，那种细的像黄瓜粗细的不行，最好的是那种粗大的青茄子，比我图上的茄子还要粗一倍，能做出来一个很大的饼，不过也需要一个很大的锅，哈哈
-面粉选用低筋小麦粉，不要买错成高筋面粉，高筋面粉做出来会有粘牙的口感，我为啥知道的？因为我买错过一次……
-食用油选用大豆油、调和油、猪油皆可，不要用菜籽油，做出来颜色很深，口感也不好
-做法：
-茄子削皮，切成 5-8mm 的薄片
-和面：取半碗水加入盐，最好是温水，加快盐的溶解速度，盐一定要多加一点，不然做出来会盐味会很淡，大概是平时炒菜的 2 倍，再加入面粉，搅拌成面糊。之后再用一个空碗，导入适量面粉，将茄子片先沾上一层面粉，再放入面糊中，这样面糊能够很均匀的裹在茄子上。
-起锅烧油，待油烧热冒烟时，将茄子放入其中，45 秒左右翻一次面，翻动几次之后面糊就会慢慢的变成金黄，这里火候很关键，火候稍大或者长时间不翻动就会烧糊，建议用小火慢煎。 煎好后出锅，待稍微冷却后食用，最佳食用时间为出锅后 1-5 分钟，再久的话酥脆的口感就没了。
-又快周末了，有条件做饭的朋友可以尝试一下。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 看奥运会突然有个疑问</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792631#reply7">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>奥运会项目那么多，比赛项目都是顺序比的吗？比如说游泳比赛的时候不进行其他比赛，这样才能保证各个赛事都有直播镜头，事实是这样的吗？</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 求教，联通宽带没有公网 IP 的问题</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792628#reply14">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>本人安装的小区联通宽带，打客服要不到公网 ip，问下大家，现在小区每个单元楼是不是都有个设备，相当于路由器，下发的都是局域网 ip，根本就拿不到公网地址，我打电话硬要是强人所难了？</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[Java] 最近用 Java14 的 Records 重构了一下几个项目</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792627#reply3">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>用下来相关生态对 Records 支持得很好了，比如 Jackson 、Spring 全家桶等常用的库、框架，都给出了对应的支持，用下来体验很好
-现阶段建议可以入手了</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[程序员] 从哪一刻开始，你觉得大厂的程序员真的很强/很弱</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792626#reply22">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>楼主没有进大厂，我从大厂的技术开源看，一开始真的很 low，比如 nacos 1.0 的版本，没有用到分布式一致性算法，而是操作本地文件。。2.0 后我发现好了很多。
-每次看美团的技术文章，我觉得哇，架构的落地真的好厉害，从开发，到运维，到测试方方面面都是我理想中的样子，好想了解一下内部具体实现的细节。可惜没有开源。
-然后去 github 和 gitee 上找开源，我发现一个天一个地，gitee 上的开源的代码很好理解，但是缺少了高可用和性能等问题，GitHub 成熟项目非常不错，但是一时半会儿看不懂。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[程序员] 想了解下国内有哪些大厂允许员工利用工作 PC 在外网博客上发表技术文章的？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792625#reply8">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>如题，工作中遇到好多问题都通过搜索引擎解决了，所以想将自己踩的坑也发出来，但是当前所在的 H*对信息安全管控极其严格，不允许外发博客。像这种一味地汲取外部知识，又不允许将自己的知识反馈回去，让我感觉非常封闭。所以想了解一下其他大厂也是这样子的吗？</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 有懂整机的大佬吗，这个配置可以入吗</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792624#reply10">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>AMD R5 5600X 散片
-微星 B550M MORTAR 迫击炮 WIFI
-索泰 3080 AMP Holo 旗舰卡
-威刚 D50 3600 16G(8*2) ARGB
-威刚 XPG S50 Lite 1T PCIE4.0 固态
-骨伽 GEX 750W
-骨伽开拓者 S 白色机型
-影驰魔影 240 黑色 ARGB 水冷
-共计 11999</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 彦祖，可有找猫咪🐱的妙招</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792623#reply7">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>房屋在一楼，猫咪经常出逃和野猫约会，及其在外闲逛。被撞见多次也不知道害羞，也拉不回家，吃饭倒是非常的准时。
-目前准备了几个方法，希望在必要的时候把猫咪提回家。比如说下雨了，或者疫情。因为开阳台门或者开门的时候这个猫跑的老快了，拦都拦不住。想了两个办法。
-方法一，给他穿个衣服，写上电话，在写上一行字，出逃猫咪回收。希望好心人给我打电话。
-方法二，airtag 或者 GPS 但是定位效率堪忧 远了根本没辙 也会出现经常充电的情况
-彦祖还有其他办法能方便大致快速定位到猫咪吗。让他浪子回头。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[Android] 真诚求问，鸿蒙 2 对应哪个安卓版本</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792622#reply10">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>问用户系统版本是什么，一大堆的鸿蒙 2.0，所以鸿蒙 2.0 对应哪个安卓版本，会存在多安卓版本的情况吗？客户端怎么查问题？</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[程序员] JetBrains 在上海成立中国公司 捷并思</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792621#reply62">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>拉勾上看了一下，还没有开始招聘</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 大家如何解决「仅手机端可用」的问题？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792620#reply14">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>不少网站或服务仅提供手机端 APP，无法在电脑上使用，大家如何解决这个问题？</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[Docker] 大家用 docker 部署时怎么处理旧的 image 啊？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792618#reply4">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>公司没有专门的运维人员，选择了用 docker 作为日常的部署，运行一段时间后就会发现服务器上和 registry 中留下了一堆没用的 image，大家一般是怎么维护这些 image 的，定期清理吗？</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[北京] 求问，家里猫粮写许多，求问北京捐助猫粮渠道</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792617#reply10">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>如题，家里接回来一直猫猫，因为嘴巴挑食点，买了五种猫粮，每个六七斤。
-然后最近发现吃其中一款，其他的猫粮想着能不能捐出来，小区底下我观察过，流浪猫很少，也没办法自己内部消化，所以问问 V 友，或者北京 V 友有养猫的，我可以把猫粮分出来。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[程序员] idea 里这个类的颜色有点淡, 为什么? 我猜跟 git 相关</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792616#reply14">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>有明白人吗?
-https://i.v2ex.co/94tW4oX9l.png</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[成都] 从来都不觉得没有房子怎么样，反而让我不舒服的是家人的催促</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792614#reply24">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>去 TM 的人生</span>
+同样的也可以用来增强 fn 键的体验，按下 fn 键时在屏幕上显示你的手指放在哪些 fn 键上，调整屏幕亮度或音量也不再需要把注意力转移到键盘上。
+---
+可能有人会想到苹果的 TouchBar，这个东西网上褒贬不一。在我看来这个动态变化操作区域功能，实体 fn 键的缺失，注意力的反复转移，TouchBar 是一个失败的产物，甚至已经有消息说苹果要在下一代 MacBook 上砍掉 TouchBar 了。
+---
+因为用户在意识到手指位置不对之后会左右移动手指，让手指在键盘上滑动，而苹果之前的爹式键盘非常平，可以说非常适合做这个功能，不过现在爹式键盘已经暴毙了。</span>
                   </div>
                 </a>
               </details>
@@ -1316,7 +1356,7 @@ Windows Registry Editor Version 5.00
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-07-30T05:31:28.251Z">2021-07-30T05:31:28.251Z</time>
+    <time id="build-timestamp" datetime="2021-07-30T17:39:12.965Z">2021-07-30T17:39:12.965Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>
