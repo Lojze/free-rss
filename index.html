@@ -16,6 +16,239 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-07-31">2021-07-31</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://www.v2ex.com/">V2EX</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[SSD] 1k 价位 ssd 求推荐</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792851#reply8">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>本人主力是一台飞行堡垒 5
+由于 ssd 只有 256g 实在紧缺，故想换一个 ssd
+目前想买 1t 的 nvme 替换掉原来的，然后找个硬盘盒把之前的 256 做成移动硬盘
+可以接受的价位在 1k 左右（别太高了）
+原本打算看看西数，但是感觉风评不好</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Windows] 在不登录服务器的情况下如何获取到远程服务器的时间（比如百度服务器），服务器未开启 ntp，也不在服务器写个程序，直接远程调用的</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792850#reply1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>只是想当然问一下，有的话最好，没有就算了</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[全球工单系统] Edge 控制台截图时会这样。。</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792844#reply3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>什么时候修呢。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 租的房子有个这样的窗台，怎么折腾一下可以看起来好点呢？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792843#reply13">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>问与答 - @t298 - ![]( https://raw.githubusercontent.com/t298/Figure-bed/master/img/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[路由器] 家用 pfsense 防火墙硬件推荐？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792842#reply2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>最近想重新规划一下家里的网络，打算用 pfsense 来统一管理。正在寻找一台防火墙 /网关，但是眼花缭乱不知道应该怎么选。主要有这么几个需求
+尺寸最大不能超过 2U
+至少有 16 个 RJ45 接口
+（可选）有两个 SFP+接口，想用 10Gb 网络来做一些瘦客户端的工作
+（可选）支持 PoE
+噪音不考虑
+功率尽量小一点
+请问大家有没有硬件推荐的？ eBay 上可以买到的都可以。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[程序员] 从程序员的角度看灰度发布，是不是真的很难实现和落地？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792838#reply7">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>场景: 我理解灰度发布都是按百分比不断的升级！当升级到百分之 90 后，客服收到大量用户说新功能存在问题，第一时间应该是回滚！
+Q1：那么就存在一个数据回滚问题，从数据库，再到 redis 缓存，再到消息中间件 Mq，再扯到大数据 Kafka，这一些列的回滚后的脏数据怎么解决？
+想到解决思路：所有的中间件和存储都存 2 遍，首先复制所有的表和 redis 缓存和 Mq 队列，存一个 next_version 后缀 存一个现在的表数据，当发布到 100%后把原来的数据所有都改成 pre_version 后缀，所有的中间和数据 next_version 后缀删除，这样就能顺利的解决回滚问题。
+这样就衍生出一个新问题：业务同学一定不能在业务层写这样兼容的代码，那只能是技术支持团队解决，那么怎么保证业务同学写 2 遍数据，能顺利写入？
+比如: 用户表新增了一个字段，新增了一个用户联系人表和联系人和用户的关联表
+
+Q1-1 那么在新功能上线时，业务代码如何做到一次数据插入能兼容上一次版本和新版本？
+我想到解决方法，自研中间件拦截层，并在业务代码少许的版本代码，比如在新增值字段要表注解 @newField，新增的表要注解 @newTable
+从上面来看灰度发布自研的成本相对来说非常高。
+望大佬能说一下自己的解决方法把！谢谢了</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Apple] 百度贴吧是怎么做到让 iOS 卡死的</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792836#reply16">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>iOS 版的贴吧经常可以把系统卡死，只要列表滑的多一点，就会出现界面卡死 /后台界面无法上滑杀死应用 /系统卡死无响应。
+百度是怎么做出这么垃圾的东西的……</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Kubernetes] 阿里云上 K8S 读写 NFS 好慢</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792835#reply5">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>卡在把构建的 WEB-INF 目录复制到 NFS 上面，pod 读取也很慢，tomcat 启动要 10 多分钟
+测试环境速度没问题
+不晓得是不是测试环境用的群晖 NAS 设置 NFS 在优化上比在云服务器命令安装 NFS Server 要好？
+
+PS:
+我自己手动测试，在某台服务器上面挂载 NFS，把目录复制到 NFS，速度也还正常，但是就是不晓得为啥在 K8S 里面就有问题</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[职场话题] 该怎么选择</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792834#reply2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>本人大专  现在刚找了一份工作但是单休不是外包，珠海远光，但是签的新智源的合同。 现在又有一个美的的外包的薪资差不多但是没年终  说加班有加班费 该选哪个</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[跑步] v 友们跑步都穿的哪款跑鞋呢？可以推荐一款质量好，轻，能穿得久一点的么？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792833#reply7">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>预算在 800~2000 块，每周大概跑 4，5 天，每次 3~5 公里。（有时 3 公里，一般 5 公里，看当天的情况，心情好可能更多一点）
+如果能穿 2 年以上的那更好了😄，喜欢长久一点的东西~</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[美酒与美食] 喜欢精酿啤酒的组队了</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792832#reply3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>绿色：sdjingying001</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[macOS] 怎么才能在 Mac 上看电视？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792831#reply10">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>由于家里只有电脑，没有电视，最近想看看奥运会，
+用什么软件？音视频源在哪里可以找到？
+清晰度非常低网页版的就不要推荐了。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Java] Java 都这么多年过去了，生产级别数据库操作库除了 JPA 和 Mybatis 还有什么？ JPA 和 mybatis-plus 比优势在什么地方？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792830#reply32">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Java - @pigbug -</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Apple] 求推荐一款舒适度 ≈ Airpods 的无线耳机</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792828#reply13">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>之前为了降噪把 AirPods 换成了 AirPods Pro，但舒适度降了一个档次，想找一款非耳塞的平时用，大伙有推荐么</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[程序员] 面试经典题目--买卖股票的最佳时机 IV</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792827#reply3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>不得不说，刷题已经和爬山、溜娃一样，成为湾区三俗，基本几个湾区的工程师碰在一起，讨论的话题总跳不出这个圈。爬山，哦不，刷题作为一个贯穿码农整个职业生涯的必须品（就算是我目前呆的微软谷歌这种养老公司也总得跳一跳，毕竟雪花的大包裹是真香啊），几年来基本每天不间断的刷，算是对这一块略有心得。帖子的前半部分想分享一些我作为面试官的常出的一些经典题目，以及题目思路的解析以及一些同类题的归纳，帖子的后半部分我会参考坛友们的留言和拍砖，来决定后面的走向
+帖子会长期保持更新，只要是带娃的间隙就会偷偷上来更一下，尽量保持每周两更。
+本期我们分享 面试经典题目--买卖股票的最佳时机 IV
+欢迎 LinkedIn 勾搭（备注 V2 ）： https://www.linkedin.com/in/alice-chen-343975200/</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Google] MIUI 换成繁体中文，默认搜索引擎就没有谷歌了</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792825#reply14">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>其他语言还没试过。简体中文下，简洁版主页可以把搜索框设置成谷歌。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 关于工作纠结如何选择，想请大家帮忙看看有什么好的方法。</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792824#reply5">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>XDM 求帮助
+1 、目前在职的公司，待得时间长，但是待遇的一般，相对来说更自由点，但是技术突破很难，很多都是自学，除了普通工资，基本年终稳定在 3 倍，有创业公司的一点点合伙人激励。
+2 、最近猎头推了另一个，待遇涨幅 36%+，是一个能去学到技术的同等规模的公司，2 次技术面+HR 面都过了，13 薪+年终激励(不确定)。
+想知道大家怎么看这个事情，自己目前也焦虑，一方面是怕待久了，自己就油了，还有就是技术上突破有些难。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-07-30">2021-07-30</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -81,10 +314,63 @@ add_header Strict-Transport-Security &quot;max-age&#x3D;31536000&quot;;
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[Windows] Windows 11 已经可以在 Beta 通道更新</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792818#reply0">
+                <summary class="article-expander__title">[分享创造] Tailwindcsss Editor</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792823#reply13">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(1 min)</span>
+                    <span>https://derealize.com
+所见即所得 UI 编辑器，基于 tailwindcsss 实现。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[硬件] 固态硬盘中西数 sn550 真的比铠侠 rc10 更好吗？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792821#reply2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>看了下某东的评论中的 as ssd 的晒图，rc10 1t 跑分都是 5000 多，sn550 1t 跑分只有 3000 多，但是网上有些人说 sn550 更好。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[程序员] 当你的队友出现这样的代码，而且拒不改正，你可以离职了，说明这公司有点不行了</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792820#reply8">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>try {
+  // code
+}
+catch (err) {
+  throw new Error(err)
+}
+&#x60;&#x60;</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[问与答] 请问本地离线视频播放器如何实现自动识别跳过情色相关的画面？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792819#reply19">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>粗糙的实现思路：
+基于开源的播放器编写插件，通过它提供的接口读取当前播放画面一段时间内的图片 stream，使用相关的开源图片识别模型判定，疑似度达到某个设定的百分比之后就自动跳过。
+由于没有视频播放处理的编码经验，不知道这个思路可不可行，烦请各位技术大佬指点迷津一下。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Windows] Windows 11 已经可以在 Beta 通道更新</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792818#reply21">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
                     <span>据微软 7 月 29 日讯（也就是北京时间的 7 月 30 日了），“我们很得瑟地宣布，我们已经把 Windows 11 全民测试版弄进 beta 通道了！”  
 We are very excited to announce we are releasing Windows 11 Insider Preview Build 22000.100 to Windows Insiders in the Beta Channel! 
 刚刚把工作电脑加进了 beta 通道，已经下载了 51%了，看看会有什么坑。
@@ -97,7 +383,7 @@ We are very excited to announce we are releasing Windows 11 Insider Preview Buil
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">[奇思妙想] 是不是能在 Web 服务上引入类似 SSH 的公钥认证的身份验证方式</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792817#reply3">
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792817#reply11">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
                     <span>当然不是说传统的用户名密码就要淘汰
@@ -111,23 +397,10 @@ We are very excited to announce we are releasing Windows 11 Insider Preview Buil
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[生活] 微博上这些帖子都是真的吗？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792816#reply1">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>晚上刷微博，在热帖下面看见有人发维权的评论，点头像进去看了几个帖子好像也挺真实的。
-https://weibo.com/u/3229420474
-所以我也转发了，不过我还是想和大家讨论讨论这种事。当然啦，无脑的输出情绪对我们的生活没有什么好的改变啦，所以希望看到一些有意义和建设性的讨论~~</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
                 <summary class="article-expander__title">[Chrome] WebOTP API</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792815#reply1">
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792815#reply7">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
+                    <span class="article-reading-time">(1 min)</span>
                     <span>Chrome 93 的新功能：
 https://developer.chrome.com/blog/cross-device-webotp/</span>
                   </div>
@@ -137,7 +410,7 @@ https://developer.chrome.com/blog/cross-device-webotp/</span>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">[信息安全] M1 的 Macbook Pro 可以拿来做渗透吗？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792813#reply5">
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792813#reply10">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(1 min)</span>
                     <span>好不容易等到可以装 ARM 的 Windows 了，于是想买个 M1 的 Macbook Pro，主要工作是拿来做渗透测试，然后问题来了，不知道 ARM 的 Windows 能不能跑经常渗透测试用的 EXE 的工具？
@@ -149,7 +422,7 @@ https://developer.chrome.com/blog/cross-device-webotp/</span>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">[分享发现] 卡丁车真的很解压，没有尝试过建议尝试一下。</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792811#reply4">
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792811#reply5">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
                     <span>今天团建第一次开。不出意料的连续车祸，但依然很爽，尤其是那种加速急转弯。时间到了依依不舍。</span>
@@ -160,9 +433,9 @@ https://developer.chrome.com/blog/cross-device-webotp/</span>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">[NAS] 请教一个群晖局域网速度问题</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792810#reply3">
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792810#reply8">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
+                    <span class="article-reading-time">(1 min)</span>
                     <span>自己搭的黑群
 从群晖文件的直接通过浏览器下载文件
 单个下载任务速度始终在 1MB 左右
@@ -180,7 +453,7 @@ https://developer.chrome.com/blog/cross-device-webotp/</span>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">[京东] 京东会员免费领取万达电影至尊月卡</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792809#reply0">
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792809#reply1">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
                     <span>入口 京东 app 首页-plus 会员-生活特权-万达电影 进入即可领取 共一张会员卡加 4 张优惠券
@@ -191,8 +464,8 @@ https://developer.chrome.com/blog/cross-device-webotp/</span>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 越来越刻薄，脾气越来越差，怎么办？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792808#reply13">
+                <summary class="article-expander__title">[生活] 越来越刻薄，脾气越来越差，怎么办？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792808#reply17">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
                     <span>1.住在城中村，对面的开着门大声说话、看短视频，说了也没用，让人心烦。
@@ -208,9 +481,9 @@ https://developer.chrome.com/blog/cross-device-webotp/</span>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">[问与答] buildroot 如何重新编译 kernel</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792807#reply0">
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792807#reply2">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
+                    <span class="article-reading-time">(1 min)</span>
                     <span>使用 buildroot 编译系统镜像，我修改了 output/build/linux-4.18.12/ 中的 dts 文件，请问怎么重新编译 kernel?
 
 我试了几种办法都不行，如下：
@@ -226,7 +499,7 @@ make linux-rebuild
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">[宽带症候群] 电信网络是否降速</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792806#reply1">
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792806#reply3">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
                     <span>这段时间发现电信网络速度很慢，4g 才 2m   不知道宽带怎么样，大家也这样吗？还是我基站问题</span>
@@ -256,7 +529,7 @@ make linux-rebuild
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">[macOS] MacBook 迁移的时候空间不足</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792804#reply0">
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792804#reply2">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
                     <span>500 G 空间才用一半左右， 用的雷电+迁移助力进行迁移。
@@ -272,7 +545,7 @@ make linux-rebuild
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">[北京] 北苑华贸城德扑周末咸鱼局继续凑人</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792802#reply0">
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792802#reply3">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
                     <span>暂定周日，目前 4-5 人，希望能凑到 6 人，1bb&#x3D;1 毛，有意 vx：cmFtcGFnaW5nOQ&#x3D;&#x3D;
@@ -311,7 +584,7 @@ make linux-rebuild
                 <summary class="article-expander__title">[问与答] Chevereto 图床生成的图片 url 自动带上了 :443 端口这样的字符串，有人知道怎么干掉它吗</summary>
                 <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792799#reply2">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
+                    <span class="article-reading-time">(1 min)</span>
                     <span>如上图所示，不希望在 url 里显示 :443</span>
                   </div>
                 </a>
@@ -319,45 +592,8 @@ make linux-rebuild
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 在去植发之前，想知道大家去的哪里的哪个品牌的植发机构，效果怎么样</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792798#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>本人遗传父亲的两额角不长头发，而且有点严重，去理发店理发师每次都有点为难。只能剪那种塌下来盖住额角的发型，显得人不精神。发个帖子看看大家的经历，好选择一家值得信赖的植发机构。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[分享发现] 分享一个 反对党八股</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792797#reply1">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>摘抄部分内容
-一个人写党八股，如果只给自己看，那倒还不要紧。
-或印成一本书，那问题可就大了，它就可以影响许多的人。
-党八股也就是一种洋八股。这洋八股，鲁迅早就反对过的⑷。
-我们为什么又叫它做党八股呢？这是因为它除了洋气之外，还有一点土气。
-也算一个创作吧！谁说我们的人一点创作也没有呢？这就是一个！（大笑） 
-来源
-毛爷爷选集 第三卷 https://www.bilibili.com/read/readlist/rl334156
-https://www.bilibili.com/read/cv8111562 
-八股文的吐槽
-八股文面试也算日经贴了
-于是 网上一篇篇
-2020 最新 JAVA 面试题
-吐血总结 2021 最新 JAVA 面试题
-总结
-打不过他，就加入他。doge</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
                 <summary class="article-expander__title">[职场话题] 有同行大佬嘛，帮忙看看简历，谢谢。</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792796#reply7">
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792796#reply11">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(1 min)</span>
                     <span>我的简历经过了几个版本的优化，总感觉依然不满意。也问了几个在大厂的同行朋友，看了看他们的简历，个人感觉也很一般，有的甚至就短短几行字，试问怎样写一份好的简历？
@@ -431,8 +667,8 @@ window.setInterval(()&#x3D;&gt;{
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">[问与答] evernote 打过折吗？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792793#reply3">
+                <summary class="article-expander__title">[Evernote] evernote 打过折吗？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792793#reply7">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
                     <span>挺喜欢用这个软件的，作为一个笔记本觉得挺不错。国内的印象笔记经常打折，便宜的时候，专业版也才几十块钱一年，但是因为数据库在国内，用着总觉得不放心，想转 evernote 。然而去官网看了一下价格以后。。。专业版 9.9 刀 /月，一年不得上百刀，用不起呀。。。所以就想知道 evernote 会不会像印象笔记这样子打折。</span>
@@ -443,9 +679,9 @@ window.setInterval(()&#x3D;&gt;{
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">[Chrome] Chromium 跳转到推广链接，最终排查出是 「扩展管理器(Extension Manager)」</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792792#reply5">
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792792#reply11">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
+                    <span class="article-reading-time">(0 min)</span>
                     <span>1.发现问题：
 之前访问 taobao, jd, amazon 的时候，会发现第一个 Tab 会闪一下，以为是 Chromium 的 bug，也没在意。
 Desmos，就在我搜索硬盘相关信息时，Desmos 弹窗问我是否确定离开，于是发现不对劲，点击确定，居然发现跳到了 union-click.jd.com 的一个链接
@@ -483,7 +719,7 @@ V2EX 上有相同遭遇的帖子</span>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">[程序员] 有交流 nft 的吗</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792791#reply3">
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792791#reply4">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
                     <span>今天在 opensea 上传了朋友的作品, 出售手续费就要 28 刀.....
@@ -496,7 +732,7 @@ work
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">[游戏开发] 终于花时间把游戏框架的关卡编辑器弄出来了用 C# 写的，框架用的是 MonoGame</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792790#reply4">
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792790#reply5">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
                     <span>废话不多说直接上代码吧
@@ -510,7 +746,7 @@ G 键显示或者隐藏网格</span>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">[健康] 大家的年中体检结果都怎么样？身体还好吗？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792789#reply4">
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792789#reply8">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
                     <span>刚体检完，个人的的检测报告显示需要注意的有 2 项：
@@ -524,7 +760,7 @@ G 键显示或者隐藏网格</span>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">[问与答] 有什么单词管理软件， 可以自定义语音源、音标、释义 等信息？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792788#reply4">
+                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792788#reply6">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
                     <span>市面上大多数背单词 app 、词典 app 我都用过，这些 app 都偶尔有几个单词， 注释、释义、发音 等不正确、甚至南辕北辙
@@ -541,7 +777,7 @@ G 键显示或者隐藏网格</span>
                 <summary class="article-expander__title">[Apple] App Store 崩了？</summary>
                 <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792787#reply9">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
+                    <span class="article-reading-time">(0 min)</span>
                     <span>我自己的是崩了，截止发帖前发现同样有大规模用户在微博上报告 app store 崩溃了。但上了🪜却能用？</span>
                   </div>
                 </a>
@@ -576,317 +812,6 @@ G 键显示或者隐藏网格</span>
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(0 min)</span>
                     <span>在 mac 上装了个虚拟机，终于把 rubick 的 windows 版本跑起来了。快来体验尝试吧！一款基于 electron 的开源工具箱。https://github.com/clouDr-f2e/rubick</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[程序员] GitLab - 怎么禁止特定仓库的动态出现在 Activity？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792783#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>程序员 - @JasonLaw -</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[路由器] 华硕 koolshare 固件 酸酸乳</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792782#reply1">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>我找不到最新版本的时候华硕官改的酸酸乳插件。。。各位大侠，哪里有下，请指导。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] xshell 对 ssh 客户端进行了优化吗，在 xshell 连接主机后不会自己断开，在 terminal 中 ssh 连主机过段时间显示进程退出，要重新连</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792781#reply3">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>问与答 - @proxytoworld -</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[Kubernetes] 大佬们，用 k8s+Jenkins 去构建 Android 的话 gradle 缓存怎么搞？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792778#reply8">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>现在是 gradle home 的缓存放在 nfs 服务器上，然后 pod 挂载 gradle 缓存的 pvc，但是多个 pod 并行执行的话会有文件锁直接导致报错。
-现在的想法是每次构建前把 nfs 的缓存目录 copy 到 pod 的 gradle home，但是 gradle home 太大了（ 15g 左右），本机 cp 都要几分钟，影响构建时间，而且如何更新 gradle home 的内容也很麻烦
-大佬们有没有好的解决方案？</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[macOS] Iterm2 在使用 zsh-autosuggestions 时闪烁</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792777#reply11">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>最近从 Terminal.app 转到了 Iterm2，在使用的时候发现输入命令的时候 zsh-autosuggestions 插件会出现自动推荐的命令闪烁的问题。也就是说后面可以自动补全的那段灰色的指令会随着输入闪烁，出现频率特别高。
-在使用 Terminal.app 的时候没有遇到过这种问题。个人感觉应该是渲染问题之类的，但实在是找不到具体原因，有人遇到过类似的问题吗？真不行只能换回 Terminal.app 了</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 想给老公入一个文石 Boox Nova3，有用过的 V 友反馈一下使用体验吗？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792776#reply4">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>我老公业余时间热爱读书
-所以 2013 年给他入了 Kindle Paperwhite
-前两年又给他升级成了 Kindle Oasis3
-但他最近喜欢上了微信读书
-觉得微信读书的书目更全 体验更好 也更方便
-无奈 Kindle Oasis3 对微信读书网页版的支持很差（听说 Oasis 之外的 kindle 都还不错，只有 oasis 用起微信读书来很别扭）
-所以我考虑今年七夕给他换一个能安装微信读书的墨水屏阅读器
-目前想要给他换一个功能和体验上和 Kindle Oasis 接近的
-性能稳定、品质有保障的阅读器
-且支持安装各类在线阅读软件
-目前初步选了文石 Boox Nova3
-一方面是因为它本身是微信读书阅读器的代工
-所以兼容上肯定有保障
-另一方面是它 7.3 的屏幕和机身重量也是刚刚好
-目前看网上的各类测评都还不错
-就是不知道长期使用感如何 以及是否存在什么硬伤
-所以来发帖问一下用过的 V 友们体验如何
-如果不够好 是否有更合适的产品推荐
-万分感谢🙏</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[电影] 电影《怒火重案》很不错</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792775#reply2">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>是暑期档最好的一部电影了，
-推荐大家去看看，</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[Flutter] [外包项目] Flutter 单个单个页面效果实现</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792773#reply1">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>有收 Flutter 页面效果实现的没，单个单个页面算钱。。。
-挣点小钱</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[Java] 不能通过 cglib 代理类直接设置被代理类的 public 字段的值</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792772#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>spring cglib 代理类，无法通过 obj$spring$proxy.name &#x3D; &#x27;xxx&#x27;的方式，为 obj 对象的 name 属性设置值。
-为什么这样呢，cglib 的原理是创建子类，那子类不也可以设置父类的 public 属性吗？求解答</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[宽带症候群] 有哪些合理合法的大流量应用？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792771#reply9">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>最近出现了很多民用宽带（乃至商宽）没有在合同中限制流量，却因为大流量上传、下载而被“关照”的消息。  
-在没有证据的情况下直接停宽带还是不太合理，所以在这里讨论一下，当今有哪些合理合法的大流量应用？（单月可达 TB 级）  
-抛砖引玉：  
-人工智能、机器学习的数据集。这些数据集达到 100GB 的很普遍，有的单个就突破了 1TB 。下载完成后，还有可能经过处理再上传到其他地方。  
-在线观看超高清视频。b 站 4K 视频的流量可以达到 4GB/h 。一户人家平均每天累计观看 8.5 小时的 4K 视频，月流量就能达到 1TB 。  
-实时监控的异地存储。在一地安装监控，将数据实时传输到云或者另一地保存以提升安全性。由于视频是 24h 连续采集的（如果没开省流等功能），即便码率不高（ 3Mbps 以上），累积下来的上传流量也可达到 1TB 。  
-自建软件源镜像。例如自建 cnpm 仓库，光是在 V2EX 就能搜到很多讨论。这些仓库的建立和同步是很耗费流量的（ 2015 年的 cnpm 就可达 300GB ），全量同步的话达到 TB 级别应该是容易的。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[问与答] 你们的手机贴膜吗，贴的什么膜</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792770#reply22">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>现在用 k20pro，之前用的只有四边贴合中间留空的玻璃膜，观感大打折扣。
-今天贴了闪魔的全贴合玻璃膜，四周白边要用白边液，想问问白边液这东西对屏幕有什么影响吗？
-还有为什么市面上的玻璃膜都是清一色的平直玻璃，没有适配跟曲面屏弧度的玻璃膜</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[Big Data] 硅谷最火的数据分析工具 dbt 究竟是什么？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792769#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>dbt 提供了很多软件开发的思想和工具到数据分析领域，有了 dbt 以后更多的分析师会习惯成为这些功能的使用者，而不是开发者。软件工程开发者已经习惯在需要写一个新的需求的时候，直接使用一个现成的工具，他们只需要简单的构建就可以使用，然后将他们的工作再贡献回社区。在 dbt 中分析师也可以做同样的事情。
-这两年国外的数据产品 dbt 非常的火，国内好像讨论很少，最近翻译了一篇 dbt 创始人介绍 dbt 的文章也写了一篇使用 dbt 的教程帮助大家了解 dbt：指路</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[宽带症候群] 单台国内机做跳板，有什么方法可以连接到多台国外的 vps 上？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792768#reply1">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>国外的 vps 有位置有 Singapore，Toyko，Seoul，Ohio 。都是用的 v2ray，国内跳板机有没有什么办法根据 uid 不同或者监听的端口不同将流量转发到对应的国外 vps 上？
-我现在看 v2ray 文档只找到关于负载均衡的信息，并没有找到指定流量走哪个服务器信息。
-要求是指定 uid 无论访问哪里，都走同一条指定的线路，而不是根据目的地来区分。
-谢谢</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[游戏] 现在有哪些游戏像街机《三国志》或《恐龙快打》那样能摔敌人</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792767#reply1">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>如标题中的游戏，在连按“攻击”键打敌人时，只要按住“上”键或“下”键就可以把敌人捉住并向前或后摔过去，顺便把远处的敌人也撞开。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[酷工作] [深圳] 万科物业科技团队招聘工程师、产品经理、交互设计师</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792766#reply0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>关于万科物业
-万科物业发展有限公司成立于 1990 年，是万科企业股份有限公司的全资下属机构。万科物业已进驻中国大陆 65 个大中城市，服务的住宅、写字楼、商业、政府公共物业等项目逾 600 个，合同面积逾 1 亿平方米，目前年营业额 40 多亿。
-关于我们
-你可以选择加入的，是万科物业的软装家居平台，我们严选 8000+ 优质商户，覆盖全国 46 个城市，服务全国 3000+ 小区 300w 户家庭。
-你还可以选择加入万科物业的房屋资产经营团队，交易业务科技化团队。业务面向超 2600 个住宅社区、400 万户家庭。
-我们触达的用户群体是中国最高净值的人群，连接他们生活的方方面面。我们要做的是通过互联网优化人力和资源效率，深入挖掘用户价值，让管理更加高效，让用户的生活更加便利和安心。
-我们要用更流畅、更个性的服务丰富其中的各种角色和行为。
-我们有扁平的管理方式，业务发展期，专业线和管理线都有足够空间。
-我们的工作（摸鱼）方式
-战略上，我们是一家互联网科技服务公司，战术上，我们依然具有根深蒂固的传统企业基因，但这并不影响我们在工作（摸鱼）方式上的自由选择，老板信奉干完自己该干的事即可的原则，原则上早 9:00 晚 5:30，但可以灵活调整适合自己的工作时间（不打卡），在这里，work-life balance 是每个人的常态，工资水平客观地说比互联网企业低，但在同行业内属于中上水平，换算成时薪不比 996 少多少。
-希望你能
-会百度，也能 Google
-能自如地与不同类型的人交流
-能适应传统行业的一些传统（如周一对着装的要求）
-产品能懂技术，技术能懂运营，运营能懂产品
-工作地点
-工作地点在福田区梅林路 63 号万科大厦，地铁上梅林站步行 5 分钟。公司有食堂，一般好吃但不贵。12:00 午饭，1 点 30 结束午休，5 点 30 下班。节假日正常休，每年 15 天年假，过年…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[C] 今天用学习用 C 实现队列结构时，编译执行阶段出现非常邪乎的问题</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792765#reply15">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>这是我的环境：
-Windows 10
-VS Code
-MinGW
-下面是我的实现代码：
-#include &quot;stdio.h&quot;
-#include &quot;stdlib.h&quot;
-
-#define OK 1
-#define ERROR 0
-#define CAPACITY 10
-
-typedef int Status;
-typedef int ElementType;
-
-Status initQueue();
-Status isEmpty();
-Status isFull();
-Status enQueue();
-Status deQueue();
-
-typedef struct
-{
-  ElementType *array;
-  int front, rear;
-  int capacity;
-  int size;
-} *Queue;
-
-int main(void)
-{
-  Queue q &#x3D; NULL;
-  initQueue(&amp;q);
-  enQueue(q, 1);
-  enQueue(q, 2);
-  enQueue(q, 3);
-  int foo;
-  deQueue(q, &amp;foo);
-  deQueue(q, &amp;foo);
-  deQueue(q, &amp;foo);
-  printf(&quot;%d&quot;, foo);
-  return 0;
-}
-
-Status initQueue(Queue *q)
-{
-  (*q) &#x3D; (Queue)malloc(sizeof(Queue));
-  (*q)-&gt;capacity &#x3D; CAPACITY;
-  printf(&quot;capacity &#x3D; %d\n&quot;, (*q)-&gt;capacity);
-  (*q)-&gt;array &#x3D; (ElementType *)malloc((*q)-&gt;capacity * sizeof(ElementType));
-  …</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[Apple] 有人去 Apple 官方店修过妙控键盘吗</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792764#reply3">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>这东西能修吗，保修政策是怎么样的？配件类的东西本身序列号查不到任何信息。
-我的键盘松垮的太离谱，和同学的妙控键盘差很远，想去换一个的或者看看怎么说，同样的产品品控能差这么多吗
-（ iMac 的那种白妙控，不是 iPad Pro 的妙控</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[奇思妙想] 一个想法，可触摸实体按键键盘</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/792763#reply1">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>我平时在打字时，对于字母都可以轻松的实现盲打了，但是数字键却总是按错。
-打拼音时如果第一个首选词就是我想要的，那我按空格就好了，但如果候选词在第三个、第五个的时候我就很容易按错。因为数字键使用的频率远远低于字母键，而且数字键(拼音的话常用的是 1-6)都是左手去按，手离开了字母区域后重新在一排数字键上定位时是迷茫的，注意力不得不从屏幕转移到键盘上。
-同样的问题也出现在输入符号上面，尤其是各个键盘的布局和按键大小(尤其是笔记本)有一些略微的差别，按符号时也从是要打断打字的过程，把注意力转移到键盘上。
-所以我希望笔记本上的键盘可以可以感知用户的触摸，当我的手放在按键上时，可以在输入法(输入区域附近或直接在屏幕的某个固定位置)上显示我将要按下哪个按键。如果有多个手指同时放在上面就都显示出来，根据手指接触的面积显示不同深浅的强调。
-
-同样的也可以用来增强 fn 键的体验，按下 fn 键时在屏幕上显示你的手指放在哪些 fn 键上，调整屏幕亮度或音量也不再需要把注意力转移到键盘上。
----
-可能有人会想到苹果的 TouchBar，这个东西网上褒贬不一。在我看来这个动态变化操作区域功能，实体 fn 键的缺失，注意力的反复转移，TouchBar 是一个失败的产物，甚至已经有消息说苹果要在下一代 MacBook 上砍掉 TouchBar 了。
----
-因为用户在意识到手指位置不对之后会左右移动手指，让手指在键盘上滑动，而苹果之前的爹式键盘非常平，可以说非常适合做这个功能，不过现在爹式键盘已经暴毙了。</span>
                   </div>
                 </a>
               </details>
@@ -1356,7 +1281,7 @@ Windows Registry Editor Version 5.00
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-07-30T17:39:12.965Z">2021-07-30T17:39:12.965Z</time>
+    <time id="build-timestamp" datetime="2021-07-31T05:31:22.734Z">2021-07-31T05:31:22.734Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>
