@@ -11,7 +11,7 @@
           "description": "这里记录每周值得分享的科技内容，周五发布。...",
           "link": "http://www.ruanyifeng.com/blog/2021/07/weekly-issue-169.html",
           "publishedOn": "2021-07-30T00:30:01.000Z",
-          "wordCount": 743,
+          "wordCount": 757,
           "title": "科技爱好者周刊（第 169 期）：五菱汽车的产品设计"
         },
         {
@@ -40,454 +40,454 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
-          "id": "https://www.v2ex.com/t/793734#reply2",
+          "id": "https://www.v2ex.com/t/793832#reply0",
           "author": null,
-          "description": "问题可能问的不太好，主要是我也想不出来更好的描述了。\n背景是这样的，我是一个后端开发，对前端开发不太熟，想搭建一个简单的页面，调用后端接口增删改查。\n现在问题是我不会写前端页面，我想有个系统、工具能够所见即所得，创建一个前端系统出来。\n看了下类似的系统：\nbootcss 这种站点支持拖拽。但是如果你想：\n点击按钮，发起 http 请求\n数据回来之后渲染到表格里\n这些全都要自己写 JS 脚本。\n阿里的宜搭，似乎能支持直接在页面上配置调用哪个后端接口（我看了视频，还没申请试用）。但是最便宜也是一年 3000\n其他所谓的零代码、低代码平台，要么就是 OA，要么就是审批流，数据都是存在他们那里的。而我想让前端调用我的接口。\n请问大家有什么想法吗",
-          "link": "https://www.v2ex.com/t/793734#reply2",
-          "publishedOn": "2021-08-04T17:13:01.000Z",
-          "wordCount": 127,
-          "title": "[问与答] 有没有拖拽式搭建前端系统的工具？"
+          "description": "不好放图，网卡以及 docker 运行详情如图\n[root@localhost ~]# ip a\n1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000\n    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00\n    inet 127.0.0.1/8 scope host lo\n       valid_lft forever preferred_lft forever\n    inet6 ::1/128 scope host\n       valid_lft forever preferred_lft forever\n2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000\n    link/ether 00:0c:29:1d:49:b7 brd ff:ff:ff:ff:ff:ff\n    inet 192.168.4.110/24 brd 192.168.4.255 scope global noprefixroute ens33\n       valid_lft forever preferred_lft forever\n    inet6 fe80::473f:7d97:58c3:43c4/64 scope link noprefixroute\n       valid_lft forever preferred_lft forever\n3: docker0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu …",
+          "link": "https://www.v2ex.com/t/793832#reply0",
+          "publishedOn": "2021-08-05T05:29:14.000Z",
+          "wordCount": 362,
+          "title": "[问与答] 求助： vm 虚拟机更换桥接模式后， docker 服务均无法访问"
         },
         {
-          "id": "https://www.v2ex.com/t/793733#reply0",
+          "id": "https://www.v2ex.com/t/793829#reply0",
           "author": null,
-          "description": "过一阵子就全部离线，不管是 Aqara 自己的网关还是米家的网关。",
-          "link": "https://www.v2ex.com/t/793733#reply0",
-          "publishedOn": "2021-08-04T16:58:43.000Z",
-          "wordCount": 97,
-          "title": "[问与答] 请教下为什么 Aqara 的 zigbee 协议的开关老是离线？"
+          "description": "tv 版本有 SmartYouTubeTV 和 fire tv 版本，支持用户登录，但是在手机上有无替代品？",
+          "link": "https://www.v2ex.com/t/793829#reply0",
+          "publishedOn": "2021-08-05T05:24:57.000Z",
+          "wordCount": 101,
+          "title": "[问与答] 国行华为手机不安装 google 框架能安装 youtube 吗？"
         },
         {
-          "id": "https://www.v2ex.com/t/793731#reply12",
+          "id": "https://www.v2ex.com/t/793828#reply3",
           "author": null,
-          "description": "疫情让生命变得更加脆弱且无常\n你有考虑过自己离开后要留下什么吗？\n有什么要交代的吗？\n最近 youtuber 主有在讨论这个话题\n所以抛砖引玉想和大家一起讨论\n可以是很重要的物品或者信件\n等等",
-          "link": "https://www.v2ex.com/t/793731#reply12",
-          "publishedOn": "2021-08-04T16:09:01.000Z",
-          "wordCount": 192,
-          "title": "[断舍离] 如果你死了之后 你会最想留下什么？"
+          "description": "疼就不说了，治疗过程也很漫长，要住院两次才行，一次手术，一次拔管，期间还不能剧烈运动，跑步都不让，医生说是怕把插进去的管子搞位移了。\n大家记得多喝水、多提肛。",
+          "link": "https://www.v2ex.com/t/793828#reply3",
+          "publishedOn": "2021-08-05T05:19:38.000Z",
+          "wordCount": 111,
+          "title": "[程序员] 肾结石真是 tm 要命"
         },
         {
-          "id": "https://www.v2ex.com/t/793730#reply0",
+          "id": "https://www.v2ex.com/t/793827#reply0",
           "author": null,
-          "description": "地址： https://static01.imgkr.com/temp/2fffeaf7edd74596a13530a040bdd155.png",
-          "link": "https://www.v2ex.com/t/793730#reply0",
-          "publishedOn": "2021-08-04T16:08:02.000Z",
+          "description": "九月初起租，时间不能提前可以推后\n预算 2500-3500，不要隔断和合租，只要整租，步行到地铁五分钟以内\n有的发图发价格加我 id",
+          "link": "https://www.v2ex.com/t/793827#reply0",
+          "publishedOn": "2021-08-05T05:17:32.000Z",
+          "wordCount": 86,
+          "title": "[深圳] 求租房：翻身灵芝洪浪北，整租一室一厅/两室一厅，民水民电"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793825#reply1",
+          "author": null,
+          "description": "媛代码社区，欢迎大家前来吐槽捧场~\nhttps://ydmgirls.com",
+          "link": "https://www.v2ex.com/t/793825#reply1",
+          "publishedOn": "2021-08-05T05:07:44.000Z",
           "wordCount": 102,
-          "title": "[MacBook Air] MacAir M1 weatherwidget 进程内存占用太高，朋友们有这种情况么，可以不可以停掉？"
+          "title": "[分享创造] 嗨，大家好，我是 Thea ，程序媛一枚，经过了数日的时间完成了本人的第一个项目媛代码社区"
         },
         {
-          "id": "https://www.v2ex.com/t/793728#reply3",
+          "id": "https://www.v2ex.com/t/793823#reply0",
           "author": null,
-          "description": "看到阮一峰的推：一个老外说，世界上只有美国这个国家，你可以在那里生活几年后称自己为美国人。我突然联想到深圳，国内好像只有那里，你可以住上几年后称自己为深圳人\n\n大学时候好几个同学，在学校或者毕业以后谈了重庆的女朋友，做了重庆女婿，几年以后说话就带重庆味了，顺理成章成了重庆人。\n生活和工作过很多城市，还没有哪一个像重庆这样兼具包容和宜居的，只要生活几年，就能成为“重庆人(女婿)”。",
-          "link": "https://www.v2ex.com/t/793728#reply3",
-          "publishedOn": "2021-08-04T15:47:06.000Z",
-          "wordCount": 121,
-          "title": "[重庆] 有感而发：做了重庆女婿，就是重庆人"
+          "description": "RT，有遇到同样问题的朋友吗？\nAndroid 手机端没有问题，PC 端就是不好用。\n用的电信宽带。",
+          "link": "https://www.v2ex.com/t/793823#reply0",
+          "publishedOn": "2021-08-05T05:00:47.000Z",
+          "wordCount": 91,
+          "title": "[互联网] 为何百度网盘在本地电脑启用了 IPV6 后无法访问。"
         },
         {
-          "id": "https://www.v2ex.com/t/793727#reply8",
+          "id": "https://www.v2ex.com/t/793821#reply3",
           "author": null,
-          "description": "我考虑了一下发现自己对 FPS 游戏的游玩兴趣极低，等有了 3070 的游戏本（因为一些原因主机必须有便携性所以必须是笔记本）之后，最想玩的是上古卷轴和一些 3A 单机。\n偶尔打 LOL，但自己菜鸟一个也玩的不多，追求 144hz 好像也没必要。\n但突然看到一个说法，说的是 120hz 的手机屏幕，让用户刷信息流的时候也爽了很多。我就想到那我在 PC 上其实阅读文档和代码是很多的，这里 144hz 会带来绝佳的体验吗？又有点犹豫是不是还是买 2k 144hz 了。。。\n求过来人一些建议。\n（要是你送我两千那我肯定上 4k144hz ）",
-          "link": "https://www.v2ex.com/t/793727#reply8",
-          "publishedOn": "2021-08-04T15:23:24.000Z",
+          "description": "和直升机一样",
+          "link": "https://www.v2ex.com/t/793821#reply3",
+          "publishedOn": "2021-08-05T04:57:19.000Z",
+          "wordCount": 119,
+          "title": "[MacBook Pro] 想换 M1 了,这天气 随便看俩个视频,开点程序,mac 风扇就呼啦啦的"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793819#reply0",
+          "author": null,
+          "description": "Vue.js - @GhostBoy -",
+          "link": "https://www.v2ex.com/t/793819#reply0",
+          "publishedOn": "2021-08-05T04:33:46.000Z",
+          "wordCount": 95,
+          "title": "[Vue.js] vue 组件库（例如 element-plus， naive ui）相较通用的组件库（例如纯 bootstrap、tailwindcss）有什么优势？"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793818#reply0",
+          "author": null,
+          "description": "why：我们的使命 是让每一种疾病都有要可医\nhow：药物研发的专家 + AI 技术携手 突破目前医药研发行业面临的困难\nwhat：由于疫情的原因 目前这个赛道很火热去年连续融资 A A+ A++ B B+轮 累计金额超过一亿美金（同事都很优秀 大部分都是硕士）；国内外药企都有建立合作关系，且合同金额为千万级别\n长期招聘：资深开发运维工程师 Java 后端（ P5 P6 P7 P8 ） 前端开发 算法工程师 算法 Leader 等等\n公司：望石智慧（ 2018 年成立，北京海淀黄庄）目前正处于风口行业 业务：ai 辅助药物研发\n工资与福利超好，而且还有期权激励计划，讲究快乐和高效，不鼓励无意义的加班 没有 996\n内推邮箱 xurongfei@stonewise.cn （提供面试 辅导）",
+          "link": "https://www.v2ex.com/t/793818#reply0",
+          "publishedOn": "2021-08-05T04:17:44.000Z",
+          "wordCount": 158,
+          "title": "[酷工作] [内推] k12 行业的同行 欢迎加入生物医药赛道"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793816#reply3",
+          "author": null,
+          "description": "我在域名 A 下点击一个按钮「打印运单」,第一次时候禁止弹框, 我手动选择了总是允许.但还是不能弹框.\n在 Safari 下就可以正常弹框.\n在 Safari 下需要每次都点击允许弹框, 选择允许后打开一个 about:black 页面直接下载一个 pdf 文件.\npdf 地址: http://8.xxx.xx.xx:8100/fba/pdf/down?orderNos=xxxx\nA 域名: https://wms.xxxx.com/member/Vip/NomalOrderList.aspx\n所以, 如何让 chrome 正常打开新的弹出页面?",
+          "link": "https://www.v2ex.com/t/793816#reply3",
+          "publishedOn": "2021-08-05T03:57:19.000Z",
+          "wordCount": 154,
+          "title": "[程序员] Chrome 如何开启不同域下的新页面弹出?"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793815#reply0",
+          "author": null,
+          "description": "gitlab 的这个页面\n/-/profile/preferences#behavior\n我记得之前公司的 gitlab 注册后，首页就是被定制的，可以看到大家的提交记录，而不是空白。\n我自己搭建了个 gitlab，没找到给全部用户定制首页的选项，只能单独定制我自己的用户。",
+          "link": "https://www.v2ex.com/t/793815#reply0",
+          "publishedOn": "2021-08-05T03:55:30.000Z",
+          "wordCount": 98,
+          "title": "[问与答] gitlab 管理员可以为所有用户定制首页页面吗"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793814#reply2",
+          "author": null,
+          "description": "1 、人需要经历一段失败痛苦的感情，能比较理智成熟。\n2 、门当户对、什么锅配什么盖，对方谈物质条件，就不要用感情去跟谈对方的物质条件，只能比对方更现实。\n3 、平凡的我们，年青是最大的财富，往年纪小的方向找对象，早点结婚生娃。\n4 、不行就换，人生洒脱，码农翻身。",
+          "link": "https://www.v2ex.com/t/793814#reply2",
+          "publishedOn": "2021-08-05T03:53:08.000Z",
+          "wordCount": 117,
+          "title": "[问与答] 观 [观『前女友已经结婚了「前女友要结婚了」』有感] 有感"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793813#reply4",
+          "author": null,
+          "description": "周六或者周五晚上北京出发到天津,游玩时间 1 天左右,两个人,男,23 岁左右",
+          "link": "https://www.v2ex.com/t/793813#reply4",
+          "publishedOn": "2021-08-05T03:52:35.000Z",
+          "wordCount": 129,
+          "title": "[天津] 天津有什么好玩的"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793812#reply0",
+          "author": null,
+          "description": "尊敬的 CODING 用户：\n今天上午 CODING 网站存在部分服务访问故障，正在紧急恢复中，如遇部分服务无法访问，请您稍后重试。当前服务数据库运行正常，不影响用户数据安全。具体原因我们后续将会发布完整的 [故障说明] ，并根据 SLA 服务协议对已付费客户实施赔偿方案，具体方案将以邮件的方式通知您。给您造成的不便请谅解。\nCODING 团队\n2021 年 8 月 5 日 11:50",
+          "link": "https://www.v2ex.com/t/793812#reply0",
+          "publishedOn": "2021-08-05T03:50:25.000Z",
+          "wordCount": 118,
+          "title": "[Coding] 8 月 5 日上午故障通知"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793811#reply2",
+          "author": null,
+          "description": "有没有大佬了解安卓有线投屏方面的技术？如何编程实现？有没有开源？",
+          "link": "https://www.v2ex.com/t/793811#reply2",
+          "publishedOn": "2021-08-05T03:50:03.000Z",
           "wordCount": null,
-          "title": "[问与答] 2k144Hz 带来的高刷相比 4k60Hz，阅读文档和代码的体验也会大幅提高吗？"
+          "title": "[问与答] Android 有线投屏"
         },
         {
-          "id": "https://www.v2ex.com/t/793726#reply2",
+          "id": "https://www.v2ex.com/t/793810#reply0",
           "author": null,
-          "description": "我已经发现一个类似的回答了，但好像比较高端，没找到合适的。预算 500，太贵她会想拒绝或者给我也买很贵的。\n可以是多件礼物在一起，求建议。\n最好是实际能用的，装饰品免。网页表爱意也可免。",
-          "link": "https://www.v2ex.com/t/793726#reply2",
-          "publishedOn": "2021-08-04T15:08:53.000Z",
-          "wordCount": 114,
-          "title": "[买买买] 七夕给女朋友买什么礼物"
+          "description": "不知不觉爱主页（ www.i-i.me ）网址导航上线快 3 年了，最近有空，添加了浏览器书签导入导出功能，加了皮肤保存分享功能，有需要导航的可以试用啊！",
+          "link": "https://www.v2ex.com/t/793810#reply0",
+          "publishedOn": "2021-08-05T03:49:53.000Z",
+          "wordCount": 94,
+          "title": "[分享创造] 最近给网址导航站加了个浏览器书签导入导出功能"
         },
         {
-          "id": "https://www.v2ex.com/t/793724#reply7",
+          "id": "https://www.v2ex.com/t/793809#reply7",
           "author": null,
-          "description": "有客户有个非常单纯的需求，他目前有个 html 网站，里面按响应式设计有一套针对手机的操作 UI 。他现在问我能不能移植到 app 里。\n我总结了他的需求：\n1 、客户基本上不懂什么技术，所以也不理解专门为手机设计一套 UI 逻辑的重要性，客户觉得直接用同一套的 PC 和移动 UI，加上若干响应式能力，已经能满足他的需求（目前来看）。\n2 、我希望尽可能地降低开发成本，虽然现在手里有全套工程源码，我不想用一些迁移性的框架，而是想直接通过一个全名 webview，然后 webview 内部打开网页链接这种方式搞定。\n3 、我出于安全等方面考虑，希望限制这个应用只能访问指定页面，不能跳转到域外页面。\n4 、最好能上国产厂商的安卓应用市场。\n===================\n想问一下 v2 大佬有没有懂的，这个需求有没有办法简单实现。我以前只是简单玩过安卓 sdk，没具体了解过详细功能，不知道能不能实现上述需求，或者有什么其他工具。谢谢。",
-          "link": "https://www.v2ex.com/t/793724#reply7",
-          "publishedOn": "2021-08-04T14:57:43.000Z",
-          "wordCount": 205,
-          "title": "[问与答] 有没有简单地把网页封装为 app 的好工具？"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793722#reply1",
-          "author": null,
-          "description": "第一种理解 : 是不是 安装在 100 台 Linux 上, 然后通过一个 web 管理界面或者 api 什么的, 将这 100 台机器抽象成 N 台机器.  N 可以大于 100 也可以小于 100\n第二种理解就是 : 阿里云 腾讯云 出售的云主机就有可能是基于 openstack 或者和 openstack 类似的产品的? \n以上仅仅只 openstack 存储和计算模块\n\n欢迎大佬继续科普?\n不过 我最看重的问题是: 我上面说的第一种 第二种大白话理解的没错吧?\n谢谢",
-          "link": "https://www.v2ex.com/t/793722#reply1",
-          "publishedOn": "2021-08-04T14:52:40.000Z",
-          "wordCount": 163,
-          "title": "[问与答] openstack 是什么?"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793720#reply0",
-          "author": null,
-          "description": "大量前端（中级 /高级）、大量（ Java ）可以推荐\n工作职责\n1 、负责公司平台 Web 前端的开发工作；\n2 、负责 Web 前端和移动端系统分析、优化与架构工作；\n3 、根据互联网行业内最新产品和技术的发展方向，制定技术发展战略规划；\n4 、协助团队内重点项目的规划、评审和难点攻关。\n任职资格\n1 、计算机相关专业，3 年以上 Web 前端开发经验；\n2 、熟悉 W3C 标准，熟悉 HTML5 ；熟悉 Node 开发环境，能够熟练使用 Webpack 等构建工具；\n3 、扎实的 JavaScript 和 ES6 基础，对前后端分离开发、Web 语义化等有深刻理解；\n4 、熟练使用 jQuery 、Vue 、React 、ElementUI 、EChart 等前端技术，能够独立开发高质量组件；\n5 、至少会一种以上 CSS 预处理语言，如 Less 、Sass 、Stylus 等；\n6 、具备良好的文档撰写能力、编写习惯，良好的抽象思维和逻辑思维能力，独立分析问题解决问题的能力；\n7 、较强的学习能力、优秀的团队沟通与协作能力，工作主动积极，热爱技术喜欢钻研；\n8 、熟练使用一门后端语言（ NodeJS/Java 等），具备一定全栈开发能力，有前后端合作开发经验优先；\n9 、有 WebGL,Canvas,SVG 动画效果开发经验者优先。\n基本学历要求大专 5 年+、本科 3 年+\nboss 直聘 https://github.com/tomieric/tomieric/blob/master/jd.jpg",
-          "link": "https://www.v2ex.com/t/793720#reply0",
-          "publishedOn": "2021-08-04T14:48:55.000Z",
+          "description": "项目中需要获取网卡的一些硬件信息，但遇到一点问题，现在用另一种方式解决了；但还是想搞懂为什么会报这个错误，基础太差，希望得到大佬的指导，非常感谢。\npackage main\n\nimport (\n\t\"fmt\"\n\t\"golang.org/x/sys/unix\"\n\t\"syscall\"\n\t\"unsafe\"\n)\n\nfunc main() {\n\tfor {\n\t\tgo func() {\n\t\t\tfd, err := unix.Socket(unix.AF_INET, unix.SOCK_DGRAM, unix.IPPROTO_IP)\n\t\t\tdefer func() {\n\t\t\t\tif err := unix.Close(fd); err != nil {\n\t\t\t\t\tfmt.Println(\"fd 关闭失败:\", err)\n\t\t\t\t}\n\t\t\t}()\n\t\t\tif err != nil {\n\t\t\t\tfmt.Println(err)\n\t\t\t\treturn\n\t\t\t}\n\t\t\tvar et struct {\n\t\t\t\tCmd       uint32\n\t\t\t\tSupported uint32\n\t\t\t}\n\n\t\t\tconst GSET = 0x1\n\n\t\t\tet.Cmd = GSET\n\n\t\t\tvar ifr struct {\n\t\t\t\tName [16]byte\n\t\t\t\tData uintptr\n\t\t\t}\n\n\t\t\tcopy(ifr.Name[:], []byte(\"网卡名称\"))\n\t\t\tifr.Data = uintptr(unsafe.Pointer(&et))\n\n\t\t\tconst SIOCETHTOOL = 0x8946\n            \n\t\t\t// 执行这一步后，fd 就无法关闭，close 返回 bad file descriptor\n\t\t\t_, _, errno := syscall.Syscall(syscall.SYS_IOCTL, uintptr(fd), uintptr(SIOCETHTOOL), uintptr(unsafe.Pointer(&ifr)))\n\t\t\tif errno != 0 {\n\t\t\t\tfmt.Println(errno)\n\t\t\t}\n\t\t}()\n\t}\n\tselect {}\n}",
+          "link": "https://www.v2ex.com/t/793809#reply7",
+          "publishedOn": "2021-08-05T03:48:17.000Z",
           "wordCount": null,
-          "title": "[酷工作] [广州] 广州的靓仔看过来了，独角兽企业招人了~~~"
+          "title": "[Go] [问题] go 调用 Linux 系统接口无法关闭 fd"
         },
         {
-          "id": "https://www.v2ex.com/t/793719#reply7",
+          "id": "https://www.v2ex.com/t/793808#reply6",
           "author": null,
-          "description": "最近写了一篇略长的笔记，大概 7 、8 屏的样子，使用过程中发现 Notion 缺少一些很基础的功能。\n没有悬浮目录。只能在页面头部或侧边添加一个 toc block，并且连展开收起功能都没有，实数简陋。\n没有返回顶部功能。不知道能不能通过第三方插件实现。看到 reddit 上有人说可以在底部添加一个“back to top”的 url （那要是想随时回到顶部呢？）或者干脆刷新页面（……）\n没有 find & replace。这是最让人无语的一点，且不说 Notion 名声在外的专业笔记产品，连简单的文本编辑器都有这个功能吧。\nGoogle 的时候发现以上问题很久以前就有人询问 /讨论过，为什么 Notion 迟迟没有实现，是技术原因还是产品经理觉得不重要？（真诚发问",
-          "link": "https://www.v2ex.com/t/793719#reply7",
-          "publishedOn": "2021-08-04T14:46:55.000Z",
-          "wordCount": 196,
-          "title": "[问与答] Notion\"封神\"也好几年了，为什么有些最基础的功能都没有？"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793717#reply0",
-          "author": null,
-          "description": "我们是初创公司，主要研发地理信息系统及大数据相关的产品。并为政府部门和科研院所提供一些技术支持，如为 2019 年国庆阅兵提供技术服务。欢迎有志于在 gis 系统和计算机方向深入研究学习的同学加入我们，\n空间大数据就是我们的星辰大海，希望你加入我们的征途。\n联系方法: zhangming@ispacetime.cn\n岗位职责：\n1 、负责公司各类产品的服务端设计、开发\n2 、维护现有服务端产品\n3 、完成所负责相关项目文档的编写\n任职要求：\n1 、有服务端开发经验，最好有 python 语言经验，应届或是大牛都可；\n2 、 计算机、GIS 相关专业背景，本科以上学历；\n3 、 熟悉或了解 FastAPI 、Flask 、Tornado 等任一流行 Web 开发框架，具备独立后端开发能力，熟悉 RESTfull 架构风格；\n4 、 熟悉 PostgreSQL 、Mysql，Redis 等数据库，了解 SQLAlchemy 或其他 ORM 框架；\n5 、 熟练掌握 Linux 基本命令，能够解决系统常见问题。。具备扎实的编程基础、良好的编程习惯；\n6 、 具有良好的分析问题和解决问题的能力，极强的学习能力及良好的团队合作精神，勇于面对挑战性问题；\n7 、 强烈的责任心和团队精神，善于交流与合作。\n加分项：\n1 、有地理信息服务开发经验；\n2 、精通 socket 、web 技术和原理\n3 、熟悉 Celery 等任务队列框架以及消息队列\n4 、熟练使用 GDAL 等地理信息处理工具优先\n5 、熟练使用容器技术\n地点：北京海淀区牡丹园地铁附近\n薪资:  6k-20k",
-          "link": "https://www.v2ex.com/t/793717#reply0",
-          "publishedOn": "2021-08-04T14:36:43.000Z",
-          "wordCount": null,
-          "title": "[酷工作] [北京牡丹园]创业公司招聘后端开发的兄弟"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793716#reply4",
-          "author": null,
-          "description": "编译一个项目，2020 款 mbp i5 处理器\n用时：24：09min\n9900k 黑苹果\n用时：\n第一次：7：09 min\n第二次：7：20 min\nm1 16g\n第一次：8：20min\n第二次：7：50min",
-          "link": "https://www.v2ex.com/t/793716#reply4",
-          "publishedOn": "2021-08-04T14:35:08.000Z",
-          "wordCount": null,
-          "title": "[Apple] M1 性能还是屌啊"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793715#reply5",
-          "author": null,
-          "description": "自己的计划本是在 2020 年中下旬的时候去日本🇯🇵工作的，19 年参加了 N2 考试并已经通过，目前备考 21 年 12 月 N1 。因此在 20 年初时找了一份人见人打，人人劝退的外包工作。想着摸一下鱼，专心准备🇯🇵的事情，这份外包工作性价比极高，一天至少摸 6 小时的🐠，且在大环境 996 的昨天，一直 965，1 分钟加班都不会有的，有也会调休还给你。但日本🇯🇵疫情一直肆虐，外国人工签也一直未对外开放。，自己不知不觉就待了快两年，年底就两年了。整个节奏也被放缓两年，当下有几个选择，想写出来，一个目的是在写的过程中，认真复盘及思索整个未来规划，另外也想让吴彦祖们帮忙参考参考。\n选择一：现在，立刻马上离开温水舒适圈，摸鱼过于严重，这一年半以来可以讲几乎没写过代码，能算是程序员的工作至多就是写 sql 以及 sql 单元测试。技能在逐渐丧失。并且现在做的工作更偏向数据治理，就蛮简单。\n选择二：继续待在这里。用摸鱼时间和业余时间独立做一点东西。让睡后收入成为可能性。自己时常想法💡也是蛮多的。比如最近很🔥我自己也已经是忠实用户的  flomo，我用了很多知识管理工具。一直有个想法就是标签化临时笔记，标签化临时记忆。等标签和笔记 /记忆足够多的时候，用无数的线把他们串联起来。让知识从点及面，最后形成一张网，可这个想法💡已经有完美的实现。自己也还有其他 small idea，努努力也必然可以捣鼓个东西出来。\n关于选择一的后续：\n1，继续待在一线城市，背八股拼尽全力进一个能力范围内一线城市薪水最高的厂，不在乎时薪，只在乎💰。（本人 31 了，但没有年龄焦虑。因为我觉得年龄焦虑对我不是个事，比起另外更该焦虑的东西。srds，两者我都不焦虑。）\n2，做一条正真的咸鱼，苟回家乡（某三线第一城市：某西南省会）。因为不去大厂，凭借自己一人真的没能力在一线买房，且找到合适的对象。（大概率不会选，之前回家感到了家乡的陌生：回家的异乡人）\n3，同学老公在创业，但是硬件。加入他的公司一起白手起家，这个事情至少得十年，且 IT 是这个创业项目里的附属而不是主体。\n选择一和选择二，都是建立在不去🇯🇵的前提下。\n算是\n自省＞咨询",
-          "link": "https://www.v2ex.com/t/793715#reply5",
-          "publishedOn": "2021-08-04T14:16:07.000Z",
-          "wordCount": 184,
-          "title": "[职场话题] [人生商谈] 因为疫情选择外包，待了两年"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793713#reply0",
-          "author": null,
-          "description": "武汉路特斯科技有限公司数智技术中心招聘简章\n路特斯(Lotus Cars,曾被译为“莲花汽车”)是世界著名的跑车与赛车生产商，总部设在英国诺福克郡((Norfolk)的 Hethel,由柯林・查普曼( Colin Chapman)创立于 1948 年;2017 年 6 月 23 日，浙江吉利控股集团与马来西亚 DRB-HICOM 集团签署最终协议，收购 DRB-HICOM 旗下路特斯（ Lotus)51 ％的股份。目前为吉利集团旗下品牌。\n除传统跑车外，路特斯未来将进一步以前瞻性的数字化理念开发全新 Life Style 系列纯电车型。优秀的空气学动力设计，引人注目外观造型、数字化平台技术、跑车基因、极致轻量化设计，带来卓越态性能。从外观、内饰、驾驶模式多方面实现个性化定制，实现为一人造一车、搭建全球顶级算力平台，具备行业领先地位的自动驾驶体验。\n福利待遇\n合资企业 薪水 20-50k 试用期全薪 965 14 薪\n提供完善的福利补贴\n提供国家规定的法定假期\n提供优惠购车政策\n提供社会保险、住房公积金和商业保险\n提供免费体检\n一、Web 前端开发工程师\n工作内容： \n1 、负责公司的软件项目的前端架构设计、开发和前后端集成工作，参与代码评审工作等。\n2 、负责平台的移动端、PC 端、微信小程序的功能开发，实现页面 UI 动效、功能和数据交互；\n3 、负责前端页面的性能优化、不断提升产品的用户体验；\n4 、有封装良好的前端交互组件的能力。\n5 、与产品、设计、后端等团队紧密配合，提供项目的技术解决方案和运营支持。\n任职要求：\n1 、本科及以上学历，信息科学技术与工程、数学、计算机科学与技术、通信工程、软件工程及其相关专业，5 年及以上 web 前端软件开发工作经验；\n2 、精通 Web 前端技术，包括 HTML5/CSS/JavaScript 等，能够解决各种设备上的兼容性问…",
-          "link": "https://www.v2ex.com/t/793713#reply0",
-          "publishedOn": "2021-08-04T14:05:56.000Z",
-          "wordCount": null,
-          "title": "[酷工作] 武汉路特斯科技招聘 前端/ Java /架构/大数据 965 14 薪"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793712#reply23",
-          "author": null,
-          "description": "王思聪的服务器配置：\nCPU: AMD EPYC 7763 x 2 (256 个逻辑核心）。\n显卡：3090 三块。\n内存：64G x 32，一共 2TB 的内存。\n系统盘：Intel p5800x 1.6Tx4，组得应该是 raid10 （读 7.2GB/秒，写 6.2GB/秒）\n仓库盘 1：三星 PM1733 15TB x 4 （读 7GB/秒，写 3.8GB/秒。\n仓库盘 2：三星 PM1643 30TB x 16 （读写 2GB/秒和 1.7GB/秒。\n网络：5Gb 的光纤外网。\n 妈的，豪横！",
-          "link": "https://www.v2ex.com/t/793712#reply23",
-          "publishedOn": "2021-08-04T13:55:59.000Z",
-          "wordCount": 345,
-          "title": "[硬件] 王思聪的服务器配置"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793709#reply3",
-          "author": null,
-          "description": "打开 App，第一件事就是读取手机里的各种信息，要不是有小米的应用行为记录，我都不知道这么恐怖。",
-          "link": "https://www.v2ex.com/t/793709#reply3",
-          "publishedOn": "2021-08-04T13:45:53.000Z",
-          "wordCount": null,
-          "title": "[问与答] 大厂的 App 的路是不是走偏了？"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793708#reply2",
-          "author": null,
-          "description": "渐渐的公司人开始多起来了，有没有开源的或者付费的靠谱一些的系统安利一下",
-          "link": "https://www.v2ex.com/t/793708#reply2",
-          "publishedOn": "2021-08-04T13:44:54.000Z",
-          "wordCount": null,
-          "title": "[问与答] 需要一个人力资源管理系统或者人事管理系统"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793706#reply2",
-          "author": null,
-          "description": "7 月 31 日起,本公司沙井的电信,就有同事反应打开网站很慢.确认路由都没问题后.\n抓包排查,发现如下\n19634\t159.570937\t163.177.151.110\t10.10.0.228\tTLSv1.2\t179\t[TCP Previous segment not captured] , Application Data\n19640\t159.570981\t163.177.151.110\t10.10.0.228\tTLSv1.2\t1283\t[TCP Fast Retransmission] , Application Data\n19642\t159.570998\t163.177.151.110\t10.10.0.228\tTCP\t1454\t[TCP Previous segment not captured] 443 → 61787 [ACK] Seq=218442 Ack=11909 Win=54528 Len=1400 [TCP segment of a reassembled PDU]\n19646\t159.571017\t163.177.151.110\t10.10.0.228\tTLSv1.2\t1283\t[TCP Fast Retransmission] , Application Data\n19652\t159.571068\t163.177.151.110\t10.10.0.228\tTLSv1.2\t1454\t[TCP Previous segment not captured] , Ignored Unknown Record\n19660\t159.578785\t163.177.151.110\t10.10.0.228\tTLSv1.2\t1454\t[TCP Previous segment not captured] , Ignored Unknown Record\n19662\t159.578785\t163.177.151.110\t10.10.0.228\tTLSv1.2\t1454\t[TCP Previous segment not captured] , Ignored Unknown Record\n19674\t159.578859\t163.177.151.110\t10.10.0.228\tTLSv1.2\t1454\t[TCP Previous segment not captured] , Ignored Unknown Record\n19683\t159.578909\t163.177.151.110\t10.10.0.228\tTLSv1.2\t1454\t[TCP Previous segment not captured] , Ignored Unknown Record\n19685\t159.578909\t163.177.151.110\t10.10.0.228\tTCP\t1454\t[TCP Previous segment not captured] 443 → 61787 [ACK] Seq=254329 Ack=11909 Win=54528 Len=1400 [TCP segment of a reassembled PDU]\n19690\t159.578953\t163.177.151.110\t10.10.0.228\tTLSv1.2\t1454\t[TCP Fast Retransmission] , Ignored Unknown Record\n19699\t159.588063\t163.177.151.110\t10.10.0.228\tTLSv1.2\t1454\t[TCP Spurious Retransmission] , Ignored Unknown Record\n19701\t159.588093\t163.177.151.110\t10.10.0.228\tTCP\t1454\t[TCP Spurious Retransmission] 443 → 61787 [ACK] Seq=252929 Ack=11909 Win=54528 Len=1400 [TCP segment of a reassembled PDU]\n这段的大概意思,就是 tcp 被丢掉了,一直在重传.\n看抓包记录还是每隔一段时间就丢弃一次.\n到现在都没好.加上那个破地方只有电信,其他运营商都没有.把电信的人叫过来搞了一遍没人说出个所以然.\n现在内卷都那么严重了.我觉得我都快干不下去了.",
-          "link": "https://www.v2ex.com/t/793706#reply2",
-          "publishedOn": "2021-08-04T13:30:37.000Z",
-          "wordCount": 326,
-          "title": "[宽带症候群] 怎么投诉电信随机劣化 TCP 连接"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793705#reply2",
-          "author": null,
-          "description": "比如我的头像地址\nhttps://cdn.v2ex.com/avatar/af23/ada7/125563_large.png\n直接在地址栏进入这个网址会404 Object Not Found\n如果在隐身模式未登录就不会",
-          "link": "https://www.v2ex.com/t/793705#reply2",
-          "publishedOn": "2021-08-04T13:29:32.000Z",
-          "wordCount": 176,
-          "title": "[V2EX] 你们在登录状态下能查看 V2EX 头像吗"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793704#reply0",
-          "author": null,
-          "description": "微软亚洲研究院-网络研究组招收研究实习生啦~\n微软亚洲研究院 (MSRA)-网络研究组 (Networking Research Group)\nhttps://www.microsoft.com/en-us/research/group/networking-research-group-2/\n========================\n岗位： [基于 SONiC 开源云网络操作系统的安全机制研发-全职实习生, 若干名] \n1 、工作职责：\n- SONiC 是微软推出的下一代开源云网络操作系统，为大型数据中心的交换机设备提供统一的底层操作系统支持；\n- 参与 SONiC 中某些模块的研发，如 Redis DB 、SNMP 、BGP 、DHCP 、IPv6 等等；\n- 检测 SONiC 操作系统本身的安全需求（ Spec ）与底层交换机设备实际部署的安全规则（ ACL ）之间的冲突，利用算法分析网络配置之间的不一致问题；\n- 参与开发公司在 GitHub 上的开源项目。\n2 、职位要求：\n- 熟悉计算机网络（ TCP/IP 协议栈）、云原生（ Docker，K8s ）、路由交换设备、云数据中心网络、网络安全中的一个或多个领域，有相关项目经验；\n- 熟悉 Linux C/C++、Python 、Go 中的一门或多门语言，有较强的工程能力，熟练掌握 git，代码格式清晰规范，善于团队协作；\n- 有一定英文学术论文阅读能力，能够根据论文进行系统实现；\n- 较强的沟通能力和逻辑表达能力。\n3 、具有以下条件者优先：\n- 在 GitHub 较为活跃，有自己的开源项目，或参与过知名开源项目；\n- 发表过学术论文；\n- 可以连续实习不少于 6 个月。\n========================\n工作时间：每周 5 天，3 个月以上，能够尽快入职\n工作地点：北京市海淀区丹棱街 5 号（疫情期间可远程办公）\n如有意向请发 [中文简历 PDF ] 至：nrg-intern-recruit@microsoft.com\n简历中需标明平均分，及专业或年级排名及排名对应的总人数\n [注意] 请务必采用学校邮箱（ edu 域名）发送简历，其他邮箱（如 163 、qq 、gmail 、outlook 、hotmail 等）发送会进入公司垃圾邮件，无法被 HR 看到\n邮件标题&简历 PDF 文件名格式：基于 SONiC 开源云网络操作系统的安全机制研发-姓名-学校-本|硕|博-年级-V2EX",
-          "link": "https://www.v2ex.com/t/793704#reply0",
-          "publishedOn": "2021-08-04T13:03:19.000Z",
-          "wordCount": null,
-          "title": "[酷工作] [实习] [微软亚洲研究院] 基于 SONiC 开源云网络操作系统的安全机制研发实习生"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793703#reply1",
-          "author": null,
-          "description": "如题，hidpi 下截图出来的图片实在太大了",
-          "link": "https://www.v2ex.com/t/793703#reply1",
-          "publishedOn": "2021-08-04T12:56:59.000Z",
-          "wordCount": 100,
-          "title": "[macOS] 有没有什么截图工具可以以一半的分辨率截图？"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793701#reply6",
-          "author": null,
-          "description": "坐标上海，33 岁，同济建筑学本科，米兰理工建筑学硕士，国家一级注册建筑师。。。\n本行业设计院有点不想干下去了。。。",
-          "link": "https://www.v2ex.com/t/793701#reply6",
-          "publishedOn": "2021-08-04T12:07:36.000Z",
-          "wordCount": null,
-          "title": "[求职] 有没有上海的互联网企业要建筑师的.....想上互联网的车了"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793700#reply7",
-          "author": null,
-          "description": "面试官问，如果 mysql 中加了索引，并且强制让它走索引，最终没有走索引，如何排查。\n我说了一些索引失效的场景，他说排除索引失效的情况，让我结合 mysql 元数据和执行计划是如何生成的进行回答，网上找了一些相关资料，但是并没有思路，所以在社区里求各位大神解答",
-          "link": "https://www.v2ex.com/t/793700#reply7",
-          "publishedOn": "2021-08-04T12:06:45.000Z",
-          "wordCount": null,
-          "title": "[问与答] 面试的时候遇到一道 mysql 的题，求解答"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793699#reply1",
-          "author": null,
-          "description": "群里大佬说群晖看挂载网盘里的视频，不经过群晖带宽中转，我有点不理解。试了下，路由器里局域网流量也显示难以区分，但是看网盘资料时候同时上传和下载都很大，我怀疑他还是中转了，带宽多大还是多大的，分享给别人视频还会浪费家里带宽应该。不知道各位大神试过么？",
-          "link": "https://www.v2ex.com/t/793699#reply1",
-          "publishedOn": "2021-08-04T12:02:03.000Z",
-          "wordCount": 109,
-          "title": "[问与答] 请问群晖 reclone 阿里云盘 放视频 观看的时候是不是通过群晖中转流量"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793697#reply6",
-          "author": null,
-          "description": "当你被莫名其妙拉进一个微信群，或者原本熟悉的群越来越多人之后\n看到一些不认识的人之间对话，却不知道他们是什么关系\n现在，可以通过#小程序：关系图谱助手，查看微信群成员之间的关系啦~\n//\n// 注：微信扫一扫右下角二维码访问\n// 或者搜索 #小程序：关系图谱助手\n//\n示例效果\n\n如果你也对小程序开发感兴趣，欢迎加我交流~\n//\n//",
-          "link": "https://www.v2ex.com/t/793697#reply6",
-          "publishedOn": "2021-08-04T11:48:28.000Z",
-          "wordCount": null,
-          "title": "[分享创造] 搞了一个可以查看微信群成员之间关系的小程序"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793695#reply16",
-          "author": null,
-          "description": "经常有这种情况发生，访问 V2EX 或者 google(目前就这两个网站有这种情况发生过，不知道是否其他站也可能发生)时证书不对，会变成 facebook 或者 steam 的证书，导致访问不了。\n有开着 clash 上网，按照网上的教程配置了 doh，还是不管用，不知道是我的配置没对还是没找对原因？\n目前使用的配置贴上来请大佬帮忙看看\nmixin: # object\n  dns:\n   enable: true\n   #listen: 0.0.0.0:53\n   ipv6: false\n   enhanced-mode: redir-host\n   default-nameserver:\n     - 119.29.29.29\n     - 223.5.5.5\n   nameserver:\n     - https://doh.pub/dns-query\n     - https://dns.alidns.com/dns-query\n   fallback:\n     - https://dns.google/dns-query\n     - tls://dns.google\n     - https://dns.adguard.com/dns-query\n     - https://dns.cloudflare.com/dns-query\n  tun:\n    enable: true\n    stack: gvisor\n    dns-hijack:\n      - 198.18.0.2:53\n    macOS-auto-route: true\n    macOS-auto-detect-interface: true",
-          "link": "https://www.v2ex.com/t/793695#reply16",
-          "publishedOn": "2021-08-04T11:01:23.000Z",
-          "wordCount": 1,
-          "title": "[问与答] 为什么开启 doh 之后，有时候访问 V2EX 证书还是会变成 facebook 或者 steam 的？"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793694#reply1",
-          "author": null,
-          "description": "酷工作 - @YardWill - ![localhost_7001_(iPhone X) (3).png]( http://ww1.sinaimg.cn/large/e72ac912ly1gt4ydkdng1j20v943x4qq.j",
-          "link": "https://www.v2ex.com/t/793694#reply1",
-          "publishedOn": "2021-08-04T10:55:10.000Z",
-          "wordCount": 131,
-          "title": "[酷工作] 蚂蚁体验技术部持续招人--大数据/人工智能方向"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793693#reply11",
-          "author": null,
-          "description": "效能信息：  \n循环计数：\t63\n今年 1 月份买的，到现在使用了 7 个月左右。\n大家有遇过类似情况吗？",
-          "link": "https://www.v2ex.com/t/793693#reply11",
-          "publishedOn": "2021-08-04T10:48:20.000Z",
-          "wordCount": 283,
-          "title": "[Apple] M1 Macbook Air 电池健康度下降得有点快"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793692#reply9",
-          "author": null,
-          "description": "在 UIApplicationDelegate 里，有很多 application 函数。\n函数名都是 application，但是参数不同\nfunc application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool\n\nfunc application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data)\n\nfunc application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error)\n\n我大致能猜到是兼容 oc 的语法？但是我想知道这个是什么特性？没有在文档中找到相关说明\n还有这种：\nfunc getTimeline(for configuration: Self.Intent, in context: Self.Context, completion: @escaping (Timeline<Self.Entry>) -> Void)\n\n完全不了解其中的 for，in 有什么作用",
-          "link": "https://www.v2ex.com/t/793692#reply9",
-          "publishedOn": "2021-08-04T10:42:42.000Z",
-          "wordCount": null,
-          "title": "[问与答] 咨询一个 Swift 语法问题"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793691#reply16",
-          "author": null,
-          "description": "RT\n就是想公司一台 Mac，家里一台 Mac，然后两台 Mac 的所有数据完全一致，实时同步，使用上就跟一台 Mac 的体验完全一致。",
-          "link": "https://www.v2ex.com/t/793691#reply16",
-          "publishedOn": "2021-08-04T10:23:39.000Z",
-          "wordCount": 293,
-          "title": "[Apple] 有什么办法能同步两台 MAC 的所有数据么，包括任意 APP 数据"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793690#reply13",
-          "author": null,
-          "description": "不知在哪泄露了手机号码，近一个月来随机时间段总是有陌生座机打电话，最开始是境外来电，最近变成国内及老家号码的来电标识，安装了手机管家进行拦截，但是如果后台程序关闭也就没有拦截了，这种情况怎么处理。\n\n电话询问客服，客服说没办法处理这种情况",
-          "link": "https://www.v2ex.com/t/793690#reply13",
-          "publishedOn": "2021-08-04T10:22:11.000Z",
-          "wordCount": null,
-          "title": "[问与答] 最近总是有骚扰电话，怎么处理"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793688#reply3",
-          "author": null,
-          "description": "早晨来到工位发现 MacBook 所有线全被拔掉了，然后发现无法开机，这时候我还以为谁偷偷动我电脑了，找 HR 调监控，网管说保洁阿姨昨晚打扫的时候不小心把我桌子上的水杯碰倒了，撒到电脑里，以为没事所以没告诉我。\n然后我去了直营店找维修人员，拆开后盖发现很多水渍（水杯中是清水），主板有一个点被腐蚀了，售后告诉我主板肯定要换，因为 16 款 macbook 是一体的所以要 5000+，如果触控板其他的也有问题要 8000+，最关键的是数据百分百损坏了，无法找回。我不知道该怎么索要赔偿。。",
-          "link": "https://www.v2ex.com/t/793688#reply3",
-          "publishedOn": "2021-08-04T10:19:12.000Z",
-          "wordCount": 135,
-          "title": "[问与答] 电脑被保洁阿姨无意弄坏了我该怎么办"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793684#reply7",
-          "author": null,
-          "description": "随着云计算的蓬勃发展，软件的运行效率得到了飞速提升。但同时，开发环境的配置工作也变得越来越复杂，CODING 在 2015 年率先通过在线 IDE 的方式尝试解决该问题，引发业内争相效仿。另一方面，传统的 IDE 厂商也在以更开放的心态拥抱云，给行业带了更多思路与活力。但在线 IDE 仍未能得到普及，究其原因是产品体验与本地 IDE 体验仍有差距，具体表现为：\n启动速度较慢，平均启动时间 3~5 分钟\n封闭生态，开发体验差\n缺乏语言本地化及使用引导，初学者使用困难\n针对以上在线 IDE 存在的普遍问题，腾讯云 CODING 团队推出全新升级的 Cloud Studio 2.0，为开发者提供逼近本地 IDE 的使用体验——\n极速启动\n通过全链路优化和持久化方案，Cloud Studio 启动从 3 分钟缩短到 5 秒以内。\n \n开放生态 \n支持 GitHub 账号登录；可运行在任意厂商云主机，全面兼容 VS Code 插件体系。\n \n新手友好\n新版工作空间内测体验中，为用户提供丰富的模板库，同时支持模板库的自定义制作和团队共享。\n \n持续探索在线 IDE 的几年间，Cloud Studio 曾在教育、面试等领域协助开发者快速构建开发环境：\n编程教学 —— 教学机构使用 Cloud Studio 进行教学环境分发，统一授课环境。\n程序员面试 —— 腾讯内部使用 Cloud Studio 进行在线面试，从实操的角度全面评价候选人水平。\n快速变更 —— Serverless 、低代码、博客搭建等轻量场景下，开发者可以快速唤起 Cloud Studio 进行代码变更，即时修改部署。\n随着 Cloud Studio 的开发体验逐步逼近甚至超越本地的体验，已经有越来越多的开发者开始将其视作生产力工具。而 CODING 团队本身，也正逐步落地 Cloud Studio+Nocalhost+CODING DevOps 的整套流程，实践不依赖本地电脑，完全利用云端统一的环境及资源进行大型项目的开发。这离 CODING 团队所描绘的“云端开发”的景象已越来越近。而 Cloud Studio 作为其中的第一环，正作为“用云的开端”，不断努力，为开发者构建云上的工作空间。\n \n云时代的浪潮席卷而来，大刀阔斧的改造这个世界\n而我们这一代开发者，是历史的见证者\nCloud Studio 2.0，云的开端，新的开始\n点击链接体验 Cloud Studio 2.0",
-          "link": "https://www.v2ex.com/t/793684#reply7",
-          "publishedOn": "2021-08-04T10:11:34.000Z",
-          "wordCount": 262,
-          "title": "[Coding] Cloud Studio 2.0：云的开端"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793682#reply7",
-          "author": null,
-          "description": "贴个讨论～ 😂\nmirror：为啥王者荣耀那么多外挂？",
-          "link": "https://www.v2ex.com/t/793682#reply7",
-          "publishedOn": "2021-08-04T10:03:25.000Z",
-          "wordCount": null,
-          "title": "[王者荣耀] 为啥王者荣耀那么多外挂？"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793681#reply2",
-          "author": null,
-          "description": "MySQL - @johopig -",
-          "link": "https://www.v2ex.com/t/793681#reply2",
-          "publishedOn": "2021-08-04T09:58:12.000Z",
-          "wordCount": 168,
-          "title": "[MySQL] mysql proxy 选择 ProxySQL 还是 KingShard"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793680#reply0",
-          "author": null,
-          "description": "实测常用的 yml/json/md 都支持\n下载可以在 MAS 里搜索 “Glance”\n或者 \nhttps://apps.apple.com/cn/app/glance-quick-look-code-files/id1564688210?mt=12",
-          "link": "https://www.v2ex.com/t/793680#reply0",
-          "publishedOn": "2021-08-04T09:46:46.000Z",
-          "wordCount": null,
-          "title": "[macOS] 发现一个免费的 MAS 版 quick look 扩展工具“Glance”，可以空格预览 yml"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793679#reply0",
-          "author": null,
-          "description": "手机端不是会员, web 端是会员 并且 里面的内容也不同步.\n手机端 变成 5G 空间了.",
-          "link": "https://www.v2ex.com/t/793679#reply0",
-          "publishedOn": "2021-08-04T09:46:02.000Z",
-          "wordCount": null,
-          "title": "[全球工单系统] 百度网盘 手机端 和 浏览器端不同步..."
-        },
-        {
-          "id": "https://www.v2ex.com/t/793678#reply2",
-          "author": null,
-          "description": "刚刚看我的屏幕使用时间，发现从昨天晚上到现在显示一个网站（阿里巴巴旗下的）一直在使用，但是我期间很多时间都是锁屏状态，没有使用屏幕，所以是我打开淘宝或者什么开屏广告调用了这个网站然后统计出现了 bug ？还是什么别的原因？",
-          "link": "https://www.v2ex.com/t/793678#reply2",
-          "publishedOn": "2021-08-04T09:45:54.000Z",
-          "wordCount": 137,
-          "title": "[Apple] 你们的屏幕使用时间统计会有 bug 吗？"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793676#reply6",
-          "author": null,
-          "description": "hdmi 线一端插显示器，另一端插显卡坞，mbp 和显卡坞之间一根雷电 3 就可以正常运行\n但到 nuc10 上，这样的方式就无法连通，除了雷电 3 外，必须把显卡坞那端的 hdmi 拔下插到 nuc 上，而不能直拔插雷电 3 的线",
-          "link": "https://www.v2ex.com/t/793676#reply6",
-          "publishedOn": "2021-08-04T09:44:19.000Z",
-          "wordCount": 225,
-          "title": "[问与答] 同样是连接外接显卡坞，为什么 mbp 和 nuc 方式不同"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793675#reply2",
-          "author": null,
-          "description": "小弟手上一只 2017ipad pro12.9 寸，一直是 12.4 的系统，舍不得升级。\n最近刷 b 站的时候，总是需要伸手去点击和返回（ ipad 放桌子上比较远的位置），很麻烦而且手酸。\n12.4 的系统又连不上 magic mouse2，现在只有升级 14.7 。\n请问大家我现在最关心的问题，14.7 可以支持 magic mouse2 的滚动下滑，还有看完视频的左滑返回功能吗？\n或者老 ipad 为了这个功能去升级系统造成卡顿、发热耗电不值得，也请打醒我～",
-          "link": "https://www.v2ex.com/t/793675#reply2",
-          "publishedOn": "2021-08-04T09:41:21.000Z",
+          "description": "前提是你有一个移动手机号，可以在手机营业厅上办理。",
+          "link": "https://www.v2ex.com/t/793808#reply6",
+          "publishedOn": "2021-08-05T03:47:54.000Z",
           "wordCount": 148,
-          "title": "[iPad] 如果 iPad 升级 14.7，请问可以支持 magic mouse2 的滚动和左滑返回吗？"
+          "title": "[北京] 分享一个便宜的北京移动 100M 宽带，一天一块钱"
         },
         {
-          "id": "https://www.v2ex.com/t/793674#reply14",
+          "id": "https://www.v2ex.com/t/793807#reply12",
           "author": null,
-          "description": "如题，大家有没有这种情况，逛网站（比如知乎的时候），在浏览首页的过程中打开了十几个标签页，准备接下来看。但是这时候突然有个什么事情打断了（比如老板来电话叫你上线看一个 BUG ），要看这些网页不知道要等到猴年马月了，于是出于节省内存、以及提高工作效率的角度，希望把多余的标签页全关掉，但是里面的内容又很好奇，不看很难受，所以有办法把当前标签全部封存到一个离线状态，不占用什么资源，然后想看的时候再统一恢复吗？\n有类似的插件吗？谢谢",
-          "link": "https://www.v2ex.com/t/793674#reply14",
-          "publishedOn": "2021-08-04T09:33:04.000Z",
-          "wordCount": 232,
-          "title": "[问与答] Chrome 有什么办法离线封存当前工作标签吗？"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793673#reply0",
-          "author": null,
-          "description": "看上了款索尼大法，请问下 MMM 能适配电视的 4K 和 120HZ 吗？\n如果可以顺便推介下哪款电视比较适合入手的，前提是搭配 MMM 来用的",
-          "link": "https://www.v2ex.com/t/793673#reply0",
-          "publishedOn": "2021-08-04T09:32:50.000Z",
-          "wordCount": 103,
-          "title": "[Mac mini] 有人 MMM 连 4K 电视在用的吗？"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793671#reply0",
-          "author": null,
-          "description": "公司介绍\n出海效率方向 SaaS 公司（主打北美以及日本市场） ,目前公司已经完成 天使轮 轮融资, 股东为线性资本和高瓴创投\n公司官网: https://www.airgram.io/\n研发 Base: [深圳] - [南山区] - 软件产业基地 5E\n公司福利\n不打卡\n周末双休\n带薪年假\n季度团建\n生日 /节日福利\n薪资\n20k~40k 后续有 option share\n岗位描述\n职位描述：\nairgram 正在寻找资深前端工程师来构建下一代的会议协作工具，同时我们正在探索新的方法来帮助我们现有和未来的用户从远程协作中获得最大的好处。在这个职位，你将与由工程师、设计师和产品经理组成的非常有才华的团队合作，共同实现这一目标。\n你将做什么:\n[工作内容]\n1.前端方案设计、开发以及撰写单元测试；\n2.支持前端工程化建设，包括流程、规范、工具的建设等；\n3.主要技术栈：React, TypeScript 等；\n[职位要求]\n1.掌握 WEB 前端开发技术: JavaScript 、HTML 、CSS 、DOM 、协议、安全等；\n2.熟练掌握一门现代前端框架如 React / Vue / Angular 并熟悉其中的运作原理，React 优先；\n3.掌握 ES6 标准，掌握并熟练使用 Typescript ；\n4.对前端工程化有一定理解，熟练掌握 Webpack 等构建工具的使用和配置；\n5.了解 nodejs，了解 nginx 等 web 服务器配置，了解 linux 命令；\n6.热爱前端开发，强烈的工作主动性和学习进取精神，对业界的发展动态有比较密切的关注，有技术攻坚能力；\n[任职要求] \n本科以上学历，5 年以上前端工作经验，熟练掌握 react 或 vue\n对前端有比较抽象的理解，具备深厚的业务分析和建模能力\n丰富的前端工程化和自动化经验\n具备极强的学习能力和学习欲望，具有攻克难关的勇气\n具备一定的管理能力\n有 GitHub 或个人博客链接并具备一定影响力(加分项)\n有兴趣的同学可发简历到我的邮箱 ryan#airgram.io （#替换为 @）",
-          "link": "https://www.v2ex.com/t/793671#reply0",
-          "publishedOn": "2021-08-04T09:30:25.000Z",
-          "wordCount": 216,
-          "title": "[酷工作] [深圳-南山][20k-40k] 高级 web 前端开发工程师 React"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793670#reply8",
-          "author": null,
-          "description": "如图，猜测 WPS 产生的文件的保存路径是~/.local/share/kingsoft/office6/wpsbox/918298911/wpsbox.db，结果产生的文件是~/.local/share\\kingsoft\\office6\\wpsbox\\918298911\\wpsbox.db",
-          "link": "https://www.v2ex.com/t/793670#reply8",
-          "publishedOn": "2021-08-04T09:29:26.000Z",
+          "description": "目的：根据唯一主键从数据库中查询一行数据，要求 50TPS，延迟在 200ms\n数据库现状：每天新增数据 10 亿行，保留 15 天数据，即数据库基本上稳定在 150 亿行数据（后续会增长到每天新增 30 亿行，即 450 亿行数据）\n对数据库的要求：写入 TPS 至少为 2W，并且可以扩展。读取要求不高，并且为简单的查询场景，只使用唯一主键进行查询，没有其它需要\n使用场景：数据镜像保存，并在需要的时候取出数据",
+          "link": "https://www.v2ex.com/t/793807#reply12",
+          "publishedOn": "2021-08-05T03:40:56.000Z",
           "wordCount": null,
-          "title": "[Linux] WPS Office Linux 版存储配置文件时，使用反斜杠作为文件路径分隔符"
+          "title": "[数据库] 数据库选型——要求根据主键查询，数据量在 150 亿左右"
         },
         {
-          "id": "https://www.v2ex.com/t/793668#reply3",
+          "id": "https://www.v2ex.com/t/793806#reply5",
           "author": null,
-          "description": "妙控板用不惯，想买个鼠标，有线的，性价比高。MacBook Pro2020",
-          "link": "https://www.v2ex.com/t/793668#reply3",
-          "publishedOn": "2021-08-04T09:21:54.000Z",
+          "description": "长沙 - @Yuki321 -",
+          "link": "https://www.v2ex.com/t/793806#reply5",
+          "publishedOn": "2021-08-05T03:39:11.000Z",
+          "wordCount": 128,
+          "title": "[长沙] 长沙没有购房资格，长沙公寓值得上车吗"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793804#reply0",
+          "author": null,
+          "description": "坐标上海徐汇漕河泾（ 9 号线旁），招聘前端 / Java /测试，3D 打印智能制造方向，杜绝 996，拥抱开源\n公司行业：联泰科技（ B+ 轮），3D 打印 /小批量制造 /智能制造 /工业互联\n工作地点：上海市徐汇区漕河泾新业园，临近 9 号线漕开发地铁站，旁边就是腾讯大厦\n业务方向：面向海内外客户的在线制造平台、数字化工厂云解决方案、产能协同与供应链管理、智能制造数据分析与调度算法\n技术方向：微服务云原生（ Java/Go + Spring + K8s + Dapr + Serverless + 全球部署分布式系统）、微前端（ React + TS + Qiankun ）、工业物联云平台（边缘计算、分布式图像 /图形处理、工业数据分析）、智能制造辅助（ APS 、自动报价、生产可行性分析、直播与异常检测）、基于 Web 的在线模型处理（ THREE.js + WASM ）、跨端开发（ PC 、App 、小程序、Electron ）\n需求人员：中高级别的前端、服务端与测试开发人员，薪资范畴：20~35K/月 + 季度 /年终绩效\n联系邮箱： zhangzixiong@uniontech3d.cn / 15851808077 团队技术博客： https://ng-tech.icu/books\nBonus：Macbook Pro + Github 工作流，拥抱开源，支持技术发展，杜绝 996，不 361 。长期为大厂输送优质员工。",
+          "link": "https://www.v2ex.com/t/793804#reply0",
+          "publishedOn": "2021-08-05T03:33:19.000Z",
+          "wordCount": 188,
+          "title": "[酷工作] [上海] 招聘前端/ Java /测试 出海电商，智能制造方向，杜绝 996"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793803#reply4",
+          "author": null,
+          "description": "z5p 之后就再也没有在旗舰上见过挂绳孔了。因为金属边框强度不够还是内部空间不够，或者说已经没有多少人有这种需求了？",
+          "link": "https://www.v2ex.com/t/793803#reply4",
+          "publishedOn": "2021-08-05T03:33:18.000Z",
           "wordCount": 133,
-          "title": "[问与答] 大佬们推荐一个 MAcbook 好用的鼠标吧！"
+          "title": "[问与答] 为什么现在旗舰手机都没有挂绳孔了"
         },
         {
-          "id": "https://www.v2ex.com/t/793666#reply13",
+          "id": "https://www.v2ex.com/t/793802#reply22",
           "author": null,
-          "description": "519 之后，市场开始大跌，看着账户数字越来越低，我决定做些什么。\n交易所很贴心，为所有涨幅最大的虚拟币做了一个排行榜，这让我很容易的发现了 ACH 这个币，经过 1 天 100%的大涨之后，我觉得我再也不能再错过了，于是梭哈剩余的资金上车，但是我一上车之后币价就么有太大的涨幅，我打开这个项目的官网看了看，国人的项目，说老实话，我没有太大信心，于是在 20 个点的涨幅过后，我下车了。过后的 2 到 3 天，这个币开始横盘，甚至有些下跌，我为我当初的决定感到欣慰。但是第四天，这个币开始再次暴涨，我开始搜集资料，寻找再次大涨的原因，发现是要上某个国外大交易所，这次我坚信这个币虽然背景不好，但是有消息面的强刺激，肯定会继续大涨，于是我再次梭哈上车。凌晨，币如约上了某个大所，币价冲到了最高峰，以我多次追高经验的判断，一般利好出尽，币价就到头了，于是我满意的选择下车。\n到此为止，基本小赚。但是基于大家来到币圈的目的，我想小赚肯定不是终点。于是涨幅榜上的 CRE 以 1 分钟高达 80%的涨幅再次被我发觉，这次我选择无脑梭哈，我一定要再最开始进入，吃掉所有利润。\n接下来我经历的事情令我难忘，我在红圈处梭哈了：\n\n就这样，我的账户余额瞬间被腰斩，我整个身体开始出冷汗。\n4 月进入币圈以来，我还没有经历过这么直接的洗劫，刷新了我的认知，4 月份以来凭运气在狗币屎币猪币上挣得一点钱到现在为止已经全部亏完。\n早起，我按时去吃早饭，去公司打开电脑，顺手打开手机，一个币群群里有人说 OGO 币大涨，还艾特我去追高，我回绝了，虽然 100%的涨幅很诱人，但是我被伤的太深，这次我坚定的不去追涨。到中午，这个币瞬间再次登顶涨幅榜，高达 350%的涨幅，说实话我很想回本，于是再次卖掉所有的币，梭哈进去。\n那一刻，我想着不能每次我一买就开始跌吧，盼望着这个币能带我回本，结果涨幅开始回落。始终在 300%左右徘徊，甚至跌破 300%，我充满恐惧，于是市价全部卖掉。\n我关掉手机，陷入沉思，甚至一度想删掉所有的币圈软件。\n我不玩合约，本金少怎么暴富呢？主流币一天几个点的涨幅显然不能让我快速致富，我只能选择暴涨暴跌的空气币，山寨币，结果令人受伤。",
-          "link": "https://www.v2ex.com/t/793666#reply13",
-          "publishedOn": "2021-08-04T09:13:17.000Z",
-          "wordCount": 227,
-          "title": "[随想] 我是如何在币圈亏钱的？"
-        },
-        {
-          "id": "https://www.v2ex.com/t/793664#reply0",
-          "author": null,
-          "description": "源于上一帖\nhttps://www.v2ex.com/t/691046\n今年雪碧机器人挺早就弄好了...很久没上 V2 就给忘了\n刚发现有朋友在帖下询问，特意发一贴吧\n今年因为找不到平台接手机号了，只能麻烦大家提供自己的手机号\n只需要一次验证即可，后续每天只用发送“雪碧”即可领取\n\n口令菜单：雪碧\n然后按机器人提示进行操作就行！\n部分问题：\n1：机器人提示账户非法，这个我也暂时不清楚啥原因，反馈是墨迹那边 API 给的。\n2：机器人提示需要抽奖，这个问题需要下载墨迹 APP 进行操作后，就可以继续使用了。\n提供的信息是可删除的，最好还是推荐用副号，如有违规还请提醒！\n\n\n\n\n机器人联系如图！",
-          "link": "https://www.v2ex.com/t/793664#reply0",
-          "publishedOn": "2021-08-04T09:06:48.000Z",
+          "description": "王思聪最近装电脑了，不，是服务器。\n对于服务器的配置，王校长表示“没什么要求，就是要贵的要好的”\n王思聪的电脑配置如下：\n型号: \nDell R7525CPU: AMD EPYC 7763\n内存: \nSK Hynix 64GB DDR4-3200 RDIMM PC4-25600R x 32\n硬盘:\n- Samsung PM1643 30T x 16\n- Samsung PM1733 15T x 4\n- Intel P5800X 1.6T x 4\n要知道，AMD EPYC 7763 是世界最强服务器规格处理器，64 核心 128 线程，一颗价值 6.5 万人民币，思聪买了 2 块。关健是这颗 CPU 非常难买到，王思聪也是花了很大功夫才搞到的（从美国寄到香港，再运到上海）。最终在 CineBench 跑分软件上，全世界所有电脑上，王思聪的电脑排名第四；全世界 128 线程电脑中，王思聪的电脑排第二。\n内存 2T😂",
+          "link": "https://www.v2ex.com/t/793802#reply22",
+          "publishedOn": "2021-08-05T03:31:03.000Z",
           "wordCount": null,
-          "title": "[微信] [需手机号] 麦当劳领免费雪碧的机器人"
+          "title": "[分享发现] 王思聪组装了一台百万元电脑：跑分世界第四"
         },
         {
-          "id": "https://www.v2ex.com/t/793662#reply32",
+          "id": "https://www.v2ex.com/t/793801#reply2",
           "author": null,
-          "description": "没有后端基础，想了解一下 2021 年当下基于个人小 APP 开发，主要面向国内用户，该怎么选用数据库？数据库想用于 APP 获取数据展示，主要数据由开发者提交创建，同时 APP 用户也有权限对部分数据进行操作修改。\n目前了解到苹果的 CloudKit 有 public database，基本能满足我想做的，但是缺点是跨平台问题，同时担忧国内访问速度。然后 Firestore Datebase 也有了解了一下，也是担心国内访问问题，以及是否会有通信方面的安全问题。\n因为没有开发过联网、有数据通信的 APP，所以真的很多疑问。现在想学习这方面的内容，请教大家有什么建议吗？",
-          "link": "https://www.v2ex.com/t/793662#reply32",
-          "publishedOn": "2021-08-04T08:58:15.000Z",
+          "description": "之前一直黑裙用着，迫于不想再折腾了，打算再入个白裙放新家里\n求问大佬们咸鱼上的白裙能买不，有推荐商家没",
+          "link": "https://www.v2ex.com/t/793801#reply2",
+          "publishedOn": "2021-08-05T03:30:09.000Z",
           "wordCount": null,
-          "title": "[数据库] 想做一个国内用的 APP，数据库选用什么比较好？"
+          "title": "[程序员] 求大佬们推荐个白群晖购买渠道"
         },
         {
-          "id": "https://www.v2ex.com/t/793660#reply1",
+          "id": "https://www.v2ex.com/t/793800#reply7",
           "author": null,
-          "description": "各位公司、开源的 C++工程用 doxygen 给代码生成文档的多吗？使用体验如何？",
-          "link": "https://www.v2ex.com/t/793660#reply1",
-          "publishedOn": "2021-08-04T08:54:38.000Z",
+          "description": "深圳 - @Yuki321 -",
+          "link": "https://www.v2ex.com/t/793800#reply7",
+          "publishedOn": "2021-08-05T03:24:16.000Z",
+          "wordCount": 145,
+          "title": "[深圳] 50W 首付在深圳能买到房子吗"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793799#reply13",
+          "author": null,
+          "description": "最近收上来很多二手 iPad，拍了一些有刻字的部分拼了个长图。下面是图。",
+          "link": "https://www.v2ex.com/t/793799#reply13",
+          "publishedOn": "2021-08-05T03:12:05.000Z",
+          "wordCount": 225,
+          "title": "[iPad] 那些 iPad 上的刻字"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793798#reply26",
+          "author": null,
+          "description": "型号\n价格\n\n\n\n\ncpu\namd 5700g\n2599\n\n\n内存\n宏碁掠夺者（ PREDATOR ） 32GB(16G×2)套装 DDR4 3200 频率 台式机内存条 Talos 雷霆战甲系列（ C14 ） B-die 颗粒\n1499\n\n\n机箱\n迎广肖邦\n529\n\n\n散热\n猫头鹰（ NOCTUA ） NH-L9a-AM4 CPU 散热器 （支持 AMD AM4 平台 /92mm 风扇 /下压式 /37mm 高度薄款散热器）\n329\n\n\n主板\n玩家国度（ ROG ） ROG STRIX B550-I GAMING 主板 支持 CPU3700X/5600X/5800X （ AMD B550/socket AM4 ）\n1699\n\n\n存在问题：\n内存：如果按照现在的配置，则不能上到 64g，宏基掠夺者 jd 只能买到单条 16g 的。不知道在 b-die c14 和 64g 之间如何选择\n机箱：迎广肖邦还是有点大，想知道这套配置可不可以装进立人 h60 中\n主板：5700g 可不可以装在 b450i 上？ rog 的 b450i 只要 999",
+          "link": "https://www.v2ex.com/t/793798#reply26",
+          "publishedOn": "2021-08-05T03:05:53.000Z",
+          "wordCount": 456,
+          "title": "[程序员] 想组个 5700g 的 itx，请帮忙看一下配置"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793796#reply0",
+          "author": null,
+          "description": "众所周知有第三方服务器 spigot 之类的，但是其是在官方 jar 上面魔改的，所以理论上在游戏内容比如 AI 或者算法方面存在一定的差异？\n我的私服只需要很简单的 hook 一些事件，做记录和通知，感觉甚至只用 agent 旁载就能做到？\n不太懂，希望有比较懂 mc 服务器开发的老铁解答一下",
+          "link": "https://www.v2ex.com/t/793796#reply0",
+          "publishedOn": "2021-08-05T03:03:43.000Z",
+          "wordCount": 110,
+          "title": "[Minecraft] 官方服务器 vanilla 有没有支持外挂简单插件的支持"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793794#reply1",
+          "author": null,
+          "description": "老哥们，俺是小白，只是想在本地 Mac 安装部署 k8s，于是我 gayhub 找了下别人已经写好的所有镜像，我用的是阿里云的：\nhttps://github.com/AliyunContainerService/k8s-for-docker-desktop\n然后按照部署，安装好所有的镜像，然后启动就一直卡在 starting，我看了 issue，其实很多人提问，我也试了很多解决办法，还是没法解决，难顶，由于自己又不懂 network 之类的，就更难受了，有无老哥帮帮？\n我提了个 issue，有日志：\nhttps://github.com/AliyunContainerService/k8s-for-docker-desktop/issues/164",
+          "link": "https://www.v2ex.com/t/793794#reply1",
+          "publishedOn": "2021-08-05T03:00:17.000Z",
           "wordCount": null,
-          "title": "[C++] doxygen 用于 C++项目"
+          "title": "[Kubernetes] Mac 部署 k8s-for-docker-desktop 启动 k8s 一直 starting 问题"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793793#reply21",
+          "author": null,
+          "description": "RT，是一个用于房屋装修过程中的机器，给地板进行美缝操作。\n美缝操作的步骤：一清二贴三摸四撕，就是第一步：把地板之间的缝里面的杂物给清理出来，包括之前的勾缝填充（精装房）   第二步：在地板砖缝边缘贴纸带，防止美缝剂在地板上过多粘连    第三步：用胶枪打上美缝剂，并抹均匀   第四步：撕去纸带，等待风干。  完成\n考虑到市面上目前没有这种机器，全是人工在搞，所以应该是有搞头。\n稍微分析了下技术，关键的技术：弱化版的智能小车+机械控制\n具体技术方案（第一版本只考虑不复杂的十字贴砖）：\n第一步——识别地板缝隙，对缝隙进行坐标化并且进行测量\n               ①将小车底盘安装朝下的摄像头+灯光，初始将其放在一个十字缝隙处，作为起点（需要的技术：图像识别、直线提取），小车由此确定左边原点以及 x 方向和 y 方向，建立起坐标系        \n               ②小车沿着 x 方向或者 y 方向进行运动（需要的技术：导航规划、图像检测、直线提取），并记录全屋地板的缝隙路线，形成一个十字网格平面坐标系\n               ③上一步得到的结果返回手机端，由人工查看确认，若有遗漏，进行补充（此处需要的技术还未想好）\n第二步——美缝操作\n               根据上面得到的结果，开始美缝操作（需要的技术：路线规划、机械控制）\n商业方面：针对人群——1 、装修后自己美缝的业主   2 、进行美缝的散工\n优势分析：1 、快，原本需要一天的活，估计半天就能搞定\n                2 、省人工。人不累，这一点对于业主和散工都很友好。\n成本考虑：初步估计一台机器不会很贵，4000 以内应该能搞定，毕竟扫地机器人才 2000，但对于业主来说不划算，散 \n               工买来用比较容易回本。\n大佬们给参详参详，看有没有搞头",
+          "link": "https://www.v2ex.com/t/793793#reply21",
+          "publishedOn": "2021-08-05T02:56:33.000Z",
+          "wordCount": 311,
+          "title": "[奇思妙想] 全自动美缝机"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793792#reply49",
+          "author": null,
+          "description": "看得是故事，想得是自己。\n眼看我们也是奔着第五个年头去了，周围的人都以为我们结婚了，笑😂\n从女朋友嘴里得知：\n1 、绝对不同意远嫁。我江西，她湖南。\n2 、我不是她父母想要的那类女婿。\n能肯定的是，她是爱我的，我对她的爱亦是如此。\n情情爱爱停留在学生时代很美好，当双方都步入社会，尤其是男方即将步入 30 岁这个门槛，更多的考虑是面包，以及家庭。\n大家都说长痛不如短痛，我也不知道该怎么办。\n写得很乱。",
+          "link": "https://www.v2ex.com/t/793792#reply49",
+          "publishedOn": "2021-08-05T02:55:24.000Z",
+          "wordCount": 478,
+          "title": "[随想] 观『前女友已经结婚了「前女友要结婚了」』有感"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793791#reply2",
+          "author": null,
+          "description": "组里现在有几个 hc 技术栈的话 java 、go 为主，希望技术基础扎实，沟通良好，有一定的工程架构能力最好，工作年限最好大于 2 年吧 公司主要做海外新闻视频推荐，目前全球 dau 过千万，我们组主要做视频推荐工程架构、视频转码平台、视频上传存储分发等\n有兴趣的同学可以发邮件到 bXloYXBwaW5lc3MwMDdAdmlwLnFxLmNvbQ==\n\n大概的 JD：\n\n岗位职责:\n1 、负责支持跨国 /高并发 /低延迟场景的服务架构设计与研发工作；\n2 、主要实现语言为 Java/Golang.\n任职资格:\n1 、统招本科及以上学历，计算机等相关专业者优先；\n2 、熟悉缓存，消息队列，数据库等相关技术，并能灵活运用，熟悉其原理、配置以及常见问题解决思路；\n3 、熟练掌握一种编程语言，包括 Java/golang ；\n4 、对微服务架构有一定的了解和应用者优先，包括服务治理，分布式部署，高可用架构等；\n5 、有较强的工程能力，对设计和代码质量有较高要求，遵循相应的开发规范；\n6 、有较强的沟通、组织、协同能力，对工作的责任心强，追求极致，以结果为导向，推动项目高质量落地；\n7 、有良好的自驱力，有较强的学习能力，有强烈的求知欲、好奇心和进取心，能及时关注和学习业界最新技术。\n待遇 20k 起吧\n\nOpera 简介：\n\nOpera 是一家什么样的公司？\nwww.opera.com\nOpera 是全球最大的移动互联网公司之一。研发中心分布在北京、瑞典、波兰、挪威，在全球 10 多个国家拥有办公室。全球 3 亿+活跃用户，在包括美国、欧洲、东南亚、南亚（印度、印尼）、非洲（肯尼亚、南非、尼日利亚）、南美洲（巴西、墨西哥）等，我们是当地最有影响力的互联网公司之一，Power 人们每天的生活。\nOpera 在做什么？\n1. Opera News：以人工智能和大数据进行个性化推荐的海外新闻资讯平台，欧美、非洲多个国家下载量 NO.1 。\n2. Opera Browser：世界上最受欢迎的浏览器之一。Android/iOS/PC 端浏览器，确保您无论身在何地都能更快速浏览网页。\n其他。\nOpera 为你提供什么？\n1. 团队：顶尖的团队配置，与牛人，硅谷大佬共事；\n2. 真正的全球化团队，与来自不同国家不同文化的人一起工作，并且有机会到全球其它 Office 工作。\n3. 学习：100%的施展空间：每周学习分享：技术、读书、业务。\n4. 激励：优秀员工股权激励计划。\n5. 薪酬福利：六险一金、免费三餐、免费健身房、有竞争力的薪酬与舒适的办公环境。\n工作地点\n北京市东城区西总布胡同 46 号 明阳国际中心 B 座（东单地铁站附近）",
+          "link": "https://www.v2ex.com/t/793791#reply2",
+          "publishedOn": "2021-08-05T02:48:13.000Z",
+          "wordCount": 209,
+          "title": "[酷工作] [北京] Opera 北京招聘 Java 、golang 工程师"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793788#reply9",
+          "author": null,
+          "description": "11 月份买的，用到 6 月份一直 100%，7 月份出去旅游，经常拍照拍视频后，基本一周掉 1%-2%\n从来都是用官方 20W 原装充电器充的，从来没用到低电量再充，目前循环 145 次 94%\n系统是 14.4，听说升级了会恢复健康度？续航和新的时候没感觉有明显差异",
+          "link": "https://www.v2ex.com/t/793788#reply9",
+          "publishedOn": "2021-08-05T02:43:11.000Z",
+          "wordCount": null,
+          "title": "[iPhone] 一个月电池掉了 6%，质量是不是有问题？"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793785#reply3",
+          "author": null,
+          "description": "登录不上去了，上海电信。 @CodingNET",
+          "link": "https://www.v2ex.com/t/793785#reply3",
+          "publishedOn": "2021-08-05T02:39:54.000Z",
+          "wordCount": null,
+          "title": "[全球工单系统] coding 登录挂了？"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793784#reply9",
+          "author": null,
+          "description": "升级到最新的系统，\n发现用默认苹果的输入法，\n打字特别特别卡，\n另外，触摸板也变得卡，有点受不了了。怎么解决？\n2019 MBP\n16GB 内存也没有占满",
+          "link": "https://www.v2ex.com/t/793784#reply9",
+          "publishedOn": "2021-08-05T02:38:25.000Z",
+          "wordCount": null,
+          "title": "[macOS] MacOS 11.5.1 现在输入法上屏幕比较卡，受不了了"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793783#reply0",
+          "author": null,
+          "description": "微软亚洲研究院-网络研究组招收研究实习生啦~\n微软亚洲研究院 (MSRA)-网络研究组 (Networking Research Group)\nhttps://www.microsoft.com/en-us/research/group/networking-research-group-2/\n========================\n岗位： [基于机器学习的爬虫检测-全职实习生, 1 名] \n1 、工作职责：\n- 收集 Azure 云平台租户的 Web 日志，利用深度学习、聚类等技术进行日志分析，实现对爬虫攻击行为的画像；\n- 挖掘日志中的 HTTP 协议字段、鼠标轨迹、设备指纹等特征，制定检测规则，训练 ML 模型，从而对 Azure WAF 安全防火墙进行改进；\n- 参与维护本组在 GitHub 上的开源项目。\n2 、职位要求：\n- 熟悉 AI 、机器学习、深度学习（如 CNN 、LSTM ）、数据挖掘、网络安全中的一个或多个领域，有相关项目经验；\n- 熟悉 Go 、Javascript (React) 、Python 中的一门或多门语言，有较强的工程能力，熟练掌握 git，代码格式清晰规范，善于团队协作；\n- 有一定英文学术论文阅读能力，能够根据论文进行系统实现；\n- 较强的沟通能力和逻辑表达能力。\n3 、具有以下条件者优先：\n- 在 GitHub 较为活跃，有自己的开源项目，或参与过知名开源项目；\n- 发表过学术论文；\n- 可以连续实习不少于 6 个月。\n========================\n工作时间：每周 5 天，3 个月以上，能够尽快入职\n工作地点：北京市海淀区丹棱街 5 号（疫情期间可远程办公）\n如有意向请发 [中文简历 PDF ] 至：nrg-intern-recruit@microsoft.com\n简历中需标明平均分，及专业或年级排名及排名对应的总人数\n [注意] 请务必采用学校邮箱（ edu 域名）发送简历，其他邮箱（如 163 、qq 、gmail 、outlook 、hotmail 等）发送会进入公司垃圾邮件，无法被 HR 看到\n邮件标题&简历 PDF 文件名格式：基于机器学习的爬虫检测-姓名-学校-本|硕|博-年级-V2EX",
+          "link": "https://www.v2ex.com/t/793783#reply0",
+          "publishedOn": "2021-08-05T02:33:13.000Z",
+          "wordCount": null,
+          "title": "[酷工作] [实习] [微软亚洲研究院] 基于机器学习的爬虫检测实习生"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793782#reply1",
+          "author": null,
+          "description": "https://plus.miui.com/\n手机支持，MacBook 是 Intel 处理器。\n目前小米官方仅提供了 Windows 版本的 MIUI+ 安装包，在 VMware 虚拟机上尝试安装包，连接报错（如图）。\n有没有大佬尝试成功的？\n\n.",
+          "link": "https://www.v2ex.com/t/793782#reply1",
+          "publishedOn": "2021-08-05T02:31:56.000Z",
+          "wordCount": null,
+          "title": "[问与答] 如何在 MacBook 上使用 MIUI+"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793781#reply13",
+          "author": null,
+          "description": "基于 BoardOS 新开发的思维导图工具，从一个想法开始💣\n功能\n多人协作\n自动任务\nemoji 标注\n外观编辑\n预览\n\n体验地址\nhttps://boardos.online",
+          "link": "https://www.v2ex.com/t/793781#reply13",
+          "publishedOn": "2021-08-05T02:29:47.000Z",
+          "wordCount": 215,
+          "title": "[分享创造] 新开发的思维导图工具"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793779#reply0",
+          "author": null,
+          "description": "台式与笔记本之前都未有闪屏状态，近期会出现底端栏闪烁重加载问题，彦祖们有遇到吗？\n本人在微软官网看到这个问题已修复，但仍存在。\n可有解决方案？",
+          "link": "https://www.v2ex.com/t/793779#reply0",
+          "publishedOn": "2021-08-05T02:25:52.000Z",
+          "wordCount": 1,
+          "title": "[问与答] [Windows 10 闪屏问题]咨询"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793778#reply18",
+          "author": null,
+          "description": "现在有一个 react 构造的页面，页面上有很多元素。整个页面是根据一个数据文档(data_document)，自顶向下构造的构造的。\n自顶向下就是说，使用 data_document.dataA 构造组件 A，data_document.dataB 构造组件 B 。。然后使用 dataA 里面的子 dataAA，构造组件 A 里的子组件 AA 。\n这里有个问题是，当我操作了页面里面很小的一个组件，从而修改了这个组件对应的 data 时，我需要触发页面的根组件 render()，将整个页面构造一遍。我的思考是，这些页面里的所有组件，都是由 data_document 里的某些 data 完全决定的，它们显示状态变了，就意味着 data_document 变了，反过来也是。所有的组件都是没有额外的状态 state 的。所以想要操作某个组件改变它的状态，就要改变 data_document 的某些 data，将新 data 作为 props 再传递给它。由于整个页面的构建是自顶向下构造的，想要改变传递给某个子组件的 props，就需要跑页面根组件的 render()。\n虽然 render 只是重新构造整个虚拟 dom 树而不是真实 dom 树，但如果组件多的话，跑一遍也很费时间。对于这种情况，有什么好的思路吗？\n( 这里要注意的是，由于多个组件可能会用同一个数据，所以每次的修改都要即时反馈到 data_document 中，这样的话让被修改的组件只更新自己的 state 就行不通了。)",
+          "link": "https://www.v2ex.com/t/793778#reply18",
+          "publishedOn": "2021-08-05T02:23:38.000Z",
+          "wordCount": null,
+          "title": "[React] 一个组件比较多的页面，即使更新一个小组件，也必须走一遍整个页面的 render ，怎么处理呢？"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793777#reply8",
+          "author": null,
+          "description": "去年春入的，因为是 mini 放在家以为不容易坏，就没买 AppleCare\n结果嗝屁了。刚好满一年多\n出现了六国后，然后就禁止符号 GG 了\n各种组合，什么 Cmd+R, Shift+Cmd+R, option+Cmd+R+P 都试过了，连网重装都不行，最后都是“禁止符号”。\n（ mbp 还在保，于是以 mbp 的身份打 AppleCare 电话咨询，给我指导了各种修复方法，都不行）\nSSD 也这么容易坏么，苹果的品质真是年年不行啊。过保了这么一修又要老鼻子钱了。。哭。",
+          "link": "https://www.v2ex.com/t/793777#reply8",
+          "publishedOn": "2021-08-05T02:23:34.000Z",
+          "wordCount": null,
+          "title": "[Apple] 过保后 Mac mini 就坏了"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793776#reply0",
+          "author": null,
+          "description": "磁盘都是 40G，带宽 1M，测试着玩的可以考虑\n活动地址：\nhttps://activity.huaweicloud.com/828_promotion/index.html?utm_source=outside-BU&utm_medium=share-op&utm_campaign=&utm_content=&utm_term=&utm_adplace=AdPlace043175&domainid=0d3146231e00f3e70fa0c00958372280&fromacct=fe251619-3525-44d3-b0fa-91b46a1c5a59&sharetype=0",
+          "link": "https://www.v2ex.com/t/793776#reply0",
+          "publishedOn": "2021-08-05T02:20:06.000Z",
+          "wordCount": null,
+          "title": "[云计算] 华为云 HECS， 2 核 4G 新用户，首年 265 元， 1 核 2g 3 年 210"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793775#reply2",
+          "author": null,
+          "description": "选择多个文件的内容，或者选中目录，右键点击复制“所有内容”\n如果是多个文件，会把所有选中的文件内容的文本，复制到剪切版上\n如果是选中目录，会把目录中所有的文件内容的文本，根据文件名排序依次复制，复制到剪切版上\n其实我的目的是想通过拆分文件的方式来对文件进行编辑和显示，把一个文件的内容，根据需要分成多个文件。编辑完成的时候，把拆分的文件的内容全部合并到一起。",
+          "link": "https://www.v2ex.com/t/793775#reply2",
+          "publishedOn": "2021-08-05T02:10:57.000Z",
+          "wordCount": null,
+          "title": "[Visual Studio Code] vsode 有没有插件可以做到复制选中的多个文件的文本内容？"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793774#reply0",
+          "author": null,
+          "description": "win10 21H2，edge  92.0.902.62 ，网页播放奈非是拖动进度条视频就变卡了，音画不同步。\n好像 edge 版本更新到 91.x.x.x 版本就一直这样了，有老哥知道是什么原因吗？",
+          "link": "https://www.v2ex.com/t/793774#reply0",
+          "publishedOn": "2021-08-05T01:54:36.000Z",
+          "wordCount": null,
+          "title": "[Edge] edge 浏览器播放奈非拖动进度条会卡顿"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793772#reply0",
+          "author": null,
+          "description": "基本信息\n快手研发工程师内推，非猎头\n客户端 前端 Java 等 2000 房补，包三餐\n北京 杭州 深圳 上海等\n我会帮你跟进进度，不会让你的简历石沉大海，并且给你提供面试建议\n办公地点\n杭州：德力西大厦，EAC\n北京：西二旗、东升科技园等\n深圳：百度国际大厦\n上海：世纪商贸广场、巨人大厦、博华广场、优客工厂\nJD(职位列表)\nhttps://zhaopin.kuaishou.cn/recruit/e/#/official/social/ 右边箭头下拉可以选择城市，可使用关键字搜索，比如 Java 、Android 等，不知道选择什么岗位的话可以添加微信聊\n内推方式\n社招内推：从 JD 中挑选岗位，发简历和意向的岗位链接到邮箱：437806668 @qq.com(不能自己投递，否则无法内推)，或者发送到微信(微信号：437806668)也行\n基本福利：\n全额五险一金(公积金全额 12%交)，商业保险\n工作环境舒适，总部园区内部有星巴克、罗森、赛百味\n16 寸顶配 MacBook Pro，每天都有下午茶，无限量免费冰淇淋咖啡奶茶\n免费健身房，福利还有很多…",
+          "link": "https://www.v2ex.com/t/793772#reply0",
+          "publishedOn": "2021-08-05T01:48:41.000Z",
+          "wordCount": null,
+          "title": "[酷工作] [快手] 内推，北/杭/深/上，各种职位，均可内推"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793771#reply12",
+          "author": null,
+          "description": "如题，现在还能搞吗？各大视频（爱奇艺，qq,优酷，芒果等）感觉资源很少，也没啥好看的，可不可以自己实现一个视频播放平台，还不被人搞呢？",
+          "link": "https://www.v2ex.com/t/793771#reply12",
+          "publishedOn": "2021-08-05T01:42:43.000Z",
+          "wordCount": null,
+          "title": "[分享创造] 免费视频播放还能搞吗？有什么方案可以搞"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793770#reply13",
+          "author": null,
+          "description": "附:\n大盘又跌了！ ；\n我先说我的情况，28 这几天确实跌了，但是后来又涨回来了。\n\n各位，请展示吧。",
+          "link": "https://www.v2ex.com/t/793770#reply13",
+          "publishedOn": "2021-08-05T01:39:06.000Z",
+          "wordCount": 196,
+          "title": "[投资] 既 7.28 大盘连阴，你们的收益回来了吗？"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793769#reply2",
+          "author": null,
+          "description": "机器：iPhone11    系统：iOS14.7.1\n\n每次点击美团首页的特价商品，就会弹出：‘当前美团 app 版本过低，无法购买优选商品，请升级后再试’\n\n但是点击立即升级，她又是最新的版本：11.11.402 ，于是就一直这样循环弹窗",
+          "link": "https://www.v2ex.com/t/793769#reply2",
+          "publishedOn": "2021-08-05T01:38:24.000Z",
+          "wordCount": null,
+          "title": "[问与答] iOS 的美团有 bug"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793766#reply5",
+          "author": null,
+          "description": "",
+          "link": "https://www.v2ex.com/t/793766#reply5",
+          "publishedOn": "2021-08-05T01:28:47.000Z",
+          "wordCount": null,
+          "title": "[智能家电] 插线板进水短路家里跳闸了，对电器有影响吗？"
+        },
+        {
+          "id": "https://www.v2ex.com/t/793765#reply13",
+          "author": null,
+          "description": "我的症状是刚开始前 2 天，脚踩到底有些疼，不走路不疼\n现在不走路也有微微疼，我感觉可能是其他问题。\n没有皮外伤，睡一觉第二天就成这样了。\n哎，我打算周末换一家医院看看。。\n不知道大家怎么看！",
+          "link": "https://www.v2ex.com/t/793765#reply13",
+          "publishedOn": "2021-08-05T01:26:33.000Z",
+          "wordCount": null,
+          "title": "[程序员] 去三甲医院看过，医生凭我口头诊断为肌筋膜炎，说没有办法治疗，只能自己好？"
         }
       ]
     },
