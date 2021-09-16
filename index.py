@@ -11,9 +11,9 @@ now_time = datetime.datetime.now().strftime('%Y-%m-%d')
 
 def baiduAPI_translate(query_str):
     # 你的APP ID
-    appID = '20210910000939840'
+    appID = ''
     # 你的密钥
-    secretKey = 'ZV0sg0O6SjmwzvPEEqi0'
+    secretKey = ''
     # 百度翻译 API 的 HTTP 接口
     apiURL = 'https://fanyi-api.baidu.com/api/trans/vip/translate'
     to_lang = "zh"
@@ -47,7 +47,7 @@ def baiduAPI_translate(query_str):
     except Exception as e:
         print('Some errors occured: ', e)
 
-response = requests.get("https://ideasai.net/")
+response = requests.get("https://")
 soup = BeautifulSoup(response.content, 'html.parser')
 
 list = soup.select('h2,div.table')
