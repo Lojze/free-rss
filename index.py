@@ -4,9 +4,10 @@ import pprint
 import json
 import hashlib
 import random
+import datetime
 import time
 
-# query_str = "The year’s best startup idea"
+now_time = datetime.datetime.now().strftime('%Y-%m-%d')
 
 def baiduAPI_translate(query_str):
     # 你的APP ID
@@ -51,13 +52,16 @@ soup = BeautifulSoup(response.content, 'html.parser')
 
 list = soup.select('h2,div.table')
 
+dataList = []
 data = []
+
 temp = None
 for tag in list:
     if tag.name == 'h2':
         time.sleep(1)
         temp = {
             "title": baiduAPI_translate(tag.get_text().strip()),
+            # "title":tag.get_text().strip(),
             "items": []
         }
         data.append(temp)
@@ -66,6 +70,7 @@ for tag in list:
             time.sleep(1)
             temp["items"].append({
                 "text": baiduAPI_translate(card.find(class_="idea").get_text().strip()),
+                # "text": card.find(class_="idea").get_text().strip(),
                 "votes": card.find(class_="votes").get("data-votes"),
                 "action": card.find(class_="action-upvote").get("data-id")
             })
@@ -82,12 +87,17 @@ def dict2json(file_name, the_dict):
     '''
     try:
         json_str = json.dumps(the_dict, ensure_ascii=False,indent=4)
-        with open(file_name, 'a', encoding="utf-8") as json_file:
-            json_file.write(json_str + ',')
+        # with open(file_name, 'a', encoding="utf-8") as json_file:
+        #     json_file.write(json_str + ',')
+        with open(file_name, 'r+', encoding="utf-8") as json_file:
+            old = json_file.read()
+            json_file.seek(0)
+            json_file.write(json_str)
+            json_file.write(old)
         return 1
     except:
         return 0
 
+# print(data)
 
-print(data)
-dict2json("t.json", data)
+dict2json("idea.json", {"now_time":now_time,"data":data})
