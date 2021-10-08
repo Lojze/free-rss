@@ -47,7 +47,7 @@ def baiduAPI_translate(query_str):
     except Exception as e:
         print('Some errors occured: ', e)
 
-response = requests.get("https://")
+response = requests.get("")
 soup = BeautifulSoup(response.content, 'html.parser')
 
 list = soup.select('h2,div.table')
@@ -100,4 +100,4 @@ def dict2json(file_name, the_dict):
 
 # print(data)
 
-dict2json("idea.json", {"now_time":now_time,"data":data})
+dict2json("idea20211008.json", {"now_time":now_time,"data":data})
